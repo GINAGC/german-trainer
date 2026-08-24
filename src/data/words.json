@@ -1,0 +1,9146 @@
+[
+  {
+    "g": "der Abend,-e",
+    "t": "Las tardes"
+  },
+  {
+    "g": "das Abendessen",
+    "t": "la cena"
+  },
+  {
+    "g": "ab·holen",
+    "t": "recoger"
+  },
+  {
+    "g": "der Abschied",
+    "t": "la despedida"
+  },
+  {
+    "g": "die Adresse, -n",
+    "t": "las direcciones"
+  },
+  {
+    "g": "das Akkordeon",
+    "t": "el acordeón"
+  },
+  {
+    "g": "die Allgemeinmedizin",
+    "t": "medicina general"
+  },
+  {
+    "g": "das Alphabet",
+    "t": "el alfabeto"
+  },
+  {
+    "g": "das Alter",
+    "t": "años"
+  },
+  {
+    "g": "an·fangen",
+    "t": "empezar"
+  },
+  {
+    "g": "die Angabe",
+    "t": "la especificación"
+  },
+  {
+    "g": "das Anmeldeformular",
+    "t": "el formulario de registro"
+  },
+  {
+    "g": "die Anmeldung",
+    "t": "el registro"
+  },
+  {
+    "g": "an·rufen",
+    "t": "llamada"
+  },
+  {
+    "g": "die Ansage",
+    "t": "el anuncio"
+  },
+  {
+    "g": "an·sehen",
+    "t": "mirar"
+  },
+  {
+    "g": "die Antwort",
+    "t": "la respuesta"
+  },
+  {
+    "g": "die Anzeige",
+    "t": "el anuncio"
+  },
+  {
+    "g": "die Arbeit",
+    "t": "el trabajo"
+  },
+  {
+    "g": "der Arbeitstag",
+    "t": "la jornada laboral"
+  },
+  {
+    "g": "der Arzt, ¨-e / die Ärztin, -nen",
+    "t": "el doctor, ¨-e / el doctor, -nen"
+  },
+  {
+    "g": "auf keinen/jeden Fall",
+    "t": "nunca / en ningún caso"
+  },
+  {
+    "g": "auf·räumen",
+    "t": "ordenar"
+  },
+  {
+    "g": "auf·stehen",
+    "t": "levantarse"
+  },
+  {
+    "g": "der Ausflug",
+    "t": "la excursión"
+  },
+  {
+    "g": "aus·füllen",
+    "t": "completar"
+  },
+  {
+    "g": "aus·gehen",
+    "t": "salir"
+  },
+  {
+    "g": "der Ausruf",
+    "t": "la exclamación"
+  },
+  {
+    "g": "die Aussage",
+    "t": "Las declaraciones"
+  },
+  {
+    "g": "aus·steigen",
+    "t": "salir"
+  },
+  {
+    "g": "das Baby",
+    "t": "el bebé"
+  },
+  {
+    "g": "die Bäckerei",
+    "t": "la panadería"
+  },
+  {
+    "g": "(das) Baden-Württemberg",
+    "t": "(el) Baden-Württemberg"
+  },
+  {
+    "g": "die Badewanne",
+    "t": "la bañera"
+  },
+  {
+    "g": "die Banane",
+    "t": "las bananas"
+  },
+  {
+    "g": "der Bananenpfannkuchen",
+    "t": "el panqueque de plátano"
+  },
+  {
+    "g": "der Becher",
+    "t": "el vaso"
+  },
+  {
+    "g": "das Befinden",
+    "t": "el bienestar"
+  },
+  {
+    "g": "die Begrüßung",
+    "t": "los saludos"
+  },
+  {
+    "g": "das Beispiel",
+    "t": "el ejemplo"
+  },
+  {
+    "g": "der Beruf",
+    "t": "la profesión"
+  },
+  {
+    "g": "besonder",
+    "t": "especial"
+  },
+  {
+    "g": "das Bett",
+    "t": "la cama"
+  },
+  {
+    "g": "die Bewegung",
+    "t": "el movimiento"
+  },
+  {
+    "g": "die Bibliothek",
+    "t": "la biblioteca"
+  },
+  {
+    "g": "das Bild",
+    "t": "la imagen"
+  },
+  {
+    "g": "bis zu",
+    "t": "hasta"
+  },
+  {
+    "g": "der Brief",
+    "t": "la carta"
+  },
+  {
+    "g": "das Brot",
+    "t": "el pan"
+  },
+  {
+    "g": "das Brötchen",
+    "t": "el panecillo"
+  },
+  {
+    "g": "das Buch",
+    "t": "el libro"
+  },
+  {
+    "g": "der Buchstabe",
+    "t": "la letra"
+  },
+  {
+    "g": "das Buchstabenspiel",
+    "t": "el juego de letras"
+  },
+  {
+    "g": "Buchstabieren",
+    "t": "Deletrear"
+  },
+  {
+    "g": "der Bund",
+    "t": "el pacto"
+  },
+  {
+    "g": "die Butter",
+    "t": "la mantequilla"
+  },
+  {
+    "g": "der Cent",
+    "t": "el centavo"
+  },
+  {
+    "g": "chatten",
+    "t": "para charlar"
+  },
+  {
+    "g": "der Chor",
+    "t": "el coro"
+  },
+  {
+    "g": "circa/ca.",
+    "t": "aprox."
+  },
+  {
+    "g": "das Computerspiel",
+    "t": "el juego de computadora"
+  },
+  {
+    "g": "die Dame",
+    "t": "las damas"
+  },
+  {
+    "g": "der Dank (Vielen Dank)",
+    "t": "gracias (muchas gracias) (Sg.)"
+  },
+  {
+    "g": "danken",
+    "t": "Agradecer"
+  },
+  {
+    "g": "der definite Artikel",
+    "t": "el artículo definido"
+  },
+  {
+    "g": "Deutschlehrerin",
+    "t": "Profesor de alemán"
+  },
+  {
+    "g": "das Diktat",
+    "t": "el dictado"
+  },
+  {
+    "g": "diktieren",
+    "t": "dictar"
+  },
+  {
+    "g": "doch",
+    "t": "pero"
+  },
+  {
+    "g": "die Dose, -n",
+    "t": "las latas"
+  },
+  {
+    "g": "dumm",
+    "t": "estúpido"
+  },
+  {
+    "g": "der Durst",
+    "t": "sed"
+  },
+  {
+    "g": "die Dusche, -n",
+    "t": "las duchas"
+  },
+  {
+    "g": "die Ehefrau, -en / der Ehemann, ¨-er",
+    "t": "la esposa, -en / el esposo, ¨-él"
+  },
+  {
+    "g": "das Ehepaar, -e",
+    "t": "la pareja casada, -e"
+  },
+  {
+    "g": "ein-",
+    "t": "un-"
+  },
+  {
+    "g": "ein bisschen",
+    "t": "un poco"
+  },
+  {
+    "g": "die Einbauküche",
+    "t": "la cocina equipada"
+  },
+  {
+    "g": "einkaufen",
+    "t": "compras"
+  },
+  {
+    "g": "der Einkaufswagen",
+    "t": "el carrito de compras"
+  },
+  {
+    "g": "der Eintritt (Sg.)",
+    "t": "la"
+  },
+  {
+    "g": "der Einwohner, - /",
+    "t": "los residentes, - /"
+  },
+  {
+    "g": "die Einwohnerin, -nen",
+    "t": "el habitante, -nen"
+  },
+  {
+    "g": "das Eis (Sg.)",
+    "t": "el"
+  },
+  {
+    "g": "die Eisenbahn, -en der Elefant, -en",
+    "t": "el ferrocarril, -en el elefante, -en"
+  },
+  {
+    "g": "Elektro-",
+    "t": "Eléctrico"
+  },
+  {
+    "g": "das Elektrogeschäft, -e elf",
+    "t": "la tienda de electrónica, -e once"
+  },
+  {
+    "g": "Eltern (Pl.)",
+    "t": "Padres (pl.)"
+  },
+  {
+    "g": "die E-Mail, -s",
+    "t": "los mensajes de correo electrónico"
+  },
+  {
+    "g": "die E-Mail-Adresse, -n enden",
+    "t": "la dirección de correo electrónico, -n end"
+  },
+  {
+    "g": "(das) Englisch",
+    "t": "(el inglés"
+  },
+  {
+    "g": "der Enkel, - / die Enkelin, -nen",
+    "t": "los nietos / nietas"
+  },
+  {
+    "g": "entschuldigen (sich) die Entschuldigung, -en",
+    "t": "excusa (a ti mismo) la excusa, -en"
+  },
+  {
+    "g": "erst",
+    "t": "primero"
+  },
+  {
+    "g": "erst-",
+    "t": "primero-"
+  },
+  {
+    "g": "erzählen",
+    "t": "contar"
+  },
+  {
+    "g": "der Essig, -e",
+    "t": "el vinagre, -e"
+  },
+  {
+    "g": "etwa",
+    "t": "aproximadamente"
+  },
+  {
+    "g": "etwas",
+    "t": "alguna cosa"
+  },
+  {
+    "g": "der Euro (Sg.)",
+    "t": "el euro (sg.)"
+  },
+  {
+    "g": "das Europawetter (Sg.)",
+    "t": "el Europawetter (Sg.)"
+  },
+  {
+    "g": "der Exmann, ¨-er",
+    "t": "el"
+  },
+  {
+    "g": "die Fähigkeit, -en",
+    "t": "la"
+  },
+  {
+    "g": "das Fahrrad, ¨-er Fahrrad fahren",
+    "t": "la bicicleta, ¨-er andar en bicicleta"
+  },
+  {
+    "g": "die Familie, -n",
+    "t": "las familias"
+  },
+  {
+    "g": "der Familienalltag (Sg.)",
+    "t": "la"
+  },
+  {
+    "g": "das Familienfest, -e",
+    "t": "la"
+  },
+  {
+    "g": "das Familienfoto, -s",
+    "t": "la"
+  },
+  {
+    "g": "der Familienname, -n",
+    "t": "el apellido, -n"
+  },
+  {
+    "g": "der Familienstand (Sg.)",
+    "t": "el"
+  },
+  {
+    "g": "die Farbe, -n",
+    "t": "el color, -n"
+  },
+  {
+    "g": "der Feiertag, -e",
+    "t": "las vacaciones, -e"
+  },
+  {
+    "g": "fern·sehen",
+    "t": "mirar televisión"
+  },
+  {
+    "g": "der Fernseher, -",
+    "t": "la televisión, -"
+  },
+  {
+    "g": "fertig (sein)",
+    "t": "estar terminado)"
+  },
+  {
+    "g": "fertig (sein) (müde) der Film, -e",
+    "t": "terminado (estar) (cansado) la película, -e"
+  },
+  {
+    "g": "finden (etwas ... finden)",
+    "t": "encontrar (encontrar algo)"
+  },
+  {
+    "g": "die Firma, Firmen der Fisch, -e",
+    "t": "la firma, reafirma el pescado, -e"
+  },
+  {
+    "g": "das Fischbrötchen, -",
+    "t": "el"
+  },
+  {
+    "g": "das Fitnessstudio, -s",
+    "t": "el gimnasio, -s"
+  },
+  {
+    "g": "die Flasche, -n",
+    "t": "la botella, -n"
+  },
+  {
+    "g": "das Fleisch (Sg.)",
+    "t": "la carne (Sg.)"
+  },
+  {
+    "g": "die Fleischtheke, -n der Flohmarkt, ¨-e die Flöte, -n",
+    "t": "el mostrador de la carne, -en el mercado de pulgas, ¨-e la flauta, -n"
+  },
+  {
+    "g": "der Flur, -e",
+    "t": "el pasillo, -e"
+  },
+  {
+    "g": "die Folge, -n",
+    "t": "las consecuencias"
+  },
+  {
+    "g": "das Formular, -e",
+    "t": "la forma, -e"
+  },
+  {
+    "g": "das Foto, -s",
+    "t": "las fotos"
+  },
+  {
+    "g": "fotografieren",
+    "t": "Tomando fotos"
+  },
+  {
+    "g": "die Fotoreportage, -n die Frage, -n",
+    "t": "el reportaje fotográfico, -en la pregunta, -n"
+  },
+  {
+    "g": "der Fragebogen, ¨- fragen",
+    "t": "el cuestionario, ¨- preguntas"
+  },
+  {
+    "g": "(das) Französisch die Frau, -en",
+    "t": "(la) mujer francesa, -en"
+  },
+  {
+    "g": "frei",
+    "t": "gratis"
+  },
+  {
+    "g": "frei haben",
+    "t": "tener libre"
+  },
+  {
+    "g": "die Freizeit (Sg.)",
+    "t": "el tiempo libre (Sg.)"
+  },
+  {
+    "g": "das Freizeitangebot, -e",
+    "t": "las"
+  },
+  {
+    "g": "der Freizeit-Tipp, -s",
+    "t": "el"
+  },
+  {
+    "g": "die Fremdsprache, -n",
+    "t": "el"
+  },
+  {
+    "g": "freuen (sich)",
+    "t": "idioma extranjero, -n"
+  },
+  {
+    "g": "der Freund, -e / die",
+    "t": "el amigo, -e / el"
+  },
+  {
+    "g": "Freundin, -nen",
+    "t": "Novia"
+  },
+  {
+    "g": "der Friedhof, ¨-e",
+    "t": "el cementerio, ¨-e"
+  },
+  {
+    "g": "der Frühling, -e",
+    "t": "la primavera, -e"
+  },
+  {
+    "g": "die Frühlingszwiebel, -n",
+    "t": "la cebolleta, -n"
+  },
+  {
+    "g": "das Frühstück, -e",
+    "t": "el desayuno, -e"
+  },
+  {
+    "g": "frühstücken",
+    "t": "desayunar"
+  },
+  {
+    "g": "führen (ein Gespräch führen)",
+    "t": "Tener una conversación"
+  },
+  {
+    "g": "die Füllung (bei Gerichten), -en",
+    "t": "el relleno (para platos), -en"
+  },
+  {
+    "g": "(das) Fußball (Spiel) (Sg.)",
+    "t": "(el) fútbol (juego) (Sg.)"
+  },
+  {
+    "g": "Fußball spielen",
+    "t": "jugar fútbol"
+  },
+  {
+    "g": "ganz (ganz gut)",
+    "t": "bastante (bastante bien)"
+  },
+  {
+    "g": "gar nicht",
+    "t": "De ningún modo"
+  },
+  {
+    "g": "die Garage, -n",
+    "t": "el garaje, -n"
+  },
+  {
+    "g": "der Garten, ¨-",
+    "t": "el jardín-"
+  },
+  {
+    "g": "geben (es gibt)",
+    "t": "dar (hay)"
+  },
+  {
+    "g": "geboren",
+    "t": "nacido"
+  },
+  {
+    "g": "der Geburtsort, -e gefallen",
+    "t": "el lugar de nacimiento, -e caído"
+  },
+  {
+    "g": "das Gegenteil (im Gegenteil) , -e",
+    "t": "lo contrario (al contrario), -e"
+  },
+  {
+    "g": "gehen (es geht)",
+    "t": "ir (va)"
+  },
+  {
+    "g": "das Gemüse (Sg.)",
+    "t": "las"
+  },
+  {
+    "g": "der Gemüseladen, ¨-",
+    "t": "la"
+  },
+  {
+    "g": "die Gemüsesorte, -n",
+    "t": "el"
+  },
+  {
+    "g": "genau",
+    "t": "tipo"
+  },
+  {
+    "g": "geöffnet",
+    "t": "abierto"
+  },
+  {
+    "g": "(das) Georgien",
+    "t": "(la) Georgia"
+  },
+  {
+    "g": "das Gerät (Elektrogerät), -e",
+    "t": "el dispositivo (aparato eléctrico), -e"
+  },
+  {
+    "g": "das Gericht (Essen), -e gern",
+    "t": "el plato (comida), -e gusta"
+  },
+  {
+    "g": "das Geschäft, -e",
+    "t": "el negocio"
+  },
+  {
+    "g": "die Geschäftszeit, -en",
+    "t": "el"
+  },
+  {
+    "g": "die Geschichte, -n",
+    "t": "la historia, -n"
+  },
+  {
+    "g": "geschieden",
+    "t": "divorciarse"
+  },
+  {
+    "g": "Geschwister (Pl.)",
+    "t": "Hermanos (pl.)"
+  },
+  {
+    "g": "gesetzlich",
+    "t": "legalmente"
+  },
+  {
+    "g": "das Gespräch, -e gestern",
+    "t": "la conversación, -e ayer"
+  },
+  {
+    "g": "das Getränk, -e",
+    "t": "la bebida, -e"
+  },
+  {
+    "g": "(das) Ghana",
+    "t": "(la) Ghana"
+  },
+  {
+    "g": "die Gitarre, -n",
+    "t": "la guitarra, -n"
+  },
+  {
+    "g": "das Glas, ¨-er",
+    "t": "el vaso, ¨-er"
+  },
+  {
+    "g": "der Grad (Sg.)",
+    "t": "el grado (Sg.)"
+  },
+  {
+    "g": "der Grafik-Designer, - / die Grafik-Designerin, -nen",
+    "t": "el diseñador gráfico"
+  },
+  {
+    "g": "das Gramm (g.) (Sg.) die Grammatik (Sg.) grau",
+    "t": "el gramo (g.) (sg.) la gramática (sg.) gris"
+  },
+  {
+    "g": "(das) Griechisch",
+    "t": "(el griego"
+  },
+  {
+    "g": "der Grill, -s",
+    "t": "la parrilla, -s"
+  },
+  {
+    "g": "grillen",
+    "t": "interrogatorio intenso"
+  },
+  {
+    "g": "das Grillwürstchen, - groß",
+    "t": "la salchicha a la parrilla, - genial"
+  },
+  {
+    "g": "Großeltern (Pl.)",
+    "t": "Abuelos (pl.)"
+  },
+  {
+    "g": "Grüezi (mitenand)! (CH) grün",
+    "t": "Grüezi (mitenand)! (CH) verde"
+  },
+  {
+    "g": "die Grundschule, -n die Gruppe, -n",
+    "t": "la escuela primaria, -n el grupo, -n"
+  },
+  {
+    "g": "Guck mal!",
+    "t": "¡Echar un vistazo!"
+  },
+  {
+    "g": "die Gurke, -n",
+    "t": "los pepinos"
+  },
+  {
+    "g": "Gute Besserung!",
+    "t": "¡Mejorate pronto!"
+  },
+  {
+    "g": "das Hackfleisch (Sg.) halb",
+    "t": "la carne picada (Sg.) la mitad"
+  },
+  {
+    "g": "der Hamburger, - der Handstand, ¨-e das Handy, -s",
+    "t": "la hamburguesa, - la parada de manos, ¨ -e el teléfono celular, -s"
+  },
+  {
+    "g": "die Handynummer, -n der Hardrock (Sg.) hässlich",
+    "t": "el número de móvil, -n"
+  },
+  {
+    "g": "der Hauptsatz, ¨-e die Hauptstadt, ¨-e das Haus, ¨-er",
+    "t": "la cláusula principal, ¨-e la capital, ¨-e la casa, ¨-er"
+  },
+  {
+    "g": "die Hausaufgabe, -n",
+    "t": "la tarea, -en"
+  },
+  {
+    "g": "die Hausnummer, -n",
+    "t": "el"
+  },
+  {
+    "g": "das Heimatland, ¨-er heiß",
+    "t": "el"
+  },
+  {
+    "g": "hell- (+ Farbe)",
+    "t": "claro- (+ color)"
+  },
+  {
+    "g": "der Herbst, -e",
+    "t": "el otoño, -e"
+  },
+  {
+    "g": "der Herd, -e",
+    "t": "la manada"
+  },
+  {
+    "g": "die Herkunft (Sg.) der Herr, -en",
+    "t": "el origen (Sg.) el Señor, -en"
+  },
+  {
+    "g": "herum·gehen",
+    "t": "Dar una vuelta"
+  },
+  {
+    "g": "das Herz, -en",
+    "t": "el corazón, -en"
+  },
+  {
+    "g": "herzlich willkommen heute",
+    "t": "bienvenido hoy"
+  },
+  {
+    "g": "der Himmel, -",
+    "t": "el cielo, -"
+  },
+  {
+    "g": "das Hobby, -s",
+    "t": "el hobby, -s"
+  },
+  {
+    "g": "der Hund, -e",
+    "t": "el perro, -e"
+  },
+  {
+    "g": "der Hunger (Sg.) ich",
+    "t": "el hambre (Sg.) i"
+  },
+  {
+    "g": "Ihr-",
+    "t": "Tu-"
+  },
+  {
+    "g": "ihr (Pl.)",
+    "t": "ella (pl.)"
+  },
+  {
+    "g": "der Imbiss, -e",
+    "t": "la merienda, -e"
+  },
+  {
+    "g": "der indefinite Artikel, - (das) Indien",
+    "t": "el artículo indefinido, - (la) India"
+  },
+  {
+    "g": "die Information, -en informieren (sich) das Insekt, -en",
+    "t": "la información, -en informarse al insecto, -en"
+  },
+  {
+    "g": "der Intensivkurs, -e interessant",
+    "t": "el curso intensivo, -e interesante"
+  },
+  {
+    "g": "international",
+    "t": "internacional"
+  },
+  {
+    "g": "das Internet (Sg.) das Internet-Wetter (Sg.)",
+    "t": "internet (sg.) internet clima (sg.)"
+  },
+  {
+    "g": "das Interview, -s der Irak",
+    "t": "la entrevista, -s Iraq"
+  },
+  {
+    "g": "(der) Iran",
+    "t": "(el) Irán"
+  },
+  {
+    "g": "die IT (Sg.)",
+    "t": "el IT (Sg.)"
+  },
+  {
+    "g": "(das) Italienisch",
+    "t": "(El Italiano"
+  },
+  {
+    "g": "die IT-Firma, -Firmen ja",
+    "t": "la empresa de TI, empresas, si"
+  },
+  {
+    "g": "das Jahr, -e",
+    "t": "el año, -e"
+  },
+  {
+    "g": "der Jemen",
+    "t": "el yemen"
+  },
+  {
+    "g": "der Joghurt, -s",
+    "t": "el yogur, -s"
+  },
+  {
+    "g": "jonglieren",
+    "t": "hacer juegos malabares"
+  },
+  {
+    "g": "die Jugendbibliothek, -en",
+    "t": "la biblioteca juvenil, -en"
+  },
+  {
+    "g": "der Junge, -n",
+    "t": "el chico, -n"
+  },
+  {
+    "g": "der Kaffee, -s",
+    "t": "el café, -s"
+  },
+  {
+    "g": "der Kalender, -",
+    "t": "el calendario, -"
+  },
+  {
+    "g": "die Kamera, -s",
+    "t": "la cámara, -s"
+  },
+  {
+    "g": "(das) Kanada",
+    "t": "(Canadá"
+  },
+  {
+    "g": "das Kärtchen, -",
+    "t": "la tarjeta, -"
+  },
+  {
+    "g": "die Karte, -n",
+    "t": "las cartas"
+  },
+  {
+    "g": "die Kartoffel, -n",
+    "t": "las papas"
+  },
+  {
+    "g": "der Kartoffelsalat, -e der Käse (Sg.)",
+    "t": "la ensalada de papa, -e el queso (Sg.)"
+  },
+  {
+    "g": "das Käsebrötchen, - kaufen",
+    "t": "el rollo de queso, - comprar"
+  },
+  {
+    "g": "die Kaution, -en",
+    "t": "el depósito, -en"
+  },
+  {
+    "g": "kein-",
+    "t": "No-"
+  },
+  {
+    "g": "der Ketchup, -s",
+    "t": "la salsa de tomate, -s"
+  },
+  {
+    "g": "das Kettenspiel, -e das Kilo(gramm), - der Kilometer, -",
+    "t": "el juego de la cadena, -e el kilo (gramo), - el kilómetro, -"
+  },
+  {
+    "g": "das Kind, -er",
+    "t": "el niño, -él"
+  },
+  {
+    "g": "der Kinderarzt, ¨-e /",
+    "t": "el pediatra, -en"
+  },
+  {
+    "g": "die Kinderärztin, -nen",
+    "t": "la cuna, -en"
+  },
+  {
+    "g": "das Kinderbett, -en",
+    "t": "la"
+  },
+  {
+    "g": "die Kinderbibliothek, -en",
+    "t": "la biblioteca infantil"
+  },
+  {
+    "g": "der Kindergarten, ¨- das Kinderzimmer, - das Kino, -s",
+    "t": "el jardín de infancia, ¨- la habitación de los niños, - el cine, -s"
+  },
+  {
+    "g": "die Kiste, -n",
+    "t": "las cajas"
+  },
+  {
+    "g": "die Kita (Kindertagestätte), -s",
+    "t": "la guardería, -s"
+  },
+  {
+    "g": "die Kiwi, -s",
+    "t": "el kiwi, -s"
+  },
+  {
+    "g": "die Klasse, -n",
+    "t": "las clases"
+  },
+  {
+    "g": "das Klavier (spielen), -e die Kleidung (Sg.) klein",
+    "t": "el piano (tocando), -e la ropa (Sg.) pequeña"
+  },
+  {
+    "g": "die Kleinanzeige, -n klettern",
+    "t": "el anuncio clasificado, -n subir"
+  },
+  {
+    "g": "das Klinikum, Kliniken der Klub, -s",
+    "t": "la clinica, clinicas el club, -s"
+  },
+  {
+    "g": "der Knoblauch (Sg.) die Knoblauchzehe, -n kochen",
+    "t": "el ajo (Sg.) el diente de ajo, -n hervir"
+  },
+  {
+    "g": "die Verfügung (zur Ver fügung stehen), -en vergeben",
+    "t": "los disponibles (están disponibles), -en asignados"
+  },
+  {
+    "g": "der Verkauf, ¨-e",
+    "t": "la venta, ¨-e"
+  },
+  {
+    "g": "der Verkehr (Sg.)",
+    "t": "el"
+  },
+  {
+    "g": "das Verkehrsmittel, -",
+    "t": "el"
+  },
+  {
+    "g": "verletzen (sich) der/",
+    "t": "medio"
+  },
+  {
+    "g": "die Verletzte, -n",
+    "t": "la infracción, -en"
+  },
+  {
+    "g": "die Verletzung, -en",
+    "t": "la"
+  },
+  {
+    "g": "die Verpflichtungserklärung, -en",
+    "t": "la declaración de compromiso"
+  },
+  {
+    "g": "die Versichertenkarte, -n",
+    "t": "la tarjeta de seguro, -n"
+  },
+  {
+    "g": "die Versicherung, -en die Verspätung, -en verstecken",
+    "t": "el seguro, -en el retraso, -en esconderse"
+  },
+  {
+    "g": "verwenden",
+    "t": "utilizar"
+  },
+  {
+    "g": "Viele Grüße",
+    "t": "muchos saludos"
+  },
+  {
+    "g": "die Viertelstunde, -n",
+    "t": "el cuarto de hora, -n"
+  },
+  {
+    "g": "das Visum, Visa",
+    "t": "la"
+  },
+  {
+    "g": "die Vollzeit (Sg.)",
+    "t": "el"
+  },
+  {
+    "g": "die Vollzeitkraft, ¨-e",
+    "t": "el/la empleado/a a tiempo completo"
+  },
+  {
+    "g": "vorbei-: vorbei·bringen",
+    "t": "over-: over · traer"
+  },
+  {
+    "g": "vorbei·kommen vor·bereiten",
+    "t": "pasar por · preparar · preparar"
+  },
+  {
+    "g": "vorne",
+    "t": "frente"
+  },
+  {
+    "g": "vorwärts",
+    "t": "adelante"
+  },
+  {
+    "g": "wählen",
+    "t": "escoger"
+  },
+  {
+    "g": "der Wald, ¨-er",
+    "t": "el bosque, ¨-er"
+  },
+  {
+    "g": "Darf",
+    "t": "permitir"
+  },
+  {
+    "g": "die Hefe",
+    "t": "levadura"
+  },
+  {
+    "g": "gerecht / ungerecht",
+    "t": "justo / injusto"
+  },
+  {
+    "g": "der Wecker",
+    "t": "el reloj"
+  },
+  {
+    "g": "höflich",
+    "t": "con respeto"
+  },
+  {
+    "g": "Alles Liebe",
+    "t": "Queridos todos"
+  },
+  {
+    "g": "Alles Gute zum Geburstag",
+    "t": "Feliz cumpleaños"
+  },
+  {
+    "g": "Alles Gute",
+    "t": "Todo bien"
+  },
+  {
+    "g": "Gut gemacht",
+    "t": "bien hecho"
+  },
+  {
+    "g": "Herzlich Glückwunsh!",
+    "t": "Felicidades de corazón"
+  },
+  {
+    "g": "Liebe (plural)  Liebe (frau)  Lieber (Herr)",
+    "t": "Querido"
+  },
+  {
+    "g": "die Kommunikation (Sg.)",
+    "t": "comunicación (Sg.)"
+  },
+  {
+    "g": "die Konjugation, -en können",
+    "t": "la conjugación, -en puede"
+  },
+  {
+    "g": "die Kontaktliste, -n korrigieren",
+    "t": "corregir la lista de contactos, -n"
+  },
+  {
+    "g": "kosten",
+    "t": "costos"
+  },
+  {
+    "g": "der Kräutertee, -s der Krimi, -s",
+    "t": "el té de hierbas, -s el thriller, -s"
+  },
+  {
+    "g": "der Kroate, -n / die Kroatin, -nen",
+    "t": "el croata, -n / el croata, -nen"
+  },
+  {
+    "g": "die Küche, -n",
+    "t": "la cocina, -n"
+  },
+  {
+    "g": "der Kuchen, -",
+    "t": "el pastel, -"
+  },
+  {
+    "g": "der Kühlschrank, ¨-e die Kultur (Sg.)",
+    "t": "la heladera, ¨-e la cultura (Sg.)"
+  },
+  {
+    "g": "der Kunde, -n / die Kundin, -nen",
+    "t": "el cliente"
+  },
+  {
+    "g": "der Kurs, -e",
+    "t": "el curso, -e"
+  },
+  {
+    "g": "das Kurs-Kochbuch, ¨-er",
+    "t": "el libro de cocina del curso, ¨-er"
+  },
+  {
+    "g": "die Kurs-Kontaktliste, -n",
+    "t": "la lista de contactos del curso, -n"
+  },
+  {
+    "g": "das Kursprogramm, -e die Kursstatistik, -en kurz",
+    "t": "el programa del curso, -e las estadísticas del curso, -e breve"
+  },
+  {
+    "g": "die Küste, -n",
+    "t": "las costas"
+  },
+  {
+    "g": "der Laden, ¨-",
+    "t": "la tienda-"
+  },
+  {
+    "g": "die Lampe, -n",
+    "t": "las lamparas"
+  },
+  {
+    "g": "das Land (Nation), ¨-er die Landkarte, -n lang",
+    "t": "el país (nación), ¨-er el mapa, -n largo"
+  },
+  {
+    "g": "der Lauch (Sg.)",
+    "t": "el puerro (Sg.)"
+  },
+  {
+    "g": "das Lebensmittel, - die Lebensmittelabteilung, -en",
+    "t": "el supermercado, - el departamento de comestibles, -en"
+  },
+  {
+    "g": "ledig",
+    "t": "soltero"
+  },
+  {
+    "g": "der Lehrer, - / die Lehrerin, -nen",
+    "t": "el maestro - / el maestro"
+  },
+  {
+    "g": "leicht (leicht bewölkt) leider",
+    "t": "un poco (ligeramente nublado) por desgracia"
+  },
+  {
+    "g": "leid·tun (Tut mir leid.) die Lektion, -en",
+    "t": "lo siento · haz (lo siento.) la lección, -en"
+  },
+  {
+    "g": "das Lernziel, -e",
+    "t": "el objetivo de aprendizaje, -e"
+  },
+  {
+    "g": "der Lesetext, -e",
+    "t": "el texto de lectura, -e"
+  },
+  {
+    "g": "der Libanon (Sg.) lieb-",
+    "t": "Líbano (Sg.) Querido-"
+  },
+  {
+    "g": "lieben (sich)",
+    "t": "amándonos)"
+  },
+  {
+    "g": "lieber",
+    "t": "más bien"
+  },
+  {
+    "g": "Lieblings-",
+    "t": "Favorito-"
+  },
+  {
+    "g": "das Lieblingsbuch, ¨-er",
+    "t": "el"
+  },
+  {
+    "g": "der Lieblingsfilm, -e",
+    "t": "la"
+  },
+  {
+    "g": "das Lieblingsfoto, -s",
+    "t": "la"
+  },
+  {
+    "g": "die Lieblingsmusik (Sg.)",
+    "t": "la"
+  },
+  {
+    "g": "das Lieblingsspiel, -e",
+    "t": "el"
+  },
+  {
+    "g": "das Lieblingswetter (Sg.)",
+    "t": "el"
+  },
+  {
+    "g": "(das) Liechtenstein das Lied, -er",
+    "t": "(el) Liechtenstein la canción, -he"
+  },
+  {
+    "g": "der Liedtext, -e",
+    "t": "la letra, -e"
+  },
+  {
+    "g": "die Liste, -n",
+    "t": "las listas"
+  },
+  {
+    "g": "der Liter, -",
+    "t": "el litro, -"
+  },
+  {
+    "g": "die Lokomotive, -n los",
+    "t": "la locomotora, ve"
+  },
+  {
+    "g": "los sein",
+    "t": "seguir"
+  },
+  {
+    "g": "los·fahren",
+    "t": "expulsar"
+  },
+  {
+    "g": "los·gehen",
+    "t": "ir · ir"
+  },
+  {
+    "g": "(das) Lublin",
+    "t": "(el) Lublin"
+  },
+  {
+    "g": "machen (das macht …) das Mädchen, -",
+    "t": "hacer (que hace ...) la chica,"
+  },
+  {
+    "g": "der Majoran (Sg.) mal",
+    "t": "la mejorana (Sg.) veces"
+  },
+  {
+    "g": "malen",
+    "t": "pintar"
+  },
+  {
+    "g": "die Mama, -s",
+    "t": "la mamá, -s"
+  },
+  {
+    "g": "der Mann, ¨-er",
+    "t": "el hombre, ¨-er"
+  },
+  {
+    "g": "der Markt, ¨-e",
+    "t": "el mercado, ¨-e"
+  },
+  {
+    "g": "die Mathematik (Mathe) (Sg.)",
+    "t": "las matemáticas (matemáticas) (Sg.)"
+  },
+  {
+    "g": "der Mathetest, -s die Maultasche, -n maximal (max.)",
+    "t": "la prueba de matemáticas, -s el Maultasche, -n máximo (máx.)"
+  },
+  {
+    "g": "die Mayonnaise, -n die Medizin (Studienfach) (Sg.)",
+    "t": "mayonesa, -n medicina (tema) (Sg.)"
+  },
+  {
+    "g": "die medizinisch-technische Assistentin, -nen",
+    "t": "el"
+  },
+  {
+    "g": "das Mehl (Sg.)",
+    "t": "la"
+  },
+  {
+    "g": "mein-",
+    "t": "mi-"
+  },
+  {
+    "g": "meinen",
+    "t": "media"
+  },
+  {
+    "g": "die Mengenangabe, -n merken (sich)",
+    "t": "anote la cantidad, -n"
+  },
+  {
+    "g": "der Messie, -s",
+    "t": "el lío, -s"
+  },
+  {
+    "g": "der Meter (m), - die Miete, -n",
+    "t": "el metro (m), - el alquiler, -n"
+  },
+  {
+    "g": "das Mikrofon, -e die Milch (Sg.)",
+    "t": "el micrófono, -e la leche (Sg.)"
+  },
+  {
+    "g": "mild",
+    "t": "leve"
+  },
+  {
+    "g": "das Mineralwasser (Sg.)",
+    "t": "el agua mineral (Sg.)"
+  },
+  {
+    "g": "minus",
+    "t": "menos"
+  },
+  {
+    "g": "missfallen",
+    "t": "disgustado"
+  },
+  {
+    "g": "Mit freundlichen Grüßen",
+    "t": "Con los mejores deseos"
+  },
+  {
+    "g": "mit·kommen",
+    "t": "ven con"
+  },
+  {
+    "g": "der Mitspieler, - /",
+    "t": "el"
+  },
+  {
+    "g": "die Mitspielerin, -nen",
+    "t": "el"
+  },
+  {
+    "g": "der Mittag, -e",
+    "t": "el mediodía, -e"
+  },
+  {
+    "g": "die Mittagspause, -n",
+    "t": "la pausa del almuerzo, -n"
+  },
+  {
+    "g": "der Mittagsschlaf (Sg.) die Mitte (Sg.)",
+    "t": "la siesta de la tarde (sg.) el medio (sg.)"
+  },
+  {
+    "g": "das Möbelstück, -e möbliert",
+    "t": "el mueble, -e amueblado"
+  },
+  {
+    "g": "das Modalverb, -en modern",
+    "t": "el verbo modal, -en moderno"
+  },
+  {
+    "g": "Moin, moin!",
+    "t": "¡Buenos días!"
+  },
+  {
+    "g": "der Moment, -e",
+    "t": "el momento -e"
+  },
+  {
+    "g": "der Monat, -e",
+    "t": "el mes, -e"
+  },
+  {
+    "g": "die Monatsmiete, -n der Montag, -e",
+    "t": "la renta mensual, -n el lunes, -e"
+  },
+  {
+    "g": "die Mundharmonika, -s die Musik (Sg.)",
+    "t": "la armónica, -s la música (Sg.)"
+  },
+  {
+    "g": "der Muskat (Sg.) die Mutter, ¨-",
+    "t": "la nuez moscada (Sg.) la madre, ¨-"
+  },
+  {
+    "g": "die Muttersprache, -n Na gut",
+    "t": "la lengua materna, -n OK"
+  },
+  {
+    "g": "Na ja",
+    "t": "Bien"
+  },
+  {
+    "g": "Na klar",
+    "t": "claro, por supuesto"
+  },
+  {
+    "g": "nach Hause",
+    "t": "casa"
+  },
+  {
+    "g": "nachfragen",
+    "t": "preguntar"
+  },
+  {
+    "g": "der Nachmittag, -e",
+    "t": "la tarde, -e"
+  },
+  {
+    "g": "der Nachname, -n",
+    "t": "el apellido, -en"
+  },
+  {
+    "g": "die Nachricht, -en",
+    "t": "el mensaje, -en"
+  },
+  {
+    "g": "nach·sprechen",
+    "t": "después"
+  },
+  {
+    "g": "nächst-",
+    "t": "siguiente-"
+  },
+  {
+    "g": "die Nacht, ¨-e",
+    "t": "Las noches"
+  },
+  {
+    "g": "der Name, -n",
+    "t": "el nombre"
+  },
+  {
+    "g": "die Natur (Sg.)",
+    "t": "naturaleza (sg.)"
+  },
+  {
+    "g": "natürlich",
+    "t": "Naturalmente"
+  },
+  {
+    "g": "Nebenkosten (Pl.)",
+    "t": "Costos"
+  },
+  {
+    "g": "die Negation, -en",
+    "t": "la"
+  },
+  {
+    "g": "der Negativartikel (Sg.)",
+    "t": "los"
+  },
+  {
+    "g": "nennen",
+    "t": "llamada"
+  },
+  {
+    "g": "das Nomen, -",
+    "t": "No hombre, -"
+  },
+  {
+    "g": "Nord-",
+    "t": "norte"
+  },
+  {
+    "g": "(das) Norddeutschland",
+    "t": "(el) norte de Alemania"
+  },
+  {
+    "g": "der Norden (Sg.)",
+    "t": "la"
+  },
+  {
+    "g": "die Nordsee-Insel, -n",
+    "t": "la isla del Mar del Norte"
+  },
+  {
+    "g": "die Nummer, -n nun",
+    "t": "el número, -n ahora"
+  },
+  {
+    "g": "das Obst (Sg.)",
+    "t": "la fruta (Sg.)"
+  },
+  {
+    "g": "der Obstladen, ¨- die Obstsorte, -n oder",
+    "t": "la frutería, ¨- el tipo de fruta, -no"
+  },
+  {
+    "g": "offiziell",
+    "t": "oficialmente"
+  },
+  {
+    "g": "die Öffnungszeit, -en oft",
+    "t": "la hora de apertura, a menudo"
+  },
+  {
+    "g": "das Olivenöl, -e",
+    "t": "el aceite de oliva, -e"
+  },
+  {
+    "g": "der Orangensaft, ¨-e Original-",
+    "t": "el jugo de naranja, ¨-e original"
+  },
+  {
+    "g": "der Osten (Sg.)",
+    "t": "el este (Sg.)"
+  },
+  {
+    "g": "(das) Österreich",
+    "t": "(la) Austria"
+  },
+  {
+    "g": "der Österreicher, - /",
+    "t": "los austriacos, - /"
+  },
+  {
+    "g": "die Österreicherin, -nen (das) Ottawa",
+    "t": "la"
+  },
+  {
+    "g": "der Ozean, -e",
+    "t": "el océano, -e"
+  },
+  {
+    "g": "das Paar, -e",
+    "t": "la pareja, -e"
+  },
+  {
+    "g": "die Packung, -en der Papa, -s",
+    "t": "la manada, -en el papa, -s"
+  },
+  {
+    "g": "der Park, -s",
+    "t": "los parques"
+  },
+  {
+    "g": "der Partner, - / die",
+    "t": "el socio - / el"
+  },
+  {
+    "g": "Partnerin, -nen",
+    "t": "Socios"
+  },
+  {
+    "g": "das Partnerinterview, -s",
+    "t": "la entrevista de pareja, -s"
+  },
+  {
+    "g": "das Partnerspiel, -e die Party, -s",
+    "t": "el juego de pareja, -e la fiesta, -s"
+  },
+  {
+    "g": "passen",
+    "t": "ajuste"
+  },
+  {
+    "g": "die Pause, -n",
+    "t": "el descanso, -n"
+  },
+  {
+    "g": "das Perfekt (Sg.) die Person, -en",
+    "t": "el perfecto (Sg.) la persona, -en"
+  },
+  {
+    "g": "Personalien (Pl.)",
+    "t": "Datos personales (pl.)"
+  },
+  {
+    "g": "das Personalpronomen, -",
+    "t": "el pronombre personal,"
+  },
+  {
+    "g": "das Personenporträt, -s",
+    "t": "el retrato de la persona, -s"
+  },
+  {
+    "g": "die Petersilie (Sg.) der Pfannkuchen, -",
+    "t": "el perejil (Sg.) las tortitas,"
+  },
+  {
+    "g": "der Pfeffer (Sg.)  der Saltz",
+    "t": "la pimienta (Sg.)  la sal"
+  },
+  {
+    "g": "das Pfund, -e",
+    "t": "la libra, -e"
+  },
+  {
+    "g": "das Picknick, -s",
+    "t": "el picnic, -s"
+  },
+  {
+    "g": "die Pizza, -s/Pizzen das Plakat, -e",
+    "t": "la pizza, -s / pizzas el cartel, -e"
+  },
+  {
+    "g": "der Plan, ¨-e",
+    "t": "el avión"
+  },
+  {
+    "g": "planen",
+    "t": "planificar"
+  },
+  {
+    "g": "der Plural, -",
+    "t": "el plural, -"
+  },
+  {
+    "g": "plus",
+    "t": "más"
+  },
+  {
+    "g": "(das) Polen",
+    "t": "(la) Polonia"
+  },
+  {
+    "g": "die Polizei (Sg.)",
+    "t": "la policia (sg.)"
+  },
+  {
+    "g": "(das) Polnisch",
+    "t": "(el esmalte"
+  },
+  {
+    "g": "Pommes frites (Pommes) (Pl.)",
+    "t": "Papas fritas (papas fritas) (pl.)"
+  },
+  {
+    "g": "die Portion, -en",
+    "t": "la porción, -en"
+  },
+  {
+    "g": "(das) Portugal",
+    "t": "(el) Portugal"
+  },
+  {
+    "g": "die Position, -en",
+    "t": "la posición,"
+  },
+  {
+    "g": "der Possessivartikel, -",
+    "t": "el"
+  },
+  {
+    "g": "die Postleitzahl, -en",
+    "t": "el"
+  },
+  {
+    "g": "die Präsentation, -en",
+    "t": "la"
+  },
+  {
+    "g": "die Praxis, Praxen",
+    "t": "la consulta médica"
+  },
+  {
+    "g": "der Preis, -e",
+    "t": "el precio"
+  },
+  {
+    "g": "prima",
+    "t": "multa"
+  },
+  {
+    "g": "privat",
+    "t": "Privado"
+  },
+  {
+    "g": "das Problem, -e",
+    "t": "el problema, -e"
+  },
+  {
+    "g": "das Profil, -e",
+    "t": "el perfil, -e"
+  },
+  {
+    "g": "der Programmierer, - / die Programmiererin, -nen",
+    "t": "el programador - el programador"
+  },
+  {
+    "g": "der Prospekt, -e pünktlich",
+    "t": "el prospecto, -e a tiempo"
+  },
+  {
+    "g": "der Quadratmeter, - das Quartett, -e das Radio, -s",
+    "t": "el metro cuadrado, - el cuarteto, -e la radio, -s"
+  },
+  {
+    "g": "das Radio-Wetter (Sg.) raten",
+    "t": "el tiempo de radio (Sg.) adivina"
+  },
+  {
+    "g": "das Rätsel, -",
+    "t": "el acertijo, -"
+  },
+  {
+    "g": "der Raucher, - / die",
+    "t": "el fumador, - / el"
+  },
+  {
+    "g": "Raucherin, -nen der Raum, ¨-e",
+    "t": "Fumador, -nen la habitación, ¨-e"
+  },
+  {
+    "g": "recherchieren",
+    "t": "hacer investigación"
+  },
+  {
+    "g": "das Regal, -e",
+    "t": "el estante, -e"
+  },
+  {
+    "g": "der Regen (Sg.)",
+    "t": "la lluvia (sg.)"
+  },
+  {
+    "g": "regional",
+    "t": "regional"
+  },
+  {
+    "g": "regnen",
+    "t": "lluvia"
+  },
+  {
+    "g": "die Reihe, -n",
+    "t": "las filas"
+  },
+  {
+    "g": "der Reim, -e",
+    "t": "la rima, -e"
+  },
+  {
+    "g": "der Reis (Sg.)",
+    "t": "el arroz (Sg.)"
+  },
+  {
+    "g": "reiten",
+    "t": "equitación"
+  },
+  {
+    "g": "das Rezept (Kochrezept), -e",
+    "t": "la receta (receta de cocina), -e"
+  },
+  {
+    "g": "der Rock (Musikrichtung) (Sg.)",
+    "t": "the rock (género) (Sg.)"
+  },
+  {
+    "g": "die Rolle, -n",
+    "t": "los roles"
+  },
+  {
+    "g": "das Rollenspiel, -e rot",
+    "t": "el juego de roles, -e rojo"
+  },
+  {
+    "g": "die Rübe, -n",
+    "t": "el nabo, -n"
+  },
+  {
+    "g": "das Ruhrgebiet (Sg.) (das) Rumänien (das) Rumänisch (das) Russisch",
+    "t": "el área del Ruhr (Sg.) (el) Rumania (el) Rumano (el) Ruso"
+  },
+  {
+    "g": "(das) Russland",
+    "t": "(Rusia"
+  },
+  {
+    "g": "der Saft, ¨-e",
+    "t": "el jugo, ¨-e"
+  },
+  {
+    "g": "die Sahne (Sg.)",
+    "t": "la nata (Sg.)"
+  },
+  {
+    "g": "die Salami, -s",
+    "t": "el salami, -s"
+  },
+  {
+    "g": "der Salat, -e",
+    "t": "la ensalada, -e"
+  },
+  {
+    "g": "die Salatgurke, -n das Salz (Sg.)",
+    "t": "el pepino, -n la sal (Sg.)"
+  },
+  {
+    "g": "sammeln",
+    "t": "recoger"
+  },
+  {
+    "g": "der Satz, ¨-e",
+    "t": "el teorema, ¨-e"
+  },
+  {
+    "g": "sauer (Geschmack) die Säule, -n",
+    "t": "agrio (sabor) la columna, -n"
+  },
+  {
+    "g": "das Saxofon, -e",
+    "t": "el saxofón, -e"
+  },
+  {
+    "g": "das Schach (Schach spielen) (Sg.)",
+    "t": "the chess (jugar al ajedrez) (Sg.)"
+  },
+  {
+    "g": "schade",
+    "t": "una pena"
+  },
+  {
+    "g": "schauen",
+    "t": "reloj"
+  },
+  {
+    "g": "scheinen",
+    "t": "parece ser"
+  },
+  {
+    "g": "das Schild, -er",
+    "t": "las señales"
+  },
+  {
+    "g": "der Schinken, -",
+    "t": "el jamón, -"
+  },
+  {
+    "g": "das Schlafzimmer, - schlecht",
+    "t": "el dormitorio, - malo"
+  },
+  {
+    "g": "der Schmand (Sg.) schmecken",
+    "t": "prueba la crema agria (Sg.)"
+  },
+  {
+    "g": "der Schnee (Sg.) schneien",
+    "t": "la nieve (Sg.) a la nieve"
+  },
+  {
+    "g": "die Schokolade (Sg.) das Schokoladenei, -er schon",
+    "t": "el chocolate (Sg.) el huevo de chocolate, -él ya"
+  },
+  {
+    "g": "der Schrank, ¨-e schreiben",
+    "t": "el armario, ¨-e escribo"
+  },
+  {
+    "g": "der Schreibtisch, -e die Schule, -n",
+    "t": "el escritorio, -e la escuela, -n"
+  },
+  {
+    "g": "die Schulzeit (Sg.) schwäbisch-",
+    "t": "los días escolares (Sg.) Suabia"
+  },
+  {
+    "g": "die Schweiz",
+    "t": "Suiza"
+  },
+  {
+    "g": "die Schwester, -n das Schwimmbad, ¨-er schwimmen",
+    "t": "la hermana, -en la piscina, ¨-él nada"
+  },
+  {
+    "g": "das Sekretariat, -e Servus! (Ö/Süddt.) der Sessel, -",
+    "t": "la secretaría, -e Servus! (Ö / Süddt.) El sillón,"
+  },
+  {
+    "g": "sicher",
+    "t": "sin lugar a duda"
+  },
+  {
+    "g": "sie (Plural)",
+    "t": "ella (plural)"
+  },
+  {
+    "g": "sie (Singular)",
+    "t": "ella)"
+  },
+  {
+    "g": "singen",
+    "t": "cantar"
+  },
+  {
+    "g": "der Singular (Sg.)",
+    "t": "el singular (sg.)"
+  },
+  {
+    "g": "das Skateboard (fahren), -s",
+    "t": "la patineta (paseo), -s"
+  },
+  {
+    "g": "Ski fahren",
+    "t": "esquiar"
+  },
+  {
+    "g": "(das) Slowenien",
+    "t": "(la) Eslovenia"
+  },
+  {
+    "g": "das Smartphone, -s so",
+    "t": "el teléfono inteligente, así que"
+  },
+  {
+    "g": "das Sofa, -s",
+    "t": "el sofá, -s"
+  },
+  {
+    "g": "sofort (ab sofort)",
+    "t": "inmediatamente inmediatamente)"
+  },
+  {
+    "g": "der Sohn, ¨-e",
+    "t": "de los hijos"
+  },
+  {
+    "g": "der Sommer, -",
+    "t": "el verano, -"
+  },
+  {
+    "g": "das Sonderangebot, -e die Sonne (Sg.)",
+    "t": "la oferta especial, -e el sol (Sg.)"
+  },
+  {
+    "g": "sonnig",
+    "t": "soleado"
+  },
+  {
+    "g": "sonst (sonst noch etwas?)",
+    "t": "algo más (¿algo más?)"
+  },
+  {
+    "g": "(das) Spanien",
+    "t": "(la España"
+  },
+  {
+    "g": "(das) Spanisch",
+    "t": "(Español"
+  },
+  {
+    "g": "der Spaß (Spaß machen), ¨-e",
+    "t": "la diversión (se divertido), ¨-e"
+  },
+  {
+    "g": "spazieren gehen",
+    "t": "para ir a dar un paseo"
+  },
+  {
+    "g": "der Speck (Sg.)",
+    "t": "el tocino (Sg.)"
+  },
+  {
+    "g": "die Speise, -n",
+    "t": "la comida"
+  },
+  {
+    "g": "die Speisekarte, -n die Spezialität, -en das Spiel, -e",
+    "t": "el menú, -en la especialidad, -en el juego, -e"
+  },
+  {
+    "g": "der Spinat (Sg.)",
+    "t": "la espinaca (Sg.)"
+  },
+  {
+    "g": "der Sport (Sg.)",
+    "t": "el deporte (Sg.)"
+  },
+  {
+    "g": "Sport machen",
+    "t": "Hacer deportes"
+  },
+  {
+    "g": "die Sprache, -n",
+    "t": "los idiomas"
+  },
+  {
+    "g": "die Sprachenschule, -n sprechen",
+    "t": "la escuela de idiomas, -n speak"
+  },
+  {
+    "g": "die Sprechzeit, -en (das) Sri Lanka",
+    "t": "el tiempo de uso de la palabra, -en (el) Sri Lanka"
+  },
+  {
+    "g": "die Stadt, ¨-e",
+    "t": "las ciudades"
+  },
+  {
+    "g": "stark",
+    "t": "fuerte"
+  },
+  {
+    "g": "steigen",
+    "t": "escalada"
+  },
+  {
+    "g": "stellen (eine Frage stellen)",
+    "t": "preguntar (hacer una pregunta)"
+  },
+  {
+    "g": "stimmen",
+    "t": "tener razón"
+  },
+  {
+    "g": "der Stock (Etage) (Sg.) die Straße, -n",
+    "t": "el piso (piso) (Sg.) la calle, -n"
+  },
+  {
+    "g": "die Strategie, -n stricken",
+    "t": "la estrategia, -n tejer"
+  },
+  {
+    "g": "der Stuhl, ¨-e",
+    "t": "la silla, ¨-e"
+  },
+  {
+    "g": "das Suchbild, -er suchen",
+    "t": "la imagen de búsqueda, están buscando"
+  },
+  {
+    "g": "Süd-",
+    "t": "sur"
+  },
+  {
+    "g": "der Sudan",
+    "t": "el Sudán"
+  },
+  {
+    "g": "(das) Süddeutschland der Süden (Sg.)",
+    "t": "(el) sur de Alemania el sur (Sg.)"
+  },
+  {
+    "g": "super",
+    "t": "súper"
+  },
+  {
+    "g": "superlecker",
+    "t": "delicioso"
+  },
+  {
+    "g": "der Supermarkt, ¨-e superpünktlich",
+    "t": "el supermercado, ¨ -e muy puntual"
+  },
+  {
+    "g": "surfen (im Internet) (das) Syrien",
+    "t": "navegar (en internet) (la) Siria"
+  },
+  {
+    "g": "die Szene, -n",
+    "t": "la escena, -n"
+  },
+  {
+    "g": "Tach!",
+    "t": "¡Tach!"
+  },
+  {
+    "g": "der Tag (Guten Tag), -e",
+    "t": "el día (buen día), -e"
+  },
+  {
+    "g": "Tag!",
+    "t": "¡Día!"
+  },
+  {
+    "g": "die Tageszeit, -en tanzen",
+    "t": "la hora del día -en baile"
+  },
+  {
+    "g": "tauschen",
+    "t": "Para engañar"
+  },
+  {
+    "g": "das Team, -s",
+    "t": "los equipos"
+  },
+  {
+    "g": "der Teig, -e",
+    "t": "la masa, -e"
+  },
+  {
+    "g": "die Teigtasche, -n das Telefon, -e",
+    "t": "la bola de masa, -en el teléfono, -e"
+  },
+  {
+    "g": "die Telefonansage, -n das Telefongespräch, -e",
+    "t": "el anuncio telefónico, -en la conversación telefónica, -e"
+  },
+  {
+    "g": "telefonieren",
+    "t": "llamar"
+  },
+  {
+    "g": "die Telefonnummer, -n",
+    "t": "los números de teléfono"
+  },
+  {
+    "g": "die Temperatur, -en die temporale Präposition, -en",
+    "t": "la temperatura, -en la preposición temporal, -en"
+  },
+  {
+    "g": "das Tennis (spielen) (Sg.)",
+    "t": "el tenis (jugar) (Sg.)"
+  },
+  {
+    "g": "der Teppich, -e",
+    "t": "la alfombra, -e"
+  },
+  {
+    "g": "der Termin, -e",
+    "t": "la cita, -e"
+  },
+  {
+    "g": "der Terminkalender, - die Terminvereinbarung, -en",
+    "t": "el calendario de citas, - la cita, -es"
+  },
+  {
+    "g": "der Test, -s",
+    "t": "los exámenes"
+  },
+  {
+    "g": "der Text, -e",
+    "t": "el texto, -e"
+  },
+  {
+    "g": "(das) Thailand",
+    "t": "(la) Tailandia"
+  },
+  {
+    "g": "das Thema, Themen der Tisch, -e",
+    "t": "el sujeto, sujetos la mesa, -e"
+  },
+  {
+    "g": "die Tochter, ¨-",
+    "t": "la hija-"
+  },
+  {
+    "g": "die Toilette, -n",
+    "t": "Los inodoros"
+  },
+  {
+    "g": "toll",
+    "t": "Excelente"
+  },
+  {
+    "g": "die Tomate, -n",
+    "t": "los tomates"
+  },
+  {
+    "g": "der Tomatensaft, ¨-e der Ton, ¨-e",
+    "t": "el jugo de tomate, ¨-e el sonido, ¨-e"
+  },
+  {
+    "g": "die Tortilla, -s",
+    "t": "la tortilla, -s"
+  },
+  {
+    "g": "total",
+    "t": "total"
+  },
+  {
+    "g": "die Traumfrau, -en die Traumwohnung, -en",
+    "t": "la mujer soñada, -en el apartamento soñado, -en"
+  },
+  {
+    "g": "das Traumzimmer, - treffen (Freunde treffen)",
+    "t": "la habitación de los sueños, - reunirse (encontrarse con amigos)"
+  },
+  {
+    "g": "das trennbare Verb, -en",
+    "t": "el verbo separable, -en"
+  },
+  {
+    "g": "tschüs",
+    "t": "adiós"
+  },
+  {
+    "g": "der Türke, -n / die Türkin, -nen",
+    "t": "el turco, -n / la mujer turca, -nen"
+  },
+  {
+    "g": "die Türkei (Sg.)",
+    "t": "Turquía (Sg.)"
+  },
+  {
+    "g": "(das) Türkisch",
+    "t": "(El turco"
+  },
+  {
+    "g": "üben",
+    "t": "practicar"
+  },
+  {
+    "g": "überall",
+    "t": "por todas partes"
+  },
+  {
+    "g": "die Übung, -en",
+    "t": "los ejercicios"
+  },
+  {
+    "g": "ziehen",
+    "t": "Halar"
+  },
+  {
+    "g": "das Ziel, -e",
+    "t": "la meta, -e"
+  },
+  {
+    "g": "die Zigarette, -n der Zoo, -s",
+    "t": "el cigarrillo, -en el zoológico, -s"
+  },
+  {
+    "g": "zu (Steigerung) zu Ende",
+    "t": "para (aumentar) hasta el final"
+  },
+  {
+    "g": "zu Fuß",
+    "t": "a pie"
+  },
+  {
+    "g": "das Zuckerfest, -e zufrieden",
+    "t": "el festival del azúcar, -e satisfecho"
+  },
+  {
+    "g": "der Zug, ¨-e",
+    "t": "el tren, ¨-e"
+  },
+  {
+    "g": "zu·hören",
+    "t": "escuchar"
+  },
+  {
+    "g": "zurück·geben",
+    "t": "devolver"
+  },
+  {
+    "g": "zurück·rufen",
+    "t": "llamar de vuelta"
+  },
+  {
+    "g": "zurück·schauen zurzeit",
+    "t": "mira hacia atrás en el momento"
+  },
+  {
+    "g": "die Zusage, -n",
+    "t": "la promesa -n"
+  },
+  {
+    "g": "zusammen·arbeiten zweit-",
+    "t": "trabajar juntos"
+  },
+  {
+    "g": "beraten",
+    "t": "aconsejar"
+  },
+  {
+    "g": "die Frist",
+    "t": "la fecha limite"
+  },
+  {
+    "g": "beachten",
+    "t": "notar"
+  },
+  {
+    "g": "betreten",
+    "t": "entrar"
+  },
+  {
+    "g": "die Abreise",
+    "t": "la salida, checkout"
+  },
+  {
+    "g": "wütend",
+    "t": "enojados"
+  },
+  {
+    "g": "Wissenschaftler",
+    "t": "cientificos"
+  },
+  {
+    "g": "tatsächlich",
+    "t": "por supuesto"
+  },
+  {
+    "g": "nennt",
+    "t": "se llama"
+  },
+  {
+    "g": "jedes mal",
+    "t": "cada vez"
+  },
+  {
+    "g": "die Uhr (… Uhr), -en",
+    "t": "el"
+  },
+  {
+    "g": "die Uhrzeit, -en",
+    "t": "el tiempo, -en"
+  },
+  {
+    "g": "der Uhu, -s",
+    "t": "el búho real, -s"
+  },
+  {
+    "g": "die Ukraine",
+    "t": "Ucrania"
+  },
+  {
+    "g": "um … Uhr",
+    "t": "en punto"
+  },
+  {
+    "g": "(das) Ungarisch",
+    "t": "(el) húngaro"
+  },
+  {
+    "g": "(das) Ungarn",
+    "t": "(la) Hungría"
+  },
+  {
+    "g": "ungefähr",
+    "t": "aproximadamente"
+  },
+  {
+    "g": "unter (Telefonnummer)",
+    "t": "bajo (número"
+  },
+  {
+    "g": "der Unterricht (Sg.)",
+    "t": "la"
+  },
+  {
+    "g": "die Unterrichtsstunde, -n",
+    "t": "la lección, -n"
+  },
+  {
+    "g": "der Unterschied, -e der Unterstrich, -e USA (Pl.)",
+    "t": "la diferencia, -e el subrayado, -e USA (pl.)"
+  },
+  {
+    "g": "die Variante, -n",
+    "t": "la variante, -n"
+  },
+  {
+    "g": "variieren",
+    "t": "variar"
+  },
+  {
+    "g": "der Vater, ¨-",
+    "t": "el padre-"
+  },
+  {
+    "g": "die Verabredung, -en verabschieden (sich) das Verb, -en",
+    "t": "la cita, -en decir adiós al verbo, -en"
+  },
+  {
+    "g": "der Verein, -e",
+    "t": "el club, -e"
+  },
+  {
+    "g": "vergessen",
+    "t": "olvidar"
+  },
+  {
+    "g": "verheiratet",
+    "t": "casado"
+  },
+  {
+    "g": "verkaufen",
+    "t": "vender"
+  },
+  {
+    "g": "der Verkäufer, - / die Verkäuferin, -nen vermieten",
+    "t": "el vendedor alquila"
+  },
+  {
+    "g": "verstehen (sich)",
+    "t": "Entendernos unos a otros)"
+  },
+  {
+    "g": "verwitwet",
+    "t": "viudo"
+  },
+  {
+    "g": "viel-",
+    "t": "un montón de-"
+  },
+  {
+    "g": "Vielen Dank",
+    "t": "Muchas gracias"
+  },
+  {
+    "g": "vielleicht",
+    "t": "tal vez"
+  },
+  {
+    "g": "das Viertel, -",
+    "t": "el cuarto, -"
+  },
+  {
+    "g": "die Visitenkarte, -n die Volksmusik (Sg.) von",
+    "t": "la tarjeta de presentación, -en la música folclórica (Sg.) de"
+  },
+  {
+    "g": "von … nach",
+    "t": "desde, hasta"
+  },
+  {
+    "g": "die Vorliebe, -n",
+    "t": "la preferencia, -n"
+  },
+  {
+    "g": "der Vormittag, -e",
+    "t": "por"
+  },
+  {
+    "g": "der Vorname, -n",
+    "t": "la mañana, -e"
+  },
+  {
+    "g": "der Vorschlag, ¨-e",
+    "t": "el nombre, -en"
+  },
+  {
+    "g": "vor·stellen (sich)",
+    "t": "presentarse"
+  },
+  {
+    "g": "wandern",
+    "t": "hacer senderismo"
+  },
+  {
+    "g": "wann",
+    "t": "cuando"
+  },
+  {
+    "g": "die Warmmiete, -n warum",
+    "t": "la cálida renta, por qué"
+  },
+  {
+    "g": "das Waschbecken, - waschen",
+    "t": "el fregadero, - lavar"
+  },
+  {
+    "g": "die Waschmaschine, -n das Wasser (Sg.)",
+    "t": "la lavadora, -en el agua (Sg.)"
+  },
+  {
+    "g": "wecken",
+    "t": "despierta"
+  },
+  {
+    "g": "der Wein, -e",
+    "t": "el vino, -e"
+  },
+  {
+    "g": "welch-",
+    "t": "qué-"
+  },
+  {
+    "g": "wenig (ein wenig) wer",
+    "t": "poco (un poco) quien"
+  },
+  {
+    "g": "der Westen (Sg.) das Wetter (Sg.)",
+    "t": "el oeste (sg.) el clima (sg.)"
+  },
+  {
+    "g": "der Wetterbericht, -e die W-Frage, -n",
+    "t": "el informe meteorológico, -e la pregunta W, -n"
+  },
+  {
+    "g": "wie viel",
+    "t": "Cuánto cuesta"
+  },
+  {
+    "g": "das Wiederhören (Auf Wiederhören), -",
+    "t": "escuchando"
+  },
+  {
+    "g": "das Wiedersehen (Auf Wiedersehen), -",
+    "t": "el"
+  },
+  {
+    "g": "das Wiener Würstchen, -",
+    "t": "la salchicha vienesa,"
+  },
+  {
+    "g": "der Wind, -e",
+    "t": "el viento, -e"
+  },
+  {
+    "g": "windig",
+    "t": "Ventoso"
+  },
+  {
+    "g": "der Winter, -",
+    "t": "el invierno, -"
+  },
+  {
+    "g": "wirklich",
+    "t": "de verdad"
+  },
+  {
+    "g": "die Woche, -n",
+    "t": "las semanas"
+  },
+  {
+    "g": "das Wochenende, -n der Wochentag, -e woher",
+    "t": "el fin de semana, -en el día laborable, -e de donde"
+  },
+  {
+    "g": "der Wohnort, -e",
+    "t": "el"
+  },
+  {
+    "g": "der Wohnraum, ¨-e",
+    "t": "el"
+  },
+  {
+    "g": "die Wohnung, -en",
+    "t": "el apartamento, -e"
+  },
+  {
+    "g": "die Wohnungsanzeige, -n",
+    "t": "el"
+  },
+  {
+    "g": "das Wohnzimmer, - die Wolke, -n",
+    "t": "la sala de estar, - la nube, -n"
+  },
+  {
+    "g": "das Wolkenfoto, -s wollen",
+    "t": "la foto de la nube, -s quiere"
+  },
+  {
+    "g": "das Wort, ¨-er",
+    "t": "las palabras"
+  },
+  {
+    "g": "das Wörterbuch, ¨-er der Wunsch, ¨-e der Würfel, -",
+    "t": "el diccionario, ¨-el deseo, ¨-e los dados, -"
+  },
+  {
+    "g": "das Würfelspiel, -e die Wurst, ¨-e",
+    "t": "el juego de dados, -e la salchicha, ¨-e"
+  },
+  {
+    "g": "das Wurstbrötchen, - das Würstchen,",
+    "t": "el rollo de salchicha, - la salchicha,"
+  },
+  {
+    "g": "das Xylofon, -e",
+    "t": "el xilófono, -e"
+  },
+  {
+    "g": "das Ypsilon (Sg.) die Zahl, -en",
+    "t": "el Ypsilon (Sg.) el número, -en"
+  },
+  {
+    "g": "die Zahnarzthelferin, -nen",
+    "t": "el asistente dental, -nen"
+  },
+  {
+    "g": "die Zahnarztpraxis, -praxen",
+    "t": "la práctica dental, las prácticas dentales"
+  },
+  {
+    "g": "zeichnen",
+    "t": "dibujar"
+  },
+  {
+    "g": "die Zeit (Sg.)",
+    "t": "el tiempo (Sg.)"
+  },
+  {
+    "g": "der Zentimeter (cm), - der Zettel, -",
+    "t": "el centímetro (cm), - la nota, -"
+  },
+  {
+    "g": "ziemlich",
+    "t": "bastante"
+  },
+  {
+    "g": "das Zimmer, -",
+    "t": "el cuarto, -"
+  },
+  {
+    "g": "der Zirkus, -se",
+    "t": "el circo, -se"
+  },
+  {
+    "g": "zu (Angaben zu …) zu Hause",
+    "t": "a (información sobre ...) en casa"
+  },
+  {
+    "g": "zu zweit",
+    "t": "para dos"
+  },
+  {
+    "g": "der Zucker (Sg.)",
+    "t": "el azúcar (Sg.)"
+  },
+  {
+    "g": "zum Beispiel (z.B.) zu·ordnen",
+    "t": "por ejemplo (p. ej.) para asignar"
+  },
+  {
+    "g": "zurück·kommen zusammen",
+    "t": "volver · unirse"
+  },
+  {
+    "g": "zusammen·leben zu·stimmen",
+    "t": "vivir juntos para estar de acuerdo"
+  },
+  {
+    "g": "die Zwiebel, -n",
+    "t": "las cebollas"
+  },
+  {
+    "g": "ab·fahren",
+    "t": "salir"
+  },
+  {
+    "g": "die Abfahrt, -en ab·geben",
+    "t": "la partida, -en dar"
+  },
+  {
+    "g": "die Abkürzung, -en die Absage, -n",
+    "t": "la abreviatura, -en el rechazo, -n"
+  },
+  {
+    "g": "die Abschiedsfeier, -n",
+    "t": "la"
+  },
+  {
+    "g": "der Abschnitt, -e",
+    "t": "la sección, -e"
+  },
+  {
+    "g": "der Absender, -",
+    "t": "el remitente, -"
+  },
+  {
+    "g": "der Abteilungsleiter, - /",
+    "t": "el"
+  },
+  {
+    "g": "Abteilungsleiterin, -nen",
+    "t": "Jefe del departamento de"
+  },
+  {
+    "g": "achten",
+    "t": "respeto, piensa bien en"
+  },
+  {
+    "g": "Achtung!",
+    "t": "¡Atención!"
+  },
+  {
+    "g": "aktuell",
+    "t": "Actual"
+  },
+  {
+    "g": "allein",
+    "t": "solo"
+  },
+  {
+    "g": "das Allerwichtigste (Sg.)",
+    "t": "el más importante (sg.)"
+  },
+  {
+    "g": "alles",
+    "t": "todo"
+  },
+  {
+    "g": "Alles Gute!",
+    "t": "¡Todo lo mejor!"
+  },
+  {
+    "g": "die Altenpflege (Sg.)",
+    "t": "la"
+  },
+  {
+    "g": "der Altenpfleger, - /",
+    "t": "la"
+  },
+  {
+    "g": "die Altenpflegerin, -nen",
+    "t": "la"
+  },
+  {
+    "g": "am",
+    "t": "enfermera geriátrica, -nen"
+  },
+  {
+    "g": "am meisten",
+    "t": "lo mas"
+  },
+  {
+    "g": "die Ampel, -n",
+    "t": "el semáforo, -n"
+  },
+  {
+    "g": "das Amt, ¨-er",
+    "t": "la oficina, ¨-er"
+  },
+  {
+    "g": "anbei",
+    "t": "adjunto"
+  },
+  {
+    "g": "an·bieten",
+    "t": "ofrecer"
+  },
+  {
+    "g": "an·geben",
+    "t": "especificar"
+  },
+  {
+    "g": "das Angebot, -e die/der Angehörige, -n",
+    "t": "la oferta, -e los familiares, -n"
+  },
+  {
+    "g": "angestellt (sein) an·kommen",
+    "t": "llegar a ser empleado"
+  },
+  {
+    "g": "die Ankunft, ¨-e an·machen",
+    "t": "la llegada, ¨-e un · hacer"
+  },
+  {
+    "g": "an·melden (sich) an·probieren",
+    "t": "iniciar sesión (iniciar sesión) intentar"
+  },
+  {
+    "g": "die Anrede, -n",
+    "t": "el saludo, -n"
+  },
+  {
+    "g": "der Anrufer, - / die",
+    "t": "la persona que llama, - / la"
+  },
+  {
+    "g": "Anruferin, -nen der Anschluss, ¨-e",
+    "t": "Llamador, -nen la conexión, ¨-e"
+  },
+  {
+    "g": "an·sprechen",
+    "t": "hablar con"
+  },
+  {
+    "g": "der Antrag, ¨-e",
+    "t": "la solicitud, ¨-e"
+  },
+  {
+    "g": "die Anweisung, -en an·ziehen (sich) der Anzug, ¨-e",
+    "t": "la instrucción, -en ponerse el traje, ¨-e"
+  },
+  {
+    "g": "die Apotheke, -n der Apotheken-Notdienst (Sg.)",
+    "t": "la farmacia, -en el servicio de emergencia de la farmacia (Sg.)"
+  },
+  {
+    "g": "der April (Sg.)",
+    "t": "Abril (Sg.)"
+  },
+  {
+    "g": "der Arbeiter, - / die",
+    "t": "el trabajador, - / el"
+  },
+  {
+    "g": "Arbeiterin, -nen die Arbeiterwohlfahrt (AWO) (Sg.)",
+    "t": "Trabajador, -nen el Arbeiterwohlfahrt (AWO) (Sg.)"
+  },
+  {
+    "g": "der Arbeitsbeginn (Sg.)",
+    "t": "el inicio del trabajo (Sg.)"
+  },
+  {
+    "g": "das Arbeitsblatt, ¨-er",
+    "t": "la"
+  },
+  {
+    "g": "das Arbeitsende (Sg.)",
+    "t": "el"
+  },
+  {
+    "g": "die Arbeitskleidung (Sg.)",
+    "t": "la"
+  },
+  {
+    "g": "die Arbeitskraft, ¨-e arbeitslos",
+    "t": "la fuerza laboral, ¨ -e desempleados"
+  },
+  {
+    "g": "der Arbeitsplatz, ¨-e",
+    "t": "el"
+  },
+  {
+    "g": "die Arbeitsstelle, -n",
+    "t": "el trabajo, -en"
+  },
+  {
+    "g": "die Arbeitszeit, -en",
+    "t": "las"
+  },
+  {
+    "g": "der Architekt, -en / die Architektin, -nen der Arm, -e",
+    "t": "el arquitecto, -en / el arquitecto, -nen el brazo, -e"
+  },
+  {
+    "g": "die/der Arme, -n die Arzthelferin, -nen der ärztliche",
+    "t": "los pobres, -en el asistente del médico, -en el médico"
+  },
+  {
+    "g": "Bereitschaftsdienst, -e",
+    "t": "Servicio de guardia, -e"
+  },
+  {
+    "g": "der ärztliche Notdienst, -e",
+    "t": "el servicio de urgencias médicas, -e"
+  },
+  {
+    "g": "die Arztpraxis, -praxen",
+    "t": "el consultorio del médico, las prácticas"
+  },
+  {
+    "g": "der Assistent, -en /",
+    "t": "el asistente, -en, -nen"
+  },
+  {
+    "g": "die Assistentin, -nen",
+    "t": "la solicitud, -en"
+  },
+  {
+    "g": "die Aufforderung, -en",
+    "t": "la petición, el requerimiento"
+  },
+  {
+    "g": "auf·machen",
+    "t": "abrir"
+  },
+  {
+    "g": "auf·rufen",
+    "t": "llamar"
+  },
+  {
+    "g": "das Auge, -n",
+    "t": "el ojo, -n"
+  },
+  {
+    "g": "der Augenarzt, ¨-e / die Augenärztin, -nen",
+    "t": "el oftalmólogo, ¨-e / el oftalmólogo, -nen"
+  },
+  {
+    "g": "die Augenheilkunde (Sg.)",
+    "t": "oftalmología (Sg.)"
+  },
+  {
+    "g": "der August (Sg.) die Ausbildung, -en aus·drucken",
+    "t": "August (Sg.) El entrenamiento, -es imprimir"
+  },
+  {
+    "g": "aus·fallen",
+    "t": "fallar"
+  },
+  {
+    "g": "der Ausgang, ¨-e",
+    "t": "la salida, ¨-e"
+  },
+  {
+    "g": "die Aushilfe, -n",
+    "t": "la"
+  },
+  {
+    "g": "die Auskunft, ¨-e",
+    "t": "la información, ¨-e"
+  },
+  {
+    "g": "das Ausland (Sg.)",
+    "t": "el"
+  },
+  {
+    "g": "der Ausländer, - /",
+    "t": "el extranjero, - /"
+  },
+  {
+    "g": "Ausländerin, -nen die Ausländerbehörde (Sg.)",
+    "t": "Extranjeros la Oficina de Extranjería (Sg.)"
+  },
+  {
+    "g": "ausländisch",
+    "t": "exterior"
+  },
+  {
+    "g": "aus·machen",
+    "t": "apagar"
+  },
+  {
+    "g": "aus·machen (vereinbaren)",
+    "t": "hacer (estar de acuerdo)"
+  },
+  {
+    "g": "aus·schalten",
+    "t": "apagar"
+  },
+  {
+    "g": "aus·schlafen",
+    "t": "dormir"
+  },
+  {
+    "g": "aus·sehen (wie) aus·wählen",
+    "t": "desde · ver (cómo) desde · seleccionar"
+  },
+  {
+    "g": "der Ausweis, -e",
+    "t": "la"
+  },
+  {
+    "g": "die Autobahn, -en",
+    "t": "la autopista, -e"
+  },
+  {
+    "g": "das Autohaus, ¨-er",
+    "t": "el"
+  },
+  {
+    "g": "der Automat, -en",
+    "t": "la máquina, -e"
+  },
+  {
+    "g": "der Autoschlüssel, -",
+    "t": "la"
+  },
+  {
+    "g": "die Autovermietung, -en",
+    "t": "la"
+  },
+  {
+    "g": "die (Auto-)Werkstatt, ¨-en",
+    "t": "el (coche) taller, ¨-en"
+  },
+  {
+    "g": "der Backkurs, -e",
+    "t": "el"
+  },
+  {
+    "g": "der Bahnhof, ¨-e",
+    "t": "la estación, -e"
+  },
+  {
+    "g": "der Bahnsteig, -e",
+    "t": "la plataforma, -e"
+  },
+  {
+    "g": "bald",
+    "t": "pronto"
+  },
+  {
+    "g": "die Bank (Geld), -en bar",
+    "t": "el banco (dinero), efectivo"
+  },
+  {
+    "g": "die Bar, -s",
+    "t": "los bares"
+  },
+  {
+    "g": "die Basis (-Euro-Basis) (Sg.)",
+    "t": "la base (-Euro base) (Sg.)"
+  },
+  {
+    "g": "das Basketball (Spiel) (Sg.)",
+    "t": "el baloncesto (juego) (Sg.)"
+  },
+  {
+    "g": "basteln",
+    "t": "artesanía"
+  },
+  {
+    "g": "der Bauch, ¨-e der Baum, ¨-e",
+    "t": "el vientre, ¨-e el árbol, ¨-e"
+  },
+  {
+    "g": "der Beamte, -n / die Beamtin, -nen beantragen",
+    "t": "el funcionario, -n / el funcionario, -nen aplicar"
+  },
+  {
+    "g": "bedeuten",
+    "t": "media"
+  },
+  {
+    "g": "befristet",
+    "t": "limitado"
+  },
+  {
+    "g": "die Behörde, -n das Bein, -e",
+    "t": "la autoridad, -en la pierna, -e"
+  },
+  {
+    "g": "die/der Bekannte, -n bekommen",
+    "t": "el / el conocido, -n get"
+  },
+  {
+    "g": "benutzen",
+    "t": "usar"
+  },
+  {
+    "g": "der Bereich, -e die Bereitschaftspraxis, -praxen",
+    "t": "el área, -e la práctica de reserva, -prácticas"
+  },
+  {
+    "g": "der Berg, -e",
+    "t": "las montañas"
+  },
+  {
+    "g": "beruflich",
+    "t": "profesional"
+  },
+  {
+    "g": "die Berufserfahrung (Sg.)",
+    "t": "la experiencia profesional (Sg.)"
+  },
+  {
+    "g": "berufstätig",
+    "t": "trabajando"
+  },
+  {
+    "g": "der Bescheid, -e Bescheid geben besser",
+    "t": "la notificación, dar una mejor notificación"
+  },
+  {
+    "g": "bestellen",
+    "t": "ordenar"
+  },
+  {
+    "g": "der Besuch, -e besuchen",
+    "t": "la visita, la visita"
+  },
+  {
+    "g": "das Besuchervisum, -visa",
+    "t": "la visa de visitante, visa"
+  },
+  {
+    "g": "der Betreff (Sg.)",
+    "t": "el"
+  },
+  {
+    "g": "die Betreuung (Sg.)",
+    "t": "el"
+  },
+  {
+    "g": "die Betreuungseinrichtung, -en",
+    "t": "el"
+  },
+  {
+    "g": "Bettwaren (Pl.)  die Bewerbung, -en bewerten",
+    "t": "Ropa de cama (pl.)   Evaluar la aplicación (empleo)"
+  },
+  {
+    "g": "bis gleich",
+    "t": "Te veo pronto"
+  },
+  {
+    "g": "bisherig-",
+    "t": "previamente-"
+  },
+  {
+    "g": "der Bleistift, -e der Blog, -s",
+    "t": "el lápiz, -e el blog, -s"
+  },
+  {
+    "g": "die Blume, -n",
+    "t": "las flores"
+  },
+  {
+    "g": "die Bluse, -n",
+    "t": "las blusas"
+  },
+  {
+    "g": "der Boden, ¨-",
+    "t": "el piso-"
+  },
+  {
+    "g": "böse",
+    "t": "mal"
+  },
+  {
+    "g": "die Botschaft, -en die Bratwurst, ¨-e brennen",
+    "t": "el mensaje, -en el bratwurst, ¨ -e quema"
+  },
+  {
+    "g": "die Brille, -n",
+    "t": "los lentes"
+  },
+  {
+    "g": "die Brücke, -n",
+    "t": "los puentes"
+  },
+  {
+    "g": "die Brust, ¨-e",
+    "t": "el pecho, ¨-e"
+  },
+  {
+    "g": "die Bücherei, -en die Buchhandlung, -en",
+    "t": "la biblioteca, -en la librería, -en"
+  },
+  {
+    "g": "die Buchung, -en",
+    "t": "las reservas"
+  },
+  {
+    "g": "der Buntstift, -e das Büro, -s",
+    "t": "el lápiz de color, -e la oficina, -s"
+  },
+  {
+    "g": "der Bus, -se",
+    "t": "el bus, -se"
+  },
+  {
+    "g": "das Busticket, -s das Café, -s",
+    "t": "el billete de autobús, -s el café, -s"
+  },
+  {
+    "g": "der Chat, -s",
+    "t": "el chat, -s"
+  },
+  {
+    "g": "der Chef, -s / die Chefin, -nen",
+    "t": "el jefe, -s / el jefe, -nen"
+  },
+  {
+    "g": "der Clown, -s",
+    "t": "los payasos"
+  },
+  {
+    "g": "die Computerfachfrau, -en / der Computerfachmann, ¨-er",
+    "t": "la experta / el experto en informática"
+  },
+  {
+    "g": "die Computer-Präsentation, -en",
+    "t": "la presentación de la computadora, -en"
+  },
+  {
+    "g": "der Copyshop, -s da sein",
+    "t": "la copistería está ahí"
+  },
+  {
+    "g": "dabei",
+    "t": "con eso"
+  },
+  {
+    "g": "die Damenmode (Sg.) der Damenschuh, -e danach",
+    "t": "la moda femenina (Sg.) el zapato femenino, -e después"
+  },
+  {
+    "g": "das Dankeschön (Sg.) das heißt (d.h.) der Dativ (Sg.)",
+    "t": "el agradecimiento (sg.) que significa (es decir) el dativo (sg.)"
+  },
+  {
+    "g": "das Datum (Sg.) dauern",
+    "t": "la fecha (sg.) última"
+  },
+  {
+    "g": "der Deckel, -",
+    "t": "la tapa, -"
+  },
+  {
+    "g": "decken (den Tisch decken)",
+    "t": "poner la mesa"
+  },
+  {
+    "g": "das Demonstrativpronomen, -",
+    "t": "el pronombre demostrativo,"
+  },
+  {
+    "g": "denken (daran denken)",
+    "t": "pensar en"
+  },
+  {
+    "g": "der Dezember (Sg.) dick",
+    "t": "Diciembre (Sg.) De espesor"
+  },
+  {
+    "g": "dienstags",
+    "t": "Martes"
+  },
+  {
+    "g": "die Dienstleistung, -en",
+    "t": "Servicios"
+  },
+  {
+    "g": "dies-",
+    "t": "esta-"
+  },
+  {
+    "g": "das Diplom, -e",
+    "t": "el diploma, -e"
+  },
+  {
+    "g": "direkt",
+    "t": "directamente"
+  },
+  {
+    "g": "der Doktor, -en",
+    "t": "el doctor, -en"
+  },
+  {
+    "g": "das Dokument, -e",
+    "t": "el"
+  },
+  {
+    "g": "der Dolmetscher, - /",
+    "t": "el"
+  },
+  {
+    "g": "die Dolmetscherin, -nen",
+    "t": "los"
+  },
+  {
+    "g": "donnerstags",
+    "t": "jueves"
+  },
+  {
+    "g": "das Dorf, ¨-er",
+    "t": "el pueblo, ¨-er"
+  },
+  {
+    "g": "draußen",
+    "t": "fuera de"
+  },
+  {
+    "g": "dreimal",
+    "t": "3 veces"
+  },
+  {
+    "g": "dringend",
+    "t": "urgente"
+  },
+  {
+    "g": "der Drink, -s",
+    "t": "las bebidas"
+  },
+  {
+    "g": "dritt-",
+    "t": "tercero-"
+  },
+  {
+    "g": "die Drogerie, -n",
+    "t": "la farmacia, -n"
+  },
+  {
+    "g": "drüben",
+    "t": "Por ahí"
+  },
+  {
+    "g": "drücken",
+    "t": "para presionar"
+  },
+  {
+    "g": "der Drucker, -",
+    "t": "la impresora, -"
+  },
+  {
+    "g": "dünn",
+    "t": "Delgado"
+  },
+  {
+    "g": "die Durchsage, -n dürfen",
+    "t": "el anuncio, -n mayo"
+  },
+  {
+    "g": "duschen (sich)",
+    "t": "ducharse)"
+  },
+  {
+    "g": "der DVD-Abend, -e die Ecke, -n",
+    "t": "la noche del DVD, -e la esquina, -n"
+  },
+  {
+    "g": "eigen-",
+    "t": "propio"
+  },
+  {
+    "g": "eigentlich",
+    "t": "Realmente"
+  },
+  {
+    "g": "einfach (Fahrt)",
+    "t": "viaje facil)"
+  },
+  {
+    "g": "der Eingang, ¨-e",
+    "t": "el recibo, ¨ -e"
+  },
+  {
+    "g": "das Einkommen, -",
+    "t": "los ingresos, -"
+  },
+  {
+    "g": "der Einkommensnachweis, -e",
+    "t": "el"
+  },
+  {
+    "g": "ein·laden",
+    "t": "invitación"
+  },
+  {
+    "g": "die Einladung, -en",
+    "t": "la invitación, -en"
+  },
+  {
+    "g": "die Einreise (Sg.)",
+    "t": "la"
+  },
+  {
+    "g": "das Einreisedokument, -e",
+    "t": "el"
+  },
+  {
+    "g": "die Einreiseerlaubnis (Sg.)",
+    "t": "el permiso de entrada (Sg.)"
+  },
+  {
+    "g": "die Einrichtung, -en ein·schalten",
+    "t": "encender la instalación"
+  },
+  {
+    "g": "ein·steigen",
+    "t": "entrar"
+  },
+  {
+    "g": "eiskalt",
+    "t": "congelación"
+  },
+  {
+    "g": "das Elfchengedicht, -e   der Empfänger, - empfehlen",
+    "t": "el poema elfo, -e   el destinatario, - recomendar"
+  },
+  {
+    "g": "das Ende, -n",
+    "t": "el final, -n"
+  },
+  {
+    "g": "entspannen",
+    "t": "relajarse"
+  },
+  {
+    "g": "das Erdgeschoss, -e die Erfahrung, -en der Erfolg, -e",
+    "t": "la planta baja, -e   la experiencia, -e el éxito, -e"
+  },
+  {
+    "g": "das Ergebnis, -se die Erkältung, -en erklären",
+    "t": "el resultado, -se el frio, -en explica"
+  },
+  {
+    "g": "die Erklärung, -en erlauben",
+    "t": "la explicación -en permitir"
+  },
+  {
+    "g": "die Erlaubnis (Sg.) erledigen",
+    "t": "haz el permiso (Sg.)"
+  },
+  {
+    "g": "erreichbar",
+    "t": "accesible"
+  },
+  {
+    "g": "erreichen",
+    "t": "alcanzar"
+  },
+  {
+    "g": "das Ersatzteil, -e erst-",
+    "t": "la pieza de repuesto, -e primero-"
+  },
+  {
+    "g": "die/der Erwachsene, -n",
+    "t": "el / el adulto, -n"
+  },
+  {
+    "g": "erziehen",
+    "t": "levantamiento"
+  },
+  {
+    "g": "der Erzieher, - / die",
+    "t": "el educador, - / el"
+  },
+  {
+    "g": "Erzieherin, -nen eu(e)r-",
+    "t": "Educador, -nen eu (e) r-"
+  },
+  {
+    "g": "europäisch",
+    "t": "europeo"
+  },
+  {
+    "g": "die Europäische Union (EU) (Sg.)",
+    "t": "la Unión Europea (UE) (Sg.)"
+  },
+  {
+    "g": "das Fach, ¨-er",
+    "t": "el admirador"
+  },
+  {
+    "g": "der Fahrer, - / die Fahrerin, -nen",
+    "t": "el conductor - / el conductor, -nen"
+  },
+  {
+    "g": "der Fahrgast, ¨-e",
+    "t": "el pasajero, -e"
+  },
+  {
+    "g": "die Fahrkarte, -n",
+    "t": "el billete, -en"
+  },
+  {
+    "g": "der Fahrkartenautomat, -en",
+    "t": "la"
+  },
+  {
+    "g": "der Fahrplan, ¨-e die Fahrt, -en",
+    "t": "el horario, ¨ -e el viaje, -en"
+  },
+  {
+    "g": "farbig",
+    "t": "de colores"
+  },
+  {
+    "g": "fast",
+    "t": "casi"
+  },
+  {
+    "g": "das Fastenende (Sg.)",
+    "t": "el"
+  },
+  {
+    "g": "der Fastenmonat, -e",
+    "t": "el"
+  },
+  {
+    "g": "der Februar (Sg.)",
+    "t": "la celebración, -n"
+  },
+  {
+    "g": "die Feier, -n",
+    "t": "la celebración, la fiesta"
+  },
+  {
+    "g": "feiern",
+    "t": "celebrar"
+  },
+  {
+    "g": "das Fenster, -",
+    "t": "la ventana, -"
+  },
+  {
+    "g": "das Fernsehen (Sg.) das Fest, -e",
+    "t": "la televisión (Sg.) el festival, -e"
+  },
+  {
+    "g": "der Festtag, -e",
+    "t": "el día de la fiesta, -e"
+  },
+  {
+    "g": "das Feuer, -",
+    "t": "el fuego, -"
+  },
+  {
+    "g": "das Feuerwerk, -e",
+    "t": "los"
+  },
+  {
+    "g": "das Feuerzeug, -e",
+    "t": "el encendedor, -e"
+  },
+  {
+    "g": "das Fieber (Sg.)",
+    "t": "la"
+  },
+  {
+    "g": "das Filmmuseum, -museen",
+    "t": "el"
+  },
+  {
+    "g": "der Finger, -",
+    "t": "el dedo, -"
+  },
+  {
+    "g": "der Flug, ¨-e",
+    "t": "el vuelo, ¨-e"
+  },
+  {
+    "g": "das Flugzeug, -e formulieren",
+    "t": "el avión, -e formulamos"
+  },
+  {
+    "g": "fotogen",
+    "t": "fotogénico"
+  },
+  {
+    "g": "der Frageartikel, -",
+    "t": "el"
+  },
+  {
+    "g": "der Frauenarzt, ¨-e /",
+    "t": "el ginecólogo, ¨-e /"
+  },
+  {
+    "g": "die Frauenärztin, -nen",
+    "t": "el ginecólogo, -en"
+  },
+  {
+    "g": "die Frauenheilkunde (Sg.)",
+    "t": "el"
+  },
+  {
+    "g": "freitags",
+    "t": "viernes"
+  },
+  {
+    "g": "fremd",
+    "t": "extraño"
+  },
+  {
+    "g": "die Fremdsprachen",
+    "t": "las lenguas extranjeras"
+  },
+  {
+    "g": "sekretärin, -nen die Freude, -n",
+    "t": "secretaria, -nen la alegría, -n"
+  },
+  {
+    "g": "der Friseur, -e / die",
+    "t": "el peluquero, -e / el"
+  },
+  {
+    "g": "Friseurin, -nen",
+    "t": "Peluquero"
+  },
+  {
+    "g": "frisieren",
+    "t": "peine"
+  },
+  {
+    "g": "die Frisur, -en",
+    "t": "el peinado, -en"
+  },
+  {
+    "g": "fröhlich",
+    "t": "Feliz"
+  },
+  {
+    "g": "der Führerschein, -e die Führerscheinstelle, -n",
+    "t": "la licencia de conducir, -e la oficina de licencias de conducir, -n"
+  },
+  {
+    "g": "funktionieren",
+    "t": "función"
+  },
+  {
+    "g": "für (temporal)",
+    "t": "para (temporal)"
+  },
+  {
+    "g": "der Fuß, ¨-e",
+    "t": "el pie"
+  },
+  {
+    "g": "der Fußballplatz, ¨-e",
+    "t": "el"
+  },
+  {
+    "g": "das Fußballspiel, -e",
+    "t": "el"
+  },
+  {
+    "g": "das Fußballstadion, -stadien",
+    "t": "el"
+  },
+  {
+    "g": "die Fußgängerzone, -n",
+    "t": "la zona peatonal, -n"
+  },
+  {
+    "g": "ganz-",
+    "t": "todas-"
+  },
+  {
+    "g": "ganztags",
+    "t": "Tiempo completo"
+  },
+  {
+    "g": "die Garantie, -n die Gartenpflege (Sg.) der Gast, ¨-e",
+    "t": "la garantía, -en el mantenimiento del jardín (Sg.) el huésped, ¨-e"
+  },
+  {
+    "g": "die Gebrauchsanweisung, -en",
+    "t": "las instrucciones de uso, -en"
+  },
+  {
+    "g": "die Gebühr, -en das Geburtsdatum, -daten",
+    "t": "la tarifa, -en la fecha de nacimiento, -fechas"
+  },
+  {
+    "g": "die Geburtshilfe (Sg.)",
+    "t": "la"
+  },
+  {
+    "g": "der Geburtsname, -n",
+    "t": "el"
+  },
+  {
+    "g": "der Geburtstag, -e",
+    "t": "el cumpleaños, -e"
+  },
+  {
+    "g": "die Geburtstagsparty, -s",
+    "t": "la"
+  },
+  {
+    "g": "die Geburtstagsschlange, -n",
+    "t": "la serpiente de cumpleaños, -n"
+  },
+  {
+    "g": "der Geburtstagswunsch, ¨-e",
+    "t": "el deseo de cumpleaños, ¨-e"
+  },
+  {
+    "g": "das Gedicht, -e",
+    "t": "el poema, -e"
+  },
+  {
+    "g": "geehrt",
+    "t": "honrado"
+  },
+  {
+    "g": "gegeneinander",
+    "t": "unos contra otros"
+  },
+  {
+    "g": "der Gegenstand, ¨-e gehen (darum geht es)",
+    "t": "el sujeto ¨-e go (de eso se trata)"
+  },
+  {
+    "g": "gehören",
+    "t": "pertenecer a"
+  },
+  {
+    "g": "die Geige, -n",
+    "t": "el violín, -n"
+  },
+  {
+    "g": "der Geist, -er",
+    "t": "el espíritu, -él"
+  },
+  {
+    "g": "das Geld (Sg.)",
+    "t": "el dinero (Sg.)"
+  },
+  {
+    "g": "gemeinsam",
+    "t": "juntos"
+  },
+  {
+    "g": "genug",
+    "t": "suficiente"
+  },
+  {
+    "g": "das Gepäck (Sg.) gerade",
+    "t": "el equipaje (Sg.) recto"
+  },
+  {
+    "g": "geradeaus",
+    "t": "Derecho"
+  },
+  {
+    "g": "die Geschäftsidee, -n",
+    "t": "la"
+  },
+  {
+    "g": "der Geschäftspartner, - /",
+    "t": "el"
+  },
+  {
+    "g": "die Geschäftspartnerin, -nen",
+    "t": "el"
+  },
+  {
+    "g": "das Geschenk, -e",
+    "t": "el regalo, -e"
+  },
+  {
+    "g": "das Geschirr (Sg.)",
+    "t": "los"
+  },
+  {
+    "g": "das Geschlecht, -er",
+    "t": "el sexo, -"
+  },
+  {
+    "g": "die Gesundheit (Sg.) der Gesundheitstipp, -s",
+    "t": "la salud (Sg.) la sugerencia de salud, -s"
+  },
+  {
+    "g": "getrennt (leben) gewinnen",
+    "t": "ganar por separado (en vivo)"
+  },
+  {
+    "g": "das Gleis, -e",
+    "t": "la pista, -e"
+  },
+  {
+    "g": "gliedern",
+    "t": "estructura"
+  },
+  {
+    "g": "das Glück (zum Glück) (Sg.)",
+    "t": "suerte (afortunadamente) (sg.)"
+  },
+  {
+    "g": "der Glückwunsch, ¨-e gratulieren",
+    "t": "felicitaciones, ¨-e felicito"
+  },
+  {
+    "g": "die Wandzeitung, -en warm·halten",
+    "t": "mantener caliente el periódico de la pared"
+  },
+  {
+    "g": "der Wartebereich, -e warten",
+    "t": "la sala de espera, -e espera"
+  },
+  {
+    "g": "der Wasserbehälter, - das Wechselgeld (Sg.) der Weg, -e",
+    "t": "el recipiente de agua, - el cambio (Sg.) el camino, -e"
+  },
+  {
+    "g": "weg",
+    "t": "camino"
+  },
+  {
+    "g": "die Wegbeschreibung, -en",
+    "t": "las direcciones, -en"
+  },
+  {
+    "g": "weh·tun",
+    "t": "herir"
+  },
+  {
+    "g": "weiblich",
+    "t": "Hembra"
+  },
+  {
+    "g": "das Weihnachten (Sg.) der Weihnachtsbaum, ¨-e",
+    "t": "la Navidad (Sg.) el árbol de Navidad, ¨-e"
+  },
+  {
+    "g": "die Weihnachtsfeier, -n",
+    "t": "la fiesta de Navidad, -n"
+  },
+  {
+    "g": "der Weihnachtsmann, ¨-er",
+    "t": "Santa Claus, ¨-er"
+  },
+  {
+    "g": "weit",
+    "t": "lejos"
+  },
+  {
+    "g": "weiter·machen welch-",
+    "t": "Continua"
+  },
+  {
+    "g": "die Wellness (Sg.) der Weltrekord, -e werden",
+    "t": "el bienestar (Sg.) el récord mundial,-se convierte"
+  },
+  {
+    "g": "wiederholen",
+    "t": "repetir"
+  },
+  {
+    "g": "der Winterdienst (Sg.)   die Wirtschaft (als",
+    "t": "el servicio de invierno (Sg.)  la economía"
+  },
+  {
+    "g": "betrag",
+    "t": "Monto"
+  },
+  {
+    "g": "verwendungszweck",
+    "t": "uso"
+  },
+  {
+    "g": "Kontoinhaber",
+    "t": "propietario de la cuenta"
+  },
+  {
+    "g": "Bankleitzahl",
+    "t": "código bancario"
+  },
+  {
+    "g": "Kreditinstitut",
+    "t": "nombre del banco"
+  },
+  {
+    "g": "das Grillfest, -e",
+    "t": "la barbacoa, -e"
+  },
+  {
+    "g": "die Größe, -n",
+    "t": "el tamaño, -n"
+  },
+  {
+    "g": "die Großmarkthalle, -n",
+    "t": "el mercado mayorista, -n"
+  },
+  {
+    "g": "die Großmutter, ¨- / der Großvater, ¨-",
+    "t": "la abuela, ¨- / el abuelo, ¨-"
+  },
+  {
+    "g": "der Grund, ¨-e",
+    "t": "la razón ¨-e"
+  },
+  {
+    "g": "der Gruß, ¨-e",
+    "t": "el saludo, ¨-e"
+  },
+  {
+    "g": "das Guinness-Buch der Rekorde (Sg.)",
+    "t": "el Libro Guinness de los Récords (Sg.)"
+  },
+  {
+    "g": "gültig",
+    "t": "válido"
+  },
+  {
+    "g": "günstig",
+    "t": "Barato"
+  },
+  {
+    "g": "der Gürtel, -",
+    "t": "el cinturón, -"
+  },
+  {
+    "g": "die Gynäkologie (Sg.) das Haar, -e",
+    "t": "la ginecología (Sg.) el cabello, -e"
+  },
+  {
+    "g": "die Haarfarbe (Sg.) der Hafen, ¨-",
+    "t": "el color de pelo (Sg.) el puerto, ¨-"
+  },
+  {
+    "g": "halbtags",
+    "t": "medio día"
+  },
+  {
+    "g": "der Hals, ¨-e",
+    "t": "el cuello, ¨-e"
+  },
+  {
+    "g": "Halsschmerzen (Pl.) Halt!",
+    "t": "Dolor de garganta (pl.) ¡Alto!"
+  },
+  {
+    "g": "die Haltestelle, -n die Hand, ¨-e",
+    "t": "la parada, -en la mano, ¨-e"
+  },
+  {
+    "g": "der Hauptbahnhof, ¨-e",
+    "t": "la estación principal, ¨-e"
+  },
+  {
+    "g": "der Hausarzt, ¨-e /",
+    "t": "el"
+  },
+  {
+    "g": "die Hausärztin, -nen",
+    "t": "la"
+  },
+  {
+    "g": "die Hausaufgabenbetreuung (Sg.)",
+    "t": "las"
+  },
+  {
+    "g": "die Hausfrau, -en / der Hausmann, ¨-er",
+    "t": "el ama de casa, -en / el ama de casa, ¨-er"
+  },
+  {
+    "g": "der Hausmeister, - /",
+    "t": "el cuidador, - /"
+  },
+  {
+    "g": "die Hausmeisterin, -nen",
+    "t": "el cuidador, -nen"
+  },
+  {
+    "g": "die Hausreinigung (Sg.)",
+    "t": "la"
+  },
+  {
+    "g": "der Hausschuh, -e der Heimweg, -e heiraten",
+    "t": "la zapatilla, -e el camino a casa, -me casa"
+  },
+  {
+    "g": "die Heizung, -en das Hemd, -en",
+    "t": "el calentador, -en la camisa, -en"
+  },
+  {
+    "g": "die Herrenmode (Sg.) der Herrenschuh, -e",
+    "t": "la moda masculina (Sg.) el calzado masculino, -e"
+  },
+  {
+    "g": "herunter·laden",
+    "t": "descargar · descargar"
+  },
+  {
+    "g": "die Herzerkrankung, -en",
+    "t": "la enfermedad del corazón, -en"
+  },
+  {
+    "g": "herzlich",
+    "t": "cordial"
+  },
+  {
+    "g": "Herzliche Grüße Herzlichen Glückwunsch!",
+    "t": "Saludos cordiales, ¡Felicitaciones!"
+  },
+  {
+    "g": "die Hilfe, -n",
+    "t": "la ayuda, -n"
+  },
+  {
+    "g": "hin und zurück",
+    "t": "viaje ida y vuelta"
+  },
+  {
+    "g": "hin·gehen",
+    "t": "ve allí"
+  },
+  {
+    "g": "hinten",
+    "t": "espalda"
+  },
+  {
+    "g": "hinterlassen",
+    "t": "salir"
+  },
+  {
+    "g": "die Hochzeit, -en hoffentlich",
+    "t": "la boda, con suerte"
+  },
+  {
+    "g": "holen",
+    "t": "ir a buscar"
+  },
+  {
+    "g": "die Homepage, -s der Hort, -e",
+    "t": "la página de inicio, -s the hoard, -e"
+  },
+  {
+    "g": "die Hose, -n",
+    "t": "los pantalones"
+  },
+  {
+    "g": "das Hotel, -s",
+    "t": "los hoteles"
+  },
+  {
+    "g": "der Hula-Hoop-Reifen, -",
+    "t": "el hula hoop,"
+  },
+  {
+    "g": "der Husten (Sg.)",
+    "t": "la"
+  },
+  {
+    "g": "der Hypochonder, -",
+    "t": "el hipocondríaco, -"
+  },
+  {
+    "g": "der ICE (Intercity Express), -s",
+    "t": "el ICE (Intercity Express), -s"
+  },
+  {
+    "g": "die Idee, -n",
+    "t": "las ideas"
+  },
+  {
+    "g": "die Immobilie, -n",
+    "t": "el inmueble, -en"
+  },
+  {
+    "g": "der Imperativ (Sg.)",
+    "t": "el"
+  },
+  {
+    "g": "das Infotelefon, -e",
+    "t": "el"
+  },
+  {
+    "g": "der Inhalt, -e",
+    "t": "el contenido, -e"
+  },
+  {
+    "g": "innen",
+    "t": "Dentro"
+  },
+  {
+    "g": "die innere Medizin (Sg.)",
+    "t": "medicina interna (Sg.)"
+  },
+  {
+    "g": "der Intensivsprachkurs, -e",
+    "t": "el curso intensivo de idiomas, -e"
+  },
+  {
+    "g": "die Internetseite, -n",
+    "t": "el"
+  },
+  {
+    "g": "der Internist, -en /",
+    "t": "el internista, -en /"
+  },
+  {
+    "g": "die Internistin, -nen",
+    "t": "el internista, -n"
+  },
+  {
+    "g": "die Jacke, -n",
+    "t": "la chaqueta, -n"
+  },
+  {
+    "g": "das Jahresende, -n",
+    "t": "el"
+  },
+  {
+    "g": "der Jahrestag, -e",
+    "t": "el aniversario, -e"
+  },
+  {
+    "g": "die Jahreszeit, -en",
+    "t": "la temporada, -e"
+  },
+  {
+    "g": "die Jeans, - (Sg. oder Pl.)",
+    "t": "los jeans, - (Sg. o Pl.)"
+  },
+  {
+    "g": "jeweils",
+    "t": "cada"
+  },
+  {
+    "g": "der Job, -s",
+    "t": "los trabajos"
+  },
+  {
+    "g": "der Johannistag (Sg.)",
+    "t": "el"
+  },
+  {
+    "g": "der Journalist, -en /",
+    "t": "el periodista, -en /"
+  },
+  {
+    "g": "die Journalistin, -nen",
+    "t": "el periodista, -nen"
+  },
+  {
+    "g": "die/der Jugendliche, -n",
+    "t": "la persona joven, -n"
+  },
+  {
+    "g": "der Juli (Sg.)",
+    "t": "Julio (Sg.)"
+  },
+  {
+    "g": "der Juni (Sg.)",
+    "t": "Junio ​​(Sg.)"
+  },
+  {
+    "g": "die Kaffeemaschine, -n",
+    "t": "la máquina de café, -n"
+  },
+  {
+    "g": "kanadisch",
+    "t": "canadiense"
+  },
+  {
+    "g": "kaputt",
+    "t": "roto"
+  },
+  {
+    "g": "die Kardiologie (Sg.)",
+    "t": "la"
+  },
+  {
+    "g": "der Karneval (Sg.)",
+    "t": "el"
+  },
+  {
+    "g": "der Karnevalstag, -e",
+    "t": "el"
+  },
+  {
+    "g": "der Kartenverkäufer, - /",
+    "t": "el"
+  },
+  {
+    "g": "Kartenverkäuferin, -nen",
+    "t": "Vendedor de boletos"
+  },
+  {
+    "g": "die Kasse, -n",
+    "t": "la caja registradora, -n"
+  },
+  {
+    "g": "die Katze, -n",
+    "t": "los gatos"
+  },
+  {
+    "g": "das Kaufhaus, ¨-er der Kellner, - / die Kellnerin, -nen",
+    "t": "los grandes almacenes, ¨ -el camarero, - / la camarera, -nen"
+  },
+  {
+    "g": "kennen·lernen (sich) die Kinderbetreuung (Sg.)",
+    "t": "conócete (a ti mismo) puericultura (sg.)"
+  },
+  {
+    "g": "die Kindererziehung (Sg.)",
+    "t": "criar hijos (Sg.)"
+  },
+  {
+    "g": "der Kinderflohmarkt, ¨-e",
+    "t": "el mercadillo infantil, ¨-e"
+  },
+  {
+    "g": "das Kindergartenfest, -e",
+    "t": "la fiesta del jardín de infancia, -e"
+  },
+  {
+    "g": "das Kindergarten-Team, -s",
+    "t": "el equipo de jardín de infantes, -s"
+  },
+  {
+    "g": "die Kinderkrippe, -n",
+    "t": "la guardería, -a"
+  },
+  {
+    "g": "die Kindermode (Sg.)",
+    "t": "la"
+  },
+  {
+    "g": "das Kinderschminken (Sg.)",
+    "t": "el"
+  },
+  {
+    "g": "der Kinderschuh, -e die Kindertagesstätte, -n",
+    "t": "el zapato de los niños, -e la guardería, -n"
+  },
+  {
+    "g": "der Kiosk, -e",
+    "t": "el quiosco, -e"
+  },
+  {
+    "g": "das Kleid, -er",
+    "t": "el vestido, -el"
+  },
+  {
+    "g": "Kleider (Pl.)",
+    "t": "Vestidos (pl.)"
+  },
+  {
+    "g": "das Kleidungsstück, -e",
+    "t": "la"
+  },
+  {
+    "g": "das Kleinkind, -er",
+    "t": "el"
+  },
+  {
+    "g": "der Koch, ¨-e /",
+    "t": "el cocinero, ¨-e /"
+  },
+  {
+    "g": "die Köchin, -nen",
+    "t": "el cocinero, -nen"
+  },
+  {
+    "g": "der Koffer, -",
+    "t": "la maleta, -"
+  },
+  {
+    "g": "der Kollege, -n / die",
+    "t": "el colega, -n / el"
+  },
+  {
+    "g": "Kollegin, -nen",
+    "t": "Colegas femeninas"
+  },
+  {
+    "g": "die Komparation (Sg.)",
+    "t": "la"
+  },
+  {
+    "g": "das Kompliment, -e",
+    "t": "el cumplido, -e"
+  },
+  {
+    "g": "der Konferenzraum, ¨-e",
+    "t": "la"
+  },
+  {
+    "g": "die Konjunktion, -en",
+    "t": "la conjunción, -en"
+  },
+  {
+    "g": "der Konjunktiv II (Sg.) das Konzert, -e",
+    "t": "el subjuntivo II (Sg.) el concierto, -e"
+  },
+  {
+    "g": "der Kopf, ¨-e",
+    "t": "la cabeza, ¨-e"
+  },
+  {
+    "g": "Kopfschmerzen (Pl.) kopieren",
+    "t": "Copiar dolor de cabeza (pl.)"
+  },
+  {
+    "g": "der Körperteil, -e",
+    "t": "la"
+  },
+  {
+    "g": "die Kosmetik (Sg.)",
+    "t": "los"
+  },
+  {
+    "g": "das Krankenhaus, ¨-er",
+    "t": "el hospital, ¨-él"
+  },
+  {
+    "g": "der Krankenhausclown, -",
+    "t": "el"
+  },
+  {
+    "g": "der Krankenpfleger, - /",
+    "t": "la enfermera, - /"
+  },
+  {
+    "g": "die Krankenschwester, -n",
+    "t": "la enfermera, -n"
+  },
+  {
+    "g": "die Krankenversicherung, -en",
+    "t": "el"
+  },
+  {
+    "g": "die Krankheit, -en die Krankmeldung, -en",
+    "t": "la enfermedad, -en la nota de enfermedad, -en"
+  },
+  {
+    "g": "die Kreislauferkrankung, -en",
+    "t": "la enfermedad circulatoria, -en"
+  },
+  {
+    "g": "das Kreisverwaltungsreferat (KVR), -e",
+    "t": "el departamento de administración del distrito (KVR), -e"
+  },
+  {
+    "g": "die Krise, -n",
+    "t": "Crisis"
+  },
+  {
+    "g": "das Kuchenbüfett, -s kühlen",
+    "t": "el buffet de pasteles, es genial"
+  },
+  {
+    "g": "der Kümmelkäse (Sg.)",
+    "t": "el"
+  },
+  {
+    "g": "der Kundenservice, -s",
+    "t": "el"
+  },
+  {
+    "g": "der Kundentermin, -e",
+    "t": "la"
+  },
+  {
+    "g": "das Kursalbum, -alben",
+    "t": "el"
+  },
+  {
+    "g": "die Kursgebühr, -en",
+    "t": "la"
+  },
+  {
+    "g": "der Kurskollege, -n /",
+    "t": "el"
+  },
+  {
+    "g": "die Kurskollegin, -nen",
+    "t": "el"
+  },
+  {
+    "g": "der Kursleiter, - /",
+    "t": "el"
+  },
+  {
+    "g": "Kursleiterin, -nen",
+    "t": "Líder"
+  },
+  {
+    "g": "der Kursraum, ¨-e",
+    "t": "la"
+  },
+  {
+    "g": "der Kursteilnehmer, - /",
+    "t": "los"
+  },
+  {
+    "g": "Kursteilnehmerin, -nen",
+    "t": "Participante del curso"
+  },
+  {
+    "g": "der Kuss, ¨-e",
+    "t": "el beso, ¨-e"
+  },
+  {
+    "g": "lachen",
+    "t": "risa"
+  },
+  {
+    "g": "das Lager, -",
+    "t": "El almacén, -"
+  },
+  {
+    "g": "die Landschaft, -en langsam",
+    "t": "el paisaje, -en lentamente"
+  },
+  {
+    "g": "der Laptop, -s",
+    "t": "la computadora portátil, -s"
+  },
+  {
+    "g": "die Laune, -n",
+    "t": "el estado de ánimo, -n"
+  },
+  {
+    "g": "der Lebensmitteldiscounter, -",
+    "t": "la tienda de descuento de comestibles,"
+  },
+  {
+    "g": "lecker",
+    "t": "delicioso"
+  },
+  {
+    "g": "leicht (einfach)",
+    "t": "fácil fácil)"
+  },
+  {
+    "g": "leihen (aus·leihen) leise",
+    "t": "pedir prestado (pedir prestado · prestado) tranquilamente"
+  },
+  {
+    "g": "der Leiter, - / die Leiterin, -nen",
+    "t": "el líder - / el líder"
+  },
+  {
+    "g": "(das) Lettland (Sg.) letzt-",
+    "t": "(el) Letonia (Sg.) último-"
+  },
+  {
+    "g": "das Licht, -er",
+    "t": "la luz, -él"
+  },
+  {
+    "g": "lieb haben",
+    "t": "amor"
+  },
+  {
+    "g": "die Liebe (Sg.)",
+    "t": "amor (Sg.)"
+  },
+  {
+    "g": "das Lieblingsgeschäft, ¨-e",
+    "t": "la tienda favorita, ¨-e"
+  },
+  {
+    "g": "der Lieblingsladen, ¨- links",
+    "t": "la tienda favorita, ¨- izquierda"
+  },
+  {
+    "g": "der Lkw, -s",
+    "t": "el camión, -s"
+  },
+  {
+    "g": "der Lkw-Fahrer, - / die Lkw Fahrerin, -nen",
+    "t": "el camionero"
+  },
+  {
+    "g": "die lokale Präposition, -en",
+    "t": "la preposición local, -en"
+  },
+  {
+    "g": "der Luftballon, -s lustig",
+    "t": "el globo, es gracioso"
+  },
+  {
+    "g": "der Mai (Sg.)",
+    "t": "Mayo (Sg.)"
+  },
+  {
+    "g": "die Mailbox, -en die Mailboxansage, -n",
+    "t": "el buzón, -en el anuncio del buzón, -n"
+  },
+  {
+    "g": "die Männermode (Sg.)",
+    "t": "la moda masculina (Sg.)"
+  },
+  {
+    "g": "männlich",
+    "t": "masculino"
+  },
+  {
+    "g": "der Mantel, ¨-",
+    "t": "el abrigo-"
+  },
+  {
+    "g": "das Marketing (Sg.) die Marketing-Abteilung, -en",
+    "t": "el marketing (Sg.) el departamento de marketing, -en"
+  },
+  {
+    "g": "der März (Sg.)",
+    "t": "Marzo (Sg.)"
+  },
+  {
+    "g": "die Maschine, -n die Matheübung, -en die Maus, ¨-e",
+    "t": "la máquina, -en el ejercicio de matemáticas, -en el ratón, ¨-e"
+  },
+  {
+    "g": "der Maxi-Pizza-Tag, -e",
+    "t": "el"
+  },
+  {
+    "g": "der Mechatroniker, - /",
+    "t": "la"
+  },
+  {
+    "g": "die Mechatronikerin, -nen",
+    "t": "el"
+  },
+  {
+    "g": "das Medikament, -e die Medizin (Sg.) das Meer, -e",
+    "t": "la medicina, -e la medicina (Sg.) el mar, -e"
+  },
+  {
+    "g": "meist",
+    "t": "la mayoría del tiempo"
+  },
+  {
+    "g": "der Meisterbetrieb, -e",
+    "t": "la"
+  },
+  {
+    "g": "die Meldebehörde, -n",
+    "t": "la"
+  },
+  {
+    "g": "das Meldeformular, -e",
+    "t": "el"
+  },
+  {
+    "g": "melden (sich)",
+    "t": "reporte"
+  },
+  {
+    "g": "der Mensch, -en die Metzgerei, -en mieten",
+    "t": "el hombre, alquilamos la carnicería"
+  },
+  {
+    "g": "der Migrant, -en / die Migrantin, -nen",
+    "t": "el migrante"
+  },
+  {
+    "g": "die Migrantenfamilie, -n",
+    "t": "la familia migrante, -n"
+  },
+  {
+    "g": "die Mindmap, -s der Minuspunkt, -e die Minute, -n",
+    "t": "el mapa mental, -s el punto menos, -e el minuto, -n"
+  },
+  {
+    "g": "mischen",
+    "t": "Mezcla"
+  },
+  {
+    "g": "die Mitarbeit (Sg.)",
+    "t": "Traiga"
+  },
+  {
+    "g": "der Mitarbeiter, - /",
+    "t": "la"
+  },
+  {
+    "g": "die Mitarbeiterin, -nen",
+    "t": "los"
+  },
+  {
+    "g": "mit·bringen",
+    "t": "empleados"
+  },
+  {
+    "g": "mit·machen",
+    "t": "participar"
+  },
+  {
+    "g": "mit·nehmen",
+    "t": "tomar"
+  },
+  {
+    "g": "mit·singen",
+    "t": "Cantar junto"
+  },
+  {
+    "g": "das Mittagessen (Sg.) das Mittagsangebot, -e",
+    "t": "el almuerzo (Sg.) la oferta de almuerzo, -e"
+  },
+  {
+    "g": "die Mittagsbetreuung (Sg.)",
+    "t": "cuidado del almuerzo (Sg.)"
+  },
+  {
+    "g": "das Mittsommerfest, -e",
+    "t": "el festival de verano, -e"
+  },
+  {
+    "g": "der Mittsommertag, -e",
+    "t": "el día de verano, -e"
+  },
+  {
+    "g": "mittwochs",
+    "t": "Miércoles"
+  },
+  {
+    "g": "mixen",
+    "t": "mezcla"
+  },
+  {
+    "g": "mobil",
+    "t": "móvil"
+  },
+  {
+    "g": "die modale Präposition, -en",
+    "t": "la preposición modal, -en"
+  },
+  {
+    "g": "die Mode, -n",
+    "t": "la moda, -n"
+  },
+  {
+    "g": "das Model, -s",
+    "t": "los modelos"
+  },
+  {
+    "g": "das Modell, -e",
+    "t": "el modelo, -e"
+  },
+  {
+    "g": "das Monster, -",
+    "t": "el monstruo, -"
+  },
+  {
+    "g": "das Monsterspiel, -e montags",
+    "t": "el juego de los monstruos, -e los lunes"
+  },
+  {
+    "g": "das Motorrad, ¨-er der Mund, ¨-er das Museum, Museen",
+    "t": "la moto, ¨-él la boca, ¨-el museo, los museos"
+  },
+  {
+    "g": "der Musiker, - / die",
+    "t": "el músico, - / el"
+  },
+  {
+    "g": "Musikerin, -nen der Muslim, -e / die",
+    "t": "Músico, -nen el musulmán, -e / el"
+  },
+  {
+    "g": "Muslima, -s",
+    "t": "Mujer musulmana, -s"
+  },
+  {
+    "g": "na los!",
+    "t": "¡venga!"
+  },
+  {
+    "g": "na und?",
+    "t": "¿Y qué?"
+  },
+  {
+    "g": "die Nachfrage, -n die Nachhilfe (Sg.) nach·machen",
+    "t": "la demanda, -en la tutoría (Sg.) después de · hacer"
+  },
+  {
+    "g": "der Nachtisch, -e",
+    "t": "el postre, -e"
+  },
+  {
+    "g": "die Nachtschicht, -en",
+    "t": "el"
+  },
+  {
+    "g": "die Nähe (in",
+    "t": "el"
+  },
+  {
+    "g": "nähen",
+    "t": "coser"
+  },
+  {
+    "g": "nämlich",
+    "t": "a saber"
+  },
+  {
+    "g": "die Nase, -n",
+    "t": "las narices"
+  },
+  {
+    "g": "das Navi (Navigationsgerät), -s",
+    "t": "el Navi (dispositivo de navegación), -s"
+  },
+  {
+    "g": "der Netzplan, ¨-e",
+    "t": "el"
+  },
+  {
+    "g": "das Neujahr (Sg.)",
+    "t": "la red, ¨-e"
+  },
+  {
+    "g": "der Neujahrsbaum, ¨-e",
+    "t": "el"
+  },
+  {
+    "g": "der Nichtraucher, - / die Nichtraucherin, -nen",
+    "t": "el no fumador, -nen"
+  },
+  {
+    "g": "nichts",
+    "t": "Nada"
+  },
+  {
+    "g": "die Nordsee (Sg.) normal",
+    "t": "el Mar del Norte (Sg.) normal"
+  },
+  {
+    "g": "der Normalpreis, -e der Notarzt, ¨-e / die",
+    "t": "el precio normal, -e el médico de urgencias, ¨-e / el"
+  },
+  {
+    "g": "Notärztin, -nen",
+    "t": "Médico"
+  },
+  {
+    "g": "die Notaufnahme, -n",
+    "t": "la"
+  },
+  {
+    "g": "die Notdienst-Apotheke, -n",
+    "t": "la"
+  },
+  {
+    "g": "der Notdienst-Tag, -e der Notfall, ¨-e",
+    "t": "el día del servicio de emergencia, -e la emergencia, ¨-e"
+  },
+  {
+    "g": "die Notrufnummer, -n",
+    "t": "el"
+  },
+  {
+    "g": "der November (Sg.)",
+    "t": "el"
+  },
+  {
+    "g": "das Nudelgericht, -e",
+    "t": "el plato de pasta"
+  },
+  {
+    "g": "oben",
+    "t": "encima"
+  },
+  {
+    "g": "das Obergeschoss, -e das Ohr, -en",
+    "t": "el piso superior, -e la oreja, -en"
+  },
+  {
+    "g": "okay",
+    "t": "okay"
+  },
+  {
+    "g": "der Oktober (Sg.) der Omnibus, -se online",
+    "t": "Octubre (Sg.) El ómnibus, -se online"
+  },
+  {
+    "g": "der Optiker, -",
+    "t": "El óptico, -"
+  },
+  {
+    "g": "die Ordinalzahl, -en die Ordnung (in Ordnung) (Sg.)",
+    "t": "el número ordinal, -en el orden (en orden) (Sg.)"
+  },
+  {
+    "g": "organisieren",
+    "t": "organizar"
+  },
+  {
+    "g": "orientieren",
+    "t": "orientar"
+  },
+  {
+    "g": "die Orientierung (Sg.)",
+    "t": "la"
+  },
+  {
+    "g": "die Ortsangabe, -n",
+    "t": "la ubicación, -en"
+  },
+  {
+    "g": "das Osterei, -er",
+    "t": "el"
+  },
+  {
+    "g": "der Osterfladen, -",
+    "t": "el"
+  },
+  {
+    "g": "das Osterfrühstück, -e",
+    "t": "el"
+  },
+  {
+    "g": "der Osterhase, -n",
+    "t": "el"
+  },
+  {
+    "g": "das Ostern (Sg.)",
+    "t": "la Pascua (Sg.)"
+  },
+  {
+    "g": "der Osterschinken, -",
+    "t": "el"
+  },
+  {
+    "g": "das Osterschinken-Spiel (Sg.)",
+    "t": "el"
+  },
+  {
+    "g": "der Ostersonntag, -e paar (ein paar)",
+    "t": "Domingo de Pascua, -e pareja (una pareja)"
+  },
+  {
+    "g": "der Paketdienst, -e",
+    "t": "el servicio de paquetería, -e"
+  },
+  {
+    "g": "das Papier, -e",
+    "t": "el papel, -e"
+  },
+  {
+    "g": "Papiere (Dokumente) (Pl.)",
+    "t": "Papeles (documentos) (pl.)"
+  },
+  {
+    "g": "parken",
+    "t": "parque"
+  },
+  {
+    "g": "der Parkplatz, ¨-e der Pass, ¨-e",
+    "t": "el estacionamiento, ¨-e el pase, ¨-e"
+  },
+  {
+    "g": "passen (Kleidergröße) passend",
+    "t": "ajuste (talla del vestido) ajuste"
+  },
+  {
+    "g": "passieren",
+    "t": "ocurrir"
+  },
+  {
+    "g": "der Patient, -en / die",
+    "t": "el paciente, -en / el"
+  },
+  {
+    "g": "Patientin, -nen",
+    "t": "Paciente"
+  },
+  {
+    "g": "perfekt",
+    "t": "Perfecto"
+  },
+  {
+    "g": "persönlich",
+    "t": "personalmente"
+  },
+  {
+    "g": "pfeifen",
+    "t": "Tubería"
+  },
+  {
+    "g": "die Pflegefachkraft, ¨-e",
+    "t": "la enfermera, ¨-e"
+  },
+  {
+    "g": "der Pfleger, -",
+    "t": "el cuidador, -"
+  },
+  {
+    "g": "die Pharmazie (Studienfach) (Sg.)",
+    "t": "farmacia (tema) (Sg.)"
+  },
+  {
+    "g": "der Physiotherapeut, -en / die Physiotherapeutin, -nen",
+    "t": "el fisioterapeuta"
+  },
+  {
+    "g": "die Plastiktüte, -n der Platz, ¨-e",
+    "t": "la bolsa de plástico, -en el lugar, ¨-e"
+  },
+  {
+    "g": "plötzlich",
+    "t": "repentinamente"
+  },
+  {
+    "g": "Polizistin, -nen",
+    "t": "Mujer policía"
+  },
+  {
+    "g": "die Post (Sg.)",
+    "t": "la oficina de correos (Sg.)"
+  },
+  {
+    "g": "das Praktikum, Praktika",
+    "t": "la pasantía, pasantías"
+  },
+  {
+    "g": "der praktische Arzt, ¨-e",
+    "t": "el médico general, ¨-e"
+  },
+  {
+    "g": "das Präteritum (Sg.)",
+    "t": "el"
+  },
+  {
+    "g": "die Privatperson, -en",
+    "t": "la"
+  },
+  {
+    "g": "pro (pro Woche)",
+    "t": "persona privada, -en"
+  },
+  {
+    "g": "die Probestunde, -n",
+    "t": "la"
+  },
+  {
+    "g": "das Produkt, -e",
+    "t": "el producto, -e"
+  },
+  {
+    "g": "professionell",
+    "t": "profesional"
+  },
+  {
+    "g": "das Pronomen, - das Prozent, -e der Pullover, -",
+    "t": "el pronombre, - el porcentaje, -e el jersey,"
+  },
+  {
+    "g": "putzen",
+    "t": "limpiar"
+  },
+  {
+    "g": "das Rad, ¨-er",
+    "t": "la rueda, ¨-er"
+  },
+  {
+    "g": "der Ramadan (Sg.) der Rat (Sg.)",
+    "t": "Consejo de Ramadán (sg.) (Sg.)"
+  },
+  {
+    "g": "der Ratschlag, ¨-e rauchen",
+    "t": "el consejo ¨ -e fumo"
+  },
+  {
+    "g": "die Rechnung, -en rechts",
+    "t": "la cuenta, -en la derecha"
+  },
+  {
+    "g": "die Redewendung, -en",
+    "t": "el idioma, -en"
+  },
+  {
+    "g": "der Refrain, -s",
+    "t": "el estribillo, -s"
+  },
+  {
+    "g": "die Regel, -n",
+    "t": "las normas"
+  },
+  {
+    "g": "der Regenbogen,¨-",
+    "t": "el arcoíris, ¨-"
+  },
+  {
+    "g": "die Regenjacke, -n reichen:",
+    "t": "la"
+  },
+  {
+    "g": "es reicht!",
+    "t": "chaqueta"
+  },
+  {
+    "g": "der Reifen, -",
+    "t": "el maduro, -"
+  },
+  {
+    "g": "reinigen",
+    "t": "limpiar"
+  },
+  {
+    "g": "die Reinigung, -en die Reise, -n",
+    "t": "la limpieza, -en el viaje, -n"
+  },
+  {
+    "g": "der Reiseführer, - /",
+    "t": "la"
+  },
+  {
+    "g": "die Reiseführerin, -nen",
+    "t": "la"
+  },
+  {
+    "g": "versicherung, -en reisen",
+    "t": "seguro, -en viajes"
+  },
+  {
+    "g": "das Reiseziel, -e der Rekord, -e",
+    "t": "el destino del viaje, -e el registro, -e"
+  },
+  {
+    "g": "die Reparatur, -en der Reparaturservice, -s",
+    "t": "la reparación, -en el servicio de reparación, -s"
+  },
+  {
+    "g": "reparieren",
+    "t": "reparar"
+  },
+  {
+    "g": "reservieren",
+    "t": "Reservaciones"
+  },
+  {
+    "g": "das Restaurant, -s",
+    "t": "el restaurante, -s"
+  },
+  {
+    "g": "der Rettungsdienst, -e",
+    "t": "el"
+  },
+  {
+    "g": "die Rezeption, -en",
+    "t": "la recepción, -en"
+  },
+  {
+    "g": "die Richtung, -en",
+    "t": "la dirección, -en"
+  },
+  {
+    "g": "der Rock, ¨-e",
+    "t": "la roca, -e"
+  },
+  {
+    "g": "der Rücken, -",
+    "t": "la parte de atrás, -"
+  },
+  {
+    "g": "die Rückseite, -n rückwärts",
+    "t": "la espalda, -n al revés"
+  },
+  {
+    "g": "der Ruhetag, -e",
+    "t": "el día de descanso, -e"
+  },
+  {
+    "g": "die Sache, -n",
+    "t": "la cosa, -n"
+  },
+  {
+    "g": "die Salbe, -n",
+    "t": "el ungüento, -n"
+  },
+  {
+    "g": "samstags",
+    "t": "sábados"
+  },
+  {
+    "g": "sauber machen",
+    "t": "limpiar"
+  },
+  {
+    "g": "sauer (verärgert) die S-Bahn, -en",
+    "t": "enojado (molesto) el S-Bahn, -en"
+  },
+  {
+    "g": "schaffen",
+    "t": "crear"
+  },
+  {
+    "g": "der Schalter (am Bahnhof), -",
+    "t": "el mostrador (en la estación),"
+  },
+  {
+    "g": "der Schatz (Kosewort), ¨-e",
+    "t": "el tesoro (palabra entrañable), ¨-e"
+  },
+  {
+    "g": "schenken",
+    "t": "dar"
+  },
+  {
+    "g": "schicken",
+    "t": "enviar"
+  },
+  {
+    "g": "der Schirm (Regen-), -e",
+    "t": "el paraguas (lluvia), -e"
+  },
+  {
+    "g": "der Schlaf (Sg.)",
+    "t": "dormir (Sg.)"
+  },
+  {
+    "g": "schlagen",
+    "t": "golpear"
+  },
+  {
+    "g": "schlimm",
+    "t": "malo"
+  },
+  {
+    "g": "der Schluss (zum Schluss) (Sg.)",
+    "t": "el final (al final) (Sg.)"
+  },
+  {
+    "g": "der Schlüssel, -",
+    "t": "la clave, -"
+  },
+  {
+    "g": "der Schmerz, -en die Schmerztablette, -n",
+    "t": "el dolor, -en la pastilla para el dolor, -n"
+  },
+  {
+    "g": "der Schmuck (Sg.) schmutzig",
+    "t": "las joyas (Sg.) sucias"
+  },
+  {
+    "g": "schneiden",
+    "t": "cortar"
+  },
+  {
+    "g": "der Schnupfen (Sg.) das Schokoladeneis (Sg.)",
+    "t": "el olfateo (sg.) el helado de chocolate (sg.)"
+  },
+  {
+    "g": "Schreibwaren (Pl.) der Schritt, -e",
+    "t": "Papelería (pl.) El paso, -e"
+  },
+  {
+    "g": "der Schuh, -e",
+    "t": "el zapato, -e"
+  },
+  {
+    "g": "das Schulalter (Sg.) der Schüler, - / die",
+    "t": "la edad escolar (Sg.) de los alumnos, - / el"
+  },
+  {
+    "g": "Schülerin, -nen",
+    "t": "Estudiantes"
+  },
+  {
+    "g": "die Schülerhilfe (Sg.) die Schülernachhilfe (Sg.)",
+    "t": "la asistencia del alumno (Sg.) la tutoría del alumno (Sg.)"
+  },
+  {
+    "g": "der Schulfreund, -e / die Schulfreundin, -nen schwer",
+    "t": "el amigo de la escuela, -e / el amigo de la escuela, -ne difícil"
+  },
+  {
+    "g": "die Seife, -n",
+    "t": "el jabón, -n"
+  },
+  {
+    "g": "sein-",
+    "t": "ser-"
+  },
+  {
+    "g": "die Seite, -n",
+    "t": "Las paginas"
+  },
+  {
+    "g": "die Sekretärin, -nen die Sekunde, -n selbst",
+    "t": "la secretaria, -nen el segundo, -n ella misma"
+  },
+  {
+    "g": "selbstständig",
+    "t": "Trabajadores por cuenta propia"
+  },
+  {
+    "g": "Senioren (Pl.)",
+    "t": "Mayores (pl.)"
+  },
+  {
+    "g": "der September (Sg.) der Service, -s",
+    "t": "Septiembre (Sg.) El servicio, -s"
+  },
+  {
+    "g": "die Service-Anzeige, -n",
+    "t": "la pantalla de servicio, -n"
+  },
+  {
+    "g": "die Servicekraft, ¨-e",
+    "t": "el"
+  },
+  {
+    "g": "der Service-Mitarbeiter, - /",
+    "t": "el"
+  },
+  {
+    "g": "die Service-Mitarbeiterin, -nen",
+    "t": "la empleada de servicio al cliente"
+  },
+  {
+    "g": "das Silvester (Sg.)",
+    "t": "la"
+  },
+  {
+    "g": "die Silvesterparty, -s",
+    "t": "la"
+  },
+  {
+    "g": "die Situation, -en",
+    "t": "la situación, -en"
+  },
+  {
+    "g": "sitzen",
+    "t": "sit"
+  },
+  {
+    "g": "die Socke, -n",
+    "t": "los calcetines"
+  },
+  {
+    "g": "das Sommerfest, -e",
+    "t": "la"
+  },
+  {
+    "g": "der Sonnenbrand, ¨-e",
+    "t": "las"
+  },
+  {
+    "g": "die Sonnenbrille, -n",
+    "t": "las"
+  },
+  {
+    "g": "sonntags",
+    "t": "gafas"
+  },
+  {
+    "g": "sortieren",
+    "t": "ordenar por"
+  },
+  {
+    "g": "die Spaghetti, - später",
+    "t": "los espaguetis - más tarde"
+  },
+  {
+    "g": "speziell",
+    "t": "especial"
+  },
+  {
+    "g": "Spielwaren (Pl.)",
+    "t": "Juguetes (pl.)"
+  },
+  {
+    "g": "der Sportfan, -s",
+    "t": "El"
+  },
+  {
+    "g": "der Sprachunterricht (Sg.)",
+    "t": "los deportes, -s"
+  },
+  {
+    "g": "die Sprechstunde, -n",
+    "t": "la"
+  },
+  {
+    "g": "das Sprichwort, ¨-er",
+    "t": "la consulta, -en"
+  },
+  {
+    "g": "die Spülmaschine, -n",
+    "t": "el proverbio, ¨ -"
+  },
+  {
+    "g": "der Stadtplan, ¨-e der Stadtteil, -e die Station, -en",
+    "t": "el mapa de la ciudad, ¨ -e el distrito, -e la estación, -en"
+  },
+  {
+    "g": "die Steckdose, -n der Stecker, -",
+    "t": "el enchufe, -en el enchufe,"
+  },
+  {
+    "g": "die Stelle (Arbeit), -n",
+    "t": "el"
+  },
+  {
+    "g": "die Stellenanzeige, -n",
+    "t": "el"
+  },
+  {
+    "g": "der Stellenmarkt, ¨-e",
+    "t": "el"
+  },
+  {
+    "g": "stempeln",
+    "t": "mercado laboral, ¨ -e"
+  },
+  {
+    "g": "der Stiefel, -",
+    "t": "la bota, -"
+  },
+  {
+    "g": "still",
+    "t": "tranquilo"
+  },
+  {
+    "g": "Stop!",
+    "t": "¡Detener!"
+  },
+  {
+    "g": "der Strand, ¨-e",
+    "t": "la playa, ¨-e"
+  },
+  {
+    "g": "die Straßenbahn, -en der Stress (Sg.)",
+    "t": "el tranvía, -en el estrés (Sg.)"
+  },
+  {
+    "g": "der Strumpf, ¨-e der Student, -en / die Studentin, -nen",
+    "t": "la media, ¨ -e el estudiante, -en / el estudiante"
+  },
+  {
+    "g": "die Stunde, -n",
+    "t": "las horas"
+  },
+  {
+    "g": "die Süßigkeit, -en die Tabelle, -n",
+    "t": "el caramelo, -en la mesa, -n"
+  },
+  {
+    "g": "das Tablet, -s",
+    "t": "la tableta, -s"
+  },
+  {
+    "g": "die Tablette, -n",
+    "t": "las tabletas"
+  },
+  {
+    "g": "die Tagesmutter, ¨- / der Tagesvater, ¨-",
+    "t": "el cuidador, ¨- / el proveedor de cuidado infantil, ¨-"
+  },
+  {
+    "g": "tagsüber",
+    "t": "durante el día"
+  },
+  {
+    "g": "die Tankstelle, -n der Tänzer, - / die Tänzerin, -nen",
+    "t": "la gasolinera, -n el bailarín, - / el bailarín, -nen"
+  },
+  {
+    "g": "die Tasche, -n",
+    "t": "las bolsas"
+  },
+  {
+    "g": "die Taste, -n",
+    "t": "los botones"
+  },
+  {
+    "g": "das Taxi, -s",
+    "t": "el taxi, -s"
+  },
+  {
+    "g": "der Taxifahrer, - / die",
+    "t": "el taxista, - / el"
+  },
+  {
+    "g": "Taxifahrerin, -nen der Techniker, - / die",
+    "t": "Taxista, -nen el técnico, - / el"
+  },
+  {
+    "g": "Technikerin, -nen die Teilzeit (Sg.)",
+    "t": "Técnico a tiempo parcial (Sg.)"
+  },
+  {
+    "g": "telefonisch",
+    "t": "por telefono"
+  },
+  {
+    "g": "die Telekommunikation (Sg.)",
+    "t": "telecomunicaciones (Sg.)"
+  },
+  {
+    "g": "das Ticket, -s",
+    "t": "los boletos"
+  },
+  {
+    "g": "der Toaster, -",
+    "t": "el tostador, -"
+  },
+  {
+    "g": "die Tombola, -s",
+    "t": "la rifa, -s"
+  },
+  {
+    "g": "das Topmodel, -s der Tourist, -en / die",
+    "t": "la top model, -s the turista, -en / die"
+  },
+  {
+    "g": "Touristin, -nen",
+    "t": "Turista"
+  },
+  {
+    "g": "trainieren",
+    "t": "rutina de ejercicio"
+  },
+  {
+    "g": "das Training, -s",
+    "t": "el entrenamiento, -s"
+  },
+  {
+    "g": "der Traumberuf, -e",
+    "t": "el trabajo soñado, -e"
+  },
+  {
+    "g": "der Traumjob, -s traurig",
+    "t": "el trabajo soñado, es triste"
+  },
+  {
+    "g": "(das) Tschechien (Sg.) das T-Shirt, -s",
+    "t": "(la) República Checa (Sg.) la camiseta, -s"
+  },
+  {
+    "g": "das Tuch, ¨-er",
+    "t": "la tela, ¨-er"
+  },
+  {
+    "g": "tun",
+    "t": "que hacer"
+  },
+  {
+    "g": "die Tür, -en",
+    "t": "las puertas"
+  },
+  {
+    "g": "die Tüte, -n",
+    "t": "la bolsa, -n"
+  },
+  {
+    "g": "die U-Bahn, -en die Umfrage, -n um·steigen",
+    "t": "el metro, -en la encuesta, -n cambio"
+  },
+  {
+    "g": "und so weiter (usw.) der Unfall, ¨-e",
+    "t": "y así sucesivamente (etc.) el accidente, ¨-e"
+  },
+  {
+    "g": "der Unfallort, -e unfreundlich",
+    "t": "la escena del accidente, -e hostil"
+  },
+  {
+    "g": "die Universität, -en unser-",
+    "t": "la universidad, -en nuestra-"
+  },
+  {
+    "g": "unten",
+    "t": "abajo"
+  },
+  {
+    "g": "das Untergeschoss, -e",
+    "t": "el sótano,   -e"
+  },
+  {
+    "g": "unterschreiben",
+    "t": "firma"
+  },
+  {
+    "g": "die Unterschrift, -en",
+    "t": "la firma, -en"
+  },
+  {
+    "g": "unterwegs",
+    "t": "de camino, en ruta"
+  },
+  {
+    "g": "der Urlaub, -e",
+    "t": "las vacaciones, -e"
+  },
+  {
+    "g": "der Valentinstag (Sg.) die Veranstaltung, -en",
+    "t": "San Valentín (Sg.) El evento, -en"
+  },
+  {
+    "g": "verbieten",
+    "t": "prohibir"
+  },
+  {
+    "g": "verbinden mit",
+    "t": "conectar a"
+  },
+  {
+    "g": "verdienen",
+    "t": "ganar"
+  },
+  {
+    "g": "der Verdienst (Sg.) vereinbaren",
+    "t": "el mérito (Sg.) de acuerdo"
+  },
+  {
+    "g": "Studienfach) (Sg.) der Witz, -e",
+    "t": "Asunto) (Sg.) La broma, -e"
+  },
+  {
+    "g": "wohin",
+    "t": "dónde"
+  },
+  {
+    "g": "die Wohnungstür, -en womit",
+    "t": "la puerta del apartamento, -en con que"
+  },
+  {
+    "g": "die Wortbildung, -en wunderbar",
+    "t": "la formación de palabras es maravillosa"
+  },
+  {
+    "g": "wünschen (sich) die Young Fashion Damen (Sg.)",
+    "t": "deseo a las señoritas de la moda joven (Sg.)"
+  },
+  {
+    "g": "zahlen",
+    "t": "números"
+  },
+  {
+    "g": "der Zahn, ¨-e",
+    "t": "el diente"
+  },
+  {
+    "g": "der Zahnarzt, ¨-e /",
+    "t": "el"
+  },
+  {
+    "g": "die Zahnärztin, -nen",
+    "t": "el dentista, -en"
+  },
+  {
+    "g": "die Zahnbürste, -n",
+    "t": "el"
+  },
+  {
+    "g": "die Zahnmedizin (Sg.)",
+    "t": "la"
+  },
+  {
+    "g": "die Zahnpasta (Sg.)",
+    "t": "la"
+  },
+  {
+    "g": "die Zeitangabe, -n",
+    "t": "el tiempo, -en"
+  },
+  {
+    "g": "die Zeitschrift, -en",
+    "t": "la revista, -en"
+  },
+  {
+    "g": "die Zeitung, -en",
+    "t": "el periódico, -en"
+  },
+  {
+    "g": "der Zentrale Omnibus bahnhof, ¨-e",
+    "t": "la estación central de autobuses, ¨-e"
+  },
+  {
+    "g": "die Gewerkschaft",
+    "t": "sindicato"
+  },
+  {
+    "g": "die Kündigung",
+    "t": "terminación laboral"
+  },
+  {
+    "g": "der Betriebsrat",
+    "t": "comite de empresa"
+  },
+  {
+    "g": "der Tarif",
+    "t": "arancel"
+  },
+  {
+    "g": "die Vorschrift",
+    "t": "regulación"
+  },
+  {
+    "g": "die Sicherheit",
+    "t": "la seguridad"
+  },
+  {
+    "g": "die Betriebs-versammlung",
+    "t": "reunión laboral"
+  },
+  {
+    "g": "die Weiterbildung",
+    "t": "educación avanzada"
+  },
+  {
+    "g": "in Rente gehen",
+    "t": "irse a pensión"
+  },
+  {
+    "g": "der Renter/Renterin",
+    "t": "los pensionados"
+  },
+  {
+    "g": "Entlassungen",
+    "t": "despido laboral"
+  },
+  {
+    "g": "besprechung",
+    "t": "reunión"
+  },
+  {
+    "g": "Bettwaren (Pl.) die Bewerbung, -en bewerten",
+    "t": "Ropa de cama (pl.) Evaluar la aplicación"
+  },
+  {
+    "g": "das Elfchengedicht, -e der Empfänger, - empfehlen",
+    "t": "el poema elfo, -e el destinatario, - recomendar"
+  },
+  {
+    "g": "der Winterdienst (Sg.) die Wirtschaft (als",
+    "t": "el servicio de invierno (Sg.) la economía (como"
+  },
+  {
+    "g": "DER Werkzeugkasten",
+    "t": "Caja de herramientas"
+  },
+  {
+    "g": "wegzuwerfen",
+    "t": "tirar"
+  },
+  {
+    "g": "die Glühbirne austauschen, raus-/rein-schrauben, raus-/rein-drehen",
+    "t": "Cambiar el foco"
+  },
+  {
+    "g": "das Heimwerken",
+    "t": "Hágalo usted mismo"
+  },
+  {
+    "g": "Mach es selbst!",
+    "t": "Hágalo usted mismo"
+  },
+  {
+    "g": "streichen",
+    "t": "pintar"
+  },
+  {
+    "g": "kleben",
+    "t": "pegamento"
+  },
+  {
+    "g": "dekorieren",
+    "t": "decorar"
+  },
+  {
+    "g": "zusammenkleben",
+    "t": "pegar"
+  },
+  {
+    "g": "umwickeln",
+    "t": "envolver"
+  },
+  {
+    "g": "abkleben",
+    "t": "enmascarar"
+  },
+  {
+    "g": "entfernen",
+    "t": "quitar"
+  },
+  {
+    "g": "Dreck",
+    "t": "suciedad"
+  },
+  {
+    "g": "Wände",
+    "t": "paredes"
+  },
+  {
+    "g": "Kanten",
+    "t": "bordes"
+  },
+  {
+    "g": "Staub",
+    "t": "polvo"
+  },
+  {
+    "g": "die Staatsangehörigkeit - la nacionalidad",
+    "t": "la nacionalidad"
+  },
+  {
+    "g": "die Volkszugehörigkeit - la etnia",
+    "t": "la etnia"
+  },
+  {
+    "g": "der Dialekt el dialecto",
+    "t": "el dialecto"
+  },
+  {
+    "g": "die Muttersprache -",
+    "t": "Lengua materna"
+  },
+  {
+    "g": "die Fremdsprache - lengua extranjera",
+    "t": "lengua extranjera"
+  },
+  {
+    "g": "die Mehrsprachigkeit - multi lengua",
+    "t": "multi lengua"
+  },
+  {
+    "g": "die Flagge",
+    "t": "la bandera"
+  },
+  {
+    "g": "Hymne",
+    "t": "himno"
+  },
+  {
+    "g": "Zeichen",
+    "t": "personajes"
+  },
+  {
+    "g": "Können Sie die Frage wiederholen",
+    "t": "Puede repetir la pregunta?"
+  },
+  {
+    "g": "Die NussSchale",
+    "t": "La cáscara de nuez"
+  },
+  {
+    "g": "Die Flusssand",
+    "t": "La arena del río"
+  },
+  {
+    "g": "Die Schifffahrt",
+    "t": "La navegación"
+  },
+  {
+    "g": "Religion",
+    "t": "Religión"
+  },
+  {
+    "g": "es wäare vorteilhaft",
+    "t": "sería beneficioso"
+  },
+  {
+    "g": "es gibt immer Aspekte, die man nicht kennt",
+    "t": "Siempre hay aspectos que se desconocen"
+  },
+  {
+    "g": "nicht im Detail, aber im Allgemeinen",
+    "t": "no en detalle, sino en general"
+  },
+  {
+    "g": "wenn ich alt bin",
+    "t": "cuando sea vieja"
+  },
+  {
+    "g": "Steuern",
+    "t": "Los impuestos"
+  },
+  {
+    "g": "Alltägliche",
+    "t": "cada día"
+  },
+  {
+    "g": "aufgeschmissen",
+    "t": "perdido/atascado"
+  },
+  {
+    "g": "Stattdessen",
+    "t": "instead of"
+  },
+  {
+    "g": "besorgt",
+    "t": "preocupado"
+  },
+  {
+    "g": "Wert",
+    "t": "valor"
+  },
+  {
+    "g": "Die Welt",
+    "t": "el mundo"
+  },
+  {
+    "g": "heutzutage",
+    "t": "hoy en día"
+  },
+  {
+    "g": "Vernetzt ist",
+    "t": "conectado"
+  },
+  {
+    "g": "Aufgrund",
+    "t": "por la razón"
+  },
+  {
+    "g": "Infolge",
+    "t": "debido a"
+  },
+  {
+    "g": "Gemeinsamen",
+    "t": "Común"
+  },
+  {
+    "g": "Schreck - chock",
+    "t": "chock"
+  },
+  {
+    "g": "aus Zeitmangel",
+    "t": "por falta de tiempo"
+  },
+  {
+    "g": "vor Enttäuschung",
+    "t": "por decepción"
+  },
+  {
+    "g": "aus Langeweile",
+    "t": "por aburrimiento"
+  },
+  {
+    "g": "vor Freude",
+    "t": "con alegría"
+  },
+  {
+    "g": "aus Liebe",
+    "t": "por amor"
+  },
+  {
+    "g": "Vor Wut",
+    "t": "por enojo"
+  },
+  {
+    "g": "aus Gewohnheit",
+    "t": "por hábito"
+  },
+  {
+    "g": "aus Eifersucht",
+    "t": "por celos"
+  },
+  {
+    "g": "Vor Stress",
+    "t": "por el estrés"
+  },
+  {
+    "g": "Schweige",
+    "t": "en silencio"
+  },
+  {
+    "g": "irgendwelche",
+    "t": "any"
+  },
+  {
+    "g": "irgendwer = irgend + wer",
+    "t": "somebody/anybody,"
+  },
+  {
+    "g": "irgendwas (or irgendetwas) = irgend + (et)was",
+    "t": "something/anything,"
+  },
+  {
+    "g": "irgendwann",
+    "t": "ometime/eventually"
+  },
+  {
+    "g": "irgendwo",
+    "t": "somewhere/anywhere etc."
+  },
+  {
+    "g": "irgendein(e) = irgend + ein(e)",
+    "t": "some/any"
+  },
+  {
+    "g": "Erfahrungen",
+    "t": "experiencias"
+  },
+  {
+    "g": "Emotionen",
+    "t": "emociones"
+  },
+  {
+    "g": "Gefühle / fühle mich gut",
+    "t": "me siento"
+  },
+  {
+    "g": "Aspekten",
+    "t": "aspectos"
+  },
+  {
+    "g": "Unterschiede",
+    "t": "la diferencia"
+  },
+  {
+    "g": "Ich interessiere mica FÜR (siempre se usa con furia)",
+    "t": "me intereso"
+  },
+  {
+    "g": "Zwischen - entre",
+    "t": "entre"
+  },
+  {
+    "g": "Beiden - dos",
+    "t": "dos"
+  },
+  {
+    "g": "gemischt - mezclado",
+    "t": "mezclados"
+  },
+  {
+    "g": "der deutschen Kultur",
+    "t": "la cultura alemana"
+  },
+  {
+    "g": "kling",
+    "t": "sonido"
+  },
+  {
+    "g": "hart",
+    "t": "duro"
+  },
+  {
+    "g": "überrascht",
+    "t": "sorpresa"
+  },
+  {
+    "g": "Beispiel",
+    "t": "ejemplo"
+  },
+  {
+    "g": "verschlägt es mir Sprache",
+    "t": "No tengo palabras"
+  },
+  {
+    "g": "Nachteile",
+    "t": "Desventaje"
+  },
+  {
+    "g": "Vorteile",
+    "t": "Ventaha"
+  },
+  {
+    "g": "verfügbar",
+    "t": "disponible"
+  },
+  {
+    "g": "Es ist einfacher",
+    "t": "más fácil"
+  },
+  {
+    "g": "es ist schneller",
+    "t": "más rápido"
+  },
+  {
+    "g": "es ist nützlich",
+    "t": "útil"
+  },
+  {
+    "g": "üblich",
+    "t": "común"
+  },
+  {
+    "g": "Sicherheit",
+    "t": "la seguridad"
+  },
+  {
+    "g": "Unsicherheit",
+    "t": "la inseguridad"
+  },
+  {
+    "g": "Lebensqualität",
+    "t": "la calidad de vida"
+  },
+  {
+    "g": "meiner Erfahrung nach",
+    "t": "en mi experiencia"
+  },
+  {
+    "g": "Ich bin nach Deutschland gezogen",
+    "t": "me he mudado a Alemania"
+  },
+  {
+    "g": "hektisch",
+    "t": "agitado"
+  },
+  {
+    "g": "Heimatland",
+    "t": "país de origen"
+  },
+  {
+    "g": "Gründe",
+    "t": "razones"
+  },
+  {
+    "g": "Möglichkeiten",
+    "t": "oportunidades"
+  },
+  {
+    "g": "Die Regeln",
+    "t": "las reglas"
+  },
+  {
+    "g": "die Mentalität",
+    "t": "la mentalidad"
+  },
+  {
+    "g": "die Einwanderungsbestimmungen",
+    "t": "la normativa sobre inmigración"
+  },
+  {
+    "g": "Joggen",
+    "t": "correr"
+  },
+  {
+    "g": "Ins kino gehen",
+    "t": "ir al cine"
+  },
+  {
+    "g": "Musik hören",
+    "t": "escuchar música"
+  },
+  {
+    "g": "Fussball spielen",
+    "t": "jugar futbol"
+  },
+  {
+    "g": "Ins Museum gehen",
+    "t": "ir al museo"
+  },
+  {
+    "g": "Schwimmen",
+    "t": "nadar"
+  },
+  {
+    "g": "Tanzen",
+    "t": "bailar"
+  },
+  {
+    "g": "Tennis spielen",
+    "t": "jugar tenis"
+  },
+  {
+    "g": "In die Stadt gehen",
+    "t": "ir al centro"
+  },
+  {
+    "g": "Gitarre spielen",
+    "t": "tocar guitarra"
+  },
+  {
+    "g": "Ins Theater gehen",
+    "t": "ir al teatro"
+  },
+  {
+    "g": "Fahrrad fahren",
+    "t": "montar en bici"
+  },
+  {
+    "g": "BÜcher lesen",
+    "t": "leer un libro"
+  },
+  {
+    "g": "E-mails schreiben",
+    "t": "escribir correos"
+  },
+  {
+    "g": "Auto fahren",
+    "t": "conducir coche"
+  },
+  {
+    "g": "Deutsch lernen",
+    "t": "aprender alemán"
+  },
+  {
+    "g": "Bier trinken",
+    "t": "tomar cerveza"
+  },
+  {
+    "g": "Duschen",
+    "t": "bañarse"
+  },
+  {
+    "g": "Im Internet surfen",
+    "t": "navegar en internet"
+  },
+  {
+    "g": "Basketball spielen",
+    "t": "jugar basket"
+  },
+  {
+    "g": "Waschen",
+    "t": "lavar"
+  },
+  {
+    "g": "Sehe",
+    "t": "ver"
+  },
+  {
+    "g": "Treffen",
+    "t": "encontrar amigos"
+  },
+  {
+    "g": "Krankheiten",
+    "t": "Enfermedades"
+  },
+  {
+    "g": "Rotz",
+    "t": "moco"
+  },
+  {
+    "g": "Kolliken",
+    "t": "cólicos"
+  },
+  {
+    "g": "der Husten",
+    "t": "tos"
+  },
+  {
+    "g": "leukemia",
+    "t": "leucemia"
+  },
+  {
+    "g": "grippe",
+    "t": "gripe"
+  },
+  {
+    "g": "Durchfall",
+    "t": "diarrea"
+  },
+  {
+    "g": "Das Fieber",
+    "t": "fiebre"
+  },
+  {
+    "g": "Schmerz",
+    "t": "dolor"
+  },
+  {
+    "g": "Rückenschmerzen",
+    "t": "Dolor de espalda"
+  },
+  {
+    "g": "Die Kopfschmerzen",
+    "t": "Dolor de cabeza"
+  },
+  {
+    "g": "Erkältungen",
+    "t": "resfriado"
+  },
+  {
+    "g": "Rezept fur",
+    "t": "Prescripción de"
+  },
+  {
+    "g": "Die Spritze",
+    "t": "jeringa"
+  },
+  {
+    "g": "verband",
+    "t": "vendaje"
+  },
+  {
+    "g": "Die Salbe",
+    "t": "pomada"
+  },
+  {
+    "g": "Pille",
+    "t": "Píldora"
+  },
+  {
+    "g": "Tomographie",
+    "t": "Tomografía"
+  },
+  {
+    "g": "Sirup",
+    "t": "jarabe"
+  },
+  {
+    "g": "die Injektion",
+    "t": "Inyección"
+  },
+  {
+    "g": "Röntgenstrahlen",
+    "t": "rayos X"
+  },
+  {
+    "g": "die Tropfen",
+    "t": "las gotas"
+  },
+  {
+    "g": "Ich soll viel schlafen",
+    "t": "Debería dormir mucho"
+  },
+  {
+    "g": "Ich soll viel Tee trinken",
+    "t": "Debería beber mucho té"
+  },
+  {
+    "g": "Ich soll nich arbeiten",
+    "t": "No debería trabajar"
+  },
+  {
+    "g": "Ich soll im Haus bleiben.",
+    "t": "Debería quedarme en casa"
+  },
+  {
+    "g": "Sie müssen im bett bleiben.",
+    "t": "Debes quedarte en la cama."
+  },
+  {
+    "g": "Sie dürfen nicht baden.",
+    "t": "no bañarse"
+  },
+  {
+    "g": "Aber Sie dürfen duschen.",
+    "t": "Pero puedes ducharte."
+  },
+  {
+    "g": "Darf ich?",
+    "t": "¿Me permite?"
+  },
+  {
+    "g": "Du sollst jetzt keinen Kaffeetrinken",
+    "t": "No deberías tomar café ahora"
+  },
+  {
+    "g": "Hausmittel",
+    "t": "Remedio casero"
+  },
+  {
+    "g": "Fieber",
+    "t": "Ein handtuch kälte auf die Stirn (una toalla fria en la frente)"
+  },
+  {
+    "g": "Husten",
+    "t": "Zwiebel tee"
+  },
+  {
+    "g": "Schnupfen (resfriado)",
+    "t": "Hühnersuppe (caldo de pollo)"
+  },
+  {
+    "g": "Zahnschmerzen (dolor de muelas)",
+    "t": "Nelken (clavo)"
+  },
+  {
+    "g": "Nicht schlafen können (insomnio)",
+    "t": "Milch mit Honig"
+  },
+  {
+    "g": "erlaubnis",
+    "t": "permitido"
+  },
+  {
+    "g": "Verbot",
+    "t": "prohibido"
+  },
+  {
+    "g": "Gebot",
+    "t": "regla"
+  },
+  {
+    "g": "usw",
+    "t": "etc"
+  },
+  {
+    "g": "ähnlich",
+    "t": "parecido"
+  },
+  {
+    "g": "das Wichtigsle",
+    "t": "lo importante"
+  },
+  {
+    "g": "rauchen",
+    "t": "fumar"
+  },
+  {
+    "g": "nicht mehr",
+    "t": "ya no"
+  },
+  {
+    "g": "bisschen",
+    "t": "un poco"
+  },
+  {
+    "g": "laufe",
+    "t": "correr"
+  },
+  {
+    "g": "dick",
+    "t": "gordo"
+  },
+  {
+    "g": "sitze",
+    "t": "sentarse"
+  },
+  {
+    "g": "ganzen",
+    "t": "todos"
+  },
+  {
+    "g": "starken",
+    "t": "fuerte"
+  },
+  {
+    "g": "der Knochen",
+    "t": "el hueso"
+  },
+  {
+    "g": "weh",
+    "t": "dolor"
+  },
+  {
+    "g": "besserung",
+    "t": "mejorar"
+  },
+  {
+    "g": "der Arztbesuch",
+    "t": "la visita al doctor"
+  },
+  {
+    "g": "besuchen",
+    "t": "visita"
+  },
+  {
+    "g": "die Hälfte",
+    "t": "la mitad"
+  },
+  {
+    "g": "die Sache",
+    "t": "la cosa"
+  },
+  {
+    "g": "hungrig sein",
+    "t": "estar hambriento"
+  },
+  {
+    "g": "träumen",
+    "t": "soñar"
+  },
+  {
+    "g": "3-mal täglich",
+    "t": "3 veces al día"
+  },
+  {
+    "g": "gemein",
+    "t": "común"
+  },
+  {
+    "g": "glücklich",
+    "t": "feliz"
+  },
+  {
+    "g": "nervös",
+    "t": "nerviosamente"
+  },
+  {
+    "g": "machmal",
+    "t": "a veces"
+  },
+  {
+    "g": "mindestens",
+    "t": "por lo menos"
+  },
+  {
+    "g": "riechen",
+    "t": "olor"
+  },
+  {
+    "g": "schmecken",
+    "t": "sabor"
+  },
+  {
+    "g": "das gewicht",
+    "t": "el peso"
+  },
+  {
+    "g": "Unfall",
+    "t": "accidente"
+  },
+  {
+    "g": "Bewegen",
+    "t": "movimiento"
+  },
+  {
+    "g": "erklären sein",
+    "t": "explicar"
+  },
+  {
+    "g": "der Notarzt",
+    "t": "doctor de emergencia"
+  },
+  {
+    "g": "der Zahnarzt",
+    "t": "dentista"
+  },
+  {
+    "g": "der Arzthelfer",
+    "t": "asistente médico"
+  },
+  {
+    "g": "der Krankenpfleger",
+    "t": "enfermera"
+  },
+  {
+    "g": "der Physiotherapeut",
+    "t": "fisioterapeuta"
+  },
+  {
+    "g": "der Allgemeinarzt",
+    "t": "médico general"
+  },
+  {
+    "g": "der Augenarzt",
+    "t": "oftanmólogo"
+  },
+  {
+    "g": "der Frauenarzt",
+    "t": "ginecólogo"
+  },
+  {
+    "g": "der Hals-Nasen-Ohren-Arzt",
+    "t": "el otorrinolaringólogo"
+  },
+  {
+    "g": "der Föhn",
+    "t": "secadora"
+  },
+  {
+    "g": "der Kammer",
+    "t": "peine"
+  },
+  {
+    "g": "die Bürste",
+    "t": "la oficina"
+  },
+  {
+    "g": "das Duschgel",
+    "t": "jabón líquido"
+  },
+  {
+    "g": "die Seife",
+    "t": "jabón"
+  },
+  {
+    "g": "das Handtuch",
+    "t": "la toalla"
+  },
+  {
+    "g": "Die creme",
+    "t": "La crema"
+  },
+  {
+    "g": "Die Motivation",
+    "t": "La motivación"
+  },
+  {
+    "g": "nich schummeln",
+    "t": "no hacer trampa"
+  },
+  {
+    "g": "Sie hat das Duschgel vergessen",
+    "t": "Se ha olvidado el gel de ducha"
+  },
+  {
+    "g": "Ich packe meinen Koffen und ich nehme...",
+    "t": "Estoy haciendo la maleta y me llevo..."
+  },
+  {
+    "g": "Frohe Weihnachten",
+    "t": "Feliz navidad"
+  },
+  {
+    "g": "Der Weihnachtsbaum",
+    "t": "arbol de navidad"
+  },
+  {
+    "g": "Zelten",
+    "t": "acampar"
+  },
+  {
+    "g": "Der Tag",
+    "t": "el día"
+  },
+  {
+    "g": "das geräusche",
+    "t": "el ruido"
+  },
+  {
+    "g": "Uberraschung",
+    "t": "sorpresa"
+  },
+  {
+    "g": "Macht nichts",
+    "t": "“no pasa nada”"
+  },
+  {
+    "g": "Die kantine",
+    "t": "comedor de oficina"
+  },
+  {
+    "g": "Zeitung",
+    "t": "periódico"
+  },
+  {
+    "g": "Hoffentlich",
+    "t": "con suerte"
+  },
+  {
+    "g": "Der Termine",
+    "t": "cita formal"
+  },
+  {
+    "g": "Die Verabredung",
+    "t": "cita de date"
+  },
+  {
+    "g": "Der kalender",
+    "t": "El calendario"
+  },
+  {
+    "g": "Der hund",
+    "t": "El perro"
+  },
+  {
+    "g": "Der Ball",
+    "t": "La pelota"
+  },
+  {
+    "g": "Der Urlaub",
+    "t": "vacaciones"
+  },
+  {
+    "g": "Das Gästebuch",
+    "t": "libro de visitas"
+  },
+  {
+    "g": "Berge",
+    "t": "montaña"
+  },
+  {
+    "g": "Der Junge",
+    "t": "chico"
+  },
+  {
+    "g": "Das mädchen",
+    "t": "chica"
+  },
+  {
+    "g": "Das Motorrad",
+    "t": "La moto"
+  },
+  {
+    "g": "Die Party",
+    "t": "La fiesta"
+  },
+  {
+    "g": "Quatschen",
+    "t": "charla"
+  },
+  {
+    "g": "Kellern sótano",
+    "t": "Bodega sótano"
+  },
+  {
+    "g": "Rad",
+    "t": "rueda"
+  },
+  {
+    "g": "Rennen raza",
+    "t": "Carrera raza"
+  },
+  {
+    "g": "Klettern",
+    "t": "subida"
+  },
+  {
+    "g": "Tor",
+    "t": "puerta"
+  },
+  {
+    "g": "Schnee",
+    "t": "nieve"
+  },
+  {
+    "g": "Geschenk",
+    "t": "regalo"
+  },
+  {
+    "g": "Regen",
+    "t": "revolver"
+  },
+  {
+    "g": "Hilfst",
+    "t": "ayudar"
+  },
+  {
+    "g": "Die Burg",
+    "t": "castillo de fortaleza"
+  },
+  {
+    "g": "Das Schloss",
+    "t": "castillo"
+  },
+  {
+    "g": "Das Stadtzentrum",
+    "t": "centro de la ciudad"
+  },
+  {
+    "g": "Das Geschäft",
+    "t": "negocio, tienda"
+  },
+  {
+    "g": "Das Staat",
+    "t": "concepto de estado legal"
+  },
+  {
+    "g": "Die Stadt",
+    "t": "ciudad, estado"
+  },
+  {
+    "g": "Das Schiff",
+    "t": "barco"
+  },
+  {
+    "g": "Der Fluss",
+    "t": "rio"
+  },
+  {
+    "g": "Der Besucher",
+    "t": "visitantes"
+  },
+  {
+    "g": "Der Turm",
+    "t": "torre"
+  },
+  {
+    "g": "Die Bahn",
+    "t": "El ferrocarril"
+  },
+  {
+    "g": "Der Zug",
+    "t": "El tren"
+  },
+  {
+    "g": "Der Hof",
+    "t": "patio"
+  },
+  {
+    "g": "Der Flug",
+    "t": "vuelo"
+  },
+  {
+    "g": "Der Koffer",
+    "t": "maletas"
+  },
+  {
+    "g": "Die Stunde",
+    "t": "Hora"
+  },
+  {
+    "g": "Meter",
+    "t": "metro"
+  },
+  {
+    "g": "Höfe",
+    "t": "altura"
+  },
+  {
+    "g": "Z.B.",
+    "t": "por ejemplo"
+  },
+  {
+    "g": "Ich weiB nicht",
+    "t": "No sé"
+  },
+  {
+    "g": "Gleich wieder",
+    "t": "inmediatamente"
+  },
+  {
+    "g": "Dort",
+    "t": "ahí"
+  },
+  {
+    "g": "Da",
+    "t": "ahí"
+  },
+  {
+    "g": "Nicht weit",
+    "t": "no está lejos"
+  },
+  {
+    "g": "In der NÄhe",
+    "t": "en la cercanía"
+  },
+  {
+    "g": "Ach so",
+    "t": "ah, entiendo."
+  },
+  {
+    "g": "sehr schön",
+    "t": "muy agradable"
+  },
+  {
+    "g": "Naja",
+    "t": "bien, pues"
+  },
+  {
+    "g": "weiss schon",
+    "t": "lo sé, ya sé"
+  },
+  {
+    "g": "Auch nicht",
+    "t": "tampoco"
+  },
+  {
+    "g": "Auch nicht mein fall",
+    "t": "eso no es para mi"
+  },
+  {
+    "g": "Bemen",
+    "t": "cuando"
+  },
+  {
+    "g": "Anschließend",
+    "t": "con posterioridad"
+  },
+  {
+    "g": "Zum schluss",
+    "t": "al final"
+  },
+  {
+    "g": "Leider",
+    "t": "desgraciadamente"
+  },
+  {
+    "g": "Gerade",
+    "t": "en este momento"
+  },
+  {
+    "g": "Plicht",
+    "t": "obligación"
+  },
+  {
+    "g": "Möglichkeit",
+    "t": "posibilidad"
+  },
+  {
+    "g": "Kapazität",
+    "t": "capacidad"
+  },
+  {
+    "g": "Fast jeden tag",
+    "t": "casi todos los días"
+  },
+  {
+    "g": "Diese",
+    "t": "este/esta"
+  },
+  {
+    "g": "Nächste",
+    "t": "siguiente"
+  },
+  {
+    "g": "klingt wirklich",
+    "t": "suena bien"
+  },
+  {
+    "g": "tut mir leid",
+    "t": "lo siento"
+  },
+  {
+    "g": "Zeit",
+    "t": "tiempo"
+  },
+  {
+    "g": "Die Besprechung",
+    "t": "reunión"
+  },
+  {
+    "g": "sehr nett",
+    "t": "muy agradable"
+  },
+  {
+    "g": "bitte entschuldigen sie",
+    "t": "por favor disculpe"
+  },
+  {
+    "g": "Viele Grüsse",
+    "t": "muchos saludo"
+  },
+  {
+    "g": "ich bitte um entschuldigung",
+    "t": "me disculpo"
+  },
+  {
+    "g": "Tagesablauf",
+    "t": "rutina diaria"
+  },
+  {
+    "g": "Schliesslich",
+    "t": "finalmente, al final"
+  },
+  {
+    "g": "Zusammen",
+    "t": "juntos"
+  },
+  {
+    "g": "Getrennt",
+    "t": "Separar"
+  },
+  {
+    "g": "Drinnen",
+    "t": "adentro"
+  },
+  {
+    "g": "Draussen",
+    "t": "al aire libre"
+  },
+  {
+    "g": "Wunderbar",
+    "t": "maravilloso"
+  },
+  {
+    "g": "Kling gut",
+    "t": "suena bien"
+  },
+  {
+    "g": "Wird",
+    "t": "deberá"
+  },
+  {
+    "g": "Echt",
+    "t": "realmente"
+  },
+  {
+    "g": "stimmt so",
+    "t": "eso es correcto"
+  },
+  {
+    "g": "Trinke- tomar",
+    "t": "Beber- tomar"
+  },
+  {
+    "g": "Faulenzen",
+    "t": "holgazanear"
+  },
+  {
+    "g": "Freunde treffen",
+    "t": "Reunirse con amigos"
+  },
+  {
+    "g": "einen Film sehen",
+    "t": "Ver una película"
+  },
+  {
+    "g": "verraten",
+    "t": "revelar"
+  },
+  {
+    "g": "bei regen",
+    "t": "en la lluvia"
+  },
+  {
+    "g": "der Regen",
+    "t": "la lluvia"
+  },
+  {
+    "g": "die Idee",
+    "t": "la idea"
+  },
+  {
+    "g": "der Biergarten",
+    "t": "la cervecería"
+  },
+  {
+    "g": "die kneipe",
+    "t": "bar"
+  },
+  {
+    "g": "das Lokal",
+    "t": "restaurante"
+  },
+  {
+    "g": "die Strandbar",
+    "t": "bar de playa"
+  },
+  {
+    "g": "Lage",
+    "t": "ubicación"
+  },
+  {
+    "g": "Einwohner",
+    "t": "habitantes"
+  },
+  {
+    "g": "Bekannt",
+    "t": "lo que se conoce"
+  },
+  {
+    "g": "Weihnachten",
+    "t": "navidad"
+  },
+  {
+    "g": "Stern",
+    "t": "estrella"
+  },
+  {
+    "g": "Wünschen",
+    "t": "desear"
+  },
+  {
+    "g": "Weihnachtsmann",
+    "t": "santa claus"
+  },
+  {
+    "g": "Lichterkette",
+    "t": "Luces navideñas"
+  },
+  {
+    "g": "Weihnachtsmarkt",
+    "t": "mercado navideño"
+  },
+  {
+    "g": "Advent",
+    "t": "adviento"
+  },
+  {
+    "g": "Glühwein",
+    "t": "vino caliente"
+  },
+  {
+    "g": "Kerzen",
+    "t": "vela"
+  },
+  {
+    "g": "Weihnachtsbaum",
+    "t": "árbol de navidad"
+  },
+  {
+    "g": "Geschenke",
+    "t": "regalos"
+  },
+  {
+    "g": "Lebkuchen",
+    "t": "galleta de jengibre"
+  },
+  {
+    "g": "Wunschzettel",
+    "t": "carta a santa"
+  },
+  {
+    "g": "Plätzchen",
+    "t": "galleta navideña"
+  },
+  {
+    "g": "Der Schlüssel",
+    "t": "llaves"
+  },
+  {
+    "g": "Das Handy(s)",
+    "t": "El(los) teléfono(s) móvil(es)"
+  },
+  {
+    "g": "Das Buch(er)",
+    "t": "El libro(s)"
+  },
+  {
+    "g": "Die Wimperntusche (rímel)",
+    "t": "El rímel"
+  },
+  {
+    "g": "Der Lippenstift(e)",
+    "t": "La barra de labios"
+  },
+  {
+    "g": "Das bonbon(s)",
+    "t": "caramelo"
+  },
+  {
+    "g": "Das ladegerät",
+    "t": "cargador"
+  },
+  {
+    "g": "Die Uhren",
+    "t": "reloj"
+  },
+  {
+    "g": "Feste",
+    "t": "Celebración"
+  },
+  {
+    "g": "Der Treffpunkt",
+    "t": "lugar de reunión"
+  },
+  {
+    "g": "das Ausflug",
+    "t": "el viaje"
+  },
+  {
+    "g": "das Datum",
+    "t": "La cita"
+  },
+  {
+    "g": "das Geschenk",
+    "t": "Regalo"
+  },
+  {
+    "g": "die Überraschung",
+    "t": "sorpresa"
+  },
+  {
+    "g": "klasse",
+    "t": "gran"
+  },
+  {
+    "g": "pünktlich",
+    "t": "puntual"
+  },
+  {
+    "g": "das Messer",
+    "t": "cuchillo"
+  },
+  {
+    "g": "der Löffel",
+    "t": "la cuchara"
+  },
+  {
+    "g": "Die Gabel",
+    "t": "tenedor"
+  },
+  {
+    "g": "das Glas",
+    "t": "el vaso"
+  },
+  {
+    "g": "der kellner",
+    "t": "camarero"
+  },
+  {
+    "g": "die Rechnung",
+    "t": "la cuenta"
+  },
+  {
+    "g": "die Serviette",
+    "t": "servilleta"
+  },
+  {
+    "g": "der Teller",
+    "t": "el plato"
+  },
+  {
+    "g": "das Trinkgeld",
+    "t": "la propina"
+  },
+  {
+    "g": "das Eis",
+    "t": "hielo"
+  },
+  {
+    "g": "Zufrieden",
+    "t": "satisfecho"
+  },
+  {
+    "g": "Interesant",
+    "t": "Interesante"
+  },
+  {
+    "g": "Traurig",
+    "t": "triste"
+  },
+  {
+    "g": "Zutaten",
+    "t": "ingredientes"
+  },
+  {
+    "g": "Die Packung(en)",
+    "t": "paquete"
+  },
+  {
+    "g": "Die linse(n)",
+    "t": "lenteja"
+  },
+  {
+    "g": "Die Zutat",
+    "t": "ingrediente"
+  },
+  {
+    "g": "Die Sosse(n)",
+    "t": "la salsa"
+  },
+  {
+    "g": "Die Bohne(n)",
+    "t": "frijol"
+  },
+  {
+    "g": "Das Gramm",
+    "t": "g"
+  },
+  {
+    "g": "Das kilo",
+    "t": "kg"
+  },
+  {
+    "g": "Das stÜck(e)",
+    "t": "la pieza"
+  },
+  {
+    "g": "sÜB",
+    "t": "dulce"
+  },
+  {
+    "g": "Salzig",
+    "t": "salado"
+  },
+  {
+    "g": "Nach Belieben",
+    "t": "al gusto"
+  },
+  {
+    "g": "Zum frühstück",
+    "t": "temprano por la mañana"
+  },
+  {
+    "g": "Vormittag",
+    "t": "mañana"
+  },
+  {
+    "g": "Mittag",
+    "t": "medio día"
+  },
+  {
+    "g": "Abend",
+    "t": "de noche"
+  },
+  {
+    "g": "KÜhlschrank",
+    "t": "refrigerador"
+  },
+  {
+    "g": "Regal",
+    "t": "estante/alacena"
+  },
+  {
+    "g": "Auf essen",
+    "t": "acaban de comer"
+  },
+  {
+    "g": "Bierkasten",
+    "t": "reja llena"
+  },
+  {
+    "g": "Bierkisten",
+    "t": "reja vacia"
+  },
+  {
+    "g": "Pfand",
+    "t": "el importe"
+  },
+  {
+    "g": "Die kasse",
+    "t": "la caja de cobro"
+  },
+  {
+    "g": "Tüte",
+    "t": "bolsa para super"
+  },
+  {
+    "g": "Der Supermarkt",
+    "t": "El supermercado"
+  },
+  {
+    "g": "Der Markt",
+    "t": "El mercado"
+  },
+  {
+    "g": "Die Metzgerei",
+    "t": "La carnicería"
+  },
+  {
+    "g": "Die Bücherei",
+    "t": "La biblioteca"
+  },
+  {
+    "g": "Die Buchhändler",
+    "t": "La librería"
+  },
+  {
+    "g": "Der Bücherladen",
+    "t": "La librería"
+  },
+  {
+    "g": "Der Gemüseladen",
+    "t": "La frutería"
+  },
+  {
+    "g": "Der Laden",
+    "t": "tienda"
+  },
+  {
+    "g": "Das Geschäfte",
+    "t": "tienda"
+  },
+  {
+    "g": "Der Tante-Emma-Laden",
+    "t": "tiendita"
+  },
+  {
+    "g": "Der Getränkemarkt",
+    "t": "mercado de bebidas"
+  },
+  {
+    "g": "Das glass",
+    "t": "envase"
+  },
+  {
+    "g": "Die Flasche",
+    "t": "bote"
+  },
+  {
+    "g": "Der Liter",
+    "t": "litros"
+  },
+  {
+    "g": "Die Packung",
+    "t": "paquete"
+  },
+  {
+    "g": "Die Tute",
+    "t": "La bolsa"
+  },
+  {
+    "g": "Viel",
+    "t": "mucho"
+  },
+  {
+    "g": "Wenig",
+    "t": "poco"
+  },
+  {
+    "g": "Guten Appetit!",
+    "t": "Buen provecho"
+  },
+  {
+    "g": "Apfel",
+    "t": "Manzana"
+  },
+  {
+    "g": "Apfelstrudel",
+    "t": "Strudel de manzana"
+  },
+  {
+    "g": "Reis",
+    "t": "Arroz"
+  },
+  {
+    "g": "Wein(e)",
+    "t": "Vino(s)"
+  },
+  {
+    "g": "Kaffee(s)",
+    "t": "Café(s)"
+  },
+  {
+    "g": "Säft(e)",
+    "t": "Jugos"
+  },
+  {
+    "g": "Äpfel",
+    "t": "Manzanas"
+  },
+  {
+    "g": "Fisch(e)",
+    "t": "Pescado"
+  },
+  {
+    "g": "Zucker",
+    "t": "Azúcar"
+  },
+  {
+    "g": "Knoblauch",
+    "t": "ajo"
+  },
+  {
+    "g": "Schrimp(s)",
+    "t": "Gambas"
+  },
+  {
+    "g": "Salat(e)",
+    "t": "Ensalada(s)"
+  },
+  {
+    "g": "OrangesÄft(e)",
+    "t": "jugo de naranja"
+  },
+  {
+    "g": "Tee(s)",
+    "t": "Té"
+  },
+  {
+    "g": "Schinken",
+    "t": "jamón"
+  },
+  {
+    "g": "Kuchen",
+    "t": "pastel"
+  },
+  {
+    "g": "KÄse",
+    "t": "queso"
+  },
+  {
+    "g": "Hamburger",
+    "t": "Hamburguesa(s)"
+  },
+  {
+    "g": "Kekse",
+    "t": "galletas"
+  },
+  {
+    "g": "Joghurt(s)",
+    "t": "Yogur(s)"
+  },
+  {
+    "g": "Champignon(s)",
+    "t": "Champiñón(es)"
+  },
+  {
+    "g": "Pfirsich",
+    "t": "melocotón"
+  },
+  {
+    "g": "das Bier",
+    "t": "la cerveza"
+  },
+  {
+    "g": "das Ol",
+    "t": "el aceite"
+  },
+  {
+    "g": "Schnitzel",
+    "t": "milanesa/chuleta de ternera"
+  },
+  {
+    "g": "das Salz",
+    "t": "la sal"
+  },
+  {
+    "g": "Gemüse",
+    "t": "verduras"
+  },
+  {
+    "g": "Müsli(s)",
+    "t": "cereal"
+  },
+  {
+    "g": "Wasser",
+    "t": "agua"
+  },
+  {
+    "g": "GlÄser",
+    "t": "vaso"
+  },
+  {
+    "g": "Ei(er)",
+    "t": "huevos"
+  },
+  {
+    "g": "Brote",
+    "t": "pan"
+  },
+  {
+    "g": "BrÖtchen",
+    "t": "pan individual"
+  },
+  {
+    "g": "Höhner/Huhn",
+    "t": "pollo"
+  },
+  {
+    "g": "RindFleisch",
+    "t": "carne de res"
+  },
+  {
+    "g": "Schweinefleisch",
+    "t": "carne de cerdo"
+  },
+  {
+    "g": "Hühnerfleisch",
+    "t": "pollo"
+  },
+  {
+    "g": "HÄhnchen",
+    "t": "pollo"
+  },
+  {
+    "g": "Hühn",
+    "t": "pollo"
+  },
+  {
+    "g": "Mehl",
+    "t": "harina"
+  },
+  {
+    "g": "Obst",
+    "t": "fruta"
+  },
+  {
+    "g": "Pizza",
+    "t": "la pizza"
+  },
+  {
+    "g": "Suppen",
+    "t": "sopas"
+  },
+  {
+    "g": "Currywürste",
+    "t": "salchichas al curry"
+  },
+  {
+    "g": "Bratwürste",
+    "t": "salchicha"
+  },
+  {
+    "g": "Brezel(n)",
+    "t": "pretzel"
+  },
+  {
+    "g": "Birne(n)",
+    "t": "pera"
+  },
+  {
+    "g": "Pomme(s) frites",
+    "t": "Pomme(s) fritas"
+  },
+  {
+    "g": "Banane(n)",
+    "t": "Plátano(s)"
+  },
+  {
+    "g": "Würst(e)",
+    "t": "salchicha"
+  },
+  {
+    "g": "BÄckerei(en)",
+    "t": "panadería"
+  },
+  {
+    "g": "Dose(n)",
+    "t": "dosis"
+  },
+  {
+    "g": "Tomate(n)",
+    "t": "Tomate(s)"
+  },
+  {
+    "g": "Kartoffel(n)",
+    "t": "papa"
+  },
+  {
+    "g": "Metzgerei(en)",
+    "t": "carnicería"
+  },
+  {
+    "g": "Butter",
+    "t": "mantequilla"
+  },
+  {
+    "g": "Limonade(n)",
+    "t": "Limonada(s)"
+  },
+  {
+    "g": "Zitrone(n)",
+    "t": "limón"
+  },
+  {
+    "g": "Salami",
+    "t": "die Salami (same in German)"
+  },
+  {
+    "g": "Nudel(n)",
+    "t": "fideos"
+  },
+  {
+    "g": "Milch",
+    "t": "leche"
+  },
+  {
+    "g": "Orange(n)",
+    "t": "Naranja(s)"
+  },
+  {
+    "g": "Kiwi(s)",
+    "t": "Kiwi(s)"
+  },
+  {
+    "g": "Marmelade(n)",
+    "t": "mermelada"
+  },
+  {
+    "g": "Gurke(n)",
+    "t": "pepino"
+  },
+  {
+    "g": "Schokolade(n)",
+    "t": "chocolate"
+  },
+  {
+    "g": "Sahne(h)",
+    "t": "crema"
+  },
+  {
+    "g": "Erdbeere(n)",
+    "t": "fresa"
+  },
+  {
+    "g": "Zwiebel(n)",
+    "t": "cebolla"
+  },
+  {
+    "g": "Paprika(s)",
+    "t": "paprika"
+  },
+  {
+    "g": "Olive(n)",
+    "t": "oliva"
+  },
+  {
+    "g": "Zucchini(s)",
+    "t": "calabacita"
+  },
+  {
+    "g": "Karotte(n)",
+    "t": "zanahoria"
+  },
+  {
+    "g": "MÖhre(n)",
+    "t": "zanahoria"
+  },
+  {
+    "g": "Mandarine(n)",
+    "t": "mandarina"
+  },
+  {
+    "g": "Der Kiosk(e)",
+    "t": "kiosko donde venden algo"
+  },
+  {
+    "g": "Der Flughafen",
+    "t": "aeropuerto"
+  },
+  {
+    "g": "Der Mensh(en)",
+    "t": "El(los) hombre(s)"
+  },
+  {
+    "g": "Das Flugzeug(e)",
+    "t": "El avión(es)"
+  },
+  {
+    "g": "Das Rathaus (RathÄuser)",
+    "t": "Ayuntamiento(s)"
+  },
+  {
+    "g": "Das café(s)",
+    "t": "Café(s)"
+  },
+  {
+    "g": "Das Kino(s)",
+    "t": "Cine(s)"
+  },
+  {
+    "g": "Das Restaurant(s)",
+    "t": "Restaurante(s)"
+  },
+  {
+    "g": "Das Schwimmbad(er)",
+    "t": "Piscina(s)"
+  },
+  {
+    "g": "Das Theater",
+    "t": "El teatro"
+  },
+  {
+    "g": "Die Post",
+    "t": "La oficina de correos"
+  },
+  {
+    "g": "Das Krankenhaus",
+    "t": "El hospital"
+  },
+  {
+    "g": "Das Schiff(e)",
+    "t": "Barco(s)"
+  },
+  {
+    "g": "Der Hafen",
+    "t": "El puerto"
+  },
+  {
+    "g": "Die Schule(n)",
+    "t": "Escuela(s)"
+  },
+  {
+    "g": "Die Stadt(Stadte)",
+    "t": "Ciudad(es)"
+  },
+  {
+    "g": "Die Kirche(n)",
+    "t": "Iglesia(s)"
+  },
+  {
+    "g": "Das Museum",
+    "t": "El museo"
+  },
+  {
+    "g": "Das Fahrrad(er)",
+    "t": "La(s) bicicleta(s)"
+  },
+  {
+    "g": "Der park(s)",
+    "t": "Parque(s)"
+  },
+  {
+    "g": "Die Bank(en)",
+    "t": "Banco(s)"
+  },
+  {
+    "g": "Das auto(s)",
+    "t": "Coche(s)"
+  },
+  {
+    "g": "Der Bus(se)",
+    "t": "Autobús(es)"
+  },
+  {
+    "g": "Die Strasse(n)",
+    "t": "Carretera(s)"
+  },
+  {
+    "g": "Der Zug(ZÜge)",
+    "t": "Tren(es)"
+  },
+  {
+    "g": "Der Bahnhof",
+    "t": "estación central"
+  },
+  {
+    "g": "Die S-bahn",
+    "t": "El tren de cercanías"
+  },
+  {
+    "g": "Die U-Bahn",
+    "t": "El metro"
+  },
+  {
+    "g": "Das Hotel",
+    "t": "El hotel"
+  },
+  {
+    "g": "Die Bank",
+    "t": "El banco"
+  },
+  {
+    "g": "Die Taxifahrt",
+    "t": "el camino en taxi"
+  },
+  {
+    "g": "Die Verkehrsinsel",
+    "t": "la glorieta"
+  },
+  {
+    "g": "Die Polizei",
+    "t": "La policía"
+  },
+  {
+    "g": "Das Verkehrsmittel",
+    "t": "medios de transporte"
+  },
+  {
+    "g": "Der Verkehr",
+    "t": "el tráfico"
+  },
+  {
+    "g": "Das Mittel",
+    "t": "medio"
+  },
+  {
+    "g": "Das Flugzeug",
+    "t": "El avión"
+  },
+  {
+    "g": "Die Strassenbahn",
+    "t": "El tranvía"
+  },
+  {
+    "g": "Das Fahrrad",
+    "t": "La bicicleta"
+  },
+  {
+    "g": "Das auto",
+    "t": "El coche"
+  },
+  {
+    "g": "Der Bus",
+    "t": "El autobús"
+  },
+  {
+    "g": "Der Weg",
+    "t": "el camino"
+  },
+  {
+    "g": "Werbetexter(in)",
+    "t": "redactor"
+  },
+  {
+    "g": "Lehren(in)",
+    "t": "Traducción realizada con la versión gratuita del traductor www.DeepL.com/Translator"
+  },
+  {
+    "g": "Designer(in)",
+    "t": "Diseñador"
+  },
+  {
+    "g": "Journalist(in)",
+    "t": "Periodista"
+  },
+  {
+    "g": "Psychologe(in)",
+    "t": "Psicólogo"
+  },
+  {
+    "g": "Arzt / Die Ärztin",
+    "t": "Médico"
+  },
+  {
+    "g": "Architekt(in)",
+    "t": "Arquitecto"
+  },
+  {
+    "g": "Koch / köchin",
+    "t": "Cocinero"
+  },
+  {
+    "g": "Ingenieur(in)",
+    "t": "Ingeniero"
+  },
+  {
+    "g": "geschäftsmann / geschäftsfrau (hombre, mujer de negocios)",
+    "t": "businessman / businesswoman (hombre, mujer de negocios)"
+  },
+  {
+    "g": "Manager(in)",
+    "t": "gerente"
+  },
+  {
+    "g": "Programmierer(in)",
+    "t": "Programador"
+  },
+  {
+    "g": "Friseur, frisör",
+    "t": "peluquero"
+  },
+  {
+    "g": "Buchhalter",
+    "t": "contador"
+  },
+  {
+    "g": "Hausmann /hausfrau",
+    "t": "Ama de casa"
+  },
+  {
+    "g": "Student(in)",
+    "t": "Estudiante"
+  },
+  {
+    "g": "Taxifahrer",
+    "t": "taxista"
+  },
+  {
+    "g": "Techniker",
+    "t": "Técnico"
+  },
+  {
+    "g": "Der Bäcker",
+    "t": "Panadero"
+  },
+  {
+    "g": "Der Bauer",
+    "t": "campesino"
+  },
+  {
+    "g": "Der Fernfahrer",
+    "t": "camionero"
+  },
+  {
+    "g": "Der Feuerwehrmann",
+    "t": "bombero"
+  },
+  {
+    "g": "Die Friseuse",
+    "t": "peluquero"
+  },
+  {
+    "g": "Die Hausfrau",
+    "t": "Ama de casa"
+  },
+  {
+    "g": "Die Kellnerin",
+    "t": "mesera"
+  },
+  {
+    "g": "Der Kunstmaler",
+    "t": "pintor"
+  },
+  {
+    "g": "Die Lehrerin",
+    "t": "Maestra"
+  },
+  {
+    "g": "Der Maler",
+    "t": "pintor de casas"
+  },
+  {
+    "g": "Der Mechaniker",
+    "t": "Mecánico"
+  },
+  {
+    "g": "Der Pfarrer",
+    "t": "sacerdote"
+  },
+  {
+    "g": "Der Polizist",
+    "t": "Policía"
+  },
+  {
+    "g": "Der Richter",
+    "t": "Juez"
+  },
+  {
+    "g": "Der Seemann",
+    "t": "Marinero"
+  },
+  {
+    "g": "Die Sekretärin",
+    "t": "Secretaria"
+  },
+  {
+    "g": "Der Soldat",
+    "t": "soldado"
+  },
+  {
+    "g": "Der Tankwart",
+    "t": "despachador de gasolina"
+  },
+  {
+    "g": "Der Tischler",
+    "t": "carpintero"
+  },
+  {
+    "g": "Der Schauspieler (in)",
+    "t": "actor"
+  },
+  {
+    "g": "Wortschatz",
+    "t": "Vocabulario"
+  },
+  {
+    "g": "die Taste / botón",
+    "t": "el botón / botón"
+  },
+  {
+    "g": "wählen (eine Nummer)",
+    "t": "presionar"
+  },
+  {
+    "g": "Start drücken",
+    "t": "iniciar"
+  },
+  {
+    "g": "Warten",
+    "t": "esperar"
+  },
+  {
+    "g": "Beenden",
+    "t": "terminar"
+  },
+  {
+    "g": "das Amt",
+    "t": "la oficina"
+  },
+  {
+    "g": "das Formular",
+    "t": "el formulario"
+  },
+  {
+    "g": "am melden",
+    "t": "reportar"
+  },
+  {
+    "g": "geboren sein",
+    "t": "nacer"
+  },
+  {
+    "g": "die Abteilung",
+    "t": "departamento"
+  },
+  {
+    "g": "der Empfang",
+    "t": "recepción"
+  },
+  {
+    "g": "der Leiter",
+    "t": "el líder"
+  },
+  {
+    "g": "der Mitarbeiter",
+    "t": "em empleado"
+  },
+  {
+    "g": "die Personalabteilung",
+    "t": "RH"
+  },
+  {
+    "g": "die Werkstatt",
+    "t": "taller"
+  },
+  {
+    "g": "der Erfolg",
+    "t": "éxito"
+  },
+  {
+    "g": "der Lernpartner",
+    "t": "el compañero de aprendizaje"
+  },
+  {
+    "g": "das material",
+    "t": "el material"
+  },
+  {
+    "g": "die Muttersprache",
+    "t": "idioma nativo"
+  },
+  {
+    "g": "das Treffen la reunión",
+    "t": "the meeting la reunión"
+  },
+  {
+    "g": "die Vermittlung",
+    "t": "mediación"
+  },
+  {
+    "g": "auswendig lernen",
+    "t": "aprender de memoria"
+  },
+  {
+    "g": "individuell",
+    "t": "individualmente"
+  },
+  {
+    "g": "regelmÄssig",
+    "t": "regularmente"
+  },
+  {
+    "g": "verschieden",
+    "t": "diferente"
+  },
+  {
+    "g": "der Wunsch",
+    "t": "el deseo"
+  },
+  {
+    "g": "vorbei",
+    "t": "pasado"
+  },
+  {
+    "g": "Geschafft",
+    "t": "gestionado"
+  },
+  {
+    "g": "Wünsche",
+    "t": "deseos"
+  },
+  {
+    "g": "Raum",
+    "t": "espacio"
+  },
+  {
+    "g": "Nutzen",
+    "t": "aprovechen"
+  },
+  {
+    "g": "Vieten",
+    "t": "ofrecer"
+  },
+  {
+    "g": "Beim",
+    "t": "mientas (dei+ dem)"
+  },
+  {
+    "g": "Zum Wohl",
+    "t": "para el bien"
+  },
+  {
+    "g": "die Anzeigen",
+    "t": "anuncios"
+  },
+  {
+    "g": "die Einweihungsparty",
+    "t": "inauguración"
+  },
+  {
+    "g": "die Grösse",
+    "t": "tamaño"
+  },
+  {
+    "g": "die Miete",
+    "t": "alquiler"
+  },
+  {
+    "g": "der Nachbar",
+    "t": "vecino"
+  },
+  {
+    "g": "eine Wohnung suchen",
+    "t": "buscando depa"
+  },
+  {
+    "g": "die Wohnung besinchtigen",
+    "t": "cuidar el depa"
+  },
+  {
+    "g": "den Vertrag",
+    "t": "contrato"
+  },
+  {
+    "g": "um ziehen",
+    "t": "tirar"
+  },
+  {
+    "g": "das Hochhaus",
+    "t": "rasca cielos"
+  },
+  {
+    "g": "der Nachteil",
+    "t": "desventaja"
+  },
+  {
+    "g": "der Vorteil",
+    "t": "ventaja"
+  },
+  {
+    "g": "gefallen",
+    "t": "agradar, gustar"
+  },
+  {
+    "g": "Meine Wohnung",
+    "t": "Mi piso"
+  },
+  {
+    "g": "Das Bad",
+    "t": "El cuarto de baño"
+  },
+  {
+    "g": "Die Waschmaschine",
+    "t": "La lavadora"
+  },
+  {
+    "g": "Der Flur",
+    "t": "El pasillo"
+  },
+  {
+    "g": "Das Arbeitszimmer",
+    "t": "El estudio"
+  },
+  {
+    "g": "Der Drucker",
+    "t": "impresora"
+  },
+  {
+    "g": "Der Computer",
+    "t": "El ordenador"
+  },
+  {
+    "g": "Die Lampe",
+    "t": "La lámpara"
+  },
+  {
+    "g": "Der Schreibtisch",
+    "t": "El escritorio"
+  },
+  {
+    "g": "Das Schlafzimmer",
+    "t": "El dormitorio"
+  },
+  {
+    "g": "Der Schrank",
+    "t": "armario"
+  },
+  {
+    "g": "Das Kinderzimmer",
+    "t": "La habitación de los niños"
+  },
+  {
+    "g": "Der Tisch",
+    "t": "mesa"
+  },
+  {
+    "g": "Der Fernseher",
+    "t": "tv"
+  },
+  {
+    "g": "Das Wohnzimmer",
+    "t": "sala"
+  },
+  {
+    "g": "Das sofa",
+    "t": "El sofá"
+  },
+  {
+    "g": "Das Regal",
+    "t": "estante"
+  },
+  {
+    "g": "Der Stuhl",
+    "t": "silla"
+  },
+  {
+    "g": "Der Sessel",
+    "t": "sillón"
+  },
+  {
+    "g": "Der Teppich",
+    "t": "alfombra"
+  },
+  {
+    "g": "Die Kuche",
+    "t": "La cocina"
+  },
+  {
+    "g": "Der Kühlschrank",
+    "t": "refrigerador"
+  },
+  {
+    "g": "Die Spülmaschine",
+    "t": "lavaplatos"
+  },
+  {
+    "g": "Der Balkon",
+    "t": "El balcón"
+  },
+  {
+    "g": "Der Sonnenschirm",
+    "t": "sombrilla"
+  },
+  {
+    "g": "Und, oder, aber.",
+    "t": "Y, o, pero"
+  },
+  {
+    "g": "Kleidung und Mode",
+    "t": "Ropa y moda"
+  },
+  {
+    "g": "Der Rock(e)",
+    "t": "La(s) falda(s)"
+  },
+  {
+    "g": "Der Jogginganzug(e)",
+    "t": "traje para correr"
+  },
+  {
+    "g": "Der Stiefel",
+    "t": "botas"
+  },
+  {
+    "g": "Der Schuh(e)",
+    "t": "zapato"
+  },
+  {
+    "g": "Der Mantel",
+    "t": "saco"
+  },
+  {
+    "g": "Der Hut(e)",
+    "t": "Sombrero(s)"
+  },
+  {
+    "g": "Der Ring(e)",
+    "t": "Anillo(s)"
+  },
+  {
+    "g": "Der Schal(s)",
+    "t": "La(s) bufanda(s)"
+  },
+  {
+    "g": "Der Pullover",
+    "t": "El jersey"
+  },
+  {
+    "g": "Der Strumpf(e)",
+    "t": "calcetines"
+  },
+  {
+    "g": "Der Anzug(e)",
+    "t": "traje"
+  },
+  {
+    "g": "Der Gürtel",
+    "t": "cinto"
+  },
+  {
+    "g": "Die Bluse(n)",
+    "t": "La(s) blusa(s)"
+  },
+  {
+    "g": "Die Socke(n)",
+    "t": "Calcetín(es)"
+  },
+  {
+    "g": "Die Jacke(n)",
+    "t": "La(s) chaqueta(s)"
+  },
+  {
+    "g": "Die Sonnenbrille(n)",
+    "t": "lentes de sol"
+  },
+  {
+    "g": "Die Brille(n)",
+    "t": "lentes"
+  },
+  {
+    "g": "Die Halskette(n)",
+    "t": "collar"
+  },
+  {
+    "g": "Die Hose(n)",
+    "t": "pantalón"
+  },
+  {
+    "g": "Die Tasche",
+    "t": "El bolso"
+  },
+  {
+    "g": "Das T-shirt(s)",
+    "t": "La(s) camiseta(s)"
+  },
+  {
+    "g": "Das Hemd(en)",
+    "t": "camisa"
+  },
+  {
+    "g": "Das kleid(er)",
+    "t": "vestido"
+  },
+  {
+    "g": "Das top(s)",
+    "t": "playera"
+  },
+  {
+    "g": "Der Pullover gefällt mir sehr gut.",
+    "t": "Me gusta mucho el jersey."
+  },
+  {
+    "g": "Der Pullover gefallen mir nicht.",
+    "t": "No me gusta el jersey."
+  },
+  {
+    "g": "Diese Farbe steht Ihnen sehr gut.",
+    "t": "Este color te sienta muy bien."
+  },
+  {
+    "g": "Kann ich Ihnen helfen?",
+    "t": "¿Te ayudo?"
+  },
+  {
+    "g": "Der Köper",
+    "t": "El cuerpo"
+  },
+  {
+    "g": "Wie gross bist du? Ungefähr 57 kilo",
+    "t": "¿Cuánto pesa? Unos 57 kilos"
+  },
+  {
+    "g": "Wie viel wiegst du? 1.53cm (ein Meter 53)",
+    "t": "¿Cuánto pesas? 1,53 cm (un metro 53)"
+  },
+  {
+    "g": "Das Haar",
+    "t": "El pelo"
+  },
+  {
+    "g": "Die Schulter",
+    "t": "El hombro"
+  },
+  {
+    "g": "Der Hals",
+    "t": "cuello"
+  },
+  {
+    "g": "Die brust",
+    "t": "El pecho"
+  },
+  {
+    "g": "Der bauch (panza)",
+    "t": "El vientre (panza)"
+  },
+  {
+    "g": "Das knie",
+    "t": "La rodilla"
+  },
+  {
+    "g": "Das Bein",
+    "t": "la pierna"
+  },
+  {
+    "g": "Der Kopf",
+    "t": "cabeza"
+  },
+  {
+    "g": "Der Rücken",
+    "t": "espalda"
+  },
+  {
+    "g": "Das Herz",
+    "t": "el corazón"
+  },
+  {
+    "g": "Der Arm",
+    "t": "El brazo"
+  },
+  {
+    "g": "Der Ellenbogen",
+    "t": "codo"
+  },
+  {
+    "g": "Die Hand",
+    "t": "La mano"
+  },
+  {
+    "g": "Der Finger",
+    "t": "El dedo"
+  },
+  {
+    "g": "Der Fuss",
+    "t": "El pie"
+  },
+  {
+    "g": "das gesicht",
+    "t": "la cara"
+  },
+  {
+    "g": "das Auge",
+    "t": "el ojo"
+  },
+  {
+    "g": "das Nase",
+    "t": "la nariz"
+  },
+  {
+    "g": "der Mund",
+    "t": "la boca"
+  },
+  {
+    "g": "dar Ohr",
+    "t": "la oreja"
+  },
+  {
+    "g": "Die Sportübung",
+    "t": "El ejercicio deportivo"
+  },
+  {
+    "g": "Die Arme ausstrecken",
+    "t": "estirar"
+  },
+  {
+    "g": "Den Rücken gerade halten",
+    "t": "mantener recto"
+  },
+  {
+    "g": "Ein Knie hochziehen",
+    "t": "levantar"
+  },
+  {
+    "g": "Auf einem Bein stehen",
+    "t": "pararse"
+  },
+  {
+    "g": "Den Bauch anspannen",
+    "t": "tensar"
+  },
+  {
+    "g": "lauf schnell",
+    "t": "correr rápido"
+  },
+  {
+    "g": "Zieht ein arm",
+    "t": "atraer un brazo"
+  },
+  {
+    "g": "Atmet langsam",
+    "t": "respirar lento"
+  },
+  {
+    "g": "Beruf",
+    "t": "Profesión"
+  },
+  {
+    "g": "Lehrerin",
+    "t": "Profesor"
+  },
+  {
+    "g": "Anwältin",
+    "t": "Abogado"
+  },
+  {
+    "g": "Tischler",
+    "t": "Carpintero"
+  },
+  {
+    "g": "Grafiker-in",
+    "t": "Diseñador gráfico"
+  },
+  {
+    "g": "Philosoph-in",
+    "t": "Filósofo"
+  },
+  {
+    "g": "Friseur-in",
+    "t": "Peluquero"
+  },
+  {
+    "g": "Schreiben-in",
+    "t": "Escritor"
+  },
+  {
+    "g": "Artz-in",
+    "t": "Artista"
+  },
+  {
+    "g": "Chef-in",
+    "t": "Jefe"
+  },
+  {
+    "g": "Adjektive",
+    "t": "Adjetivos"
+  },
+  {
+    "g": "Gross",
+    "t": "Grande"
+  },
+  {
+    "g": "Gemütlich",
+    "t": "Acogedor"
+  },
+  {
+    "g": "Modern",
+    "t": "Moderno"
+  },
+  {
+    "g": "Fantastisch",
+    "t": "Fantástico"
+  },
+  {
+    "g": "Elegant",
+    "t": "Elegante"
+  },
+  {
+    "g": "Hübsch",
+    "t": "Bonito"
+  },
+  {
+    "g": "Verrückt",
+    "t": "Loco"
+  },
+  {
+    "g": "Kleinen",
+    "t": "Pequeño"
+  },
+  {
+    "g": "Ruhigen",
+    "t": "Tranquilo"
+  },
+  {
+    "g": "Neue",
+    "t": "Nuevo"
+  },
+  {
+    "g": "Wichtige",
+    "t": "Importante"
+  },
+  {
+    "g": "Alte",
+    "t": "Viejo"
+  },
+  {
+    "g": "Lustigen",
+    "t": "Divertido"
+  },
+  {
+    "g": "Theorie",
+    "t": "Teoría"
+  },
+  {
+    "g": "Standlicht",
+    "t": "luces de estacionamiento"
+  },
+  {
+    "g": "Abblendlicht",
+    "t": "luces normales"
+  },
+  {
+    "g": "Fernlicht",
+    "t": "luces de largo alcance"
+  },
+  {
+    "g": "Nebelschlussleuchte",
+    "t": "luz trasera antiniebla"
+  },
+  {
+    "g": "Warnblinkanlage",
+    "t": "luces de emergencia"
+  },
+  {
+    "g": "Blinker",
+    "t": "indicador"
+  },
+  {
+    "g": "Hupe",
+    "t": "bocina"
+  },
+  {
+    "g": "Bremsleuchte",
+    "t": "luz de freno"
+  },
+  {
+    "g": "Sicherheitsgurt",
+    "t": "cinturón de seguridad"
+  },
+  {
+    "g": "Bremse",
+    "t": "freno"
+  },
+  {
+    "g": "Reifen",
+    "t": "neumáticos"
+  },
+  {
+    "g": "Reifendruck",
+    "t": "presión de las llantas (aire)"
+  },
+  {
+    "g": "Reifen kontrollieren",
+    "t": "Comprobar neumáticos"
+  },
+  {
+    "g": "Profiltiefe 1.6,mm",
+    "t": "Profundidad del dibujo 1,6,mm"
+  },
+  {
+    "g": "Motorhaube",
+    "t": "tapa del motor"
+  },
+  {
+    "g": "Motoröl",
+    "t": "aceite de motor"
+  },
+  {
+    "g": "oil level (n): r Ölstand",
+    "t": "nivel de aceite (n): r Nivel de aceite"
+  },
+  {
+    "g": "Scheibenwischer",
+    "t": "limpia parabrisas"
+  },
+  {
+    "g": "Scheibenwaschflüssigkeit",
+    "t": "liquido limpia parabrisas"
+  },
+  {
+    "g": "Kühlmittel",
+    "t": "refrigerante"
+  },
+  {
+    "g": "Warndreieck",
+    "t": "triangulo de peligro in"
+  },
+  {
+    "g": "Verbandskasten",
+    "t": "kit de primeros auxilios"
+  },
+  {
+    "g": "manual transmission (n): s Schaltgetriebe",
+    "t": "transmisión manual (n): s Transmisión manual"
+  },
+  {
+    "g": "Einschalten",
+    "t": "encender"
+  },
+  {
+    "g": "Ausschalten",
+    "t": "apagar"
+  },
+  {
+    "g": "Anhalten",
+    "t": "frenar"
+  },
+  {
+    "g": "accelerate (v): beschleunigen, Gas geben",
+    "t": "acelerar (v): acelerar, acelerar"
+  },
+  {
+    "g": "stop (action) (n): s Halten, s Stoppen",
+    "t": "parar (acción) (n): s parar, s parar"
+  },
+  {
+    "g": "Richtung Autoban",
+    "t": "Dirección Autoban"
+  },
+  {
+    "g": "Abbiegen",
+    "t": "girar"
+  },
+  {
+    "g": "1.- Umkehren",
+    "t": "regresar a Bad Waldsee"
+  },
+  {
+    "g": "2.- Notbremsung",
+    "t": "frenado de emergencia (Handbremse, e Notbremse)"
+  },
+  {
+    "g": "Reverse parken",
+    "t": "Rückwärts einparken"
+  },
+  {
+    "g": "Rückwärtsgang / rückwärts fahren",
+    "t": "marcha atrás"
+  },
+  {
+    "g": "die Weiblich",
+    "t": "Hembra"
+  },
+  {
+    "g": "der Rüde",
+    "t": "Macho"
+  },
+  {
+    "g": "ziemlich gut",
+    "t": "bastante bien"
+  },
+  {
+    "g": "lieben",
+    "t": "querer"
+  },
+  {
+    "g": "obwohl",
+    "t": "aunque"
+  },
+  {
+    "g": "damit",
+    "t": "para que"
+  },
+  {
+    "g": "aufstehen",
+    "t": "levantarse"
+  },
+  {
+    "g": "ehrlich",
+    "t": "honest"
+  },
+  {
+    "g": "deswegen",
+    "t": "por lo tanto"
+  },
+  {
+    "g": "dazu",
+    "t": "además"
+  },
+  {
+    "g": "Los gehts",
+    "t": "aquí vamos"
+  },
+  {
+    "g": "Verschiedenen",
+    "t": "varios"
+  },
+  {
+    "g": "Stimmt",
+    "t": "verdader"
+  },
+  {
+    "g": "vermissen",
+    "t": "extrañar"
+  },
+  {
+    "g": "die Freiheit",
+    "t": "Libertad"
+  },
+  {
+    "g": "genieße",
+    "t": "Disfrutar"
+  },
+  {
+    "g": "der Lärm",
+    "t": "el ruido"
+  },
+  {
+    "g": "die Möglichkeit",
+    "t": "posibilidad"
+  },
+  {
+    "g": "die Beziehung",
+    "t": "relación"
+  },
+  {
+    "g": "nah",
+    "t": "cerca"
+  },
+  {
+    "g": "näher",
+    "t": "más cerca"
+  },
+  {
+    "g": "am nächsten",
+    "t": "el siguiente"
+  },
+  {
+    "g": "gut - besser - am besten",
+    "t": "bueno, mejor, lo mejor"
+  },
+  {
+    "g": "viel - mehr - am meisten",
+    "t": "mucho - más - la mayoría"
+  },
+  {
+    "g": "gern - lieber - am liebsten",
+    "t": "me gusta - prefiero - más me gusta"
+  },
+  {
+    "g": "langweiling",
+    "t": "aburrido"
+  },
+  {
+    "g": "hoch - am höchsten",
+    "t": "alto - más alto"
+  },
+  {
+    "g": "gern - lieber",
+    "t": "con gusto, con más gusto"
+  },
+  {
+    "g": "klug",
+    "t": "inteligente"
+  },
+  {
+    "g": "sogar",
+    "t": "incluso"
+  },
+  {
+    "g": "gefahr",
+    "t": "peligro"
+  },
+  {
+    "g": "gehört",
+    "t": "escuchar"
+  },
+  {
+    "g": "Einsteigen",
+    "t": "subirse (get on)"
+  },
+  {
+    "g": "gucke",
+    "t": "revisar"
+  },
+  {
+    "g": "das klapt",
+    "t": "eso funciona (that works)"
+  },
+  {
+    "g": "riechen (richen)",
+    "t": "oler"
+  },
+  {
+    "g": "tragen",
+    "t": "traer puesto"
+  },
+  {
+    "g": "schlect",
+    "t": "malo, feo"
+  },
+  {
+    "g": "vor and nach",
+    "t": "antes y después"
+  },
+  {
+    "g": "entspannt",
+    "t": "relajado"
+  },
+  {
+    "g": "der Umzug",
+    "t": "mudanza"
+  },
+  {
+    "g": "aufräumen",
+    "t": "ordenar"
+  },
+  {
+    "g": "betrieb",
+    "t": "negocio"
+  },
+  {
+    "g": "Erneut / wieder / nochmal",
+    "t": "de nuevo"
+  },
+  {
+    "g": "ausfallen",
+    "t": "fallo"
+  },
+  {
+    "g": "einige",
+    "t": "algunos"
+  },
+  {
+    "g": "sagte",
+    "t": "dijo"
+  },
+  {
+    "g": "jeder",
+    "t": "cada"
+  },
+  {
+    "g": "hinzufügen",
+    "t": "añadir"
+  },
+  {
+    "g": "Erde",
+    "t": "la tierra"
+  },
+  {
+    "g": "erhalten",
+    "t": "recibir algo"
+  },
+  {
+    "g": "Notwendig",
+    "t": "necesario"
+  },
+  {
+    "g": "Notfall",
+    "t": "emergencia"
+  },
+  {
+    "g": "Geschichste",
+    "t": "historia"
+  },
+  {
+    "g": "Hartnäckig",
+    "t": "terco"
+  },
+  {
+    "g": "Panne",
+    "t": "falla"
+  },
+  {
+    "g": "Stau",
+    "t": "atasco de tráfico"
+  },
+  {
+    "g": "zähle",
+    "t": "contar números"
+  },
+  {
+    "g": "die Kalorien",
+    "t": "calorias"
+  },
+  {
+    "g": "Trainieren / Übungen",
+    "t": "ejercicio"
+  },
+  {
+    "g": "der Himmel",
+    "t": "cielo"
+  },
+  {
+    "g": "Stadtzentrum",
+    "t": "centro de la ciudad"
+  },
+  {
+    "g": "die Ente",
+    "t": "pato"
+  },
+  {
+    "g": "der Schwan",
+    "t": "cisne"
+  },
+  {
+    "g": "die Geschichte",
+    "t": "historia"
+  },
+  {
+    "g": "dunn",
+    "t": "delgado"
+  },
+  {
+    "g": "engsten",
+    "t": "más cercanos, más limitados, más estrechos"
+  },
+  {
+    "g": "rennen",
+    "t": "correr rápido"
+  },
+  {
+    "g": "to",
+    "t": "para (to)"
+  },
+  {
+    "g": "Gewichtheben",
+    "t": "levantamiento de pesas"
+  },
+  {
+    "g": "Gedichte",
+    "t": "poemas"
+  },
+  {
+    "g": "sorge",
+    "t": "preocupación"
+  },
+  {
+    "g": "eine Freundin",
+    "t": "amiga"
+  },
+  {
+    "g": "ein Freund",
+    "t": "amigo"
+  },
+  {
+    "g": "Freundin",
+    "t": "novia (se quita el prefijo)"
+  },
+  {
+    "g": "Versteck",
+    "t": "escondite"
+  },
+  {
+    "g": "Höhle",
+    "t": "cueva"
+  },
+  {
+    "g": "herein",
+    "t": "entrar (come in)"
+  },
+  {
+    "g": "der Fuchs",
+    "t": "zorro"
+  },
+  {
+    "g": "achtsamkeit",
+    "t": "atención plena"
+  },
+  {
+    "g": "geheimnis",
+    "t": "secreto"
+  },
+  {
+    "g": "verwandelt",
+    "t": "transformado"
+  },
+  {
+    "g": "verwandeln",
+    "t": "transformar"
+  },
+  {
+    "g": "Entscheiden",
+    "t": "decidir"
+  },
+  {
+    "g": "beschließen",
+    "t": "decidir sobre algo"
+  },
+  {
+    "g": "Bauern",
+    "t": "granjero"
+  },
+  {
+    "g": "Nickerchen",
+    "t": "siesta"
+  },
+  {
+    "g": "Geruch",
+    "t": "olor"
+  },
+  {
+    "g": "Klopften",
+    "t": "golpeando/golpeteo"
+  },
+  {
+    "g": "Pfoten",
+    "t": "patas"
+  },
+  {
+    "g": "Schlüsselloch",
+    "t": "ojo de la cerradura"
+  },
+  {
+    "g": "Magen",
+    "t": "estómago"
+  },
+  {
+    "g": "knurren",
+    "t": "gruñir"
+  },
+  {
+    "g": "Ziegel",
+    "t": "ladrillos"
+  },
+  {
+    "g": "Steine",
+    "t": "piedras"
+  },
+  {
+    "g": "außer Atem",
+    "t": "sin aliento"
+  },
+  {
+    "g": "rührte",
+    "t": "agitar/revolver"
+  },
+  {
+    "g": "kletter",
+    "t": "subir, ascender"
+  },
+  {
+    "g": "rutsch",
+    "t": "deslizamiento"
+  },
+  {
+    "g": "Po",
+    "t": "nalgas, trasero"
+  },
+  {
+    "g": "verbrannten",
+    "t": "quemado"
+  },
+  {
+    "g": "köstlich",
+    "t": "delicioso"
+  },
+  {
+    "g": "die Hauptrolle, -n",
+    "t": "el papel principal"
+  },
+  {
+    "g": "die Reaktionsrolle, -n",
+    "t": "el papel reactivo"
+  },
+  {
+    "g": "die Annahme, -n",
+    "t": "la suposición, la asunción"
+  },
+  {
+    "g": "der Knackpunkt, -e",
+    "t": "el punto crucial, el punto clave"
+  },
+  {
+    "g": "das Zögern (Sg.)",
+    "t": "la duda, la hesitación"
+  },
+  {
+    "g": "die Aufgabe, -n",
+    "t": "la tarea, la misión"
+  },
+  {
+    "g": "ankündigen",
+    "t": "anunciar"
+  },
+  {
+    "g": "nachbohren",
+    "t": "insistir, presionar para obtener una respuesta"
+  },
+  {
+    "g": "durchziehen",
+    "t": "llevar algo hasta el final"
+  },
+  {
+    "g": "durchdacht (durchdenken)",
+    "t": "bien pensado, reflexionado"
+  },
+  {
+    "g": "auf sich allein gestellt sein",
+    "t": "tener que arreglárselas solo"
+  },
+  {
+    "g": "angehen (etwas richtig angehen)",
+    "t": "abordar algo correctamente"
+  },
+  {
+    "g": "die Gondel, -n",
+    "t": "la góndola"
+  },
+  {
+    "g": "möchten",
+    "t": "quisiera, me gustaría"
+  },
+  {
+    "g": "gähnen",
+    "t": "bostezar"
+  },
+  {
+    "g": "kurz",
+    "t": "corto, breve · brevemente"
+  },
+  {
+    "g": "etwas Dringendes",
+    "t": "algo urgente"
+  }
+]

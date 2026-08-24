@@ -1,0 +1,3909 @@
+[
+  {
+    "id": "1",
+    "de": "Ich putze mir jeden Tag die Zähne.",
+    "en": "I brush my teeth every day.",
+    "cat": "daily",
+    "nouns": [
+      "die Zähne"
+    ],
+    "g": [
+      {
+        "w": "mir",
+        "c": "Dat",
+        "n": "Reflexiv Dat (für mich selbst)"
+      },
+      {
+        "w": "die Zähne",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (Plural)"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "de": "Ich benutze eine elektrische Zahnbürste.",
+    "en": "I use an electric toothbrush.",
+    "cat": "daily",
+    "nouns": [
+      "die Zahnbürste"
+    ],
+    "g": [
+      {
+        "w": "eine Zahnbürste",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem., unverändert)"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "de": "Ich dehne mich jeden Morgen nach dem Aufstehen.",
+    "en": "I stretch every morning after getting up.",
+    "cat": "daily",
+    "nouns": []
+  },
+  {
+    "id": "4",
+    "de": "Ich mache gern morgens Sport.",
+    "en": "I like doing sport in the mornings.",
+    "cat": "daily",
+    "nouns": [
+      "der Sport"
+    ]
+  },
+  {
+    "id": "5",
+    "de": "Ich mache mehrmals pro Woche Krafttraining.",
+    "en": "I do strength training several times a week.",
+    "cat": "daily",
+    "nouns": [
+      "das Krafttraining"
+    ]
+  },
+  {
+    "id": "6",
+    "de": "Ich achte jeden Tag auf meine Ernährung.",
+    "en": "I watch my diet every day.",
+    "cat": "daily",
+    "nouns": [
+      "die Ernährung"
+    ]
+  },
+  {
+    "id": "7",
+    "de": "Ich gehe jeden Tag etwa 10.000 Schritte.",
+    "en": "I walk about 10,000 steps every day.",
+    "cat": "daily",
+    "nouns": []
+  },
+  {
+    "id": "8",
+    "de": "Ich habe 12 Kilo abgenommen.",
+    "en": "I lost 12 kilos.",
+    "cat": "daily",
+    "nouns": []
+  },
+  {
+    "id": "9",
+    "de": "Ich bin vom Winter müde.",
+    "en": "I'm tired of winter.",
+    "cat": "daily",
+    "nouns": [
+      "der Winter"
+    ],
+    "g": [
+      {
+        "w": "vom Winter",
+        "c": "Dat",
+        "n": "von → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "de": "Ich brauchte eine Pause. [Vgt]",
+    "en": "I needed a break. (past)",
+    "cat": "daily",
+    "nouns": [
+      "die Pause"
+    ]
+  },
+  {
+    "id": "11",
+    "de": "Ich war sehr müde. [Vgt]",
+    "en": "I was very tired. (past)",
+    "cat": "daily",
+    "nouns": []
+  },
+  {
+    "id": "12",
+    "de": "Ich wollte spazieren gehen. [Vgt]",
+    "en": "I wanted to go for a walk. (past)",
+    "cat": "daily",
+    "nouns": []
+  },
+  {
+    "id": "13",
+    "de": "Heute ist es sehr kalt.",
+    "en": "It's very cold today.",
+    "cat": "daily",
+    "nouns": []
+  },
+  {
+    "id": "14",
+    "de": "Draußen sind es 0 Grad.",
+    "en": "It's 0 degrees outside.",
+    "cat": "daily",
+    "nouns": [
+      "der Grad"
+    ]
+  },
+  {
+    "id": "15",
+    "de": "Heute ist es sehr windig.",
+    "en": "It's very windy today.",
+    "cat": "daily",
+    "nouns": []
+  },
+  {
+    "id": "16",
+    "de": "Deshalb ist es kalt.",
+    "en": "That's why it's cold.",
+    "cat": "daily",
+    "nouns": []
+  },
+  {
+    "id": "17",
+    "de": "Moka geht es leider nicht sehr gut.",
+    "en": "Unfortunately Moka is not doing very well.",
+    "cat": "moka",
+    "nouns": []
+  },
+  {
+    "id": "18",
+    "de": "Seit zwei Monaten ist sie oft krank und hat Durchfall.",
+    "en": "For two months she has often been sick and has diarrhea.",
+    "cat": "moka",
+    "nouns": [
+      "der Monat",
+      "der Durchfall"
+    ],
+    "g": [
+      {
+        "w": "seit zwei Monaten",
+        "c": "Dat",
+        "n": "seit → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "19",
+    "de": "Seit zwei Wochen geht es ihr etwas besser.",
+    "en": "For two weeks she has been doing a bit better.",
+    "cat": "moka",
+    "nouns": [
+      "die Woche"
+    ],
+    "g": [
+      {
+        "w": "seit zwei Wochen",
+        "c": "Dat",
+        "n": "seit → immer Dat"
+      },
+      {
+        "w": "ihr",
+        "c": "Dat",
+        "n": "indir. Objekt → Dat"
+      }
+    ]
+  },
+  {
+    "id": "20",
+    "de": "Sie hat Probleme mit der Hüfte.",
+    "en": "She has problems with her hip.",
+    "cat": "moka",
+    "nouns": [
+      "das Problem",
+      "die Hüfte"
+    ],
+    "g": [
+      {
+        "w": "mit der Hüfte",
+        "c": "Dat",
+        "n": "mit → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "21",
+    "de": "Sie kann nicht lange spazieren gehen.",
+    "en": "She can't walk for long.",
+    "cat": "moka",
+    "nouns": []
+  },
+  {
+    "id": "22",
+    "de": "Normalerweise bleiben wir in unserem Garten.",
+    "en": "We normally stay in our garden.",
+    "cat": "moka",
+    "nouns": [
+      "der Garten"
+    ],
+    "g": [
+      {
+        "w": "in unserem Garten",
+        "c": "Dat",
+        "n": "in + wo? → Dat"
+      }
+    ]
+  },
+  {
+    "id": "23",
+    "de": "Im Gras kann sie gut laufen.",
+    "en": "She can walk well on the grass.",
+    "cat": "moka",
+    "nouns": [
+      "das Gras"
+    ],
+    "g": [
+      {
+        "w": "Im Gras",
+        "c": "Dat",
+        "n": "in + wo? → Dat (im = in dem)"
+      }
+    ]
+  },
+  {
+    "id": "24",
+    "de": "Einmal pro Woche gehen wir mit dem Hundewagen in den Park.",
+    "en": "Once a week we go to the park with the dog stroller.",
+    "cat": "moka",
+    "nouns": [
+      "der Hundewagen",
+      "der Park"
+    ],
+    "g": [
+      {
+        "w": "mit dem Hundewagen",
+        "c": "Dat",
+        "n": "mit → immer Dat"
+      },
+      {
+        "w": "in den Park",
+        "c": "Akk",
+        "n": "in + wohin? → Akk"
+      }
+    ]
+  },
+  {
+    "id": "25",
+    "de": "Ich glaube, in ihrem Kopf ist Moka immer noch ein Welpe.",
+    "en": "I think in her head, Moka is still a puppy.",
+    "cat": "moka",
+    "nouns": [
+      "der Kopf",
+      "der Welpe"
+    ]
+  },
+  {
+    "id": "26",
+    "de": "Moka kann nicht in einer Hundepension bleiben.",
+    "en": "Moka can't stay in a dog kennel.",
+    "cat": "moka",
+    "nouns": [
+      "die Hundepension"
+    ],
+    "g": [
+      {
+        "w": "in einer Hundepension",
+        "c": "Dat",
+        "n": "in + wo? → Dat"
+      }
+    ]
+  },
+  {
+    "id": "27",
+    "de": "Moka frisst alles vom Boden.",
+    "en": "Moka eats everything off the floor.",
+    "cat": "moka",
+    "nouns": [
+      "der Boden"
+    ],
+    "g": [
+      {
+        "w": "vom Boden",
+        "c": "Dat",
+        "n": "von → immer Dat (vom = von dem)"
+      }
+    ]
+  },
+  {
+    "id": "28",
+    "de": "Sie hat Schmerzen in der Hüfte.",
+    "en": "She has pain in her hip.",
+    "cat": "moka",
+    "nouns": [
+      "der Schmerz",
+      "die Hüfte"
+    ],
+    "g": [
+      {
+        "w": "in der Hüfte",
+        "c": "Dat",
+        "n": "in + wo? → Dat"
+      }
+    ]
+  },
+  {
+    "id": "29",
+    "de": "Nachts schläft sie mit einer Windel.",
+    "en": "At night she sleeps with a diaper.",
+    "cat": "moka",
+    "nouns": [
+      "die Windel"
+    ],
+    "g": [
+      {
+        "w": "mit einer Windel",
+        "c": "Dat",
+        "n": "mit → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "30",
+    "de": "Sie hat Angst bei den Treppen.",
+    "en": "She is scared of the stairs.",
+    "cat": "moka",
+    "nouns": [
+      "die Angst",
+      "die Treppe"
+    ],
+    "g": [
+      {
+        "w": "bei den Treppen",
+        "c": "Dat",
+        "n": "bei → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "31",
+    "de": "Bei den Treppen müssen wir sie tragen.",
+    "en": "At the stairs we have to carry her.",
+    "cat": "moka",
+    "nouns": [
+      "die Treppe"
+    ],
+    "g": [
+      {
+        "w": "Bei den Treppen",
+        "c": "Dat",
+        "n": "bei → immer Dat"
+      },
+      {
+        "w": "sie tragen",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk"
+      }
+    ]
+  },
+  {
+    "id": "32",
+    "de": "Mokas Pfote knickt nach innen.",
+    "en": "Moka's paw turns inward.",
+    "cat": "moka",
+    "nouns": [
+      "die Pfote"
+    ]
+  },
+  {
+    "id": "33",
+    "de": "Manchmal fällt sie hin.",
+    "en": "Sometimes she falls over.",
+    "cat": "moka",
+    "nouns": []
+  },
+  {
+    "id": "34",
+    "de": "An guten Tagen geht sie gern spazieren.",
+    "en": "On good days she likes going for walks.",
+    "cat": "moka",
+    "nouns": [
+      "der Tag"
+    ]
+  },
+  {
+    "id": "35",
+    "de": "Sie hat oft Darmprobleme.",
+    "en": "She often has digestive problems.",
+    "cat": "moka",
+    "nouns": [
+      "das Darmproblem"
+    ]
+  },
+  {
+    "id": "36",
+    "de": "Wir hoffen, dass die Behandlung hilft.",
+    "en": "We hope the treatment helps.",
+    "cat": "moka",
+    "nouns": [
+      "die Behandlung"
+    ]
+  },
+  {
+    "id": "37",
+    "de": "Dann gehen wir mit dem Hundewagen, und sie läuft frei im Wald oder im Park.",
+    "en": "We use the dog stroller and she runs free in the forest or park.",
+    "cat": "moka",
+    "nouns": [
+      "der Hundewagen",
+      "der Wald",
+      "der Park"
+    ],
+    "g": [
+      {
+        "w": "mit dem Hundewagen",
+        "c": "Dat",
+        "n": "mit → immer Dat"
+      },
+      {
+        "w": "im Wald / im Park",
+        "c": "Dat",
+        "n": "in + wo? → Dat (im = in dem)"
+      }
+    ]
+  },
+  {
+    "id": "38",
+    "de": "Aber der Straßenboden ist zu hart für sie.",
+    "en": "But the street surface is too hard for her.",
+    "cat": "moka",
+    "nouns": [
+      "der Straßenboden"
+    ],
+    "g": [
+      {
+        "w": "für sie",
+        "c": "Akk",
+        "n": "für → immer Akk"
+      }
+    ]
+  },
+  {
+    "id": "39",
+    "de": "Ist es ein ruhiger Hund? Oder ist er aggressiv?",
+    "en": "Is it a calm dog? Or is it aggressive?",
+    "cat": "moka",
+    "nouns": [
+      "der Hund"
+    ]
+  },
+  {
+    "id": "40",
+    "de": "Darf ich Ihren Hund streicheln?",
+    "en": "May I pet your dog?",
+    "cat": "moka",
+    "nouns": [
+      "der Hund"
+    ],
+    "g": [
+      {
+        "w": "Ihren Hund",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.: der → den/Ihren)"
+      }
+    ]
+  },
+  {
+    "id": "41",
+    "de": "Wir entwickeln Reality-Capture-Technologie.",
+    "en": "We develop reality capture technology.",
+    "cat": "work",
+    "nouns": [
+      "die Technologie"
+    ]
+  },
+  {
+    "id": "42",
+    "de": "Meine Firma entwickelt Hardware und Software.",
+    "en": "My company develops hardware and software.",
+    "cat": "work",
+    "nouns": [
+      "die Firma"
+    ]
+  },
+  {
+    "id": "43",
+    "de": "Ich bin mit dieser Firma zufrieden.",
+    "en": "I am satisfied with this company.",
+    "cat": "work",
+    "nouns": [
+      "die Firma"
+    ],
+    "g": [
+      {
+        "w": "mit dieser Firma",
+        "c": "Dat",
+        "n": "mit → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "44",
+    "de": "Ich kann von zu Hause arbeiten.",
+    "en": "I can work from home.",
+    "cat": "work",
+    "nouns": [
+      "das Haus"
+    ],
+    "g": [
+      {
+        "w": "von zu Hause",
+        "c": "Dat",
+        "n": "von → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "45",
+    "de": "Ich arbeite von Beruf im Programmmanagement.",
+    "en": "My job is in programme management.",
+    "cat": "work",
+    "nouns": [
+      "der Beruf",
+      "das Programmmanagement"
+    ]
+  },
+  {
+    "id": "46",
+    "de": "Ich entwickle Strategien bei der Arbeit.",
+    "en": "I develop strategies at work.",
+    "cat": "work",
+    "nouns": [
+      "die Strategie",
+      "die Arbeit"
+    ],
+    "g": [
+      {
+        "w": "bei der Arbeit",
+        "c": "Dat",
+        "n": "bei → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "47",
+    "de": "Ich habe viele Termine.",
+    "en": "I have many appointments.",
+    "cat": "work",
+    "nouns": [
+      "der Termin"
+    ]
+  },
+  {
+    "id": "48",
+    "de": "Unsere Firma hofft auf mehr Wachstum.",
+    "en": "Our company hopes for more growth.",
+    "cat": "work",
+    "nouns": [
+      "die Firma",
+      "das Wachstum"
+    ]
+  },
+  {
+    "id": "49",
+    "de": "Ich halte meine Augen offen für neue Möglichkeiten.",
+    "en": "I keep my eyes open for new opportunities.",
+    "cat": "work",
+    "nouns": [
+      "das Auge",
+      "die Möglichkeit"
+    ],
+    "g": [
+      {
+        "w": "für neue Möglichkeiten",
+        "c": "Akk",
+        "n": "für → immer Akk"
+      }
+    ]
+  },
+  {
+    "id": "50",
+    "de": "Normalerweise fahre ich mit dem Zug nach München.",
+    "en": "I normally take the train to Munich.",
+    "cat": "travel",
+    "nouns": [
+      "der Zug"
+    ],
+    "g": [
+      {
+        "w": "mit dem Zug",
+        "c": "Dat",
+        "n": "mit → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "51",
+    "de": "Mit dem Zug ist es einfacher.",
+    "en": "It's easier by train.",
+    "cat": "travel",
+    "nouns": [
+      "der Zug"
+    ],
+    "g": [
+      {
+        "w": "mit dem Zug",
+        "c": "Dat",
+        "n": "mit → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "52",
+    "de": "Ich fahre mit dem Zug nach Köln.",
+    "en": "I'm taking the train to Cologne.",
+    "cat": "travel",
+    "nouns": [
+      "der Zug"
+    ],
+    "g": [
+      {
+        "w": "mit dem Zug",
+        "c": "Dat",
+        "n": "mit → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "53",
+    "de": "Mein Bruder und seine Familie kommen im Juli aus Mexiko nach Europa.",
+    "en": "My brother and his family are coming from Mexico to Europe in July.",
+    "cat": "travel",
+    "nouns": [
+      "der Bruder",
+      "die Familie"
+    ],
+    "g": [
+      {
+        "w": "aus Mexiko",
+        "c": "Dat",
+        "n": "aus → immer Dat"
+      },
+      {
+        "w": "im Juli",
+        "c": "Dat",
+        "n": "in + Monat → Dat (im = in dem)"
+      }
+    ]
+  },
+  {
+    "id": "54",
+    "de": "Sie reisen zwei Wochen lang durch Europa.",
+    "en": "They are travelling through Europe for two weeks.",
+    "cat": "travel",
+    "nouns": [
+      "die Woche"
+    ],
+    "g": [
+      {
+        "w": "durch Europa",
+        "c": "Akk",
+        "n": "durch → immer Akk"
+      }
+    ]
+  },
+  {
+    "id": "55",
+    "de": "Sie besuchen verschiedene Städte.",
+    "en": "They are visiting various cities.",
+    "cat": "travel",
+    "nouns": [
+      "die Stadt"
+    ]
+  },
+  {
+    "id": "56",
+    "de": "Und wir treffen uns in der Schweiz.",
+    "en": "And we meet in Switzerland.",
+    "cat": "travel",
+    "nouns": [
+      "die Schweiz"
+    ],
+    "g": [
+      {
+        "w": "in der Schweiz",
+        "c": "Dat",
+        "n": "in + wo? → Dat"
+      }
+    ]
+  },
+  {
+    "id": "57",
+    "de": "Wir treffen uns später in Luzern.",
+    "en": "We'll meet later in Lucerne.",
+    "cat": "travel",
+    "nouns": []
+  },
+  {
+    "id": "58",
+    "de": "Im April reisen wir in den Schwarzwald.",
+    "en": "In April we're travelling to the Black Forest.",
+    "cat": "travel",
+    "nouns": [
+      "der Schwarzwald"
+    ],
+    "g": [
+      {
+        "w": "in den Schwarzwald",
+        "c": "Akk",
+        "n": "in + wohin? → Akk"
+      }
+    ]
+  },
+  {
+    "id": "59",
+    "de": "Wir bleiben nur ein langes Wochenende.",
+    "en": "We're only staying for a long weekend.",
+    "cat": "travel",
+    "nouns": [
+      "das Wochenende"
+    ]
+  },
+  {
+    "id": "60",
+    "de": "Wir waren im Schwarzwald. [Vgt]",
+    "en": "We were in the Black Forest. (past)",
+    "cat": "travel",
+    "nouns": [
+      "der Schwarzwald"
+    ],
+    "g": [
+      {
+        "w": "im Schwarzwald",
+        "c": "Dat",
+        "n": "in + wo? → Dat (im = in dem)"
+      }
+    ]
+  },
+  {
+    "id": "61",
+    "de": "Wir haben eine Wohnung gemietet. [Vgt]",
+    "en": "We rented an apartment. (past)",
+    "cat": "travel",
+    "nouns": [
+      "die Wohnung"
+    ]
+  },
+  {
+    "id": "62",
+    "de": "Das Wetter war perfekt. [Vgt]",
+    "en": "The weather was perfect. (past)",
+    "cat": "travel",
+    "nouns": [
+      "das Wetter"
+    ]
+  },
+  {
+    "id": "63",
+    "de": "Im Juni sind wir in der Toskana.",
+    "en": "In June we are in Tuscany.",
+    "cat": "travel",
+    "nouns": [
+      "die Toskana"
+    ],
+    "g": [
+      {
+        "w": "in der Toskana",
+        "c": "Dat",
+        "n": "in + wo? → Dat"
+      }
+    ]
+  },
+  {
+    "id": "64",
+    "de": "Dort machen wir viele Tagesausflüge.",
+    "en": "There we do many day trips.",
+    "cat": "travel",
+    "nouns": [
+      "der Tagesausflug"
+    ]
+  },
+  {
+    "id": "65",
+    "de": "Wir sind im Urlaub.",
+    "en": "We are on holiday.",
+    "cat": "travel",
+    "nouns": [
+      "der Urlaub"
+    ],
+    "g": [
+      {
+        "w": "im Urlaub",
+        "c": "Dat",
+        "n": "in + wo? → Dat (im = in dem)"
+      }
+    ]
+  },
+  {
+    "id": "66",
+    "de": "Wir probieren andere Gerichte aus.",
+    "en": "We try different dishes.",
+    "cat": "travel",
+    "nouns": [
+      "das Gericht"
+    ]
+  },
+  {
+    "id": "67",
+    "de": "Ich esse gern Kuchen mit Kirschen.",
+    "en": "I like eating cake with cherries.",
+    "cat": "food",
+    "nouns": [
+      "der Kuchen",
+      "die Kirsche"
+    ]
+  },
+  {
+    "id": "68",
+    "de": "Ich hätte gerne einen Kaffee und ein Stück von diesem Brot.",
+    "en": "I'd like a coffee and a piece of this bread.",
+    "cat": "food",
+    "nouns": [
+      "der Kaffee",
+      "das Stück",
+      "das Brot"
+    ],
+    "g": [
+      {
+        "w": "einen Kaffee",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      },
+      {
+        "w": "ein Stück",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (neut.)"
+      },
+      {
+        "w": "diesem Brot",
+        "c": "Dat",
+        "n": "von → immer Dat (neut.)"
+      }
+    ]
+  },
+  {
+    "id": "69",
+    "de": "Ist hier noch frei?",
+    "en": "Is this seat free?",
+    "cat": "food",
+    "nouns": []
+  },
+  {
+    "id": "70",
+    "de": "Ich möchte bitte eine Reservierung machen. Für morgen, zwei Personen um 17:30 Uhr.",
+    "en": "I'd like to make a reservation. For tomorrow, 2 people at 5:30 PM.",
+    "cat": "food",
+    "nouns": [
+      "die Reservierung"
+    ]
+  },
+  {
+    "id": "71",
+    "de": "Das Gericht ist sehr lecker.",
+    "en": "The dish is very tasty.",
+    "cat": "food",
+    "nouns": [
+      "das Gericht"
+    ]
+  },
+  {
+    "id": "72",
+    "de": "Heute habe ich Eier zum Frühstück gegessen. [Vgt]",
+    "en": "Today I ate eggs for breakfast. (past)",
+    "cat": "food",
+    "nouns": [
+      "das Ei",
+      "das Frühstück"
+    ]
+  },
+  {
+    "id": "73",
+    "de": "Ich habe schon gefrühstückt. [Vgt]",
+    "en": "I've already had breakfast. (past)",
+    "cat": "food",
+    "nouns": []
+  },
+  {
+    "id": "74",
+    "de": "Ich mag italienisches Essen.",
+    "en": "I like Italian food. (mögen + noun)",
+    "cat": "food",
+    "nouns": [
+      "das Essen"
+    ]
+  },
+  {
+    "id": "75",
+    "de": "Ich esse gern italienisches Essen.",
+    "en": "I like eating Italian food. (gern + verb)",
+    "cat": "food",
+    "nouns": [
+      "das Essen"
+    ]
+  },
+  {
+    "id": "76",
+    "de": "Ich mag Kaffee.",
+    "en": "I like coffee. (mögen + noun)",
+    "cat": "food",
+    "nouns": [
+      "der Kaffee"
+    ]
+  },
+  {
+    "id": "77",
+    "de": "Ich trinke gern Kaffee.",
+    "en": "I like drinking coffee. (gern + verb)",
+    "cat": "food",
+    "nouns": [
+      "der Kaffee"
+    ]
+  },
+  {
+    "id": "78",
+    "de": "Wir mögen neue Restaurants.",
+    "en": "We like new restaurants. (mögen + noun)",
+    "cat": "food",
+    "nouns": [
+      "das Restaurant"
+    ]
+  },
+  {
+    "id": "79",
+    "de": "Wir gehen gern in neue Restaurants.",
+    "en": "We like going to new restaurants. (gern + verb)",
+    "cat": "food",
+    "nouns": [
+      "das Restaurant"
+    ],
+    "g": [
+      {
+        "w": "in neue Restaurants",
+        "c": "Akk",
+        "n": "in + wohin? → Akk"
+      }
+    ]
+  },
+  {
+    "id": "80",
+    "de": "Ich komme, um ein Rezept abzuholen.",
+    "en": "I'm coming to pick up a prescription.",
+    "cat": "shopping",
+    "nouns": [
+      "das Rezept"
+    ],
+    "g": [
+      {
+        "w": "ein Rezept",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (neut.)"
+      }
+    ]
+  },
+  {
+    "id": "81",
+    "de": "Ich hole ein paar Papiere ab.",
+    "en": "I'm picking up some papers.",
+    "cat": "shopping",
+    "nouns": [
+      "das Papier"
+    ]
+  },
+  {
+    "id": "82",
+    "de": "Die Papiere sind von meinem Hausarzt.",
+    "en": "The papers are from my GP.",
+    "cat": "shopping",
+    "nouns": [
+      "das Papier",
+      "der Hausarzt"
+    ],
+    "g": [
+      {
+        "w": "von meinem Hausarzt",
+        "c": "Dat",
+        "n": "von → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "83",
+    "de": "Ich schaue nur, vielen Dank.",
+    "en": "I'm just looking, thank you.",
+    "cat": "shopping",
+    "nouns": []
+  },
+  {
+    "id": "84",
+    "de": "Ich suche Tücher für das Gesicht.",
+    "en": "I'm looking for face cloths.",
+    "cat": "shopping",
+    "nouns": [
+      "das Tuch",
+      "das Gesicht"
+    ]
+  },
+  {
+    "id": "85",
+    "de": "Ich möchte bitte das rote Kleid.",
+    "en": "I'd like the red dress, please.",
+    "cat": "shopping",
+    "nouns": [
+      "das Kleid"
+    ],
+    "g": [
+      {
+        "w": "das rote Kleid",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (neut., unverändert)"
+      }
+    ]
+  },
+  {
+    "id": "86",
+    "de": "Wohin gehst du? Hast du Pläne für heute?",
+    "en": "Where are you going? Do you have plans for today?",
+    "cat": "conversation",
+    "nouns": [
+      "der Plan"
+    ]
+  },
+  {
+    "id": "87",
+    "de": "Ich möchte das überprüfen und dann entscheiden.",
+    "en": "I'd like to check that and then decide.",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "88",
+    "de": "Nochmal bitte?",
+    "en": "Pardon? / Could you say that again?",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "89",
+    "de": "Mach's gut! Tschüss!",
+    "en": "Take care! Bye!",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "90",
+    "de": "Können Sie bitte auf meine Sachen aufpassen?",
+    "en": "Could you please watch my things?",
+    "cat": "conversation",
+    "nouns": [
+      "die Sachen"
+    ],
+    "g": [
+      {
+        "w": "auf meine Sachen",
+        "c": "Akk",
+        "n": "aufpassen auf → immer Akk"
+      }
+    ]
+  },
+  {
+    "id": "91",
+    "de": "Bitte bleiben Sie ruhig, wir sind in einem Zug.",
+    "en": "Please be quiet, we are on a train.",
+    "cat": "conversation",
+    "nouns": [
+      "der Zug"
+    ],
+    "g": [
+      {
+        "w": "in einem Zug",
+        "c": "Dat",
+        "n": "in + wo? → Dat"
+      }
+    ]
+  },
+  {
+    "id": "92",
+    "de": "Ich finde, das ist wichtig.",
+    "en": "I think that's important.",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "93",
+    "de": "Es tut mir sehr leid.",
+    "en": "I'm very sorry.",
+    "cat": "conversation",
+    "nouns": [],
+    "g": [
+      {
+        "w": "mir",
+        "c": "Dat",
+        "n": "indir. Objekt → Dat (mir = to me)"
+      }
+    ]
+  },
+  {
+    "id": "94",
+    "de": "Darauf freue ich mich.",
+    "en": "I'm looking forward to it.",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "95",
+    "de": "Ich mag München. Ich finde, es ist eine sehr schöne Stadt.",
+    "en": "I like Munich. I think it's a very beautiful city.",
+    "cat": "conversation",
+    "nouns": [
+      "die Stadt"
+    ]
+  },
+  {
+    "id": "96",
+    "de": "Leider gibt es viele Probleme weltweit.",
+    "en": "Unfortunately there are many problems worldwide.",
+    "cat": "conversation",
+    "nouns": [
+      "das Problem"
+    ]
+  },
+  {
+    "id": "97",
+    "de": "Ich habe Angst, weil ich nicht viel Zeit habe.",
+    "en": "I'm nervous because I don't have much time.",
+    "cat": "conversation",
+    "nouns": [
+      "die Angst",
+      "die Zeit"
+    ]
+  },
+  {
+    "id": "98",
+    "de": "Ich gehe nicht in die Kirche, weil ich keine Religion habe.",
+    "en": "I don't go to church because I have no religion.",
+    "cat": "conversation",
+    "nouns": [
+      "die Kirche",
+      "die Religion"
+    ],
+    "g": [
+      {
+        "w": "in die Kirche",
+        "c": "Akk",
+        "n": "in + wohin? → Akk"
+      }
+    ]
+  },
+  {
+    "id": "99",
+    "de": "Ich mag es nicht, wenn das passiert.",
+    "en": "I don't like it when that happens.",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "100",
+    "de": "in die Kirche gehen → Bewegung = Akkusativ (wohin?)",
+    "en": "Movement toward a place = accusative. Ask: wohin?",
+    "cat": "grammar",
+    "nouns": [
+      "die Kirche"
+    ]
+  },
+  {
+    "id": "101",
+    "de": "weil ich ... habe → Verb ans Ende des Nebensatzes",
+    "en": "weil sends the verb to the END of the clause.",
+    "cat": "grammar",
+    "nouns": []
+  },
+  {
+    "id": "102",
+    "de": "Ich möchte... → für Wünsche im Präsens (nicht: ich wollte)",
+    "en": "Use Ich möchte for present wishes. Ich wollte = I wanted (past).",
+    "cat": "grammar",
+    "nouns": []
+  },
+  {
+    "id": "103",
+    "de": "Ich suche etwas → kein 'für' nach suchen",
+    "en": "suchen takes no 'für' — unlike English 'look FOR something'.",
+    "cat": "grammar",
+    "nouns": []
+  },
+  {
+    "id": "104",
+    "de": "Kirschen (Früchte) ≠ Kirchen (Gebäude)",
+    "en": "Kirschen = cherries | Kirchen = churches. One letter changes everything.",
+    "cat": "grammar",
+    "nouns": [
+      "die Kirsche",
+      "die Kirche"
+    ]
+  },
+  {
+    "id": "105",
+    "de": "mögen + Nomen vs. gern + Verb: Ich mag Kaffee / Ich trinke gern Kaffee.",
+    "en": "Use mögen before a noun. Use gern after an activity verb.",
+    "cat": "grammar",
+    "nouns": [
+      "der Kaffee"
+    ]
+  },
+  {
+    "id": "106",
+    "de": "Jetzt lerne ich jeden Tag Deutsch.",
+    "en": "I'm learning German every day now.",
+    "cat": "learning",
+    "nouns": []
+  },
+  {
+    "id": "107",
+    "de": "Ich lasse meine Texte korrigieren.",
+    "en": "I have my texts corrected.",
+    "cat": "learning",
+    "nouns": [
+      "der Text"
+    ]
+  },
+  {
+    "id": "108",
+    "de": "Ich lese meine Sätze laut.",
+    "en": "I read my sentences out loud.",
+    "cat": "learning",
+    "nouns": [
+      "der Satz"
+    ]
+  },
+  {
+    "id": "109",
+    "de": "Ich höre langsames Deutsch.",
+    "en": "I listen to slow German.",
+    "cat": "learning",
+    "nouns": []
+  },
+  {
+    "id": "110",
+    "de": "Ich gehe kurz auf die Toilette.",
+    "en": "I'm just going to the toilet.",
+    "cat": "daily",
+    "nouns": [
+      "die Toilette"
+    ],
+    "g": [
+      {
+        "w": "auf die Toilette",
+        "c": "Akk",
+        "n": "auf + wohin? → Akk (feste Phrase)"
+      }
+    ]
+  },
+  {
+    "id": "111",
+    "de": "Auf der Autobahn fahre ich etwa 120 km/h.",
+    "en": "On the motorway I drive about 120 km/h.",
+    "cat": "daily",
+    "nouns": [
+      "die Autobahn"
+    ],
+    "g": [
+      {
+        "w": "auf der Autobahn",
+        "c": "Dat",
+        "n": "auf + wo? → Dat"
+      }
+    ]
+  },
+  {
+    "id": "112",
+    "de": "Ich fühle mich dabei wohl.",
+    "en": "I feel comfortable with that.",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "113",
+    "de": "zum Mitnehmen",
+    "en": "to take away (fixed phrase)",
+    "cat": "shopping",
+    "nouns": []
+  },
+  {
+    "id": "114",
+    "de": "Ich hätte gerne einen Kaffee zum Mitnehmen und ein Stück von diesem Brot.",
+    "en": "I'd like a coffee to take away and a piece of this bread.",
+    "cat": "food",
+    "nouns": [
+      "der Kaffee",
+      "das Stück",
+      "das Brot"
+    ]
+  },
+  {
+    "id": "115",
+    "de": "einen Kaffee → der Kaffee (maskulin, Akkusativ)",
+    "en": "der Kaffee → einen Kaffee in accusative",
+    "cat": "grammar",
+    "nouns": [
+      "der Kaffee"
+    ]
+  },
+  {
+    "id": "116",
+    "de": "ein Stück von diesem Brot → das Brot (Neutrum, Dativ)",
+    "en": "das Brot → diesem Brot (dative after von)",
+    "cat": "grammar",
+    "nouns": [
+      "das Stück",
+      "das Brot"
+    ]
+  },
+  {
+    "id": "117",
+    "de": "Der Boden klebt sehr.",
+    "en": "The floor is very sticky.",
+    "cat": "daily",
+    "nouns": [
+      "der Boden"
+    ]
+  },
+  {
+    "id": "118",
+    "de": "Wäre es okay, wenn ich…",
+    "en": "Would it be okay if I…",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "119",
+    "de": "Das hilft, den Kalk zu lösen.",
+    "en": "That helps dissolve the limescale.",
+    "cat": "daily",
+    "nouns": [
+      "der Kalk",
+      "der Essig"
+    ],
+    "g": [
+      {
+        "w": "den Kalk",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ]
+  },
+  {
+    "id": "120",
+    "de": "Mein letzter Termin war vor 6 Monaten.",
+    "en": "My last appointment was 6 months ago.",
+    "cat": "daily",
+    "nouns": [
+      "der Termin"
+    ],
+    "g": [
+      {
+        "w": "vor 6 Monaten",
+        "c": "Dat",
+        "n": "vor → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "121",
+    "de": "vor 6 Monaten (nicht: seit) → ago",
+    "en": "vor = ago | seit = since/for an ongoing period",
+    "cat": "grammar",
+    "nouns": []
+  },
+  {
+    "id": "122",
+    "de": "eine Kontrolle machen lassen",
+    "en": "to have a check-up",
+    "cat": "daily",
+    "nouns": [
+      "die Kontrolle"
+    ]
+  },
+  {
+    "id": "123",
+    "de": "die Ergebnisse mitbringen",
+    "en": "to bring the results along (mit goes to the end!)",
+    "cat": "daily",
+    "nouns": [
+      "das Ergebnis"
+    ]
+  },
+  {
+    "id": "124",
+    "de": "der Regenschirm",
+    "en": "umbrella",
+    "cat": "daily",
+    "nouns": [
+      "der Regenschirm"
+    ]
+  },
+  {
+    "id": "125",
+    "de": "Wie geht es euch?",
+    "en": "How are you? (2+ people, informal)",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "126",
+    "de": "Moka hat kleine Fettknötchen.",
+    "en": "Moka has small fatty lumps.",
+    "cat": "moka",
+    "nouns": [
+      "das Fettknötchen"
+    ]
+  },
+  {
+    "id": "127",
+    "de": "Der Arzt hat sie untersucht und gesagt, dass es nicht schlimm ist.",
+    "en": "The vet examined her and said it's not serious.",
+    "cat": "moka",
+    "nouns": [
+      "der Arzt"
+    ]
+  },
+  {
+    "id": "128",
+    "de": "Ich habe Moka in Mexiko adoptiert. Sie war fünf Wochen alt.",
+    "en": "I adopted Moka in Mexico. She was five weeks old.",
+    "cat": "moka",
+    "nouns": []
+  },
+  {
+    "id": "129",
+    "de": "Moka ist in einer Hundepension geblieben.",
+    "en": "Moka stayed at a dog kennel.",
+    "cat": "moka",
+    "nouns": [
+      "die Hundepension"
+    ],
+    "g": [
+      {
+        "w": "in einer Hundepension",
+        "c": "Dat",
+        "n": "in + wo? → Dat"
+      }
+    ]
+  },
+  {
+    "id": "130",
+    "de": "Sie bellen so selten.",
+    "en": "They bark so rarely. (bellen = to bark)",
+    "cat": "moka",
+    "nouns": []
+  },
+  {
+    "id": "131",
+    "de": "Ich werde nach München ziehen.",
+    "en": "I'm going to move to Munich.",
+    "cat": "daily",
+    "nouns": []
+  },
+  {
+    "id": "132",
+    "de": "Mir geht es gut, und dir?",
+    "en": "I'm doing well, and you?",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "133",
+    "de": "Ich würde sagen…",
+    "en": "I would say… (würde = would, nicht: wurde!)",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "134",
+    "de": "Ich will 2 Kilo abnehmen.",
+    "en": "I want to lose 2 kilos. (wollen + Infinitiv)",
+    "cat": "daily",
+    "nouns": []
+  },
+  {
+    "id": "135",
+    "de": "Wir wollen ein Haus kaufen.",
+    "en": "We want to buy a house.",
+    "cat": "daily",
+    "nouns": [
+      "das Haus"
+    ],
+    "g": [
+      {
+        "w": "ein Haus",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (neut.)"
+      }
+    ]
+  },
+  {
+    "id": "136",
+    "de": "Ich hätte gerne das Mittagsmenü und einen kleinen Salat dazu.",
+    "en": "I'd like the lunch menu and a small salad on the side.",
+    "cat": "food",
+    "nouns": [
+      "das Menü",
+      "der Salat"
+    ],
+    "g": [
+      {
+        "w": "einen kleinen Salat",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ]
+  },
+  {
+    "id": "137",
+    "de": "dabei = gleichzeitig · dazu = zusätzlich",
+    "en": "dabei = at the same time · dazu = in addition",
+    "cat": "grammar",
+    "nouns": []
+  },
+  {
+    "id": "138",
+    "de": "Ich lerne Deutsch und höre dabei Musik.",
+    "en": "I learn German and listen to music at the same time.",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "139",
+    "de": "Ich koche und höre dabei Radio.",
+    "en": "I cook and listen to the radio at the same time.",
+    "cat": "conversation",
+    "nouns": [
+      "das Radio"
+    ]
+  },
+  {
+    "id": "140",
+    "de": "Das Beste dabei ist, dass es kostenlos ist.",
+    "en": "The best thing about it is that it's free.",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "141",
+    "de": "Für die Arbeit nutze ich meistens meinen Laptop.",
+    "en": "For work I mostly use my laptop.",
+    "cat": "work",
+    "nouns": [
+      "die Arbeit",
+      "der Laptop"
+    ]
+  },
+  {
+    "id": "142",
+    "de": "Normalerweise nutze ich die U-Bahn.",
+    "en": "I normally use the metro.",
+    "cat": "daily",
+    "nouns": [
+      "die U-Bahn"
+    ]
+  },
+  {
+    "id": "143",
+    "de": "Wenn es regnet, nutze ich die U-Bahn.",
+    "en": "When it rains, I use the metro.",
+    "cat": "daily",
+    "nouns": [
+      "die U-Bahn"
+    ]
+  },
+  {
+    "id": "144",
+    "de": "Ok, dann los geht's!",
+    "en": "Ok, here we go! (fixed phrase)",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "145",
+    "de": "Wir steigen ein. / Wir steigen aus.",
+    "en": "We get on. / We get off.",
+    "cat": "daily",
+    "nouns": [
+      "die U-Bahn"
+    ]
+  },
+  {
+    "id": "146",
+    "de": "Es riecht stark nach Rauch.",
+    "en": "It smells strongly of smoke.",
+    "cat": "conversation",
+    "nouns": [
+      "der Rauch"
+    ],
+    "g": [
+      {
+        "w": "nach Rauch",
+        "c": "Dat",
+        "n": "nach → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "147",
+    "de": "Guck mal, da drüben!",
+    "en": "Look, over there!",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "148",
+    "de": "Ich habe Durst.",
+    "en": "I'm thirsty. (lit: I have thirst)",
+    "cat": "daily",
+    "nouns": [
+      "der Durst"
+    ]
+  },
+  {
+    "id": "149",
+    "de": "Der Automat ist außer Betrieb.",
+    "en": "The machine is out of service. (fixed phrase)",
+    "cat": "conversation",
+    "nouns": [
+      "der Automat",
+      "der Betrieb"
+    ]
+  },
+  {
+    "id": "150",
+    "de": "Ich will heute trainieren, allerdings bin ich sehr müde.",
+    "en": "I want to train today, however I'm very tired.",
+    "cat": "daily",
+    "nouns": []
+  },
+  {
+    "id": "151",
+    "de": "Hallo, ich habe heute einen Kontrolltermin — für die Augen / für die Zähne.",
+    "en": "Hello, I have a check-up appointment today — for my eyes / teeth.",
+    "cat": "medical",
+    "nouns": [
+      "der Kontrolltermin"
+    ],
+    "g": [
+      {
+        "w": "einen Kontrolltermin",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ]
+  },
+  {
+    "id": "152",
+    "de": "Mein letzter Termin war vor sechs Monaten.",
+    "en": "My last appointment was six months ago.",
+    "cat": "medical",
+    "nouns": [
+      "der Termin"
+    ],
+    "g": [
+      {
+        "w": "vor sechs Monaten",
+        "c": "Dat",
+        "n": "vor → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "153",
+    "de": "Wenn möglich, möchte ich nur eine Kontrolle. Beim letzten Mal war die Rechnung sehr hoch.",
+    "en": "If possible, I'd like just a check-up. Last time the bill was very high.",
+    "cat": "medical",
+    "nouns": [
+      "die Kontrolle",
+      "die Rechnung"
+    ]
+  },
+  {
+    "id": "154",
+    "de": "Ich möchte fragen, ob ich heute alle Tests brauche.",
+    "en": "I'd like to ask whether I need all the tests today.",
+    "cat": "medical",
+    "nouns": [
+      "der Test"
+    ]
+  },
+  {
+    "id": "155",
+    "de": "Ich bringe die Ergebnisse von ein paar Tests mit — der Arzt hat sie angeordnet.",
+    "en": "I'm bringing the results of a few tests — the doctor ordered them.",
+    "cat": "medical",
+    "nouns": [
+      "das Ergebnis",
+      "der Arzt",
+      "der Test"
+    ]
+  },
+  {
+    "id": "156",
+    "de": "Brauche ich heute die Augentropfen? Ich komme mit dem Auto.",
+    "en": "Do I need the eye drops today? I came by car.",
+    "cat": "medical",
+    "nouns": [
+      "die Augentropfen"
+    ],
+    "g": [
+      {
+        "w": "mit dem Auto",
+        "c": "Dat",
+        "n": "mit → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "157",
+    "de": "Ich habe heute eine Zahnreinigung und einen Kontrolltermin.",
+    "en": "I have a teeth cleaning and a check-up today.",
+    "cat": "medical",
+    "nouns": [
+      "die Zahnreinigung",
+      "der Kontrolltermin"
+    ],
+    "g": [
+      {
+        "w": "einen Kontrolltermin",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ]
+  },
+  {
+    "id": "158",
+    "de": "Nein, ich habe keine Schmerzen und keine Blutungen. Alles ist in Ordnung.",
+    "en": "No, I have no pain and no bleeding. Everything is fine.",
+    "cat": "medical",
+    "nouns": [
+      "der Schmerz",
+      "die Blutung"
+    ]
+  },
+  {
+    "id": "159",
+    "de": "Wann muss ich die Behandlung machen? Ist es dringend?",
+    "en": "When do I need to have the treatment done? Is it urgent?",
+    "cat": "medical",
+    "nouns": [
+      "die Behandlung"
+    ]
+  },
+  {
+    "id": "160",
+    "de": "Ist das etwas Wichtiges? Muss das unbedingt gemacht werden?",
+    "en": "Is that something important? Does it absolutely need to be done?",
+    "cat": "medical",
+    "nouns": []
+  },
+  {
+    "id": "161",
+    "de": "der Blutdruck · der Blutzucker · die Augentropfen",
+    "en": "blood pressure · blood sugar · eye drops",
+    "cat": "medical",
+    "nouns": [
+      "der Blutdruck",
+      "der Blutzucker",
+      "die Augentropfen"
+    ]
+  },
+  {
+    "id": "162",
+    "de": "Ich bringe die Unterlagen von meinem Hausarzt mit.",
+    "en": "I'll bring the documents from my GP along.",
+    "cat": "medical",
+    "nouns": [
+      "die Unterlagen",
+      "der Hausarzt"
+    ]
+  },
+  {
+    "id": "163",
+    "de": "beim letzten Mal — fixed phrase for 'last time'",
+    "en": "Beim letzten Mal war es schneller. — Last time it was quicker.",
+    "cat": "medical",
+    "nouns": []
+  },
+  {
+    "id": "164",
+    "de": "wenn möglich (≠ wann) — Wenn möglich, komme ich früher.",
+    "en": "if possible — wenn = if · wann = when",
+    "cat": "grammar",
+    "nouns": []
+  },
+  {
+    "id": "165",
+    "de": "Ich bringe heute auch einige Testergebnisse mit, die der Arzt angefordert hat.",
+    "en": "I'm also bringing some test results today that the doctor requested.",
+    "cat": "medical",
+    "nouns": [
+      "das Testergebnis",
+      "der Arzt"
+    ]
+  },
+  {
+    "id": "166",
+    "de": "Ich habe einen Bluttest und eine Blutdruckmessung bei meinem Hausarzt machen lassen.",
+    "en": "I had a blood test and a blood pressure measurement done at my GP.",
+    "cat": "medical",
+    "nouns": [
+      "der Bluttest",
+      "die Blutdruckmessung",
+      "der Hausarzt"
+    ],
+    "g": [
+      {
+        "w": "einen Bluttest",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      },
+      {
+        "w": "bei meinem Hausarzt",
+        "c": "Dat",
+        "n": "bei → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "167",
+    "de": "Ist es möglich, heute nur die Kontrolle zu machen?",
+    "en": "Is it possible to just do the check-up today?",
+    "cat": "medical",
+    "nouns": [
+      "die Kontrolle"
+    ]
+  },
+  {
+    "id": "168",
+    "de": "Ich habe heute einen Termin bei Frau Dr. Schröer — für die Besprechung meiner Bluttestergebnisse und für die FSME-Impfung.",
+    "en": "I have an appointment with Dr. Schröer today — to discuss my blood test results and for the FSME vaccine.",
+    "cat": "medical",
+    "nouns": [
+      "die Besprechung",
+      "das Bluttestergebnis",
+      "die Impfung"
+    ],
+    "g": [
+      {
+        "w": "bei Frau Dr. Schröer",
+        "c": "Dat",
+        "n": "bei → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "169",
+    "de": "Ich bin wegen meiner Bluttest-Ergebnisse hier und möchte auch die FSME-Impfung bekommen.",
+    "en": "I'm here about my blood test results and would also like to get the FSME vaccine.",
+    "cat": "medical",
+    "nouns": [
+      "das Ergebnis",
+      "die Impfung"
+    ]
+  },
+  {
+    "id": "170",
+    "de": "Können Sie mir die Ergebnisse erklären?",
+    "en": "Can you explain the results to me?",
+    "cat": "medical",
+    "nouns": [
+      "das Ergebnis"
+    ],
+    "g": [
+      {
+        "w": "mir",
+        "c": "Dat",
+        "n": "indir. Objekt → Dat"
+      }
+    ]
+  },
+  {
+    "id": "171",
+    "de": "Gibt es etwas, worüber ich mir Sorgen machen sollte?",
+    "en": "Is there anything I should worry about?",
+    "cat": "medical",
+    "nouns": [
+      "die Sorge"
+    ]
+  },
+  {
+    "id": "172",
+    "de": "Welche Nebenwirkungen sind normal?",
+    "en": "Which side effects are normal?",
+    "cat": "medical",
+    "nouns": [
+      "die Nebenwirkung"
+    ]
+  },
+  {
+    "id": "173",
+    "de": "Kann ich danach Auto fahren?",
+    "en": "Can I drive afterwards?",
+    "cat": "medical",
+    "nouns": [
+      "das Auto"
+    ]
+  },
+  {
+    "id": "174",
+    "de": "Soll ich wiederkommen, wenn es schlimmer wird?",
+    "en": "Should I come back if it gets worse?",
+    "cat": "medical",
+    "nouns": []
+  },
+  {
+    "id": "175",
+    "de": "Wann soll ich das nächste Mal wiederkommen?",
+    "en": "When should I come back next time?",
+    "cat": "medical",
+    "nouns": []
+  },
+  {
+    "id": "176",
+    "de": "Brauche ich einen neuen Termin?",
+    "en": "Do I need a new appointment?",
+    "cat": "medical",
+    "nouns": [
+      "der Termin"
+    ],
+    "g": [
+      {
+        "w": "einen neuen Termin",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ]
+  },
+  {
+    "id": "177",
+    "de": "Ich möchte die Werte verbessern.",
+    "en": "I'd like to improve the values.",
+    "cat": "medical",
+    "nouns": [
+      "der Wert"
+    ]
+  },
+  {
+    "id": "178",
+    "de": "Können wir die Werte in ein paar Monaten noch einmal checken?",
+    "en": "Can we check the values again in a few months?",
+    "cat": "medical",
+    "nouns": [
+      "der Wert",
+      "der Monat"
+    ]
+  },
+  {
+    "id": "179",
+    "de": "Ich möchte ein paar Dinge ändern und die Werte in ein paar Monaten noch einmal überprüfen lassen.",
+    "en": "I'd like to change a few things and have the values checked again in a few months.",
+    "cat": "medical",
+    "nouns": [
+      "der Wert",
+      "der Monat"
+    ]
+  },
+  {
+    "id": "180",
+    "de": "Ich hätte gerne noch einen Nachtisch.",
+    "en": "I'd like a dessert as well.",
+    "cat": "food",
+    "nouns": [
+      "der Nachtisch"
+    ],
+    "g": [
+      {
+        "w": "einen Nachtisch",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ]
+  },
+  {
+    "id": "181",
+    "de": "Könnten wir bitte die Dessertkarte sehen?",
+    "en": "Could we see the dessert menu please?",
+    "cat": "food",
+    "nouns": [
+      "die Dessertkarte"
+    ],
+    "g": [
+      {
+        "w": "die Dessertkarte",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem., unverändert)"
+      }
+    ]
+  },
+  {
+    "id": "182",
+    "de": "Haben Sie eine Dessertkarte?",
+    "en": "Do you have a dessert menu?",
+    "cat": "food",
+    "nouns": [
+      "die Dessertkarte"
+    ]
+  },
+  {
+    "id": "183",
+    "de": "Haben Sie noch frei am Montag, dem 29., oder Dienstag, dem 30. Juni? Für den nächsten Termin.",
+    "en": "Do you still have availability on Monday the 29th or Tuesday the 30th of June? For the next appointment.",
+    "cat": "medical",
+    "nouns": [
+      "der Termin"
+    ],
+    "g": [
+      {
+        "w": "am Montag, dem 29.",
+        "c": "Dat",
+        "n": "am = an + dem → Dat. Daten immer Dat!"
+      },
+      {
+        "w": "den nächsten Termin",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ]
+  },
+  {
+    "id": "184",
+    "de": "Ich habe meinen kleinen Finger verletzt.",
+    "en": "I've injured my little finger.",
+    "cat": "medical",
+    "nouns": [
+      "der Finger"
+    ],
+    "g": [
+      {
+        "w": "meinen kleinen Finger",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ]
+  },
+  {
+    "id": "185",
+    "de": "Er ist noch geschwollen.",
+    "en": "It's still swollen.",
+    "cat": "medical",
+    "nouns": []
+  },
+  {
+    "id": "186",
+    "de": "Ich bin zeitlich flexibel.",
+    "en": "I'm flexible with timing.",
+    "cat": "medical",
+    "nouns": []
+  },
+  {
+    "id": "187",
+    "de": "Es ist nicht dringend.",
+    "en": "It's not urgent.",
+    "cat": "medical",
+    "nouns": []
+  },
+  {
+    "id": "188",
+    "de": "Ich würde gerne überprüfen, ob es gebrochen ist.",
+    "en": "I'd like to check whether it's broken.",
+    "cat": "medical",
+    "nouns": []
+  },
+  {
+    "id": "189",
+    "de": "Vor acht Tagen habe ich meinen kleinen Finger gegen Metall geschlagen.",
+    "en": "Eight days ago I hit my little finger against metal.",
+    "cat": "medical",
+    "nouns": [
+      "der Finger"
+    ],
+    "g": [
+      {
+        "w": "vor acht Tagen",
+        "c": "Dat",
+        "n": "vor → immer Dat"
+      },
+      {
+        "w": "gegen Metall",
+        "c": "Akk",
+        "n": "gegen → immer Akk"
+      }
+    ]
+  },
+  {
+    "id": "190",
+    "de": "Er war geschwollen und ist noch ein bisschen geschwollen.",
+    "en": "It was swollen and is still a little swollen.",
+    "cat": "medical",
+    "nouns": []
+  },
+  {
+    "id": "191",
+    "de": "Ich habe eine kleine Beule am Gelenk.",
+    "en": "I have a small bump at the joint.",
+    "cat": "medical",
+    "nouns": [
+      "die Beule",
+      "das Gelenk"
+    ],
+    "g": [
+      {
+        "w": "am Gelenk",
+        "c": "Dat",
+        "n": "an + wo? → Dat (am = an dem)"
+      }
+    ]
+  },
+  {
+    "id": "192",
+    "de": "Kann ich bitte eine Röntgenaufnahme machen lassen?",
+    "en": "Can I please have an X-ray done?",
+    "cat": "medical",
+    "nouns": [
+      "die Röntgenaufnahme"
+    ]
+  },
+  {
+    "id": "193",
+    "de": "Ist es in Ordnung, wenn ich diese Woche trainiere?",
+    "en": "Is it okay if I train this week?",
+    "cat": "medical",
+    "nouns": [
+      "die Woche"
+    ]
+  },
+  {
+    "id": "194",
+    "de": "Ich benutze die Langhantel und die Hantelscheibe.",
+    "en": "I use the barbell and the weight plate.",
+    "cat": "daily",
+    "nouns": [
+      "die Langhantel",
+      "die Hantelscheibe"
+    ]
+  },
+  {
+    "id": "195",
+    "de": "Bist du bereit? / Bist du so weit?",
+    "en": "Are you ready?",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "196",
+    "de": "Das kostet ungefähr 50 Euro.",
+    "en": "That costs around 50 euros. (ungefähr ≈ etwa, beide richtig)",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "197",
+    "de": "Ich bin jetzt sehr gespannt!",
+    "en": "I'm very excited/curious now! (gespannt = eager, not nervous)",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "198",
+    "de": "Ich bin jetzt sehr entspannt.",
+    "en": "I'm very relaxed now.",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "199",
+    "de": "Bleib entspannt! / Das war sehr entspannend.",
+    "en": "Stay relaxed! / Chill! · That was very relaxing.",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "200",
+    "de": "gespannt ≠ aufgeregt: gespannt = curious/eager · aufgeregt = nervous/excited",
+    "en": "gespannt = can't wait to find out · aufgeregt = butterflies in stomach",
+    "cat": "grammar",
+    "nouns": []
+  },
+  {
+    "id": "201",
+    "de": "Wie alt wird deine Tochter? — Sie wird fünf.",
+    "en": "How old is your daughter turning? — She's turning five.",
+    "cat": "conversation",
+    "nouns": [
+      "die Tochter"
+    ]
+  },
+  {
+    "id": "202",
+    "de": "Was für ein Auto hast du?",
+    "en": "What kind of car do you have?",
+    "cat": "conversation",
+    "nouns": [
+      "das Auto"
+    ],
+    "g": [
+      {
+        "w": "was für ein Auto",
+        "c": "Akk",
+        "n": "was für + Kasus hängt vom Satz ab"
+      }
+    ]
+  },
+  {
+    "id": "203",
+    "de": "Was für Musik hörst du gern?",
+    "en": "What kind of music do you like?",
+    "cat": "conversation",
+    "nouns": [
+      "die Musik"
+    ]
+  },
+  {
+    "id": "204",
+    "de": "Solange es nicht regnet, können wir draußen sitzen.",
+    "en": "As long as it's not raining, we can sit outside.",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "205",
+    "de": "Ich warte hier, solange du einkaufst.",
+    "en": "I'll wait here as long as you're shopping.",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "206",
+    "de": "Ich hoffe, das stört dich nicht. / Ich hoffe, das stört Sie nicht.",
+    "en": "I hope that doesn't disturb you. (informal / formal)",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "207",
+    "de": "Das passiert im Alltag oft.",
+    "en": "That happens a lot in day-to-day life.",
+    "cat": "conversation",
+    "nouns": [
+      "der Alltag"
+    ],
+    "g": [
+      {
+        "w": "im Alltag",
+        "c": "Dat",
+        "n": "in + wo? → Dat (im = in dem)"
+      }
+    ]
+  },
+  {
+    "id": "208",
+    "de": "Das stimmt teilweise.",
+    "en": "That's partly true.",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "209",
+    "de": "Ich verstehe das teilweise.",
+    "en": "I partly understand that.",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "210",
+    "de": "Ich erinnere mich an den Urlaub.",
+    "en": "I remember the holiday. (past memory)",
+    "cat": "conversation",
+    "nouns": [
+      "der Urlaub"
+    ],
+    "g": [
+      {
+        "w": "an den Urlaub",
+        "c": "Akk",
+        "n": "sich erinnern an → immer Akk"
+      }
+    ]
+  },
+  {
+    "id": "211",
+    "de": "Ich merke mir das.",
+    "en": "I'll remember that. / I'll keep that in mind. (for the future)",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "212",
+    "de": "Vergiss das nicht!",
+    "en": "Don't forget that!",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "213",
+    "de": "sich erinnern an (Vgt.) · sich merken (Zukunft) · nicht vergessen",
+    "en": "remember the past · memorise for future · don't forget to do",
+    "cat": "grammar",
+    "nouns": []
+  },
+  {
+    "id": "214",
+    "de": "Ich muss sagen, wir wollten keine / nie Kinder haben.",
+    "en": "I have to say, we never wanted children.",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "215",
+    "de": "Wir haben uns vor vielen Jahren dazu entschieden.",
+    "en": "We decided that many years ago.",
+    "cat": "conversation",
+    "nouns": [],
+    "g": [
+      {
+        "w": "vor vielen Jahren",
+        "c": "Dat",
+        "n": "vor → immer Dat · viel → vielen (Dat. Pl.)"
+      },
+      {
+        "w": "dazu entschieden",
+        "c": "Akk",
+        "n": "sich entscheiden → dazu (nicht: über das)"
+      }
+    ]
+  },
+  {
+    "id": "216",
+    "de": "Es passt einfach nicht zu uns.",
+    "en": "It simply doesn't suit us.",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "217",
+    "de": "Und Sie? Wie ist Ihr Leben ohne Kinder? / Und du? Wie ist dein Leben ohne Kinder?",
+    "en": "And you? What is your life like without children? (formal / informal)",
+    "cat": "conversation",
+    "nouns": [
+      "das Leben"
+    ]
+  },
+  {
+    "id": "218",
+    "de": "Ich muss den Termin leider verschieben.",
+    "en": "I need to reschedule the appointment unfortunately.",
+    "cat": "medical",
+    "nouns": [
+      "der Termin"
+    ],
+    "g": [
+      {
+        "w": "den Termin",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      },
+      {
+        "w": "ihn verschieben",
+        "c": "Akk",
+        "n": "der Termin → ihn (mask. Pronomen, Akk.)"
+      }
+    ]
+  },
+  {
+    "id": "219",
+    "de": "Ich habe leider einen Arbeitstermin.",
+    "en": "Unfortunately I have a work appointment.",
+    "cat": "work",
+    "nouns": [
+      "der Arbeitstermin"
+    ],
+    "g": [
+      {
+        "w": "einen Arbeitstermin",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ]
+  },
+  {
+    "id": "220",
+    "de": "Haben Sie am Dienstag oder Mittwoch etwas frei?",
+    "en": "Do you have anything free on Tuesday or Wednesday?",
+    "cat": "medical",
+    "nouns": [
+      "der Dienstag",
+      "der Mittwoch"
+    ],
+    "g": [
+      {
+        "w": "am Dienstag",
+        "c": "Dat",
+        "n": "an + Wochentag → Dat (am = an dem)"
+      }
+    ]
+  },
+  {
+    "id": "221",
+    "de": "Auch vormittags wäre gut.",
+    "en": "Morning would also work.",
+    "cat": "medical",
+    "nouns": []
+  },
+  {
+    "id": "222",
+    "de": "Donnerstag oder Freitag passt mir auch.",
+    "en": "Thursday or Friday works for me too.",
+    "cat": "medical",
+    "nouns": [
+      "der Donnerstag",
+      "der Freitag"
+    ],
+    "g": [
+      {
+        "w": "passt mir",
+        "c": "Dat",
+        "n": "passen → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "223",
+    "de": "Wir haben ein Paket für dich erhalten.",
+    "en": "We received a package for you.",
+    "cat": "conversation",
+    "nouns": [
+      "das Paket"
+    ],
+    "g": [
+      {
+        "w": "für dich",
+        "c": "Akk",
+        "n": "für → immer Akk · du → dich"
+      }
+    ]
+  },
+  {
+    "id": "224",
+    "de": "Können wir es dir vorbeibringen?",
+    "en": "Can we bring it over to you?",
+    "cat": "conversation",
+    "nouns": [],
+    "g": [
+      {
+        "w": "es",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk"
+      },
+      {
+        "w": "dir",
+        "c": "Dat",
+        "n": "indir. Objekt → Dat (du → dir)"
+      }
+    ]
+  },
+  {
+    "id": "225",
+    "de": "Wann passt es dir?",
+    "en": "When works for you?",
+    "cat": "conversation",
+    "nouns": [],
+    "g": [
+      {
+        "w": "dir",
+        "c": "Dat",
+        "n": "passen → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "226",
+    "de": "Ja, das passt gut. Vielen Dank!",
+    "en": "Yes, that works great. Thank you!",
+    "cat": "medical",
+    "nouns": []
+  },
+  {
+    "id": "227",
+    "de": "das (Pronomen) ≠ dass (Konjunktion)",
+    "en": "das = that (pronoun) · dass = that/because (conjunction)",
+    "cat": "grammar",
+    "nouns": []
+  },
+  {
+    "id": "228",
+    "de": "Den Termin nehme ich gerne wahr.",
+    "en": "I'll gladly take the appointment. (formal confirmation)",
+    "cat": "medical",
+    "nouns": [
+      "der Termin"
+    ]
+  },
+  {
+    "id": "229",
+    "de": "Ich bestätige den Termin am Dienstag, dem 7. Juli um 08:40 Uhr.",
+    "en": "I confirm the appointment on Tuesday 7th July at 08:40.",
+    "cat": "medical",
+    "nouns": [
+      "der Termin"
+    ],
+    "g": [
+      {
+        "w": "dem 7. Juli",
+        "c": "Dat",
+        "n": "Datum → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "230",
+    "de": "Ich habe die deutsche Staatsangehörigkeit erhalten.",
+    "en": "I received German nationality. (formal)",
+    "cat": "conversation",
+    "nouns": [
+      "die Staatsangehörigkeit"
+    ]
+  },
+  {
+    "id": "231",
+    "de": "Ich habe den deutschen Pass bekommen.",
+    "en": "I got German nationality. (casual)",
+    "cat": "conversation",
+    "nouns": [
+      "der Pass"
+    ],
+    "g": [
+      {
+        "w": "den deutschen Pass",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ]
+  },
+  {
+    "id": "232",
+    "de": "Wie kommt Cooper mit der Hitze im Auto zurecht?",
+    "en": "How is Cooper coping with the heat in the car?",
+    "cat": "moka",
+    "nouns": [
+      "die Hitze",
+      "das Auto"
+    ],
+    "g": [
+      {
+        "w": "mit der Hitze",
+        "c": "Dat",
+        "n": "mit → immer Dat"
+      },
+      {
+        "w": "im Auto",
+        "c": "Dat",
+        "n": "in + wo? → Dat"
+      }
+    ]
+  },
+  {
+    "id": "233",
+    "de": "Ist Cooper okay bei der Hitze im Auto?",
+    "en": "Is Cooper okay in the heat in the car?",
+    "cat": "moka",
+    "nouns": [
+      "die Hitze",
+      "das Auto"
+    ],
+    "g": [
+      {
+        "w": "bei der Hitze",
+        "c": "Dat",
+        "n": "bei → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "234",
+    "de": "Ich habe mich geirrt.",
+    "en": "I was mistaken. / I made a mistake.",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "235",
+    "de": "Die Fensterreinigung hat 187 Euro gekostet.",
+    "en": "The window cleaning cost 187 euros.",
+    "cat": "daily",
+    "nouns": [
+      "die Fensterreinigung"
+    ]
+  },
+  {
+    "id": "236",
+    "de": "Ich habe die Rechnung überprüft.",
+    "en": "I checked the invoice.",
+    "cat": "daily",
+    "nouns": [
+      "die Rechnung"
+    ],
+    "g": [
+      {
+        "w": "die Rechnung",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem., unverändert)"
+      }
+    ]
+  },
+  {
+    "id": "237",
+    "de": "Ich weiß nicht, warum ich 500 im Kopf hatte.",
+    "en": "I don't know why I had 500 in my head/mind.",
+    "cat": "conversation",
+    "nouns": [
+      "der Kopf"
+    ]
+  },
+  {
+    "id": "238",
+    "de": "etw. im Kopf haben",
+    "en": "to have something in one's mind/head — very natural!",
+    "cat": "grammar",
+    "nouns": [
+      "der Kopf"
+    ]
+  },
+  {
+    "id": "239",
+    "de": "Ich brauche deinen Rat.",
+    "en": "I need your advice.",
+    "cat": "conversation",
+    "nouns": [
+      "der Rat"
+    ],
+    "g": [
+      {
+        "w": "deinen Rat",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ]
+  },
+  {
+    "id": "240",
+    "de": "Der Hund aus der Wohnung im Erdgeschoss wurde wieder ohne Aufsicht gesehen.",
+    "en": "The dog from the ground floor apartment was seen again without supervision.",
+    "cat": "conversation",
+    "nouns": [
+      "der Hund",
+      "die Wohnung",
+      "das Erdgeschoss",
+      "die Aufsicht"
+    ],
+    "g": [
+      {
+        "w": "aus der Wohnung",
+        "c": "Dat",
+        "n": "aus → immer Dat"
+      },
+      {
+        "w": "im Erdgeschoss",
+        "c": "Dat",
+        "n": "in + wo? → Dat"
+      },
+      {
+        "w": "ohne Aufsicht",
+        "c": "Akk",
+        "n": "ohne → immer Akk"
+      }
+    ]
+  },
+  {
+    "id": "241",
+    "de": "Glaubst du, wir sollten mit ihnen sprechen?",
+    "en": "Do you think we should talk to them?",
+    "cat": "conversation",
+    "nouns": [],
+    "g": [
+      {
+        "w": "mit ihnen",
+        "c": "Dat",
+        "n": "mit → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "242",
+    "de": "Sollen wir es beim Ordnungsamt melden?",
+    "en": "Should we report it to the authorities?",
+    "cat": "conversation",
+    "nouns": [
+      "das Ordnungsamt"
+    ],
+    "g": [
+      {
+        "w": "beim Ordnungsamt",
+        "c": "Dat",
+        "n": "bei → immer Dat (beim = bei dem)"
+      }
+    ]
+  },
+  {
+    "id": "243",
+    "de": "Komm bitte rein, es ist kalt draußen!",
+    "en": "Come inside, it's cold outside!",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "244",
+    "de": "Kommen Sie bitte rein!",
+    "en": "Please come inside! (formal)",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "245",
+    "de": "Lass uns rausgehen, das Wetter ist heute wunderschön.",
+    "en": "Let's go outside, the weather is beautiful today.",
+    "cat": "conversation",
+    "nouns": [
+      "das Wetter"
+    ]
+  },
+  {
+    "id": "246",
+    "de": "Wie trinkst du deinen Kaffee — mit Milch und Zucker oder lieber schwarz?",
+    "en": "How do you drink your coffee — with milk and sugar or rather black?",
+    "cat": "food",
+    "nouns": [
+      "der Kaffee",
+      "die Milch",
+      "der Zucker"
+    ],
+    "g": [
+      {
+        "w": "deinen Kaffee",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      },
+      {
+        "w": "mit Milch",
+        "c": "Dat",
+        "n": "mit → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "247",
+    "de": "Glaubst du, dass sie wütend auf uns sind?",
+    "en": "Do you think they're angry at us?",
+    "cat": "conversation",
+    "nouns": [],
+    "g": [
+      {
+        "w": "auf uns",
+        "c": "Akk",
+        "n": "wütend auf → immer Akk"
+      }
+    ]
+  },
+  {
+    "id": "248",
+    "de": "wütend (furious) vs. verärgert (annoyed/upset)",
+    "en": "wütend = strong anger · verärgert = milder, irritated",
+    "cat": "grammar",
+    "nouns": []
+  },
+  {
+    "id": "249",
+    "de": "Meine Sehkraft hat sich verschlechtert, aber vielleicht liegt es am Alter.",
+    "en": "My eyesight has gotten worse, but maybe it's due to age.",
+    "cat": "medical",
+    "nouns": [
+      "die Sehkraft",
+      "das Alter"
+    ],
+    "g": [
+      {
+        "w": "am Alter",
+        "c": "Dat",
+        "n": "an → immer Dat (am = an dem)"
+      }
+    ]
+  },
+  {
+    "id": "250",
+    "de": "Meine Augen werden schlechter, aber das ist vielleicht altersbedingt.",
+    "en": "My eyes are getting worse, but that's perhaps age-related.",
+    "cat": "medical",
+    "nouns": [
+      "das Auge"
+    ]
+  },
+  {
+    "id": "251",
+    "de": "Ich sehe nicht mehr so gut wie früher — wahrscheinlich das Alter.",
+    "en": "I don't see as well as before — probably age. (casual)",
+    "cat": "medical",
+    "nouns": [
+      "das Alter"
+    ]
+  },
+  {
+    "id": "252",
+    "de": "sich verschlechtern — Meine Sehkraft hat sich verschlechtert.",
+    "en": "to get worse / deteriorate",
+    "cat": "medical",
+    "nouns": [
+      "die Sehkraft"
+    ]
+  },
+  {
+    "id": "253",
+    "de": "altersbedingt",
+    "en": "age-related — very useful adjective!",
+    "cat": "medical",
+    "nouns": []
+  },
+  {
+    "id": "254",
+    "de": "Ich werde draußen sitzen.",
+    "en": "I will sit outside.",
+    "cat": "daily",
+    "nouns": []
+  },
+  {
+    "id": "255",
+    "de": "Bei uns ist es egal.",
+    "en": "It doesn't matter to us.",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "256",
+    "de": "Es ist mir egal.",
+    "en": "I don't mind. / I don't care.",
+    "cat": "conversation",
+    "nouns": [],
+    "g": [
+      {
+        "w": "mir",
+        "c": "Dat",
+        "n": "egal sein → Dat (mir, dir, ihm...)"
+      }
+    ]
+  },
+  {
+    "id": "257",
+    "de": "Ich habe keine Präferenz.",
+    "en": "I have no preference. (formal)",
+    "cat": "conversation",
+    "nouns": [
+      "die Präferenz"
+    ]
+  },
+  {
+    "id": "258",
+    "de": "Ich schaue nur, danke.",
+    "en": "I'm just looking, thanks.",
+    "cat": "shopping",
+    "nouns": []
+  },
+  {
+    "id": "259",
+    "de": "Kann ich das in Größe M anprobieren?",
+    "en": "Can I try this in size M?",
+    "cat": "shopping",
+    "nouns": [
+      "die Größe"
+    ],
+    "g": [
+      {
+        "w": "das",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (neut.)"
+      }
+    ]
+  },
+  {
+    "id": "260",
+    "de": "Haben Sie dieses Top in Größe M?",
+    "en": "Do you have this top in size M?",
+    "cat": "shopping",
+    "nouns": [
+      "das Top",
+      "die Größe"
+    ]
+  },
+  {
+    "id": "261",
+    "de": "Haben Sie heute noch einen Termin für eine Pediküre frei?",
+    "en": "Do you have availability for a pedicure today?",
+    "cat": "daily",
+    "nouns": [
+      "der Termin",
+      "die Pediküre"
+    ],
+    "g": [
+      {
+        "w": "einen Termin",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      },
+      {
+        "w": "für eine Pediküre",
+        "c": "Akk",
+        "n": "für → immer Akk"
+      }
+    ]
+  },
+  {
+    "id": "262",
+    "de": "Wie lange dauert die Pediküre?",
+    "en": "How long does the pedicure last?",
+    "cat": "daily",
+    "nouns": [
+      "die Pediküre"
+    ]
+  },
+  {
+    "id": "263",
+    "de": "Ich habe einen verpassten Anruf von dieser Nummer.",
+    "en": "I have a missed call from this number.",
+    "cat": "conversation",
+    "nouns": [
+      "der Anruf",
+      "die Nummer"
+    ],
+    "g": [
+      {
+        "w": "einen verpassten Anruf",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      },
+      {
+        "w": "von dieser Nummer",
+        "c": "Dat",
+        "n": "von → immer Dat (fem.)"
+      }
+    ]
+  },
+  {
+    "id": "264",
+    "de": "Ich hatte einen verpassten Anruf.",
+    "en": "I had a missed call.",
+    "cat": "conversation",
+    "nouns": [
+      "der Anruf"
+    ]
+  },
+  {
+    "id": "265",
+    "de": "Nein, da sitzt jemand.",
+    "en": "No, someone is sitting there.",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "266",
+    "de": "Nein, der Platz ist besetzt.",
+    "en": "No, the seat is taken.",
+    "cat": "conversation",
+    "nouns": [
+      "der Platz"
+    ]
+  },
+  {
+    "id": "267",
+    "de": "Anstatt einfach zu raten…",
+    "en": "Instead of just guessing…",
+    "cat": "work",
+    "nouns": []
+  },
+  {
+    "id": "268",
+    "de": "Ich will das zeitlich richtig einplanen.",
+    "en": "I want to plan this properly in terms of timing.",
+    "cat": "work",
+    "nouns": []
+  },
+  {
+    "id": "269",
+    "de": "auf Nummer sicher gehen",
+    "en": "to play it safe",
+    "cat": "work",
+    "nouns": []
+  },
+  {
+    "id": "270",
+    "de": "Bis wann sollte ich damit durch sein?",
+    "en": "By when should I be done with this?",
+    "cat": "work",
+    "nouns": []
+  },
+  {
+    "id": "271",
+    "de": "Am liebsten hätte ich das schon gestern gehabt.",
+    "en": "I'd ideally have wanted this yesterday. (Konjunktiv II Vgt.)",
+    "cat": "work",
+    "nouns": []
+  },
+  {
+    "id": "272",
+    "de": "Das schaffst du gut allein.",
+    "en": "You can manage that fine on your own.",
+    "cat": "work",
+    "nouns": []
+  },
+  {
+    "id": "273",
+    "de": "Das ist mir noch nicht ganz klar.",
+    "en": "That's not quite clear to me yet.",
+    "cat": "work",
+    "nouns": [],
+    "g": [
+      {
+        "w": "mir",
+        "c": "Dat",
+        "n": "klar sein → Dat"
+      }
+    ]
+  },
+  {
+    "id": "274",
+    "de": "aneinander vorbeireden",
+    "en": "to talk past each other",
+    "cat": "work",
+    "nouns": []
+  },
+  {
+    "id": "275",
+    "de": "Das ist hinfällig.",
+    "en": "That's no longer valid / relevant.",
+    "cat": "work",
+    "nouns": []
+  },
+  {
+    "id": "276",
+    "de": "Der Nebel lichtet sich.",
+    "en": "Things are becoming clear. (lit: the fog is lifting)",
+    "cat": "work",
+    "nouns": [
+      "der Nebel"
+    ]
+  },
+  {
+    "id": "277",
+    "de": "Wüsstest du, ob du morgen Zeit hast?",
+    "en": "Would you know if you have time tomorrow? (indirect question)",
+    "cat": "work",
+    "nouns": []
+  },
+  {
+    "id": "278",
+    "de": "Ich wollte fragen, wann du ankommst.",
+    "en": "I wanted to ask when you arrive. (verb to the end)",
+    "cat": "work",
+    "nouns": []
+  },
+  {
+    "id": "279",
+    "de": "Ich will da nochmal kurz nachhaken, bevor ich starte.",
+    "en": "I want to quickly follow up on that before I start.",
+    "cat": "work",
+    "nouns": []
+  },
+  {
+    "id": "280",
+    "de": "Ist das was, das ich allein durchziehe, oder arbeiten wir da zu mehreren dran?",
+    "en": "Is this something I carry through alone, or do we work on it together?",
+    "cat": "work",
+    "nouns": []
+  },
+  {
+    "id": "281",
+    "de": "Ich hab die Aufgabe kurz vor Feierabend bekommen.",
+    "en": "I got the task just before the end of the workday.",
+    "cat": "work",
+    "nouns": [
+      "die Aufgabe",
+      "der Feierabend"
+    ]
+  },
+  {
+    "id": "282",
+    "de": "Ich will heute noch anfangen, deshalb brauche ich das jetzt.",
+    "en": "I want to start today, so I need this now.",
+    "cat": "work",
+    "nouns": []
+  },
+  {
+    "id": "283",
+    "de": "Ich war heute den ganzen Tag in Meetings.",
+    "en": "I was in meetings all day today.",
+    "cat": "work",
+    "nouns": [
+      "das Meeting"
+    ]
+  },
+  {
+    "id": "284",
+    "de": "Das kam heute kurzfristig rein.",
+    "en": "This came in at short notice today.",
+    "cat": "work",
+    "nouns": []
+  },
+  {
+    "id": "285",
+    "de": "Ehrlich gesagt hab ich mir selbst noch nicht alles durchdacht.",
+    "en": "Honestly, I haven't fully thought everything through myself yet.",
+    "cat": "work",
+    "nouns": []
+  },
+  {
+    "id": "286",
+    "de": "Unsere Moka ist vor zwei Wochen gestorben.",
+    "en": "Our Moka passed away two weeks ago.",
+    "cat": "spende",
+    "nouns": []
+  },
+  {
+    "id": "287",
+    "de": "Ich habe sie in Mexiko adoptiert, als sie fünf Wochen alt war.",
+    "en": "I adopted her in Mexico when she was five weeks old.",
+    "cat": "spende",
+    "nouns": []
+  },
+  {
+    "id": "288",
+    "de": "Wir sind zusammen mit einem weiteren Hund nach Deutschland gezogen.",
+    "en": "We moved to Germany together with another dog.",
+    "cat": "spende",
+    "nouns": []
+  },
+  {
+    "id": "289",
+    "de": "Ich bringe die bestätigten Sachen mit.",
+    "en": "I'll bring the confirmed items.",
+    "cat": "spende",
+    "nouns": [
+      "die Sachen"
+    ]
+  },
+  {
+    "id": "290",
+    "de": "Außerdem bringe ich die anderen Sachen zur Ansicht mit.",
+    "en": "I'll also bring the other things for you to look at.",
+    "cat": "spende",
+    "nouns": []
+  },
+  {
+    "id": "291",
+    "de": "Wir haben noch weitere Sachen gefunden, die ich in der E-Mail nicht erwähnt habe, ebenfalls zur Ansicht.",
+    "en": "We found more things I didn't mention in the email, also to look at.",
+    "cat": "spende",
+    "nouns": [
+      "die E-Mail"
+    ]
+  },
+  {
+    "id": "292",
+    "de": "Sie können sich das ansehen und uns mitteilen, was davon nützlich ist.",
+    "en": "You can have a look and let us know what is useful.",
+    "cat": "spende",
+    "nouns": []
+  },
+  {
+    "id": "293",
+    "de": "Falls etwas nicht nützlich ist, können wir es wieder mitnehmen und uns an ein anderes Tierheim wenden.",
+    "en": "If something isn't useful, we can take it back and contact another rescue centre.",
+    "cat": "spende",
+    "nouns": [
+      "das Tierheim"
+    ]
+  },
+  {
+    "id": "294",
+    "de": "Wir bringen Folgendes mit: das Futter, die Betten, die Decken, der Hüftgurt, das Hebegeschirr, die Hundewindeln, die Reinigungsmittel, der Hundewagen, die Hundetür und die Medikamente.",
+    "en": "We'll bring the following: food, beds, blankets, hip harness, lifting harness, dog nappies, cleaning products, dog stroller, dog door and medication.",
+    "cat": "spende",
+    "nouns": [
+      "das Futter",
+      "das Bett",
+      "die Decke",
+      "der Hüftgurt",
+      "das Hebegeschirr",
+      "die Hundewindel",
+      "das Reinigungsmittel",
+      "der Hundewagen",
+      "die Hundetür",
+      "das Medikament"
+    ]
+  },
+  {
+    "id": "295",
+    "de": "Wir kommen am Mittwoch, dem 19., während Ihrer Öffnungszeiten vorbei.",
+    "en": "We'll come by on Wednesday the 19th during your opening hours.",
+    "cat": "spende",
+    "nouns": [
+      "die Öffnungszeiten"
+    ],
+    "g": [
+      {
+        "w": "am Mittwoch, dem 19.",
+        "c": "Dat",
+        "n": "Datum → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "296",
+    "de": "Falls sich etwas ändert, melden wir uns rechtzeitig.",
+    "en": "If anything changes, we'll let you know in time.",
+    "cat": "spende",
+    "nouns": []
+  },
+  {
+    "id": "297",
+    "de": "Die Medikamente sind mindestens bis 2028 haltbar.",
+    "en": "The medication is good until at least 2028.",
+    "cat": "spende",
+    "nouns": [
+      "das Medikament"
+    ]
+  },
+  {
+    "id": "298",
+    "de": "Ich habe gelesen, dass Sie aktuell keine weiteren Leute zum Gassigehen brauchen, aber falls Sie Freiwillige suchen, wäre ich interessiert.",
+    "en": "I read that you don't currently need more people for walks, but if you're looking for volunteers, I'd be interested.",
+    "cat": "spende",
+    "nouns": []
+  },
+  {
+    "id": "299",
+    "de": "Ich würde gerne eine Zeitspende anbieten, falls etwas benötigt wird.",
+    "en": "I'd like to offer my time as a volunteer, if anything is needed.",
+    "cat": "spende",
+    "nouns": [
+      "die Zeitspende"
+    ]
+  },
+  {
+    "id": "300",
+    "de": "Wir hatten einen 15 Jahre alten Hund und auch Moka, die mit 13 Jahren gestorben ist.",
+    "en": "We had a 15 year old dog and also Moka, who passed away at 13 years old.",
+    "cat": "spende",
+    "nouns": []
+  },
+  {
+    "id": "301",
+    "de": "Wir sind noch nicht bereit, einen neuen Hund zu haben. Wir brauchen Zeit.",
+    "en": "We are not ready to have a new dog. We need time.",
+    "cat": "spende",
+    "nouns": [],
+    "g": [
+      {
+        "w": "einen neuen Hund",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ]
+  },
+  {
+    "id": "302",
+    "de": "gezogen (nach + Ort) vs. umgezogen (nur die Handlung): Wir sind nach Berlin gezogen. / Wir sind umgezogen.",
+    "en": "gezogen = moved to (with destination) · umgezogen = relocated (no destination needed)",
+    "cat": "grammar",
+    "nouns": []
+  },
+  {
+    "id": "303",
+    "de": "Danke fürs Verständnis, ich halte dich auf dem Laufenden.",
+    "en": "Thanks for understanding, I'll keep you posted.",
+    "cat": "work",
+    "nouns": []
+  },
+  {
+    "id": "304",
+    "de": "Ich lerne Deutsch, damit ich hier eine bessere Arbeitsstelle erhalte.",
+    "en": "I'm learning German so that I get a better job here.",
+    "cat": "learning",
+    "nouns": [
+      "die Arbeitsstelle"
+    ]
+  },
+  {
+    "id": "305",
+    "de": "Ich lerne Deutsch, um eine bessere Arbeitsstelle zu erhalten.",
+    "en": "I'm learning German to get a better job.",
+    "cat": "learning",
+    "nouns": [
+      "die Arbeitsstelle"
+    ]
+  },
+  {
+    "id": "306",
+    "de": "Meine Tochter/mein Sohn ist krank, ich muss sie/ihn abholen.",
+    "en": "My daughter/son is sick, I have to pick her/him up.",
+    "cat": "daily",
+    "nouns": [
+      "die Tochter",
+      "der Sohn"
+    ],
+    "g": [
+      {
+        "w": "sie/ihn abholen",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk"
+      }
+    ]
+  },
+  {
+    "id": "307",
+    "de": "Ich hab kurzfristig einen Arzttermin, der sich nicht verschieben lässt.",
+    "en": "I have a last-minute doctor's appointment that can't be rescheduled.",
+    "cat": "medical",
+    "nouns": [
+      "der Arzttermin"
+    ],
+    "g": [
+      {
+        "w": "einen Arzttermin",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ]
+  },
+  {
+    "id": "308",
+    "de": "Ich bleib erreichbar, falls dringend was reinkommt.",
+    "en": "I'll stay reachable in case something urgent comes in.",
+    "cat": "work",
+    "nouns": []
+  },
+  {
+    "id": "309",
+    "de": "Ich muss Sie kurz unterbrechen, es ist etwas Dringendes.",
+    "en": "I need to interrupt briefly, it's something urgent.",
+    "cat": "work",
+    "nouns": []
+  },
+  {
+    "id": "310",
+    "de": "Ich muss kurz was sagen, es ist dringend.",
+    "en": "I need to say something quickly, it's urgent.",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "311",
+    "de": "Sorry, aber ich muss gleich los.",
+    "en": "Sorry, but I have to go now.",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "312",
+    "de": "Ach du meine Güte — mach dir da mal keinen Kopf, geh einfach.",
+    "en": "Oh my goodness — don't worry about it, just go.",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "313",
+    "de": "Alles Gute, wir kriegen das hier hin.",
+    "en": "Good luck, we'll manage here.",
+    "cat": "work",
+    "nouns": []
+  },
+  {
+    "id": "314",
+    "de": "Kümmer dich erstmal um euch.",
+    "en": "Take care of yourselves first.",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "315",
+    "de": "Ich muss Hals über Kopf los, der Tierarzt hat gerade angerufen.",
+    "en": "I have to rush off, the vet just called.",
+    "cat": "moka",
+    "nouns": [
+      "der Tierarzt"
+    ]
+  },
+  {
+    "id": "316",
+    "de": "Da ist gerade kurzfristig was dazwischengekommen — ein Arzttermin, der nicht warten kann.",
+    "en": "Something came up at short notice — a doctor's appointment that can't wait.",
+    "cat": "work",
+    "nouns": [
+      "der Arzttermin"
+    ]
+  },
+  {
+    "id": "317",
+    "de": "Ich leg dir das kurz ans Herz, kannst du da drüberschauen?",
+    "en": "Let me leave this with you — can you have a look at it?",
+    "cat": "work",
+    "nouns": []
+  },
+  {
+    "id": "318",
+    "de": "Bei dir ist das auf jeden Fall in guten Händen, bis ich zurück bin.",
+    "en": "It's definitely in good hands with you until I'm back.",
+    "cat": "work",
+    "nouns": []
+  },
+  {
+    "id": "319",
+    "de": "Ich behalte die Fäden trotzdem in der Hand — schreib mir einfach, falls was ist.",
+    "en": "I'll still keep hold of things — just write to me if anything comes up.",
+    "cat": "work",
+    "nouns": []
+  },
+  {
+    "id": "320",
+    "de": "Ich bleib am Ball, auch wenn ich unterwegs bin — schreib mir einfach.",
+    "en": "I'll stay on it even when I'm out — just write to me.",
+    "cat": "work",
+    "nouns": []
+  },
+  {
+    "id": "321",
+    "de": "Ich bin gleich auf dem Sprung, aber vorher wollte ich dir kurz Bescheid geben.",
+    "en": "I'm about to head off, but I wanted to quickly let you know.",
+    "cat": "work",
+    "nouns": []
+  },
+  {
+    "id": "322",
+    "de": "Wie läuft's bei dir?",
+    "en": "How's it going (with you)?",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "323",
+    "de": "Mir geht's gut, danke! Und dir?",
+    "en": "I'm doing well, thanks! And you?",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "324",
+    "de": "Ich habe trotzdem zwei Unterrichtsstunden gemacht.",
+    "en": "I still did two lessons anyway.",
+    "cat": "learning",
+    "nouns": [
+      "die Unterrichtsstunde"
+    ]
+  },
+  {
+    "id": "325",
+    "de": "in den Bergen",
+    "en": "in the mountains",
+    "cat": "travel",
+    "nouns": [
+      "der Berg"
+    ],
+    "g": [
+      {
+        "w": "in den Bergen",
+        "c": "Dat",
+        "n": "in + wo? → Dat (Plural)"
+      }
+    ]
+  },
+  {
+    "id": "326",
+    "de": "Ich möchte mindestens einmal in meinem Leben nach China reisen. Aber dafür bräuchte ich viel Planung.",
+    "en": "I'd like to travel to China at least once in my life. But that would need a lot of planning.",
+    "cat": "travel",
+    "nouns": [
+      "die Planung"
+    ]
+  },
+  {
+    "id": "327",
+    "de": "mit etwas durch sein = mit etwas fertig sein",
+    "en": "to be done with something (two ways to say it)",
+    "cat": "grammar",
+    "nouns": []
+  },
+  {
+    "id": "328",
+    "de": "so schnell wie möglich",
+    "en": "as soon as possible / as fast as possible",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "329",
+    "de": "Wie bitte?",
+    "en": "Pardon? / Sorry, what?",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "330",
+    "de": "Wir sind vor 7 Jahren nach Deutschland gezogen.",
+    "en": "We moved to Germany 7 years ago.",
+    "cat": "daily",
+    "nouns": [],
+    "g": [
+      {
+        "w": "vor 7 Jahren",
+        "c": "Dat",
+        "n": "vor → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "331",
+    "de": "ein flüssiges Gespräch",
+    "en": "a fluent / flowing conversation",
+    "cat": "learning",
+    "nouns": [
+      "das Gespräch"
+    ]
+  },
+  {
+    "id": "332",
+    "de": "Ich habe nach einem Tiersitter gesucht, aber bei dir ist sie in guten Händen.",
+    "en": "I looked for a pet sitter, but she's in good hands with you.",
+    "cat": "moka",
+    "nouns": [
+      "der Tiersitter"
+    ],
+    "g": [
+      {
+        "w": "nach einem Tiersitter",
+        "c": "Dat",
+        "n": "nach → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "333",
+    "de": "eine Pause einlegen",
+    "en": "to take a break",
+    "cat": "daily",
+    "nouns": [
+      "die Pause"
+    ]
+  },
+  {
+    "id": "334",
+    "de": "mit deinem Sohn",
+    "en": "with your son",
+    "cat": "conversation",
+    "nouns": [
+      "der Sohn"
+    ],
+    "g": [
+      {
+        "w": "mit deinem Sohn",
+        "c": "Dat",
+        "n": "mit → immer Dat (mask.)"
+      }
+    ]
+  },
+  {
+    "id": "335",
+    "de": "Ich habe sehr um meine Hündin geweint.",
+    "en": "I cried a lot for my dog.",
+    "cat": "moka",
+    "nouns": [
+      "die Hündin"
+    ]
+  },
+  {
+    "id": "336",
+    "de": "Ein Mann hat der Mutter meiner Hündin geholfen.",
+    "en": "A man helped the mother of my dog.",
+    "cat": "moka",
+    "nouns": [
+      "der Mann",
+      "die Mutter",
+      "die Hündin"
+    ],
+    "g": [
+      {
+        "w": "der Mutter",
+        "c": "Dat",
+        "n": "helfen → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "337",
+    "de": "Es wäre toll, mal eine Woche ohne Internet zu haben. Denn ich arbeite den ganzen Tag am Computer.",
+    "en": "It would be great to have a week without internet. Because I work at the computer all day.",
+    "cat": "daily",
+    "nouns": [
+      "das Internet",
+      "der Computer"
+    ]
+  },
+  {
+    "id": "338",
+    "de": "Es wäre toll, mal eine Woche ohne Internet zu haben, quasi Urlaub. Ich arbeite den ganzen Tag am Computer.",
+    "en": "It would be great to have a week without internet — basically a holiday. I work at the computer all day.",
+    "cat": "daily",
+    "nouns": [
+      "das Internet",
+      "der Urlaub",
+      "der Computer"
+    ]
+  },
+  {
+    "id": "339",
+    "de": "Insgesamt war es ein guter Tag.",
+    "en": "Overall it was a good day.",
+    "cat": "daily",
+    "nouns": [
+      "der Tag"
+    ]
+  },
+  {
+    "id": "340",
+    "de": "Es wäre keine Katastrophe.",
+    "en": "It wouldn't be a catastrophe.",
+    "cat": "conversation",
+    "nouns": [
+      "die Katastrophe"
+    ]
+  },
+  {
+    "id": "341",
+    "de": "Ich hoffe, der Lärm stört Sie nicht.",
+    "en": "I hope the noise doesn't disturb you.",
+    "cat": "conversation",
+    "nouns": [
+      "der Lärm"
+    ]
+  },
+  {
+    "id": "342",
+    "de": "Ich verschiebe einen Termin auf nächste Woche.",
+    "en": "I'm rescheduling an appointment to next week.",
+    "cat": "medical",
+    "nouns": [
+      "der Termin"
+    ],
+    "g": [
+      {
+        "w": "einen Termin",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ]
+  },
+  {
+    "id": "343",
+    "de": "Ich möchte online einen Termin buchen/vereinbaren.",
+    "en": "I'd like to book/make an appointment online.",
+    "cat": "medical",
+    "nouns": [
+      "der Termin"
+    ],
+    "g": [
+      {
+        "w": "einen Termin",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ]
+  },
+  {
+    "id": "344",
+    "de": "Wenn es regnet, bleibe ich zuhause.",
+    "en": "When/if it rains, I stay home. (expected situation)",
+    "cat": "daily",
+    "nouns": []
+  },
+  {
+    "id": "345",
+    "de": "Falls es regnet, bleibe ich zuhause.",
+    "en": "If it rains, I stay home. (hypothetical situation)",
+    "cat": "daily",
+    "nouns": []
+  },
+  {
+    "id": "346",
+    "de": "wenn vs. falls: wenn = when/if (expected) · falls = if (hypothetical/uncertain)",
+    "en": "wenn = si/cuando (probable) · falls = si (hipotético)",
+    "cat": "grammar",
+    "nouns": []
+  },
+  {
+    "id": "347",
+    "de": "Bei mir ist das auch egal.",
+    "en": "It doesn't matter to me either.",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "348",
+    "de": "Ich stimme dir zu.",
+    "en": "I agree with you.",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "349",
+    "de": "Entschuldigung, meine Kamera lässt sich zwar einschalten, funktioniert aber nicht.",
+    "en": "Sorry, my camera can be turned on but doesn't work.",
+    "cat": "work",
+    "nouns": [
+      "die Kamera"
+    ]
+  },
+  {
+    "id": "350",
+    "de": "Ich mag Knoblauch sehr!",
+    "en": "I love garlic!",
+    "cat": "food",
+    "nouns": [
+      "der Knoblauch"
+    ]
+  },
+  {
+    "id": "351",
+    "de": "Sie können sich das ansehen und sagen, wenn etwas nützlich ist.",
+    "en": "You can have a look and say when something is useful.",
+    "cat": "spende",
+    "nouns": []
+  },
+  {
+    "id": "352",
+    "de": "Ich bringe auch die anderen Sachen mit — Sie können schauen, was davon nützlich ist.",
+    "en": "I'll also bring the other things — you can see what is useful.",
+    "cat": "spende",
+    "nouns": []
+  },
+  {
+    "id": "353",
+    "de": "Wir möchten einige Hundesachen spenden. Ich habe Ihnen letzte Woche eine E-Mail geschickt.",
+    "en": "We'd like to donate some dog things. I sent you an email last week.",
+    "cat": "spende",
+    "nouns": [
+      "die Hundesachen"
+    ]
+  },
+  {
+    "id": "354",
+    "de": "Ich möchte einen schönen Löffel.",
+    "en": "[Ö] I'd like a nice spoon.",
+    "cat": "aussprache",
+    "nouns": [
+      "der Löffel"
+    ],
+    "g": [
+      {
+        "w": "einen schönen Löffel",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ]
+  },
+  {
+    "id": "355",
+    "de": "Können Sie mir helfen?",
+    "en": "[Ö] Can you help me?",
+    "cat": "aussprache",
+    "nouns": [],
+    "g": [
+      {
+        "w": "mir",
+        "c": "Dat",
+        "n": "helfen → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "356",
+    "de": "Das Öl ist in der Küche.",
+    "en": "[Ö] The oil is in the kitchen.",
+    "cat": "aussprache",
+    "nouns": [
+      "das Öl",
+      "die Küche"
+    ],
+    "g": [
+      {
+        "w": "in der Küche",
+        "c": "Dat",
+        "n": "in + wo? → Dat"
+      }
+    ]
+  },
+  {
+    "id": "357",
+    "de": "Er hört gern schöne Musik.",
+    "en": "[Ö] He likes listening to nice music.",
+    "cat": "aussprache",
+    "nouns": [
+      "die Musik"
+    ]
+  },
+  {
+    "id": "358",
+    "de": "Guten Morgen, Herr Richter!",
+    "en": "[R] Good morning, Mr. Richter!",
+    "cat": "aussprache",
+    "nouns": [
+      "der Morgen"
+    ]
+  },
+  {
+    "id": "359",
+    "de": "Wir fahren mit dem roten Auto.",
+    "en": "[R] We're driving in the red car.",
+    "cat": "aussprache",
+    "nouns": [
+      "das Auto"
+    ],
+    "g": [
+      {
+        "w": "mit dem roten Auto",
+        "c": "Dat",
+        "n": "mit → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "360",
+    "de": "Das Restaurant ist rechts von der Straße.",
+    "en": "[R] The restaurant is to the right of the street.",
+    "cat": "aussprache",
+    "nouns": [
+      "das Restaurant",
+      "die Straße"
+    ],
+    "g": [
+      {
+        "w": "von der Straße",
+        "c": "Dat",
+        "n": "von → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "361",
+    "de": "Ich brauche ein Brot vom Bäcker.",
+    "en": "[R] I need bread from the baker.",
+    "cat": "aussprache",
+    "nouns": [
+      "das Brot",
+      "der Bäcker"
+    ],
+    "g": [
+      {
+        "w": "ein Brot",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (neut.)"
+      },
+      {
+        "w": "vom Bäcker",
+        "c": "Dat",
+        "n": "von → immer Dat"
+      }
+    ]
+  }
+]

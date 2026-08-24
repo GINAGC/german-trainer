@@ -1,0 +1,93 @@
+[
+  {
+    "id": "all",
+    "label": "Alle",
+    "dot": "",
+    "bg": "",
+    "tc": ""
+  },
+  {
+    "id": "daily",
+    "label": "Alltag",
+    "dot": "#BA7517",
+    "bg": "#FAEEDA",
+    "tc": "#633806"
+  },
+  {
+    "id": "moka",
+    "label": "Moka",
+    "dot": "#D85A30",
+    "bg": "#FAECE7",
+    "tc": "#4A1B0C"
+  },
+  {
+    "id": "work",
+    "label": "Arbeit",
+    "dot": "#7F77DD",
+    "bg": "#EEEDFE",
+    "tc": "#26215C"
+  },
+  {
+    "id": "travel",
+    "label": "Reisen",
+    "dot": "#1D9E75",
+    "bg": "#E1F5EE",
+    "tc": "#04342C"
+  },
+  {
+    "id": "food",
+    "label": "Essen",
+    "dot": "#E24B4A",
+    "bg": "#FCEBEB",
+    "tc": "#501313"
+  },
+  {
+    "id": "shopping",
+    "label": "Einkaufen",
+    "dot": "#D4537E",
+    "bg": "#FBEAF0",
+    "tc": "#4B1528"
+  },
+  {
+    "id": "conversation",
+    "label": "Gespräch",
+    "dot": "#378ADD",
+    "bg": "#E6F1FB",
+    "tc": "#042C53"
+  },
+  {
+    "id": "grammar",
+    "label": "Grammatik",
+    "dot": "#639922",
+    "bg": "#EAF3DE",
+    "tc": "#173404"
+  },
+  {
+    "id": "learning",
+    "label": "Lernen",
+    "dot": "#888780",
+    "bg": "#F1EFE8",
+    "tc": "#2C2C2A"
+  },
+  {
+    "id": "medical",
+    "label": "Arzt",
+    "dot": "#2A9D8F",
+    "bg": "#E0F5F3",
+    "tc": "#0D3B36"
+  },
+  {
+    "id": "spende",
+    "label": "Spende",
+    "dot": "#E76F51",
+    "bg": "#FDEBD0",
+    "tc": "#6B2D0F"
+  },
+  {
+    "id": "aussprache",
+    "label": "Aussprache",
+    "dot": "#5B8C5A",
+    "bg": "#E7F0E3",
+    "tc": "#254024"
+  }
+]
