@@ -1,0 +1,195 @@
+{
+  "source": "Grammatikon, S. 14–17",
+  "note": "Genus-Regeln nach Endung und Bedeutungsgruppe. Farben folgen dem Grammatikon-System.",
+  "groups": [
+    {
+      "genus": "maskulin",
+      "article": "der",
+      "colors": { "text": "#256070", "bg": "#DFEEF2" },
+      "level": "A1",
+      "summary": "Substantive auf -ling und -ismus sowie Substantive aus Verben mit -er sind immer maskulin. Tage, Monate, Jahreszeiten, Niederschläge und Himmelsrichtungen sind auch maskulin.",
+      "rules": [
+        {
+          "pattern": "-ling",
+          "label": "Substantive auf -ling",
+          "headword": "der Frühling",
+          "examples": ["der Liebling", "der Schmetterling", "der Lehrling"]
+        },
+        {
+          "pattern": "-ismus",
+          "label": "Substantive auf -ismus",
+          "headword": "der Hinduismus",
+          "examples": ["der Journalismus", "der Kapitalismus", "der Kommunismus"]
+        },
+        {
+          "pattern": "-er",
+          "label": "Substantive aus Verben mit -er",
+          "headword": "der Rechner",
+          "examples": ["der Toaster", "der Drucker", "der Spitzer"],
+          "level": "A2"
+        },
+        {
+          "pattern": "Tage & Monate",
+          "label": "Tage & Monate",
+          "headword": "der Montag",
+          "examples": ["der Dienstag", "der Januar", "der Februar"]
+        },
+        {
+          "pattern": "Jahreszeiten & Niederschläge",
+          "label": "Jahreszeiten & Niederschläge",
+          "headword": "der Sommer",
+          "examples": ["der Frühling", "der Schnee", "der Regen"]
+        },
+        {
+          "pattern": "Himmelsrichtungen",
+          "label": "Himmelsrichtungen",
+          "headword": "der Norden",
+          "examples": ["der Süden", "der Westen", "der Osten"]
+        }
+      ]
+    },
+    {
+      "genus": "neutral",
+      "article": "das",
+      "colors": { "text": "#5A4170", "bg": "#EBE3F2" },
+      "level": "A1",
+      "summary": "Substantive mit der Endung -um, -chen und -lein sind immer neutral. Farben, substantivierte Verben und substantivierte Adjektive sind auch immer neutral.",
+      "rules": [
+        {
+          "pattern": "-um",
+          "label": "Substantive auf -um",
+          "headword": "das Museum",
+          "examples": ["das Studium", "das Datum", "das Eigentum"]
+        },
+        {
+          "pattern": "-chen",
+          "label": "Diminutive auf -chen",
+          "headword": "das Mädchen",
+          "examples": ["das Brötchen", "das Kaninchen", "das Blümchen"]
+        },
+        {
+          "pattern": "-lein",
+          "label": "Diminutive auf -lein",
+          "headword": "das Büchlein",
+          "examples": ["das Städtlein", "das Tellerlein", "das Vögelein"],
+          "footnote": "Diminutive mit -lein sind sehr selten."
+        },
+        {
+          "pattern": "Farben",
+          "label": "Farben",
+          "headword": "das Gelb",
+          "examples": ["das Rot", "das Grün", "das Blau"]
+        },
+        {
+          "pattern": "Substantivierte Verben",
+          "label": "Substantivierte Verben",
+          "headword": "das Lernen",
+          "examples": ["das Schreiben", "das Parken", "das Spielen"],
+          "level": "A2"
+        },
+        {
+          "pattern": "Substantivierte Adjektive",
+          "label": "Substantivierte Adjektive",
+          "headword": "das Gute",
+          "examples": ["das Neue", "das Schlechte", "das Unbekannte"],
+          "level": "B1"
+        }
+      ]
+    },
+    {
+      "genus": "feminin",
+      "article": "die",
+      "colors": { "text": "#9A4E17", "bg": "#FBEADC" },
+      "level": "A1+",
+      "summary": "Berufsbezeichnungen mit der Endung -in sind feminin. Substantive mit den Endungen -ion, -ung, -heit, -keit und -schaft sind auch immer feminin.",
+      "rules": [
+        {
+          "pattern": "-in",
+          "label": "Berufe auf -in",
+          "headword": "die Studentin",
+          "examples": ["die Ingenieurin", "die Designerin", "die Chefin"]
+        },
+        {
+          "pattern": "-ion",
+          "label": "Substantive auf -ion",
+          "headword": "die Situation",
+          "examples": ["die Organisation", "die Station", "die Aktion"],
+          "level": "A2"
+        },
+        {
+          "pattern": "-ung",
+          "label": "Substantive auf -ung",
+          "headword": "die Meinung",
+          "examples": ["die Zeitung", "die Anmeldung", "die Kleidung"],
+          "level": "A2"
+        },
+        {
+          "pattern": "-heit",
+          "label": "Substantive aus Adjektiv mit -heit",
+          "headword": "die Freiheit",
+          "examples": ["die Gesundheit", "die Krankheit", "die Einheit"],
+          "level": "A2"
+        },
+        {
+          "pattern": "-keit",
+          "label": "Substantive aus Adjektiv mit -keit",
+          "headword": "die Fähigkeit",
+          "examples": ["die Möglichkeit", "die Helligkeit", "die Einsamkeit"],
+          "level": "A2"
+        },
+        {
+          "pattern": "-schaft",
+          "label": "Substantive auf -schaft",
+          "headword": "die Landschaft",
+          "examples": ["die Freundschaft", "die Gesellschaft", "die Partnerschaft"],
+          "level": "A2"
+        }
+      ]
+    },
+    {
+      "genus": "plural",
+      "article": "die",
+      "colors": { "text": "#8F2B3B", "bg": "#FBE3E7" },
+      "level": "A1",
+      "summary": "Pluralwörter sind Substantive, die keinen Singular haben. Dazu gehören aber auch Wörter, die eine Singularform haben, aber meistens im Plural gebraucht werden.",
+      "rules": [
+        {
+          "pattern": "Menschen",
+          "label": "Pluralwörter für Menschen",
+          "headword": "die Leute",
+          "examples": ["die Eltern", "die Geschwister"]
+        },
+        {
+          "pattern": "Speisen",
+          "label": "Pluralwörter für Speisen",
+          "headword": "die Pommes",
+          "examples": ["die Lebensmittel", "die Salzkartoffeln", "die Nudeln"]
+        },
+        {
+          "pattern": "Zeitabschnitte",
+          "label": "Pluralwörter für Zeitabschnitte",
+          "headword": "die Ferien",
+          "examples": ["die Schulferien", "die Flitterwochen", "die Geschäftsstunden"]
+        },
+        {
+          "pattern": "Finanzwirtschaft",
+          "label": "Pluralwörter in Finanzwirtschaft",
+          "headword": "die Kosten",
+          "examples": ["die Einkünfte", "die Finanzen", "die Spesen"]
+        },
+        {
+          "pattern": "Geographische Eigennamen",
+          "label": "Geographische Eigennamen",
+          "headword": "die Alpen",
+          "examples": ["die Anden", "die Niederlande", "die Philippinen"]
+        },
+        {
+          "pattern": "Krankheiten",
+          "label": "Pluralwörter für Krankheiten",
+          "headword": "die Pocken",
+          "examples": ["die Masern", "die Röteln", "die Salmonellen"]
+        }
+      ]
+    }
+  ]
+}

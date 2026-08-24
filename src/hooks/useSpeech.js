@@ -65,18 +65,19 @@ export function useSpeech() {
     window.speechSynthesis.speak(utt);
   }
 
-  // list: [{ id, text }]
-  function playAll(list) {
+  // list: [{ text }]. id distinguishes concurrent "play a sequence" buttons
+  // (e.g. one per Genus-Regeln rule card) from the screen-wide "▶ Alle".
+  function playAll(list, id = "all") {
     const session = ++sessionRef.current;
     window.speechSynthesis.pause();
     window.speechSynthesis.cancel();
     setPaused(false);
-    if (speaking === "all") {
+    if (speaking === id) {
       setSpeaking(null);
       setCurrentChunk(null);
       return;
     }
-    setSpeaking("all");
+    setSpeaking(id);
     let i = 0;
     let rep = 0;
     function next() {
