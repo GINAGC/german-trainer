@@ -3905,5 +3905,776 @@
         "n": "von → immer Dat"
       }
     ]
+  },
+  {
+    "id": "362",
+    "de": "Schön, euch alle mal wieder zu sehen.",
+    "en": "Nice to see you all again.",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "363",
+    "de": "Wir sehen uns endlich mal wieder.",
+    "en": "We're finally seeing each other again.",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "364",
+    "de": "Mach's gut! / Macht's gut!",
+    "en": "Take care! (singular / plural-informal)",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "365",
+    "de": "Ich muss los, danke!",
+    "en": "I have to go, thanks!",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "366",
+    "de": "Du tauschst dich mit deinen Freunden über die Woche aus.",
+    "en": "You catch up with your friends about the week.",
+    "cat": "conversation",
+    "nouns": [
+      "der Freund",
+      "die Woche"
+    ],
+    "g": [
+      {
+        "w": "mit deinen Freunden",
+        "c": "Dat",
+        "n": "mit → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "367",
+    "de": "Bei mir war echt viel los diese Woche. [Vgt]",
+    "en": "I had a really busy week. (past)",
+    "cat": "conversation",
+    "nouns": [
+      "die Woche"
+    ],
+    "g": [
+      {
+        "w": "Bei mir",
+        "c": "Dat",
+        "n": "bei → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "368",
+    "de": "Bei mir ging's diese Woche drunter und drüber. [Vgt]",
+    "en": "My week was total chaos. (past, fixed phrase)",
+    "cat": "conversation",
+    "nouns": [
+      "die Woche"
+    ]
+  },
+  {
+    "id": "369",
+    "de": "Ich bin froh, dass die Woche endlich Geschichte ist.",
+    "en": "I'm glad the week is finally over.",
+    "cat": "conversation",
+    "nouns": [
+      "die Woche"
+    ]
+  },
+  {
+    "id": "370",
+    "de": "Diese Woche war viel los. [Vgt]",
+    "en": "This week was busy. (past)",
+    "cat": "conversation",
+    "nouns": [
+      "die Woche"
+    ]
+  },
+  {
+    "id": "371",
+    "de": "Ich wollte mal erzählen, was es bei mir Neues gibt. [Vgt]",
+    "en": "I wanted to tell you what's new with me. (past)",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "372",
+    "de": "mal wieder sprechen",
+    "en": "to talk again for once (fixed phrase)",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "373",
+    "de": "einmal wieder schreiben",
+    "en": "to write again for once (fixed phrase)",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "374",
+    "de": "Oh nein, das klingt stressig.",
+    "en": "Oh no, that sounds stressful.",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "375",
+    "de": "Puh, das kenn ich, bei mir war's ähnlich. [Vgt]",
+    "en": "Phew, I know the feeling, it was similar for me. (past)",
+    "cat": "conversation",
+    "nouns": [],
+    "g": [
+      {
+        "w": "bei mir",
+        "c": "Dat",
+        "n": "bei → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "376",
+    "de": "Ja, stimmt, echt lecker.",
+    "en": "Yeah, true, really tasty.",
+    "cat": "food",
+    "nouns": []
+  },
+  {
+    "id": "377",
+    "de": "Wir treffen uns im Café.",
+    "en": "We're meeting at the café.",
+    "cat": "food",
+    "nouns": [
+      "das Café"
+    ],
+    "g": [
+      {
+        "w": "im Café",
+        "c": "Dat",
+        "n": "in + wo? → Dat (im = in dem)"
+      }
+    ]
+  },
+  {
+    "id": "378",
+    "de": "Ich trinke jeden Morgen einen Kaffee.",
+    "en": "I drink a coffee every morning.",
+    "cat": "food",
+    "nouns": [
+      "der Kaffee"
+    ],
+    "g": [
+      {
+        "w": "einen Kaffee",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ]
+  },
+  {
+    "id": "379",
+    "de": "Wir treffen uns in einem gemütlichen Café.",
+    "en": "We're meeting at a cosy café.",
+    "cat": "food",
+    "nouns": [
+      "das Café"
+    ],
+    "g": [
+      {
+        "w": "in einem gemütlichen Café",
+        "c": "Dat",
+        "n": "in + wo? → Dat"
+      }
+    ]
+  },
+  {
+    "id": "380",
+    "de": "Es gibt frisch gepressten O-Saft zum Frühstück.",
+    "en": "There's freshly squeezed orange juice for breakfast.",
+    "cat": "food",
+    "nouns": [
+      "der O-Saft",
+      "das Frühstück"
+    ]
+  },
+  {
+    "id": "381",
+    "de": "Einfach köstlich, dieses Essen!",
+    "en": "Simply delicious, this food!",
+    "cat": "food",
+    "nouns": [
+      "das Essen"
+    ]
+  },
+  {
+    "id": "382",
+    "de": "Das ist echt der Hammer hier.",
+    "en": "This place is really awesome. (fixed phrase)",
+    "cat": "food",
+    "nouns": []
+  },
+  {
+    "id": "383",
+    "de": "In ein neues Restaurant gehen und etwas Neues probieren.",
+    "en": "To go to a new restaurant and try something new.",
+    "cat": "food",
+    "nouns": [
+      "das Restaurant"
+    ],
+    "g": [
+      {
+        "w": "In ein neues Restaurant",
+        "c": "Akk",
+        "n": "in + wohin? → Akk"
+      }
+    ]
+  },
+  {
+    "id": "384",
+    "de": "Ich hätte lieber was anderes bestellt. [Vgt]",
+    "en": "I would have preferred to order something else. (past, Konjunktiv II)",
+    "cat": "food",
+    "nouns": []
+  },
+  {
+    "id": "385",
+    "de": "Ach, ich find's eigentlich ganz okay hier.",
+    "en": "Ah, I actually think it's quite okay here.",
+    "cat": "food",
+    "nouns": []
+  },
+  {
+    "id": "386",
+    "de": "Naja, jedem das seine.",
+    "en": "Well, to each their own. (fixed phrase)",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "387",
+    "de": "Man nimmt sich bewusst Zeit für den Sonntagsbrunch.",
+    "en": "You deliberately make time for Sunday brunch.",
+    "cat": "food",
+    "nouns": [
+      "die Zeit",
+      "der Sonntagsbrunch"
+    ],
+    "g": [
+      {
+        "w": "für den Sonntagsbrunch",
+        "c": "Akk",
+        "n": "für → immer Akk"
+      }
+    ]
+  },
+  {
+    "id": "388",
+    "de": "Kleine Meinungsverschiedenheiten werden meist locker ausgetragen.",
+    "en": "Small disagreements are usually settled in a relaxed way.",
+    "cat": "conversation",
+    "nouns": [
+      "die Meinungsverschiedenheit"
+    ]
+  },
+  {
+    "id": "389",
+    "de": "Ja, gerne, lass uns das machen.",
+    "en": "Yes, gladly, let's do that.",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "390",
+    "de": "Auf jeden Fall, das steht.",
+    "en": "Definitely, that's settled. (fixed phrase)",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "391",
+    "de": "Sollen wir das öfter machen?",
+    "en": "Should we do that more often?",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "392",
+    "de": "Wann machen wir das nochmal?",
+    "en": "When are we doing that again?",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "393",
+    "de": "Lasst uns das zur Regel machen.",
+    "en": "Let's make that a regular thing.",
+    "cat": "conversation",
+    "nouns": [
+      "die Regel"
+    ]
+  },
+  {
+    "id": "394",
+    "de": "Irgendwann kommt auch eine kleine Planung fürs nächste Treffen auf.",
+    "en": "At some point a little planning for the next get-together also comes up.",
+    "cat": "conversation",
+    "nouns": [
+      "die Planung",
+      "das Treffen"
+    ],
+    "g": [
+      {
+        "w": "fürs nächste Treffen",
+        "c": "Akk",
+        "n": "für → immer Akk (fürs = für das)"
+      }
+    ]
+  },
+  {
+    "id": "395",
+    "de": "Ich bin quasi fertig.",
+    "en": "I'm basically done.",
+    "cat": "daily",
+    "nouns": []
+  },
+  {
+    "id": "396",
+    "de": "Ruf mich im Notfall an.",
+    "en": "Call me in case of emergency.",
+    "cat": "conversation",
+    "nouns": [
+      "der Notfall"
+    ],
+    "g": [
+      {
+        "w": "im Notfall",
+        "c": "Dat",
+        "n": "in + wo? → Dat (im = in dem)"
+      }
+    ]
+  },
+  {
+    "id": "397",
+    "de": "Ich arbeite nur an bestimmten Tagen.",
+    "en": "I only work on certain days.",
+    "cat": "work",
+    "nouns": [
+      "der Tag"
+    ],
+    "g": [
+      {
+        "w": "an bestimmten Tagen",
+        "c": "Dat",
+        "n": "an + wann? → Dat"
+      }
+    ]
+  },
+  {
+    "id": "398",
+    "de": "Man kann die Angebote gut vergleichen.",
+    "en": "You can compare the offers well.",
+    "cat": "shopping",
+    "nouns": [
+      "das Angebot"
+    ],
+    "g": [
+      {
+        "w": "die Angebote",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (Plural)"
+      }
+    ]
+  },
+  {
+    "id": "399",
+    "de": "Dieses Wort wird oft verwendet.",
+    "en": "This word is often used.",
+    "cat": "learning",
+    "nouns": [
+      "das Wort"
+    ]
+  },
+  {
+    "id": "400",
+    "de": "Abgemacht! Wir treffen uns um acht.",
+    "en": "Deal! We'll meet at eight.",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "401",
+    "de": "Wir haben viel geweint. [Vgt]",
+    "en": "We cried a lot. (past)",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "402",
+    "de": "Ich habe heute einen Spendentermin, dann werde ich Shadowing zu diesem Thema machen.",
+    "en": "I have a donation appointment today, then I'll do shadowing on this topic.",
+    "cat": "spende",
+    "nouns": [
+      "der Spendentermin",
+      "das Thema"
+    ],
+    "g": [
+      {
+        "w": "einen Spendentermin",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      },
+      {
+        "w": "zu diesem Thema",
+        "c": "Dat",
+        "n": "zu → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "403",
+    "de": "Wie geht es euch? vs. Kannst du die Frage wiederholen?",
+    "en": "How are you (plural)? vs. Can you repeat the question?",
+    "cat": "grammar",
+    "nouns": [
+      "die Frage"
+    ]
+  },
+  {
+    "id": "404",
+    "de": "hören (Perfekt: gehört) vs. gehören (Präteritum: gehörte) — gleicher Klang, andere Bedeutung!",
+    "en": "hören (to hear, Perfekt: gehört) vs. gehören (to belong, Präteritum: gehörte) — same sound, different meaning!",
+    "cat": "grammar",
+    "nouns": []
+  },
+  {
+    "id": "405",
+    "de": "Zeitangaben-Regel: „Diese Woche war viel los.“ vs. „Es war diese Woche viel los.“ (Verb-Zweit-Regel)",
+    "en": "Time-expression rule: the verb stays in position 2 even when a time expression starts the sentence.",
+    "cat": "grammar",
+    "nouns": [
+      "die Woche"
+    ]
+  },
+  {
+    "id": "406",
+    "de": "Wir waren bei einer früheren Arbeit Kollegen und sind gute Freunde geworden. [Vgt]",
+    "en": "We were colleagues at a previous job and became good friends. (past)",
+    "cat": "work",
+    "nouns": [
+      "die Arbeit",
+      "der Kollege",
+      "der Freund"
+    ],
+    "g": [
+      {
+        "w": "bei einer früheren Arbeit",
+        "c": "Dat",
+        "n": "bei → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "407",
+    "de": "Schön, dich wiederzusehen!",
+    "en": "Nice to see you again!",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "408",
+    "de": "Ich freue mich, euch alle wiederzusehen.",
+    "en": "I'm looking forward to seeing you all again.",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "409",
+    "de": "Ich freu mich, dich zu sehen!",
+    "en": "I'm happy to see you!",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "410",
+    "de": "Wir haben uns seit zwei Wochen nicht mehr alle zusammen gesehen.",
+    "en": "We haven't all seen each other together for two weeks.",
+    "cat": "conversation",
+    "nouns": [
+      "die Woche"
+    ],
+    "g": [
+      {
+        "w": "seit zwei Wochen",
+        "c": "Dat",
+        "n": "seit → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "411",
+    "de": "Ich hoffe, es geht euch allen gut!",
+    "en": "I hope you're all doing well!",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "412",
+    "de": "Puh, meine Woche war ziemlich stressig — ich hatte eine wichtige Deadline bei der Arbeit. [Vgt]",
+    "en": "Phew, my week was pretty stressful — I had an important deadline at work. (past)",
+    "cat": "work",
+    "nouns": [
+      "die Woche",
+      "die Deadline",
+      "die Arbeit"
+    ],
+    "g": [
+      {
+        "w": "bei der Arbeit",
+        "c": "Dat",
+        "n": "bei → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "413",
+    "de": "Ich hatte viel zu tun und viel Arbeit. [Vgt]",
+    "en": "I had a lot to do and a lot of work. (past)",
+    "cat": "work",
+    "nouns": [
+      "die Arbeit"
+    ]
+  },
+  {
+    "id": "414",
+    "de": "Am Montag habe ich sogar meinen Zug verpasst, das war ärgerlich. [Vgt]",
+    "en": "On Monday I even missed my train, that was annoying. (past)",
+    "cat": "travel",
+    "nouns": [
+      "der Montag",
+      "der Zug"
+    ],
+    "g": [
+      {
+        "w": "Am Montag",
+        "c": "Dat",
+        "n": "an + Wochentag → Dat (am = an dem)"
+      },
+      {
+        "w": "meinen Zug",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ]
+  },
+  {
+    "id": "415",
+    "de": "Zum Glück ist das jetzt vorbei, und ich kann mich entspannen.",
+    "en": "Luckily that's over now, and I can relax.",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "416",
+    "de": "Bist du bereit zu bestellen?",
+    "en": "Are you ready to order?",
+    "cat": "food",
+    "nouns": []
+  },
+  {
+    "id": "417",
+    "de": "Ich habe die Waffeln mit Erdbeeren und Ahornsirup bestellt. [Vgt]",
+    "en": "I ordered the waffles with strawberries and maple syrup. (past)",
+    "cat": "food",
+    "nouns": [
+      "die Waffel",
+      "die Erdbeere",
+      "der Ahornsirup"
+    ],
+    "g": [
+      {
+        "w": "die Waffeln",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (Plural)"
+      },
+      {
+        "w": "mit Erdbeeren",
+        "c": "Dat",
+        "n": "mit → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "418",
+    "de": "Der Saft ist mir ehrlich gesagt zu süß.",
+    "en": "The juice is, honestly, too sweet for me.",
+    "cat": "food",
+    "nouns": [
+      "der Saft"
+    ],
+    "g": [
+      {
+        "w": "mir",
+        "c": "Dat",
+        "n": "indir. Objekt → Dat (mir = to me)"
+      }
+    ]
+  },
+  {
+    "id": "419",
+    "de": "Für den Preis hatte ich mehr erwartet. [Vgt]",
+    "en": "For the price I had expected more. (past)",
+    "cat": "food",
+    "nouns": [
+      "der Preis"
+    ],
+    "g": [
+      {
+        "w": "Für den Preis",
+        "c": "Akk",
+        "n": "für → immer Akk"
+      }
+    ]
+  },
+  {
+    "id": "420",
+    "de": "Ich wollte auch einen Kaffee, aber der war leider aus. [Vgt]",
+    "en": "I also wanted a coffee, but unfortunately they were out. (past)",
+    "cat": "food",
+    "nouns": [
+      "der Kaffee"
+    ],
+    "g": [
+      {
+        "w": "einen Kaffee",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ]
+  },
+  {
+    "id": "421",
+    "de": "Die Waffeln sehen wirklich lecker aus.",
+    "en": "The waffles really look delicious.",
+    "cat": "food",
+    "nouns": [
+      "die Waffel"
+    ]
+  },
+  {
+    "id": "422",
+    "de": "Der Saft schmeckt total frisch.",
+    "en": "The juice tastes really fresh.",
+    "cat": "food",
+    "nouns": [
+      "der Saft"
+    ]
+  },
+  {
+    "id": "423",
+    "de": "Die Portion ist ziemlich groß, ich schaffe das nicht allein.",
+    "en": "The portion is quite large, I can't finish it alone.",
+    "cat": "food",
+    "nouns": [
+      "die Portion"
+    ]
+  },
+  {
+    "id": "424",
+    "de": "Ich schlage vor, dass wir uns jeden letzten Sonntag im Monat treffen.",
+    "en": "I suggest we meet every last Sunday of the month.",
+    "cat": "conversation",
+    "nouns": [
+      "der Sonntag",
+      "der Monat"
+    ],
+    "g": [
+      {
+        "w": "im Monat",
+        "c": "Dat",
+        "n": "in + wann? → Dat (im = in dem)"
+      }
+    ]
+  },
+  {
+    "id": "425",
+    "de": "Wie wäre es, wenn wir das zu einer festen Sache machen — jeden letzten Sonntag im Monat?",
+    "en": "How about we make this a regular thing — every last Sunday of the month?",
+    "cat": "conversation",
+    "nouns": [
+      "die Sache",
+      "der Sonntag",
+      "der Monat"
+    ]
+  },
+  {
+    "id": "426",
+    "de": "Lasst uns das regelmäßig machen: immer am letzten Sonntag im Monat.",
+    "en": "Let's do that regularly: always on the last Sunday of the month.",
+    "cat": "conversation",
+    "nouns": [
+      "der Sonntag",
+      "der Monat"
+    ],
+    "g": [
+      {
+        "w": "am letzten Sonntag",
+        "c": "Dat",
+        "n": "an + wann? → Dat (am = an dem)"
+      }
+    ]
+  },
+  {
+    "id": "427",
+    "de": "Ich liebe Kaffee, deshalb möchte ich lieber nie wieder Süßigkeiten essen.",
+    "en": "I love coffee, so I'd rather never eat sweets again.",
+    "cat": "food",
+    "nouns": [
+      "der Kaffee",
+      "die Süßigkeit"
+    ]
+  },
+  {
+    "id": "428",
+    "de": "Ich kann auf den Kaffee nicht verzichten.",
+    "en": "I can't do without coffee.",
+    "cat": "food",
+    "nouns": [
+      "der Kaffee"
+    ],
+    "g": [
+      {
+        "w": "auf den Kaffee",
+        "c": "Akk",
+        "n": "verzichten auf → immer Akk"
+      }
+    ]
+  },
+  {
+    "id": "429",
+    "de": "Ich trinke eine Tasse Kaffee.",
+    "en": "I drink a cup of coffee.",
+    "cat": "food",
+    "nouns": [
+      "die Tasse",
+      "der Kaffee"
+    ],
+    "g": [
+      {
+        "w": "eine Tasse Kaffee",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem.)"
+      }
+    ]
+  },
+  {
+    "id": "430",
+    "de": "Was hast du zu essen bestellt? [Vgt]",
+    "en": "What did you order to eat? (past)",
+    "cat": "food",
+    "nouns": []
   }
 ]
