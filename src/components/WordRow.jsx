@@ -1,6 +1,6 @@
 import { genderColorForArticle } from "../lib/colors";
 
-export default function WordRow({ word: w, id, speaking, onSpeak, onMarkKnown }) {
+export default function WordRow({ word: w, id, speaking, onSpeak, onAction, actionIcon = "✓", actionTitle = "Ich kenne dieses Wort" }) {
   const article = w.g.startsWith("der ") ? "der" : w.g.startsWith("die ") ? "die" : w.g.startsWith("das ") ? "das" : null;
   const articleColor = genderColorForArticle(article);
 
@@ -17,8 +17,8 @@ export default function WordRow({ word: w, id, speaking, onSpeak, onMarkKnown })
         <button onClick={() => onSpeak(id, w.g)} title="Vorlesen" style={{ background: speaking === id ? "#dbeafe" : "none", border: "none", cursor: "pointer", color: speaking === id ? "#1e40af" : "#ccc", fontSize: 13, padding: "2px 4px", lineHeight: 1 }}>
           {speaking === id ? "⏹" : "▶"}
         </button>
-        <button onClick={() => onMarkKnown(w.g)} title="Ich kenne dieses Wort" style={{ background: "none", border: "1px solid #ccc", borderRadius: "50%", width: 22, height: 22, cursor: "pointer", fontSize: 11, display: "flex", alignItems: "center", justifyContent: "center", color: "#aaa", flexShrink: 0 }}>
-          ✓
+        <button onClick={() => onAction(w.g)} title={actionTitle} style={{ background: "none", border: "1px solid #ccc", borderRadius: "50%", width: 22, height: 22, cursor: "pointer", fontSize: 11, display: "flex", alignItems: "center", justifyContent: "center", color: "#aaa", flexShrink: 0 }}>
+          {actionIcon}
         </button>
       </div>
     </div>

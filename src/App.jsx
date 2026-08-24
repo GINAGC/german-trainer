@@ -4,6 +4,7 @@ import FloatingPlayer from "./components/FloatingPlayer";
 import Chunks from "./screens/Chunks";
 import Woerter from "./screens/Woerter";
 import Tabellen from "./screens/Tabellen";
+import Archiv from "./screens/Archiv";
 import { useSpeech } from "./hooks/useSpeech";
 import { useMasteredChunks } from "./hooks/useMasteredChunks";
 import { useKnownWords } from "./hooks/useKnownWords";
@@ -42,6 +43,14 @@ export default function App() {
           chunks={chunks} toggleMastered={toggleMastered}
           speaking={speech.speaking} speak={speech.speak} playAll={speech.playAll} stopAll={speech.stopAll}
           repeatCount={speech.repeatCount} setRepeatCount={speech.setRepeatCount}
+        />
+      )}
+
+      {mainTab === "archiv" && (
+        <Archiv
+          chunks={chunks} toggleMastered={toggleMastered}
+          knownWords={knownWords} undoKnown={undoKnown}
+          speaking={speech.speaking} speak={speech.speak}
         />
       )}
 

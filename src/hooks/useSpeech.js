@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 // Web Speech API player. Callers pass already speech-cleaned text (see
 // lib/speechText.js) — this hook only owns TTS mechanics and playback state.
@@ -9,6 +9,11 @@ export function useSpeech() {
   const [repeatCount, setRepeatCount] = useState(1);
   const [voice, setVoice] = useState(null);
   const [voiceList, setVoiceList] = useState([]);
+  // Bumped on every stop/new-playback so in-flight utterance callbacks from a
+  // stopped session know to stop recursing instead of speaking the next item.
+  // Needed because cancel() fires onerror on the current utterance, and
+  // without this guard that handler would just advance to the next one.
+  const sessionRef = useRef(0);
 
   // Voices load asynchronously — getVoices() is often empty on first call
   // (notably in Safari), so we also listen for "voiceschanged".
@@ -43,6 +48,8 @@ export function useSpeech() {
   }
 
   function speak(id, text) {
+    const session = ++sessionRef.current;
+    window.speechSynthesis.pause();
     window.speechSynthesis.cancel();
     setPaused(false);
     if (speaking === id) {
@@ -51,8 +58,8 @@ export function useSpeech() {
       return;
     }
     const utt = makeUtterance(text);
-    utt.onend = () => { setSpeaking(null); setCurrentChunk(null); setPaused(false); };
-    utt.onerror = () => { setSpeaking(null); setCurrentChunk(null); setPaused(false); };
+    utt.onend = () => { if (sessionRef.current !== session) return; setSpeaking(null); setCurrentChunk(null); setPaused(false); };
+    utt.onerror = () => { if (sessionRef.current !== session) return; setSpeaking(null); setCurrentChunk(null); setPaused(false); };
     setSpeaking(id);
     setCurrentChunk({ text, idx: null, total: null });
     window.speechSynthesis.speak(utt);
@@ -60,6 +67,8 @@ export function useSpeech() {
 
   // list: [{ id, text }]
   function playAll(list) {
+    const session = ++sessionRef.current;
+    window.speechSynthesis.pause();
     window.speechSynthesis.cancel();
     setPaused(false);
     if (speaking === "all") {
@@ -71,11 +80,13 @@ export function useSpeech() {
     let i = 0;
     let rep = 0;
     function next() {
+      if (sessionRef.current !== session) return;
       if (i >= list.length) { setSpeaking(null); setCurrentChunk(null); setPaused(false); return; }
       const item = list[i];
       setCurrentChunk({ text: item.text, idx: i + 1, total: list.length, rep: rep + 1, repeatCount });
       const utt = makeUtterance(item.text);
       utt.onend = () => {
+        if (sessionRef.current !== session) return;
         rep++;
         if (rep < repeatCount) {
           setTimeout(next, 400);
@@ -85,13 +96,20 @@ export function useSpeech() {
           setTimeout(next, 700);
         }
       };
-      utt.onerror = () => { rep = 0; i++; setTimeout(next, 700); };
+      utt.onerror = () => {
+        if (sessionRef.current !== session) return;
+        rep = 0;
+        i++;
+        setTimeout(next, 700);
+      };
       window.speechSynthesis.speak(utt);
     }
     next();
   }
 
   function stopAll() {
+    sessionRef.current++;
+    window.speechSynthesis.pause();
     window.speechSynthesis.cancel();
     setSpeaking(null);
     setCurrentChunk(null);

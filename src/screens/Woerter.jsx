@@ -83,7 +83,7 @@ export default function Woerter({ knownWords, markKnown, undoKnown, speaking, sp
                 ref={virtualizer.measureElement}
                 style={{ position: "absolute", top: 0, left: 0, width: "100%", transform: `translateY(${vi.start}px)`, paddingBottom: 6 }}
               >
-                <WordRow word={w} id={w.g} speaking={speaking} onSpeak={(id, g) => speak(id, wordSpeechText(g))} onMarkKnown={markKnown} />
+                <WordRow word={w} id={w.g} speaking={speaking} onSpeak={(id, g) => speak(id, wordSpeechText(g))} onAction={markKnown} />
               </div>
             );
           })}
