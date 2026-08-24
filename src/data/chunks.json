@@ -4676,5 +4676,234 @@
     "en": "What did you order to eat? (past)",
     "cat": "food",
     "nouns": []
+  },
+  {
+    "id": "431",
+    "de": "Schön, euch alle mal wieder zu sehen.",
+    "en": "Nice to see you all again.",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "432",
+    "de": "Wir treffen uns in einem gemütlichen Café.",
+    "en": "We're meeting at a cosy café.",
+    "cat": "food",
+    "nouns": [
+      "das Café"
+    ],
+    "g": [
+      {
+        "w": "in einem gemütlichen Café",
+        "c": "Dat",
+        "n": "in + wo? → Dat"
+      }
+    ]
+  },
+  {
+    "id": "433",
+    "de": "Es gibt frisch gepressten O-Saft zum Frühstück.",
+    "en": "There's freshly squeezed orange juice for breakfast.",
+    "cat": "food",
+    "nouns": [
+      "der O-Saft",
+      "das Frühstück"
+    ]
+  },
+  {
+    "id": "434",
+    "de": "Irgendwann kommt auch eine kleine Planung fürs nächste Treffen auf.",
+    "en": "At some point a little planning for the next get-together also comes up.",
+    "cat": "conversation",
+    "nouns": [
+      "die Planung",
+      "das Treffen"
+    ],
+    "g": [
+      {
+        "w": "fürs nächste Treffen",
+        "c": "Akk",
+        "n": "für → immer Akk (fürs = für das)"
+      }
+    ]
+  },
+  {
+    "id": "435",
+    "de": "Bei mir war echt viel los diese Woche. [Vgt]",
+    "en": "I had a really busy week. (past)",
+    "cat": "conversation",
+    "nouns": [
+      "die Woche"
+    ],
+    "g": [
+      {
+        "w": "Bei mir",
+        "c": "Dat",
+        "n": "bei → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "436",
+    "de": "Bei mir ging's diese Woche drunter und drüber. [Vgt]",
+    "en": "My week was total chaos. (past, fixed phrase)",
+    "cat": "conversation",
+    "nouns": [
+      "die Woche"
+    ]
+  },
+  {
+    "id": "437",
+    "de": "Ich bin froh, dass die Woche endlich Geschichte ist.",
+    "en": "I'm glad the week is finally over.",
+    "cat": "conversation",
+    "nouns": [
+      "die Woche"
+    ]
+  },
+  {
+    "id": "438",
+    "de": "Oh nein, das klingt stressig.",
+    "en": "Oh no, that sounds stressful.",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "439",
+    "de": "Puh, das kenn ich, bei mir war's ähnlich. [Vgt]",
+    "en": "Phew, I know the feeling, it was similar for me. (past)",
+    "cat": "conversation",
+    "nouns": [],
+    "g": [
+      {
+        "w": "bei mir",
+        "c": "Dat",
+        "n": "bei → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "440",
+    "de": "Einfach köstlich, dieses Essen!",
+    "en": "Simply delicious, this food!",
+    "cat": "food",
+    "nouns": [
+      "das Essen"
+    ]
+  },
+  {
+    "id": "441",
+    "de": "Das ist echt der Hammer hier.",
+    "en": "This place is really awesome. (fixed phrase)",
+    "cat": "food",
+    "nouns": []
+  },
+  {
+    "id": "442",
+    "de": "Ja, stimmt, echt lecker.",
+    "en": "Yeah, true, really tasty.",
+    "cat": "food",
+    "nouns": []
+  },
+  {
+    "id": "443",
+    "de": "Ich hätte lieber was anderes bestellt. [Vgt]",
+    "en": "I would have preferred to order something else. (past, Konjunktiv II)",
+    "cat": "food",
+    "nouns": []
+  },
+  {
+    "id": "444",
+    "de": "Ach, ich find's eigentlich ganz okay hier.",
+    "en": "Ah, I actually think it's quite okay here.",
+    "cat": "food",
+    "nouns": []
+  },
+  {
+    "id": "445",
+    "de": "Naja, jedem das seine.",
+    "en": "Well, to each their own. (fixed phrase)",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "446",
+    "de": "Ja, gerne, lass uns das machen.",
+    "en": "Yes, gladly, let's do that.",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "447",
+    "de": "Auf jeden Fall, das steht.",
+    "en": "Definitely, that's settled. (fixed phrase)",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "448",
+    "de": "Sollen wir das öfter machen?",
+    "en": "Should we do that more often?",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "449",
+    "de": "Wann machen wir das nochmal?",
+    "en": "When are we doing that again?",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "450",
+    "de": "Lasst uns das zur Regel machen.",
+    "en": "Let's make that a regular thing.",
+    "cat": "conversation",
+    "nouns": [
+      "die Regel"
+    ]
+  },
+  {
+    "id": "451",
+    "de": "Man nimmt sich bewusst Zeit für den Sonntagsbrunch.",
+    "en": "You deliberately make time for Sunday brunch.",
+    "cat": "food",
+    "nouns": [
+      "die Zeit",
+      "der Sonntagsbrunch"
+    ],
+    "g": [
+      {
+        "w": "für den Sonntagsbrunch",
+        "c": "Akk",
+        "n": "für → immer Akk"
+      }
+    ]
+  },
+  {
+    "id": "452",
+    "de": "Kleine Meinungsverschiedenheiten werden meist locker ausgetragen.",
+    "en": "Small disagreements are usually settled in a relaxed way.",
+    "cat": "conversation",
+    "nouns": [
+      "die Meinungsverschiedenheit"
+    ]
+  },
+  {
+    "id": "453",
+    "de": "Du tauschst dich mit Freunden über die Woche aus.",
+    "en": "You catch up with friends about the week.",
+    "cat": "conversation",
+    "nouns": [
+      "der Freund",
+      "die Woche"
+    ],
+    "g": [
+      {
+        "w": "mit Freunden",
+        "c": "Dat",
+        "n": "mit → immer Dat"
+      }
+    ]
   }
 ]
