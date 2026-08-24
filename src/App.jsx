@@ -26,7 +26,6 @@ export default function App() {
       <Header
         mainTab={mainTab} setMainTab={setMainTab}
         aCnt={aCnt} mCnt={mCnt} total={total} pct={pct}
-        voice={speech.voice} setVoice={speech.setVoice} voiceList={speech.voiceList}
       />
 
       {mainTab === "tabellen" && <Tabellen />}

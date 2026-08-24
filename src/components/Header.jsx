@@ -6,7 +6,7 @@ const TABS = [
   { id: "archiv", label: "Archiv", activeBorder: "#888780", activeBg: "#F1EFE8", activeColor: "#2C2C2A" },
 ];
 
-export default function Header({ mainTab, setMainTab, aCnt, mCnt, total, pct, voice, setVoice, voiceList }) {
+export default function Header({ mainTab, setMainTab, aCnt, mCnt, total, pct }) {
   return (
     <div style={{ borderBottom: "1px solid #e5e5e5", padding: "14px 16px 12px" }}>
       <div style={{ marginBottom: 10 }}>
@@ -37,20 +37,6 @@ export default function Header({ mainTab, setMainTab, aCnt, mCnt, total, pct, vo
         <div style={{ background: "#22c55e", width: `${pct}%`, height: "100%", borderRadius: 2, transition: "width 0.3s" }} />
       </div>
       <p style={{ fontSize: 11, color: "#aaa", margin: "3px 0 0" }}>{pct}% gemeistert</p>
-      {voiceList.length > 0 && (
-        <div style={{ marginTop: 8, display: "flex", alignItems: "center", gap: 6 }}>
-          <span style={{ fontSize: 11, color: "#aaa", flexShrink: 0 }}>Stimme</span>
-          <select
-            value={voice ? voice.name : ""}
-            onChange={(e) => setVoice(voiceList.find((v) => v.name === e.target.value) || null)}
-            style={{ flex: 1, border: "1px solid #ddd", borderRadius: 8, padding: "4px 8px", fontSize: 12, fontFamily: "inherit", background: "#fff", color: "#444", minWidth: 0 }}
-          >
-            {voiceList.map((v) => (
-              <option key={v.name} value={v.name}>{v.name}</option>
-            ))}
-          </select>
-        </div>
-      )}
     </div>
   );
 }

@@ -8,7 +8,6 @@ export function useSpeech() {
   const [currentChunk, setCurrentChunk] = useState(null);
   const [repeatCount, setRepeatCount] = useState(1);
   const [voice, setVoice] = useState(null);
-  const [voiceList, setVoiceList] = useState([]);
   // Bumped on every stop/new-playback so in-flight utterance callbacks from a
   // stopped session know to stop recursing instead of speaking the next item.
   // Needed because cancel() fires onerror on the current utterance, and
@@ -22,7 +21,6 @@ export function useSpeech() {
       const all = window.speechSynthesis.getVoices();
       const de = all.filter((v) => v.lang && v.lang.toLowerCase().startsWith("de"));
       if (!de.length) return;
-      setVoiceList(de);
       const score = (v) => {
         const n = (v.name || "").toLowerCase();
         if (n.includes("premium")) return 3;
@@ -130,7 +128,6 @@ export function useSpeech() {
   return {
     speaking, paused, currentChunk,
     repeatCount, setRepeatCount,
-    voice, setVoice, voiceList,
     speak, playAll, stopAll, pauseResume,
   };
 }
