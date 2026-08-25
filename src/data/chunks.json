@@ -1491,8 +1491,8 @@
   },
   {
     "id": "131",
-    "de": "Ich werde nach München ziehen.",
-    "en": "I'm going to move to Munich.",
+    "de": "Ich werde nach München ziehen. / Ich ziehe nächste Woche nach München.",
+    "en": "I'm going to move to Munich. / I'm moving to Munich next week. (future – werden adds decision/intention; without it, needs a time word like nächste Woche to sound like future)",
     "cat": "daily",
     "nouns": []
   },
@@ -1790,7 +1790,7 @@
   {
     "id": "160",
     "de": "Ist das etwas Wichtiges? Muss das unbedingt gemacht werden?",
-    "en": "Is that something important? Does it absolutely need to be done?",
+    "en": "Is that something important? Does it absolutely need to be done? (passive)",
     "cat": "medical",
     "nouns": []
   },
@@ -2861,8 +2861,8 @@
   },
   {
     "id": "254",
-    "de": "Ich werde draußen sitzen.",
-    "en": "I will sit outside.",
+    "de": "Ich werde draußen sitzen. / Ich sitze gleich draußen.",
+    "en": "I will sit outside. / I'm sitting outside in a moment. (future – werden adds decision/intention; without it, needs a time word like gleich to sound like future)",
     "cat": "daily",
     "nouns": []
   },
@@ -4174,7 +4174,7 @@
   {
     "id": "388",
     "de": "Kleine Meinungsverschiedenheiten werden meist locker ausgetragen.",
-    "en": "Small disagreements are usually settled in a relaxed way.",
+    "en": "Small disagreements are usually settled in a relaxed way. (passive)",
     "cat": "conversation",
     "nouns": [
       "die Meinungsverschiedenheit"
@@ -4883,7 +4883,7 @@
   {
     "id": "452",
     "de": "Kleine Meinungsverschiedenheiten werden meist locker ausgetragen.",
-    "en": "Small disagreements are usually settled in a relaxed way.",
+    "en": "Small disagreements are usually settled in a relaxed way. (passive)",
     "cat": "conversation",
     "nouns": [
       "die Meinungsverschiedenheit"
@@ -4905,5 +4905,58 @@
         "n": "mit → immer Dat"
       }
     ]
+  },
+  {
+    "id": "454",
+    "de": "Meine Augen werden schlechter.",
+    "en": "My eyes are getting worse. (to become)",
+    "cat": "medical",
+    "nouns": [
+      "das Auge"
+    ]
+  },
+  {
+    "id": "455",
+    "de": "Dann werde ich Shadowing machen. / Dann mache ich Shadowing.",
+    "en": "Then I'll do shadowing. / Then I do shadowing. (future – both work; werden adds a sense of decision/intention, present is more neutral)",
+    "cat": "learning",
+    "nouns": []
+  },
+  {
+    "id": "456",
+    "de": "Er wird jetzt zu Hause sein.",
+    "en": "He'll be home now. (prediction about now)",
+    "cat": "conversation",
+    "nouns": [
+      "das Haus"
+    ]
+  },
+  {
+    "id": "457",
+    "de": "Ich werde das nie vergessen!",
+    "en": "I will never forget that! (promise/emphasis)",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "458",
+    "de": "Würden Sie mir bitte helfen?",
+    "en": "Would you please help me? (polite request – würde)",
+    "cat": "conversation",
+    "nouns": [],
+    "g": [
+      {
+        "w": "mir",
+        "c": "Dat",
+        "n": "indir. Objekt → Dat (mir = to me)"
+      }
+    ]
+  },
+  {
+    "id": "459",
+    "de": "Bis morgen werde ich das fertig gemacht haben.",
+    "en": "By tomorrow I will have finished that. (future perfect)",
+    "cat": "work",
+    "nouns": []
   }
 ]
