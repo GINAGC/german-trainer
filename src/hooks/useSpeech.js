@@ -45,7 +45,7 @@ export function useSpeech() {
     return utt;
   }
 
-  function speak(id, text) {
+  function speak(id, text, subtitle) {
     const session = ++sessionRef.current;
     window.speechSynthesis.pause();
     window.speechSynthesis.cancel();
@@ -59,12 +59,14 @@ export function useSpeech() {
     utt.onend = () => { if (sessionRef.current !== session) return; setSpeaking(null); setCurrentChunk(null); setPaused(false); };
     utt.onerror = () => { if (sessionRef.current !== session) return; setSpeaking(null); setCurrentChunk(null); setPaused(false); };
     setSpeaking(id);
-    setCurrentChunk({ text, idx: null, total: null });
+    setCurrentChunk({ text, subtitle, idx: null, total: null });
     window.speechSynthesis.speak(utt);
   }
 
-  // list: [{ text }]. id distinguishes concurrent "play a sequence" buttons
-  // (e.g. one per Genus-Regeln rule card) from the screen-wide "▶ Alle".
+  // list: [{ text, subtitle? }]. id distinguishes concurrent "play a
+  // sequence" buttons (e.g. one per Genus-Regeln rule card) from the
+  // screen-wide "▶ Alle". subtitle is the translation shown in the floating
+  // player, when the caller has one (chunks: en, words: t, rules: none).
   function playAll(list, id = "all") {
     const session = ++sessionRef.current;
     window.speechSynthesis.pause();
@@ -82,7 +84,7 @@ export function useSpeech() {
       if (sessionRef.current !== session) return;
       if (i >= list.length) { setSpeaking(null); setCurrentChunk(null); setPaused(false); return; }
       const item = list[i];
-      setCurrentChunk({ text: item.text, idx: i + 1, total: list.length, rep: rep + 1, repeatCount });
+      setCurrentChunk({ text: item.text, subtitle: item.subtitle, idx: i + 1, total: list.length, rep: rep + 1, repeatCount });
       const utt = makeUtterance(item.text);
       utt.onend = () => {
         if (sessionRef.current !== session) return;

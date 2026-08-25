@@ -57,7 +57,7 @@ export default function Chunks({ chunks, toggleMastered, speaking, speak, playAl
           <div style={{ marginLeft: "auto", display: "flex", gap: 4, alignItems: "center" }}>
             <RepeatCountControl repeatCount={repeatCount} setRepeatCount={setRepeatCount} />
             <button
-              onClick={() => { if (speaking) stopAll(); else playAll(shown.map((c) => ({ id: c.id, text: speechText(c.de) }))); }}
+              onClick={() => { if (speaking) stopAll(); else playAll(shown.map((c) => ({ id: c.id, text: speechText(c.de), subtitle: c.en }))); }}
               style={{ cursor: "pointer", border: `1px solid ${speaking ? "#93c5fd" : "#ddd"}`, background: speaking ? "#dbeafe" : "transparent", borderRadius: 20, padding: "4px 12px", fontSize: 12, fontWeight: 500, color: speaking ? "#1e40af" : "#555", display: "flex", alignItems: "center", gap: 4 }}
             >
               {speaking ? "⏹ Stop" : "▶ Alle"}
@@ -80,7 +80,7 @@ export default function Chunks({ chunks, toggleMastered, speaking, speak, playAl
                 key={c.id}
                 chunk={c}
                 speaking={speaking}
-                onSpeak={(id, de) => speak(id, speechText(de))}
+                onSpeak={(id, de, en) => speak(id, speechText(de), en)}
                 onToggleMastered={toggleMastered}
               />
             ))}

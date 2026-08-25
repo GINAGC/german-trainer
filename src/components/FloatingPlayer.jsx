@@ -6,12 +6,17 @@ export default function FloatingPlayer({ speaking, currentChunk, repeatCount, pa
         ⏹
       </button>
       <div style={{ flex: 1, minWidth: 0 }}>
-        <p style={{ margin: 0, fontSize: 13, color: "#aaa", marginBottom: 5 }}>
+        <p style={{ margin: 0, fontSize: 12, color: "#999", marginBottom: 6 }}>
           {currentChunk.idx ? `${currentChunk.idx} / ${currentChunk.total}${repeatCount > 1 ? ` · ${currentChunk.rep || 1}×` : ""}` : "Spielt"}
         </p>
-        <p style={{ margin: 0, fontSize: 18, fontWeight: 500, lineHeight: 1.5, wordBreak: "break-word" }}>
+        <p style={{ margin: 0, fontSize: 17, fontWeight: 600, lineHeight: 1.4, wordBreak: "break-word" }}>
           {currentChunk.text}
         </p>
+        {currentChunk.subtitle && (
+          <p style={{ margin: "4px 0 0", fontSize: 13, fontStyle: "italic", color: "#bbb", lineHeight: 1.4, wordBreak: "break-word" }}>
+            {currentChunk.subtitle}
+          </p>
+        )}
       </div>
       <button onClick={pauseResume} style={{ background: "rgba(255,255,255,0.12)", border: "none", cursor: "pointer", color: paused ? "#fcd34d" : "#fff", fontSize: 26, padding: 0, lineHeight: 1, flexShrink: 0, width: 52, height: 52, borderRadius: "50%", display: "flex", alignItems: "center", justifyContent: "center" }}>
         {paused ? "▶" : "⏸"}

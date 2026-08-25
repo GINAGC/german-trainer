@@ -26,7 +26,7 @@ export default function ChunkCard({ chunk: c, speaking, onSpeak, onToggleMastere
           {past && <span style={{ background: "#dbeafe", color: "#1e40af", fontSize: 10, padding: "1px 5px", borderRadius: 3 }}>Vgt.</span>}
         </div>
         <div style={{ display: "flex", gap: 2, alignItems: "center", flexShrink: 0 }}>
-          <button onClick={() => onSpeak(c.id, de)} title="Vorlesen" style={{ background: speaking === c.id ? "#dbeafe" : "none", border: "none", cursor: "pointer", color: speaking === c.id ? "#1e40af" : "#ccc", fontSize: 14, padding: "2px 4px", lineHeight: 1 }}>
+          <button onClick={() => onSpeak(c.id, de, c.en)} title="Vorlesen" style={{ background: speaking === c.id ? "#dbeafe" : "none", border: "none", cursor: "pointer", color: speaking === c.id ? "#1e40af" : "#ccc", fontSize: 14, padding: "2px 4px", lineHeight: 1 }}>
             {speaking === c.id ? "⏹" : "▶"}
           </button>
           <button onClick={() => onToggleMastered(c.id)} title={c.mastered ? "Zurücksetzen" : "Gemeistert"} style={{ background: c.mastered ? "#dcfce7" : "none", border: `1px solid ${c.mastered ? "#86efac" : "#ccc"}`, borderRadius: "50%", width: 22, height: 22, cursor: "pointer", fontSize: 12, display: "flex", alignItems: "center", justifyContent: "center", color: c.mastered ? "#15803d" : "#aaa", flexShrink: 0 }}>

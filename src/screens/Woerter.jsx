@@ -63,7 +63,7 @@ export default function Woerter({ knownWords, markKnown, undoKnown, speaking, sp
         <input value={wordSearch} onChange={(e) => setWordSearch(e.target.value)} placeholder="Suchen..." style={{ flex: 1, border: "1px solid #ccc", borderRadius: 8, padding: "7px 10px", fontSize: 13, fontFamily: "inherit", boxSizing: "border-box" }} />
         <RepeatCountControl repeatCount={repeatCount} setRepeatCount={setRepeatCount} />
         <button
-          onClick={() => { if (speaking) stopAll(); else playAll(filtered.map((w) => ({ id: w.g, text: wordSpeechText(w.g) }))); }}
+          onClick={() => { if (speaking) stopAll(); else playAll(filtered.map((w) => ({ id: w.g, text: wordSpeechText(w.g), subtitle: w.t }))); }}
           style={{ cursor: "pointer", border: `1px solid ${speaking ? "#93c5fd" : "#ddd"}`, background: speaking ? "#dbeafe" : "transparent", borderRadius: 20, padding: "4px 12px", fontSize: 12, fontWeight: 500, color: speaking ? "#1e40af" : "#555", display: "flex", alignItems: "center", gap: 4, flexShrink: 0 }}
         >
           {speaking ? "⏹ Stop" : "▶ Alle"}
@@ -83,7 +83,7 @@ export default function Woerter({ knownWords, markKnown, undoKnown, speaking, sp
                 ref={virtualizer.measureElement}
                 style={{ position: "absolute", top: 0, left: 0, width: "100%", transform: `translateY(${vi.start}px)`, paddingBottom: 6 }}
               >
-                <WordRow word={w} id={w.g} speaking={speaking} onSpeak={(id, g) => speak(id, wordSpeechText(g))} onAction={markKnown} />
+                <WordRow word={w} id={w.g} speaking={speaking} onSpeak={(id, g) => speak(id, wordSpeechText(g), w.t)} onAction={markKnown} />
               </div>
             );
           })}

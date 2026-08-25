@@ -30,7 +30,7 @@ export default function Archiv({ chunks, toggleMastered, knownWords, undoKnown, 
               key={c.id}
               chunk={c}
               speaking={speaking}
-              onSpeak={(id, de) => speak(id, speechText(de))}
+              onSpeak={(id, de, en) => speak(id, speechText(de), en)}
               onToggleMastered={toggleMastered}
             />
           ))}
@@ -50,7 +50,7 @@ export default function Archiv({ chunks, toggleMastered, knownWords, undoKnown, 
               word={w}
               id={w.g}
               speaking={speaking}
-              onSpeak={(id, g) => speak(id, wordSpeechText(g))}
+              onSpeak={(id, g) => speak(id, wordSpeechText(g), w.t)}
               onAction={undoKnown}
               actionIcon="↩"
               actionTitle="Zurück zu Wörter"
