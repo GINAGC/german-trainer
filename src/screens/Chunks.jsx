@@ -8,6 +8,7 @@ export default function Chunks({ chunks, toggleMastered, speaking, speak, playAl
   const [cat, setCat] = useState("all");
   const [search, setSearch] = useState("");
   const [view, setView] = useState("active");
+  const [sortNewest, setSortNewest] = useState(false);
 
   const total = chunks.length;
   const mCnt = chunks.filter((c) => c.mastered).length;
@@ -15,14 +16,16 @@ export default function Chunks({ chunks, toggleMastered, speaking, speak, playAl
 
   const shown = useMemo(() => {
     const q = search.trim().toLowerCase();
-    return chunks.filter((c) => {
+    const filtered = chunks.filter((c) => {
       if (view === "active" && c.mastered) return false;
       if (view === "mastered" && !c.mastered) return false;
       if (cat !== "all" && c.cat !== cat) return false;
       if (!q) return true;
       return c.de.toLowerCase().includes(q) || (c.en || "").toLowerCase().includes(q) || (c.nouns || []).some((n) => n.toLowerCase().includes(q));
     });
-  }, [chunks, view, cat, search]);
+    // ids are assigned in insertion order (see README), so id desc = newest first
+    return sortNewest ? [...filtered].sort((a, b) => Number(b.id) - Number(a.id)) : filtered;
+  }, [chunks, view, cat, search, sortNewest]);
 
   const catCounts = useMemo(() => {
     const m = { all: 0 };
@@ -38,12 +41,19 @@ export default function Chunks({ chunks, toggleMastered, speaking, speak, playAl
   return (
     <>
       <div style={{ padding: "10px 16px 0", borderBottom: "1px solid #e5e5e5" }}>
-        <div style={{ display: "flex", gap: 6, marginBottom: 8, alignItems: "center" }}>
+        <div style={{ display: "flex", gap: 6, marginBottom: 8, alignItems: "center", flexWrap: "wrap" }}>
           {[["active", "Aktiv", aCnt], ["mastered", "Gemeistert", mCnt]].map(([v, l, n]) => (
             <button key={v} onClick={() => setView(v)} style={{ cursor: "pointer", border: `1px solid ${view === v ? "#999" : "#ddd"}`, background: view === v ? "#f0f0f0" : "transparent", borderRadius: 20, padding: "4px 10px", fontSize: 12, fontWeight: view === v ? 500 : 400 }}>
               {l} ({n})
             </button>
           ))}
+          <button
+            onClick={() => setSortNewest((s) => !s)}
+            title="Neueste zuerst"
+            style={{ cursor: "pointer", border: `1px solid ${sortNewest ? "#999" : "#ddd"}`, background: sortNewest ? "#f0f0f0" : "transparent", borderRadius: 20, padding: "4px 10px", fontSize: 12, fontWeight: sortNewest ? 500 : 400 }}
+          >
+            🕐 Neueste
+          </button>
           <div style={{ marginLeft: "auto", display: "flex", gap: 4, alignItems: "center" }}>
             <RepeatCountControl repeatCount={repeatCount} setRepeatCount={setRepeatCount} />
             <button
