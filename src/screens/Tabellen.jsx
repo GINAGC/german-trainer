@@ -57,17 +57,21 @@ export default function Tabellen() {
           </thead>
           <tbody>
             {[
-              ["ich", "mich", "mir", "mich", "mir", "mein", "meine"],
-              ["du", "dich", "dir", "dich", "dir", "dein", "deine"],
-              ["er", "ihn", "ihm", "sich", "sich", "sein", "seine"],
-              ["es", "es", "ihm", "sich", "sich", "sein", "seine"],
-              ["sie", "sie", "ihr", "sich", "sich", "ihr", "ihre"],
-              ["wir", "uns", "uns", "uns", "uns", "unser", "unsere"],
-              ["ihr", "euch", "euch", "euch", "euch", "euer", "eure"],
-              ["Sie/sie", "sie/Sie", "ihnen", "sich", "sich", "ihr", "ihre"],
-            ].map(([sub, ...rest]) => (
+              ["ich", "yo", "mich", "mir", "mich", "mir", "mein", "meine"],
+              ["du", "tú", "dich", "dir", "dich", "dir", "dein", "deine"],
+              ["er", "él", "ihn", "ihm", "sich", "sich", "sein", "seine"],
+              ["es", "ello", "es", "ihm", "sich", "sich", "sein", "seine"],
+              ["sie", "ella", "sie", "ihr", "sich", "sich", "ihr", "ihre"],
+              ["wir", "nosotros", "uns", "uns", "uns", "uns", "unser", "unsere"],
+              ["ihr", "vosotros", "euch", "euch", "euch", "euch", "euer", "eure"],
+              ["Sie/sie", "usted(es) / ellos", "sie/Sie", "ihnen", "sich", "sich", "ihr", "ihre"],
+            ].map(([sub, es, ...rest]) => (
               <tr key={sub}>
-                <td style={{ ...rowH, border: "1px solid #e5e5e5" }}>{sub}</td>
+                <td style={{ ...rowH, border: "1px solid #e5e5e5" }}>
+                  {sub}
+                  <br />
+                  <span style={{ fontSize: 10, color: "#888", fontWeight: 400 }}>{es}</span>
+                </td>
                 {rest.map((v, i) => <td key={i} style={tdC}>{v}</td>)}
               </tr>
             ))}
