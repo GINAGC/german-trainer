@@ -9142,5 +9142,29 @@
   {
     "g": "etwas Dringendes",
     "t": "algo urgente"
+  },
+  {
+    "g": "unbedingt",
+    "t": "absolutamente, sin falta"
+  },
+  {
+    "g": "die Bescherung",
+    "t": "el reparto de regalos (Navidad)"
+  },
+  {
+    "g": "der Streik",
+    "t": "la huelga"
+  },
+  {
+    "g": "wieso nicht?",
+    "t": "¿por qué no?"
+  },
+  {
+    "g": "jeden Tag",
+    "t": "todos los días (uso neutro)"
+  },
+  {
+    "g": "tagtäglich",
+    "t": "día tras día (uso enfático/literario)"
   }
 ]

@@ -4958,5 +4958,232 @@
     "en": "By tomorrow I will have finished that. (future perfect)",
     "cat": "work",
     "nouns": []
+  },
+  {
+    "id": "460",
+    "de": "Ich möchte fließend Deutsch sprechen.",
+    "en": "I'd like to speak German fluently.",
+    "cat": "learning",
+    "nouns": []
+  },
+  {
+    "id": "461",
+    "de": "Ich stehe dieses Wochenende nicht zur Verfügung.",
+    "en": "I'm not available this weekend.",
+    "cat": "work",
+    "nouns": [
+      "die Verfügung"
+    ],
+    "g": [
+      {
+        "w": "zur Verfügung",
+        "c": "Dat",
+        "n": "zu → immer Dat (zur = zu der)"
+      }
+    ]
+  },
+  {
+    "id": "462",
+    "de": "Passiert das oft?",
+    "en": "Does that happen often?",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "463",
+    "de": "Ich freue mich darauf",
+    "en": "I'm looking forward to it.",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "464",
+    "de": "Ich freue mich auf Weihnachten.",
+    "en": "I'm looking forward to Christmas.",
+    "cat": "conversation",
+    "nouns": [],
+    "g": [
+      {
+        "w": "auf Weihnachten",
+        "c": "Akk",
+        "n": "sich freuen auf → immer Akk"
+      }
+    ]
+  },
+  {
+    "id": "465",
+    "de": "Einen Vertrag auflösen oder kündigen.",
+    "en": "To terminate a contract or cancel it. (context: work; kündigen = standard word, one side ends it; auflösen = mutual/formal dissolution)",
+    "cat": "work",
+    "nouns": [
+      "der Vertrag"
+    ],
+    "g": [
+      {
+        "w": "Einen Vertrag",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ]
+  },
+  {
+    "id": "466",
+    "de": "Was gibt's Neues?",
+    "en": "What's new?",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "467",
+    "de": "Waren Sie schon einmal an diesem Ort?",
+    "en": "Have you ever been to this place before?",
+    "cat": "conversation",
+    "nouns": [
+      "der Ort"
+    ],
+    "g": [
+      {
+        "w": "an diesem Ort",
+        "c": "Dat",
+        "n": "an + wo? → Dat"
+      }
+    ]
+  },
+  {
+    "id": "468",
+    "de": "Es gab Streit / Es wurde gestritten.",
+    "en": "There was an argument. / There was arguing. (active vs. passive)",
+    "cat": "conversation",
+    "nouns": [
+      "der Streit"
+    ]
+  },
+  {
+    "id": "469",
+    "de": "Es gab einen Konflikt.",
+    "en": "There was a conflict.",
+    "cat": "conversation",
+    "nouns": [
+      "der Konflikt"
+    ],
+    "g": [
+      {
+        "w": "einen Konflikt",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ]
+  },
+  {
+    "id": "470",
+    "de": "Warum hattest du eine so anstrengende Woche? [Vgt]",
+    "en": "Why did you have such an exhausting week? (past) (anstrengend = causes the strain, describes the thing/situation)",
+    "cat": "work",
+    "nouns": [
+      "die Woche"
+    ]
+  },
+  {
+    "id": "471",
+    "de": "Ich bin angestrengt.",
+    "en": "I'm strained, tense from effort, in the moment. (angestrengt describes the person's state)",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "472",
+    "de": "Für mich ist das jetzt nicht der Bringer.",
+    "en": "That's not really doing it for me right now. (idiom: der Bringer = the big win/game-changer)",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "473",
+    "de": "Meine Woche ist gut gelaufen. [Vgt]",
+    "en": "My week went well. (past) (etwas läuft gut/schlecht = something goes well/badly)",
+    "cat": "conversation",
+    "nouns": [
+      "die Woche"
+    ]
+  },
+  {
+    "id": "474",
+    "de": "Ich könnte von der Arbeit hierher fahren.",
+    "en": "I could drive here from work.",
+    "cat": "work",
+    "nouns": [
+      "die Arbeit"
+    ],
+    "g": [
+      {
+        "w": "von der Arbeit",
+        "c": "Dat",
+        "n": "von → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "475",
+    "de": "Ja, natürlich! Es steht auf meiner To-do-Liste für heute.",
+    "en": "Yes, of course! It's on my to-do list for today.",
+    "cat": "work",
+    "nouns": [
+      "die To-do-Liste"
+    ],
+    "g": [
+      {
+        "w": "auf meiner To-do-Liste",
+        "c": "Dat",
+        "n": "auf + wo? → Dat"
+      }
+    ]
+  },
+  {
+    "id": "476",
+    "de": "Der Platz ist besetzt.",
+    "en": "The seat is taken.",
+    "cat": "conversation",
+    "nouns": [
+      "der Platz"
+    ]
+  },
+  {
+    "id": "477",
+    "de": "Die Toilette ist besetzt.",
+    "en": "The toilet is occupied.",
+    "cat": "conversation",
+    "nouns": [
+      "die Toilette"
+    ]
+  },
+  {
+    "id": "478",
+    "de": "Ich gehe jeden Tag joggen.",
+    "en": "I go jogging every day. (jeden Tag = neutral, everyday choice)",
+    "cat": "daily",
+    "nouns": []
+  },
+  {
+    "id": "479",
+    "de": "Er wiederholt tagtäglich denselben Fehler.",
+    "en": "He repeats the same mistake day after day. (tagtäglich = emphatic/literary, implies routine)",
+    "cat": "learning",
+    "nouns": [
+      "der Fehler"
+    ],
+    "g": [
+      {
+        "w": "denselben Fehler",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ]
+  },
+  {
+    "id": "480",
+    "de": "Wir sollten uns zusammensetzen.",
+    "en": "We should sit down together / have a meeting.",
+    "cat": "work",
+    "nouns": []
   }
 ]
