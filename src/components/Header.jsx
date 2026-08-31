@@ -1,6 +1,7 @@
 const TABS = [
   { id: "chunks", label: "Chunks", activeBorder: "#999", activeBg: "#f0f0f0", activeColor: "#111" },
   { id: "tabellen", label: "Tabellen", activeBorder: "#7F77DD", activeBg: "#f3f0ff", activeColor: "#3c3489" },
+  { id: "deklination", label: "Deklination", activeBorder: "#2A9D8F", activeBg: "#E0F5F3", activeColor: "#0D3B36" },
   { id: "woerter", label: "Wörter", activeBorder: "#1D9E75", activeBg: "#e1f5ee", activeColor: "#04342C" },
   { id: "genus", label: "Genus-Regeln", activeBorder: "#639922", activeBg: "#EAF3DE", activeColor: "#173404" },
   { id: "archiv", label: "Archiv", activeBorder: "#888780", activeBg: "#F1EFE8", activeColor: "#2C2C2A" },

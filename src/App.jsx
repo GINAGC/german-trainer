@@ -4,6 +4,7 @@ import FloatingPlayer from "./components/FloatingPlayer";
 import Chunks from "./screens/Chunks";
 import Woerter from "./screens/Woerter";
 import Tabellen from "./screens/Tabellen";
+import Deklination from "./screens/Deklination";
 import Archiv from "./screens/Archiv";
 import GenusRegeln from "./screens/GenusRegeln";
 import { useSpeech } from "./hooks/useSpeech";
@@ -29,6 +30,8 @@ export default function App() {
       />
 
       {mainTab === "tabellen" && <Tabellen />}
+
+      {mainTab === "deklination" && <Deklination />}
 
       {mainTab === "woerter" && (
         <Woerter

@@ -80,67 +80,6 @@ export default function Tabellen() {
       </div>
       <p style={{ fontSize: 11, color: "#aaa", margin: "0 0 24px" }}>Tipp: Sie/sie (formal/plural) teilen viele Formen.</p>
 
-      <p style={{ fontSize: 11, fontWeight: 600, color: "#888", letterSpacing: 1, textTransform: "uppercase", margin: "0 0 8px" }}>Adjektivendungen (nach ein / kein / mein…)</p>
-      <div style={{ overflowX: "auto", marginBottom: 8 }}>
-        <table style={{ borderCollapse: "collapse", fontSize: 11, minWidth: 520 }}>
-          <thead>
-            <tr>
-              <th style={{ ...th, background: "#f5f5f5", color: "#555" }}>Kasus</th>
-              <th style={genderTh("der")}>Mask. (der)</th>
-              <th style={genderTh("die")}>Fem. (die)</th>
-              <th style={genderTh("das")}>Neut. (das)</th>
-              <th style={genderTh("plural")}>Plural (die)</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td style={rowH}>Nom (definit)</td>
-              <td style={genderTd("der")}>der alt<b>e</b></td>
-              <td style={genderTd("die")}>die alt<b>e</b></td>
-              <td style={genderTd("das")}>das alt<b>e</b></td>
-              <td style={genderTd("plural")}>die alt<b>en</b></td>
-            </tr>
-            <tr>
-              <td style={rowH}>Akk (definit)</td>
-              <td style={genderTd("der", { fontWeight: 700, background: GENDER.der.bg })}>den alt<b>en</b></td>
-              <td style={genderTd("die")}>die alt<b>e</b></td>
-              <td style={genderTd("das")}>das alt<b>e</b></td>
-              <td style={genderTd("plural")}>die alt<b>en</b></td>
-            </tr>
-            <tr>
-              <td style={rowH}>Dat (definit)</td>
-              <td style={genderTd("der", { fontWeight: 700, background: GENDER.der.bg })}>dem alt<b>en</b></td>
-              <td style={genderTd("die", { fontWeight: 700, background: GENDER.die.bg })}>der alt<b>en</b></td>
-              <td style={genderTd("das", { fontWeight: 700, background: GENDER.das.bg })}>dem alt<b>en</b></td>
-              <td style={genderTd("plural", { fontWeight: 700, background: GENDER.plural.bg })}>den alt<b>en</b></td>
-            </tr>
-            <tr>
-              <td style={{ ...rowH, background: "#fafafa", borderTop: "2px solid #ddd" }}>Nom (ein/mein)</td>
-              <td style={genderTd("der", { fontWeight: 700, background: GENDER.der.bg })}>ein alt<b>er</b></td>
-              <td style={genderTd("die")}>eine alt<b>e</b></td>
-              <td style={genderTd("das", { fontWeight: 700, background: GENDER.das.bg })}>ein alt<b>es</b></td>
-              <td style={genderTd("plural")}>— alt<b>en</b></td>
-            </tr>
-            <tr>
-              <td style={rowH}>Akk (ein/mein)</td>
-              <td style={genderTd("der", { fontWeight: 700, background: GENDER.der.bg })}>einen alt<b>en</b></td>
-              <td style={genderTd("die")}>eine alt<b>e</b></td>
-              <td style={genderTd("das", { fontWeight: 700, background: GENDER.das.bg })}>ein alt<b>es</b></td>
-              <td style={genderTd("plural")}>— alt<b>en</b></td>
-            </tr>
-            <tr>
-              <td style={rowH}>Dat (ein/mein)</td>
-              <td style={genderTd("der", { fontWeight: 700, background: GENDER.der.bg })}>einem alt<b>en</b></td>
-              <td style={genderTd("die", { fontWeight: 700, background: GENDER.die.bg })}>einer alt<b>en</b></td>
-              <td style={genderTd("das", { fontWeight: 700, background: GENDER.das.bg })}>einem alt<b>en</b></td>
-              <td style={genderTd("plural", { fontWeight: 700, background: GENDER.plural.bg })}>— alt<b>en</b></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <p style={{ fontSize: 11, color: "#aaa", margin: "0 0 8px" }}>Hinterlegte Felder = Form ändert sich. Farben = Genus (Grammatikon-System).</p>
-      <p style={{ fontSize: 11, color: "#aaa", margin: "0 0 8px" }}>Faustregel: Nach ein/kein/mein → Adjektiv zeigt das Genus (-er/-e/-es im Nom/Akk Neut). Danach fast immer <b>-en</b>.</p>
-
       <p style={{ fontSize: 11, fontWeight: 600, color: "#888", letterSpacing: 1, textTransform: "uppercase", margin: "0 0 8px" }}>Akkusativ vs. Dativ</p>
       <div style={{ overflowX: "auto", marginBottom: 16 }}>
         <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 11, minWidth: 480 }}>
