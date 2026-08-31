@@ -1,11 +1,39 @@
-const TABS = [
+// Practice content on the first line, reference/grammar material on the second.
+const PRACTICE_TABS = [
   { id: "chunks", label: "Chunks", activeBorder: "#999", activeBg: "#f0f0f0", activeColor: "#111" },
-  { id: "tabellen", label: "Tabellen", activeBorder: "#7F77DD", activeBg: "#f3f0ff", activeColor: "#3c3489" },
-  { id: "deklination", label: "Deklination", activeBorder: "#2A9D8F", activeBg: "#E0F5F3", activeColor: "#0D3B36" },
   { id: "woerter", label: "Wörter", activeBorder: "#1D9E75", activeBg: "#e1f5ee", activeColor: "#04342C" },
-  { id: "genus", label: "Genus-Regeln", activeBorder: "#639922", activeBg: "#EAF3DE", activeColor: "#173404" },
   { id: "archiv", label: "Archiv", activeBorder: "#888780", activeBg: "#F1EFE8", activeColor: "#2C2C2A" },
 ];
+const REFERENCE_TABS = [
+  { id: "tabellen", label: "Tabellen", activeBorder: "#7F77DD", activeBg: "#f3f0ff", activeColor: "#3c3489" },
+  { id: "genus", label: "Genus-Regeln", activeBorder: "#639922", activeBg: "#EAF3DE", activeColor: "#173404" },
+  { id: "deklination", label: "Deklination", activeBorder: "#2A9D8F", activeBg: "#E0F5F3", activeColor: "#0D3B36" },
+];
+
+function TabRow({ tabs, mainTab, setMainTab }) {
+  return (
+    <div style={{ display: "flex", gap: 5, flexWrap: "wrap" }}>
+      {tabs.map((t) => {
+        const on = mainTab === t.id;
+        return (
+          <button
+            key={t.id}
+            onClick={() => setMainTab(t.id)}
+            style={{
+              cursor: "pointer",
+              border: `1px solid ${on ? t.activeBorder : "#ddd"}`,
+              background: on ? t.activeBg : "transparent",
+              color: on ? t.activeColor : "#555",
+              borderRadius: 20, padding: "4px 10px", fontSize: 12, fontWeight: on ? 500 : 400,
+            }}
+          >
+            {t.label}
+          </button>
+        );
+      })}
+    </div>
+  );
+}
 
 export default function Header({ mainTab, setMainTab, aCnt, mCnt, total, pct }) {
   return (
@@ -13,25 +41,9 @@ export default function Header({ mainTab, setMainTab, aCnt, mCnt, total, pct }) 
       <div style={{ marginBottom: 10 }}>
         <h2 style={{ fontSize: 16, fontWeight: 600, margin: 0 }}>Meine Chunks 🇩🇪</h2>
         <p style={{ fontSize: 12, color: "#888", margin: "2px 0 8px" }}>{aCnt} aktiv · {mCnt} gemeistert · {total} gesamt</p>
-        <div style={{ display: "flex", gap: 5, flexWrap: "wrap" }}>
-          {TABS.map((t) => {
-            const on = mainTab === t.id;
-            return (
-              <button
-                key={t.id}
-                onClick={() => setMainTab(t.id)}
-                style={{
-                  cursor: "pointer",
-                  border: `1px solid ${on ? t.activeBorder : "#ddd"}`,
-                  background: on ? t.activeBg : "transparent",
-                  color: on ? t.activeColor : "#555",
-                  borderRadius: 20, padding: "4px 10px", fontSize: 12, fontWeight: on ? 500 : 400,
-                }}
-              >
-                {t.label}
-              </button>
-            );
-          })}
+        <div style={{ display: "flex", flexDirection: "column", gap: 5 }}>
+          <TabRow tabs={PRACTICE_TABS} mainTab={mainTab} setMainTab={setMainTab} />
+          <TabRow tabs={REFERENCE_TABS} mainTab={mainTab} setMainTab={setMainTab} />
         </div>
       </div>
       <div style={{ background: "#e5e5e5", borderRadius: 2, height: 4 }}>
