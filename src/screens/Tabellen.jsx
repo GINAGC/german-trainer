@@ -63,7 +63,7 @@ export default function Tabellen() {
               ["es", "ello", "es", "ihm", "sich", "sich", "sein", "seine"],
               ["sie", "ella", "sie", "ihr", "sich", "sich", "ihr", "ihre"],
               ["wir", "nosotros", "uns", "uns", "uns", "uns", "unser", "unsere"],
-              ["ihr", "vosotros", "euch", "euch", "euch", "euch", "euer", "eure"],
+              ["ihr", "ustedes", "euch", "euch", "euch", "euch", "euer", "eure"],
               ["Sie/sie", "usted(es) / ellos", "sie/Sie", "ihnen", "sich", "sich", "ihr", "ihre"],
             ].map(([sub, es, ...rest]) => (
               <tr key={sub}>
