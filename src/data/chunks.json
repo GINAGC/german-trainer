@@ -5422,5 +5422,47 @@
         "n": "dir. Objekt → Akk (fem.)"
       }
     ]
+  },
+  {
+    "id": "526",
+    "de": "Was machst du denn hier?",
+    "en": "What are you doing here? (denn softens the question, makes it friendlier)",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "527",
+    "de": "Das ist ja eine Überraschung!",
+    "en": "That's a surprise! (ja expresses surprise)",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "528",
+    "de": "Meld dich mal!",
+    "en": "Get in touch sometime! (mal softens the request)",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "529",
+    "de": "Sag mal …",
+    "en": "Tell me... (mal softens the request, casual conversation opener)",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "530",
+    "de": "Schreib mir doch!",
+    "en": "Why don't you write to me! (doch = friendly suggestion/encouragement)",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "531",
+    "de": "Was macht eigentlich Anna?",
+    "en": "What's Anna up to, by the way? (eigentlich = casual, by-the-way question)",
+    "cat": "conversation",
+    "nouns": []
   }
 ]

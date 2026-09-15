@@ -218,6 +218,29 @@ export default function Tabellen() {
         </table>
       </div>
       <p style={{ fontSize: 11, color: "#aaa", margin: "0 0 24px" }}>Lila = ich &amp; er/sie sind identisch — kein -t wie bei normalen Verben!</p>
+
+      <p style={{ fontSize: 11, fontWeight: 600, color: "#888", letterSpacing: 1, textTransform: "uppercase", margin: "0 0 8px" }}>Modalpartikeln</p>
+      <p style={{ fontSize: 12, color: "#666", lineHeight: 1.55, margin: "0 0 10px" }}>
+        Kleine Wörter ohne eigene Bedeutung, die den Ton eines Satzes verändern. Ohne sie klingt gesprochenes Deutsch hart und wie aus dem Lehrbuch.
+      </p>
+      <div style={{ display: "grid", gap: 6, marginBottom: 8 }}>
+        {[
+          ["denn", "macht eine Frage freundlich", "Was machst du denn hier?"],
+          ["ja", "drückt Überraschung aus", "Das ist ja eine Überraschung!"],
+          ["mal", "macht Aufforderungen weich", "Meld dich mal! · Sag mal …"],
+          ["doch", "freundlicher Vorschlag", "Schreib mir doch!"],
+          ["eigentlich", "beiläufige Frage", "Was macht eigentlich Anna?"],
+        ].map(([word, fn, bsp]) => (
+          <div key={word} style={{ border: "1px solid #e5e5e5", borderRadius: 8, padding: "7px 10px", display: "flex", alignItems: "baseline", gap: 8, flexWrap: "wrap" }}>
+            <span style={{ fontSize: 13, fontWeight: 700, color: "#3c3489" }}>{word}</span>
+            <span style={{ fontSize: 11, color: "#999" }}>{fn}</span>
+            <span style={{ fontSize: 12, color: "#444", fontStyle: "italic", marginLeft: "auto" }}>{bsp}</span>
+          </div>
+        ))}
+      </div>
+      <p style={{ fontSize: 12, background: "#fafafb", borderLeft: "3px solid #d8d8dd", padding: "9px 12px", margin: "8px 0 24px", borderRadius: "0 6px 6px 0", lineHeight: 1.55, color: "#555" }}>
+        <b>Übung:</b> Sprich jeden Satz einmal ohne und einmal mit Partikel. Du hörst den Unterschied sofort.
+      </p>
     </div>
   );
 }
