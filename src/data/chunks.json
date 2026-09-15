@@ -4906,5 +4906,521 @@
     "nouns": [
       "der Computer"
     ]
+  },
+  {
+    "id": "485",
+    "de": "Ich war bei der Frauenärztin meiner Frau. [Vgt]",
+    "en": "I went to my wife's gynecologist. (past) (die Frauenärztin / der Frauenarzt)",
+    "cat": "medical",
+    "nouns": [
+      "die Frauenärztin"
+    ],
+    "g": [
+      {
+        "w": "bei der Frauenärztin",
+        "c": "Dat",
+        "n": "bei → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "486",
+    "de": "Ein paar Werte waren zu niedrig. [Vgt]",
+    "en": "A few values were too low. (past)",
+    "cat": "medical",
+    "nouns": [
+      "der Wert"
+    ]
+  },
+  {
+    "id": "487",
+    "de": "Ich möchte diese Werte testen lassen.",
+    "en": "I'd like to have these values tested.",
+    "cat": "medical",
+    "nouns": [
+      "der Wert"
+    ],
+    "g": [
+      {
+        "w": "diese Werte",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (Plural)"
+      }
+    ]
+  },
+  {
+    "id": "488",
+    "de": "Seit vier Monaten bin ich sehr müde.",
+    "en": "For four months I've been very tired.",
+    "cat": "medical",
+    "nouns": [
+      "der Monat"
+    ],
+    "g": [
+      {
+        "w": "Seit vier Monaten",
+        "c": "Dat",
+        "n": "seit → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "489",
+    "de": "Ich möchte kontrollieren lassen, ob alles in Ordnung ist.",
+    "en": "I'd like to have it checked whether everything is okay.",
+    "cat": "medical",
+    "nouns": []
+  },
+  {
+    "id": "490",
+    "de": "Muss ich nüchtern sein?",
+    "en": "Do I need to be fasting?",
+    "cat": "medical",
+    "nouns": []
+  },
+  {
+    "id": "491",
+    "de": "Wir haben besprochen, dass wir Ende des Sommers neue Tests machen. [Vgt]",
+    "en": "We discussed that we'll do new tests at the end of summer. (past)",
+    "cat": "medical",
+    "nouns": [
+      "der Sommer",
+      "der Test"
+    ]
+  },
+  {
+    "id": "492",
+    "de": "Ich habe einen Termin bei Frau Dr. Schröer.",
+    "en": "I have an appointment with Dr. Schröer.",
+    "cat": "medical",
+    "nouns": [
+      "der Termin"
+    ],
+    "g": [
+      {
+        "w": "einen Termin",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      },
+      {
+        "w": "bei Frau Dr. Schröer",
+        "c": "Dat",
+        "n": "bei → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "493",
+    "de": "Ich habe einen Termin zur Blutabnahme.",
+    "en": "I have an appointment for a blood draw.",
+    "cat": "medical",
+    "nouns": [
+      "der Termin",
+      "die Blutabnahme"
+    ],
+    "g": [
+      {
+        "w": "einen Termin",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      },
+      {
+        "w": "zur Blutabnahme",
+        "c": "Dat",
+        "n": "zu → immer Dat (zur = zu der)"
+      }
+    ]
+  },
+  {
+    "id": "494",
+    "de": "Wann bekomme ich die Ergebnisse?",
+    "en": "When will I get the results?",
+    "cat": "medical",
+    "nouns": [
+      "das Ergebnis"
+    ],
+    "g": [
+      {
+        "w": "die Ergebnisse",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (Plural)"
+      }
+    ]
+  },
+  {
+    "id": "495",
+    "de": "Soll ich anrufen, oder rufen Sie mich an?",
+    "en": "Should I call, or will you call me?",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "496",
+    "de": "Normalerweise habe ich viel Energie.",
+    "en": "Normally I have a lot of energy.",
+    "cat": "medical",
+    "nouns": [
+      "die Energie"
+    ]
+  },
+  {
+    "id": "497",
+    "de": "Ich esse gesund und mache dreimal pro Woche Krafttraining.",
+    "en": "I eat healthily and do strength training three times a week.",
+    "cat": "daily",
+    "nouns": [
+      "das Krafttraining"
+    ]
+  },
+  {
+    "id": "498",
+    "de": "Gerne können Sie am Montag Vormittag vorbeikommen.",
+    "en": "You're welcome to come by on Monday morning.",
+    "cat": "medical",
+    "nouns": [],
+    "g": [
+      {
+        "w": "am Montag Vormittag",
+        "c": "Dat",
+        "n": "an + wann? → Dat (am = an dem)"
+      }
+    ]
+  },
+  {
+    "id": "499",
+    "de": "Meine beiden Termine überschneiden sich.",
+    "en": "My two appointments overlap.",
+    "cat": "work",
+    "nouns": [
+      "der Termin"
+    ]
+  },
+  {
+    "id": "500",
+    "de": "Die Termine passen nicht zusammen.",
+    "en": "The appointments don't fit together.",
+    "cat": "work",
+    "nouns": [
+      "der Termin"
+    ]
+  },
+  {
+    "id": "501",
+    "de": "Unsere Persönlichkeiten passen nicht zusammen.",
+    "en": "Our personalities don't match.",
+    "cat": "conversation",
+    "nouns": [
+      "die Persönlichkeit"
+    ]
+  },
+  {
+    "id": "502",
+    "de": "Unser Musikgeschmack beißt sich etwas.",
+    "en": "Our taste in music clashes a bit. (idiom: sich beißen = to clash)",
+    "cat": "conversation",
+    "nouns": [
+      "der Musikgeschmack"
+    ]
+  },
+  {
+    "id": "503",
+    "de": "Die Farben beißen sich.",
+    "en": "The colours clash.",
+    "cat": "conversation",
+    "nouns": [
+      "die Farbe"
+    ]
+  },
+  {
+    "id": "504",
+    "de": "Sorry, deine Nachricht ist bei mir untergegangen. [Vgt]",
+    "en": "Sorry, your message got lost in the shuffle on my end. (past)",
+    "cat": "conversation",
+    "nouns": [
+      "die Nachricht"
+    ],
+    "g": [
+      {
+        "w": "bei mir",
+        "c": "Dat",
+        "n": "bei → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "505",
+    "de": "Die Sonne ist schon untergegangen. [Vgt]",
+    "en": "The sun has already set. (past)",
+    "cat": "daily",
+    "nouns": [
+      "die Sonne"
+    ]
+  },
+  {
+    "id": "506",
+    "de": "Das motiviert mich zum Sport.",
+    "en": "That motivates me to exercise.",
+    "cat": "daily",
+    "nouns": [
+      "der Sport"
+    ],
+    "g": [
+      {
+        "w": "zum Sport",
+        "c": "Dat",
+        "n": "zu → immer Dat (zum = zu dem)"
+      }
+    ]
+  },
+  {
+    "id": "507",
+    "de": "Ich möchte ein langes und glückliches Leben führen.",
+    "en": "I want to live a long and happy life.",
+    "cat": "daily",
+    "nouns": [
+      "das Leben"
+    ],
+    "g": [
+      {
+        "w": "ein langes und glückliches Leben",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (neut.)"
+      }
+    ]
+  },
+  {
+    "id": "508",
+    "de": "Das motiviert mich, auf meine Ernährung zu achten, mich zu bewegen und entspannt zu bleiben.",
+    "en": "That motivates me to watch my diet, move, and stay relaxed.",
+    "cat": "daily",
+    "nouns": [
+      "die Ernährung"
+    ]
+  },
+  {
+    "id": "509",
+    "de": "Ich merke, dass ich müder bin als sonst.",
+    "en": "I notice that I'm more tired than usual.",
+    "cat": "medical",
+    "nouns": []
+  },
+  {
+    "id": "510",
+    "de": "Das gehört jetzt zu meiner Routine.",
+    "en": "That's part of my routine now.",
+    "cat": "daily",
+    "nouns": [
+      "die Routine"
+    ],
+    "g": [
+      {
+        "w": "zu meiner Routine",
+        "c": "Dat",
+        "n": "zu → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "511",
+    "de": "Gestern habe ich zufällig einen Bekannten getroffen. [Vgt]",
+    "en": "Yesterday I ran into an acquaintance by chance. (past)",
+    "cat": "conversation",
+    "nouns": [
+      "der Bekannte"
+    ],
+    "g": [
+      {
+        "w": "einen Bekannten",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (adjektivisches Nomen, mask.)"
+      }
+    ]
+  },
+  {
+    "id": "512",
+    "de": "Ich habe eine ehemalige Kollegin aus dem Sportverein getroffen. [Vgt]",
+    "en": "I ran into a former colleague from the sports club. (past)",
+    "cat": "conversation",
+    "nouns": [
+      "die Kollegin",
+      "der Sportverein"
+    ],
+    "g": [
+      {
+        "w": "eine ehemalige Kollegin",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem.)"
+      },
+      {
+        "w": "aus dem Sportverein",
+        "c": "Dat",
+        "n": "aus → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "513",
+    "de": "Ich habe einen alten Nachbarn getroffen. [Vgt]",
+    "en": "I ran into an old neighbour. (past)",
+    "cat": "conversation",
+    "nouns": [
+      "der Nachbar"
+    ],
+    "g": [
+      {
+        "w": "einen alten Nachbarn",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (schwache Nomen: +n)"
+      }
+    ]
+  },
+  {
+    "id": "514",
+    "de": "Das ist ja eine halbe Ewigkeit her!",
+    "en": "That was ages ago! (fixed phrase)",
+    "cat": "conversation",
+    "nouns": [
+      "die Ewigkeit"
+    ]
+  },
+  {
+    "id": "515",
+    "de": "Wir haben uns zuletzt auf Marinas Hochzeit gesehen. [Vgt]",
+    "en": "We last saw each other at Marina's wedding. (past)",
+    "cat": "conversation",
+    "nouns": [
+      "die Hochzeit"
+    ],
+    "g": [
+      {
+        "w": "auf Marinas Hochzeit",
+        "c": "Dat",
+        "n": "auf + wo? → Dat"
+      }
+    ]
+  },
+  {
+    "id": "516",
+    "de": "Wir könnten ein bisschen Smalltalk machen.",
+    "en": "We could make a bit of small talk.",
+    "cat": "conversation",
+    "nouns": [
+      "der Smalltalk"
+    ]
+  },
+  {
+    "id": "517",
+    "de": "Ich habe eigentlich wenig Zeit, aber ich will nicht unhöflich wirken.",
+    "en": "I actually have little time, but I don't want to seem rude.",
+    "cat": "conversation",
+    "nouns": [
+      "die Zeit"
+    ]
+  },
+  {
+    "id": "518",
+    "de": "Ich muss leider weiter, aber es war schön, dich zu sehen!",
+    "en": "Unfortunately I have to get going, but it was nice to see you!",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "519",
+    "de": "Es riecht nach Verbranntem.",
+    "en": "It smells like something burnt.",
+    "cat": "daily",
+    "nouns": [],
+    "g": [
+      {
+        "w": "nach Verbranntem",
+        "c": "Dat",
+        "n": "nach → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "520",
+    "de": "Ich habe zehn Minuten gewartet, aber ich durfte nicht rein. [Vgt]",
+    "en": "I waited ten minutes, but I wasn't allowed in. (past)",
+    "cat": "conversation",
+    "nouns": [
+      "die Minute"
+    ]
+  },
+  {
+    "id": "521",
+    "de": "Mein Lieblingssnack ist Gebäck, besonders zum Kaffee.",
+    "en": "My favourite snack is pastries, especially with coffee.",
+    "cat": "food",
+    "nouns": [
+      "der Lieblingssnack",
+      "das Gebäck",
+      "der Kaffee"
+    ],
+    "g": [
+      {
+        "w": "zum Kaffee",
+        "c": "Dat",
+        "n": "zu → immer Dat (zum = zu dem)"
+      }
+    ]
+  },
+  {
+    "id": "522",
+    "de": "Leider kann ich meinen Kaffee nicht immer mit einem Stück Kuchen genießen.",
+    "en": "Unfortunately I can't always enjoy my coffee with a piece of cake.",
+    "cat": "food",
+    "nouns": [
+      "der Kuchen",
+      "das Stück"
+    ],
+    "g": [
+      {
+        "w": "mit einem Stück Kuchen",
+        "c": "Dat",
+        "n": "mit → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "523",
+    "de": "Wenn ich Obst esse, werde ich schnell satt.",
+    "en": "When I eat fruit, I get full quickly.",
+    "cat": "food",
+    "nouns": [
+      "das Obst"
+    ]
+  },
+  {
+    "id": "524",
+    "de": "Sagt man das im Alltag?",
+    "en": "Do people say that in everyday speech?",
+    "cat": "learning",
+    "nouns": [
+      "der Alltag"
+    ],
+    "g": [
+      {
+        "w": "im Alltag",
+        "c": "Dat",
+        "n": "in + wo? → Dat (im = in dem)"
+      }
+    ]
+  },
+  {
+    "id": "525",
+    "de": "Sie hatte eine geschlechtsangleichende Operation. [Vgt]",
+    "en": "She had gender-affirming surgery. (past)",
+    "cat": "medical",
+    "nouns": [
+      "die Operation"
+    ],
+    "g": [
+      {
+        "w": "eine geschlechtsangleichende Operation",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem.)"
+      }
+    ]
   }
 ]
