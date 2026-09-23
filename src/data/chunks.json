@@ -5464,5 +5464,570 @@
     "en": "What's Anna up to, by the way? (eigentlich = casual, by-the-way question)",
     "cat": "conversation",
     "nouns": []
+  },
+  {
+    "id": "532",
+    "de": "Ich habe eine Idee für dich.",
+    "en": "I have an idea for you.",
+    "cat": "work",
+    "nouns": []
+  },
+  {
+    "id": "533",
+    "de": "Das Projekt klingt interessant.",
+    "en": "The project sounds interesting.",
+    "cat": "work",
+    "nouns": [
+      "das Projekt"
+    ]
+  },
+  {
+    "id": "534",
+    "de": "Oh, das könnte cool sein.",
+    "en": "Oh, that could be cool.",
+    "cat": "work",
+    "nouns": []
+  },
+  {
+    "id": "535",
+    "de": "Du bist die richtige Person dafür.",
+    "en": "You're the right person for this.",
+    "cat": "work",
+    "nouns": []
+  },
+  {
+    "id": "536",
+    "de": "Ich vertraue dir.",
+    "en": "I trust you.",
+    "cat": "work",
+    "nouns": []
+  },
+  {
+    "id": "537",
+    "de": "Erst einmal danke für das Vertrauen.",
+    "en": "First of all, thanks for the trust.",
+    "cat": "work",
+    "nouns": [
+      "das Vertrauen"
+    ]
+  },
+  {
+    "id": "538",
+    "de": "Ich würde mir das gern ansehen, bevor ich zusage.",
+    "en": "I'd like to take a look at it before I commit.",
+    "cat": "work",
+    "nouns": []
+  },
+  {
+    "id": "539",
+    "de": "Wie viel Zeit braucht das ungefähr?",
+    "en": "About how much time does that need?",
+    "cat": "work",
+    "nouns": [
+      "die Zeit"
+    ]
+  },
+  {
+    "id": "540",
+    "de": "Reden wir von ein paar Stunden oder von ein paar Wochen?",
+    "en": "Are we talking about a few hours or a few weeks?",
+    "cat": "work",
+    "nouns": []
+  },
+  {
+    "id": "541",
+    "de": "Dafür ist das Marketing zuständig.",
+    "en": "Marketing is responsible for that.",
+    "cat": "work",
+    "nouns": [
+      "das Marketing"
+    ]
+  },
+  {
+    "id": "542",
+    "de": "Fachlich liegt das eigentlich beim Marketing.",
+    "en": "Technically that falls under Marketing.",
+    "cat": "work",
+    "nouns": [
+      "das Marketing"
+    ],
+    "g": [
+      {
+        "w": "beim Marketing",
+        "c": "Dat",
+        "n": "bei → immer Dat (beim = bei dem)"
+      }
+    ]
+  },
+  {
+    "id": "543",
+    "de": "Gibt es einen Grund, warum es zu mir kommt?",
+    "en": "Is there a reason it's coming to me?",
+    "cat": "work",
+    "nouns": [
+      "der Grund"
+    ]
+  },
+  {
+    "id": "544",
+    "de": "Mein Kalender ist bis Ende des Monats ziemlich voll.",
+    "en": "My calendar is pretty full until the end of the month.",
+    "cat": "work",
+    "nouns": [
+      "der Kalender",
+      "der Monat"
+    ]
+  },
+  {
+    "id": "545",
+    "de": "Meine Woche ist schon voll.",
+    "en": "My week is already full.",
+    "cat": "work",
+    "nouns": [
+      "die Woche"
+    ]
+  },
+  {
+    "id": "546",
+    "de": "Ich müsste dafür etwas anderes verschieben.",
+    "en": "I'd have to reschedule something else for that.",
+    "cat": "work",
+    "nouns": []
+  },
+  {
+    "id": "547",
+    "de": "Ich mache das gern, die Frage ist nur, was dafür hinten runterfällt.",
+    "en": "I'm happy to do it, the question is just what falls by the wayside for it. (idiom: hinten runterfallen = to get deprioritized)",
+    "cat": "work",
+    "nouns": []
+  },
+  {
+    "id": "548",
+    "de": "Ich brauche mehr Zeit für meine anderen Aufgaben.",
+    "en": "I need more time for my other tasks.",
+    "cat": "work",
+    "nouns": [
+      "die Zeit",
+      "die Aufgabe"
+    ]
+  },
+  {
+    "id": "549",
+    "de": "Unter welchen Bedingungen wäre das machbar?",
+    "en": "Under what conditions would that be doable?",
+    "cat": "work",
+    "nouns": [
+      "die Bedingung"
+    ],
+    "g": [
+      {
+        "w": "Unter welchen Bedingungen",
+        "c": "Dat",
+        "n": "unter + unter welchen Umständen → Dat"
+      }
+    ]
+  },
+  {
+    "id": "550",
+    "de": "Gibt es jemanden aus dem Marketing, der mich einarbeitet?",
+    "en": "Is there someone from Marketing who can train me in?",
+    "cat": "work",
+    "nouns": [
+      "das Marketing"
+    ],
+    "g": [
+      {
+        "w": "aus dem Marketing",
+        "c": "Dat",
+        "n": "aus → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "551",
+    "de": "Ich kann das leider nicht übernehmen.",
+    "en": "Unfortunately I can't take that on.",
+    "cat": "work",
+    "nouns": []
+  },
+  {
+    "id": "552",
+    "de": "Da muss ich leider passen.",
+    "en": "I'll have to pass on that, unfortunately. (fixed phrase)",
+    "cat": "work",
+    "nouns": []
+  },
+  {
+    "id": "553",
+    "de": "Dann übernehme ich das Projekt bis Ende Oktober, danach geht es zurück ins Marketing.",
+    "en": "Then I'll take on the project until end of October, after that it goes back to Marketing.",
+    "cat": "work",
+    "nouns": [
+      "das Projekt",
+      "das Marketing"
+    ]
+  },
+  {
+    "id": "554",
+    "de": "Ich schicke Ihnen morgen eine kurze Übersicht.",
+    "en": "I'll send you a short overview tomorrow.",
+    "cat": "work",
+    "nouns": [
+      "die Übersicht"
+    ],
+    "g": [
+      {
+        "w": "eine kurze Übersicht",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem.)"
+      }
+    ]
+  },
+  {
+    "id": "555",
+    "de": "Ich habe da eine spannende Sache für Sie.",
+    "en": "I've got something exciting for you.",
+    "cat": "work",
+    "nouns": [
+      "die Sache"
+    ]
+  },
+  {
+    "id": "556",
+    "de": "Ich dachte sofort an Sie. [Vgt]",
+    "en": "I thought of you right away. (past)",
+    "cat": "work",
+    "nouns": [],
+    "g": [
+      {
+        "w": "an Sie",
+        "c": "Akk",
+        "n": "denken an → immer Akk"
+      }
+    ]
+  },
+  {
+    "id": "557",
+    "de": "Das ist wirklich überschaubar.",
+    "en": "That's really manageable.",
+    "cat": "work",
+    "nouns": []
+  },
+  {
+    "id": "558",
+    "de": "Ein, zwei Stunden pro Woche, mehr nicht.",
+    "en": "One, two hours a week, no more.",
+    "cat": "work",
+    "nouns": [
+      "die Stunde",
+      "die Woche"
+    ]
+  },
+  {
+    "id": "559",
+    "de": "Was bräuchten Sie denn, damit es klappt?",
+    "en": "What would you need for it to work out?",
+    "cat": "work",
+    "nouns": []
+  },
+  {
+    "id": "560",
+    "de": "Dann schauen wir Ende Oktober noch einmal drauf.",
+    "en": "Then we'll take another look at it at the end of October.",
+    "cat": "work",
+    "nouns": []
+  },
+  {
+    "id": "561",
+    "de": "Ich bin gerade wirklich stolz auf mich.",
+    "en": "I'm really proud of myself right now.",
+    "cat": "conversation",
+    "nouns": [],
+    "g": [
+      {
+        "w": "auf mich",
+        "c": "Akk",
+        "n": "stolz auf → immer Akk"
+      }
+    ]
+  },
+  {
+    "id": "562",
+    "de": "Ich bin gerade richtig stolz auf mich, weil ich mir selbst eine App zum Deutschlernen erstellt habe und sie jeden Tag benutze. [Vgt]",
+    "en": "I'm really proud of myself right now, because I built myself an app for learning German and use it every day. (past: erstellt habe)",
+    "cat": "learning",
+    "nouns": [
+      "die App"
+    ]
+  },
+  {
+    "id": "563",
+    "de": "Kurze Frage: Findet in der letzten Septemberwoche Training statt?",
+    "en": "Quick question: is there training in the last week of September?",
+    "cat": "work",
+    "nouns": [
+      "die Frage",
+      "das Training"
+    ]
+  },
+  {
+    "id": "564",
+    "de": "Ich habe nicht viel Erfahrung mit diesem Thema.",
+    "en": "I don't have much experience with this topic.",
+    "cat": "work",
+    "nouns": [
+      "die Erfahrung",
+      "das Thema"
+    ],
+    "g": [
+      {
+        "w": "mit diesem Thema",
+        "c": "Dat",
+        "n": "mit → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "565",
+    "de": "Es handelt sich um ein Projekt für die Website: Wir wollen dort einen neuen Bereich hinzufügen.",
+    "en": "It's about a project for the website: we want to add a new section there.",
+    "cat": "work",
+    "nouns": [
+      "das Projekt",
+      "die Website",
+      "der Bereich"
+    ]
+  },
+  {
+    "id": "566",
+    "de": "Es gibt ein neues Projekt zur Aktualisierung der Website im Hinblick auf unsere Produkte.",
+    "en": "There's a new project to update the website with regard to our products.",
+    "cat": "work",
+    "nouns": [
+      "das Projekt",
+      "die Website",
+      "das Produkt"
+    ]
+  },
+  {
+    "id": "567",
+    "de": "So gern ich würde, ich kann diesen Freitag wirklich nicht kommen.",
+    "en": "As much as I'd like to, I really can't come this Friday.",
+    "cat": "work",
+    "nouns": []
+  },
+  {
+    "id": "568",
+    "de": "Können Sie mir kurz den Kontext erklären?",
+    "en": "Could you briefly explain the context to me?",
+    "cat": "work",
+    "nouns": [
+      "der Kontext"
+    ],
+    "g": [
+      {
+        "w": "den Kontext",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ]
+  },
+  {
+    "id": "569",
+    "de": "Welches Projekt ist für Sie interessanter?",
+    "en": "Which project is more interesting to you?",
+    "cat": "work",
+    "nouns": [
+      "das Projekt"
+    ]
+  },
+  {
+    "id": "570",
+    "de": "Ich mache zuerst eine kurze Recherche.",
+    "en": "I'll do a quick bit of research first.",
+    "cat": "work",
+    "nouns": [
+      "die Recherche"
+    ]
+  },
+  {
+    "id": "571",
+    "de": "Ich bereite die Informationen übersichtlich für das Team auf.",
+    "en": "I'll organise the information clearly for the team. (aufbereiten = prepare/present clearly)",
+    "cat": "work",
+    "nouns": [
+      "die Information",
+      "das Team"
+    ]
+  },
+  {
+    "id": "572",
+    "de": "Ich bereite alle Informationen für das Gespräch vor.",
+    "en": "I'll prepare all the information for the conversation.",
+    "cat": "work",
+    "nouns": [
+      "die Information",
+      "das Gespräch"
+    ]
+  },
+  {
+    "id": "573",
+    "de": "Ist das dringend, oder hat das Zeit bis nächste Woche?",
+    "en": "Is that urgent, or can it wait until next week?",
+    "cat": "work",
+    "nouns": [
+      "die Zeit",
+      "die Woche"
+    ]
+  },
+  {
+    "id": "574",
+    "de": "Gibt es für die Extrastunden eine Zusatzzahlung?",
+    "en": "Is there extra pay for the extra hours?",
+    "cat": "work",
+    "nouns": [
+      "die Extrastunde",
+      "die Zusatzzahlung"
+    ],
+    "g": [
+      {
+        "w": "für die Extrastunden",
+        "c": "Akk",
+        "n": "für → immer Akk"
+      }
+    ]
+  },
+  {
+    "id": "575",
+    "de": "Wir können jederzeit sprechen.",
+    "en": "We can talk anytime.",
+    "cat": "work",
+    "nouns": []
+  },
+  {
+    "id": "576",
+    "de": "Ich habe einen Vorschlag.",
+    "en": "I have a suggestion.",
+    "cat": "work",
+    "nouns": [
+      "der Vorschlag"
+    ],
+    "g": [
+      {
+        "w": "einen Vorschlag",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ]
+  },
+  {
+    "id": "577",
+    "de": "Ich überlege es mir.",
+    "en": "I'll think it over.",
+    "cat": "work",
+    "nouns": []
+  },
+  {
+    "id": "578",
+    "de": "Was ist das neue Projekt?",
+    "en": "What's the new project?",
+    "cat": "work",
+    "nouns": [
+      "das Projekt"
+    ]
+  },
+  {
+    "id": "579",
+    "de": "Ich hätte gerne eine Kopie.",
+    "en": "I'd like a copy.",
+    "cat": "work",
+    "nouns": [
+      "die Kopie"
+    ]
+  },
+  {
+    "id": "580",
+    "de": "Für mich ist es beides: Ritual und Geschmack.",
+    "en": "For me it's both: ritual and taste.",
+    "cat": "food",
+    "nouns": []
+  },
+  {
+    "id": "581",
+    "de": "Es ist das Erste, was ich morgens mache.",
+    "en": "It's the first thing I do in the morning.",
+    "cat": "food",
+    "nouns": []
+  },
+  {
+    "id": "582",
+    "de": "Ich lese und trinke dabei Kaffee.",
+    "en": "I read and drink coffee at the same time.",
+    "cat": "food",
+    "nouns": [
+      "der Kaffee"
+    ]
+  },
+  {
+    "id": "583",
+    "de": "Es schmeckt mir nicht.",
+    "en": "I don't like the taste of it.",
+    "cat": "food",
+    "nouns": [],
+    "g": [
+      {
+        "w": "mir",
+        "c": "Dat",
+        "n": "schmecken → immer Dat (mir = to me)"
+      }
+    ]
+  },
+  {
+    "id": "584",
+    "de": "Ich muss um 18 Uhr zu einem anderen Termin.",
+    "en": "I have to be at another appointment at 6pm.",
+    "cat": "work",
+    "nouns": [
+      "der Termin"
+    ],
+    "g": [
+      {
+        "w": "zu einem anderen Termin",
+        "c": "Dat",
+        "n": "zu → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "585",
+    "de": "Ich war letzten Montag zur Blutabnahme. [Vgt]",
+    "en": "I went for a blood draw last Monday. (past)",
+    "cat": "medical",
+    "nouns": [
+      "die Blutabnahme"
+    ],
+    "g": [
+      {
+        "w": "zur Blutabnahme",
+        "c": "Dat",
+        "n": "zu → immer Dat (zur = zu der)"
+      }
+    ]
+  },
+  {
+    "id": "586",
+    "de": "Könnten Sie bitte bestätigen, ob die Ergebnisse schon da sind?",
+    "en": "Could you please confirm whether the results are already in?",
+    "cat": "medical",
+    "nouns": [
+      "das Ergebnis"
+    ]
+  },
+  {
+    "id": "587",
+    "de": "Ich komme heute später vorbei.",
+    "en": "I'll come by later today.",
+    "cat": "daily",
+    "nouns": []
   }
 ]
