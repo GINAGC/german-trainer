@@ -6140,5 +6140,452 @@
         "n": "dir. Objekt → Akk (neut.)"
       }
     ]
+  },
+  {
+    "id": "598",
+    "de": "Das ist ein Notfall!",
+    "en": "This is an emergency!",
+    "cat": "medical",
+    "nouns": [
+      "der Notfall"
+    ]
+  },
+  {
+    "id": "599",
+    "de": "Ich brauche einen Krankenwagen.",
+    "en": "I need an ambulance.",
+    "cat": "medical",
+    "nouns": [
+      "der Krankenwagen"
+    ],
+    "g": [
+      {
+        "w": "einen Krankenwagen",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ]
+  },
+  {
+    "id": "600",
+    "de": "Es gab einen Unfall. [Vgt]",
+    "en": "There was an accident. (past)",
+    "cat": "medical",
+    "nouns": [
+      "der Unfall"
+    ],
+    "g": [
+      {
+        "w": "einen Unfall",
+        "c": "Akk",
+        "n": "es gibt/gab → Akk (mask.)"
+      }
+    ]
+  },
+  {
+    "id": "601",
+    "de": "Öffentliche Verkehrsmittel sind sehr praktisch.",
+    "en": "Public transport is very practical.",
+    "cat": "travel",
+    "nouns": [
+      "das Verkehrsmittel"
+    ]
+  },
+  {
+    "id": "602",
+    "de": "Ich fahre einmal pro Woche ins Büro, und da ich zwei Stunden entfernt wohne, ist es für mich besser, mit dem Zug zu fahren.",
+    "en": "I go to the office once a week, and since I live two hours away, it's better for me to take the train.",
+    "cat": "travel",
+    "nouns": [
+      "das Büro",
+      "die Stunde",
+      "der Zug"
+    ],
+    "g": [
+      {
+        "w": "ins Büro",
+        "c": "Akk",
+        "n": "in + wohin? → Akk (ins = in das)"
+      },
+      {
+        "w": "mit dem Zug",
+        "c": "Dat",
+        "n": "mit → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "603",
+    "de": "Im Zug kann ich bequem arbeiten.",
+    "en": "On the train I can work comfortably.",
+    "cat": "travel",
+    "nouns": [
+      "der Zug"
+    ],
+    "g": [
+      {
+        "w": "Im Zug",
+        "c": "Dat",
+        "n": "in + wo? → Dat (im = in dem)"
+      }
+    ]
+  },
+  {
+    "id": "604",
+    "de": "Ich bin gestern zurückgekommen. [Vgt]",
+    "en": "I came back yesterday. (past)",
+    "cat": "travel",
+    "nouns": []
+  },
+  {
+    "id": "605",
+    "de": "Darf ich noch eine Nacht darüber schlafen?",
+    "en": "May I sleep on it for another night? (idiom: darüber schlafen = to sleep on it)",
+    "cat": "conversation",
+    "nouns": [
+      "die Nacht"
+    ],
+    "g": [
+      {
+        "w": "eine Nacht",
+        "c": "Akk",
+        "n": "Zeitdauer → Akk (fem.)"
+      }
+    ]
+  },
+  {
+    "id": "606",
+    "de": "Es lässt sich nicht pauschal sagen.",
+    "en": "It can't be said across the board. (fixed phrase: sich lassen = can be done)",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "607",
+    "de": "Bei mir brennt es gerade ein bisschen.",
+    "en": "Things are a bit hectic for me right now. (idiom: es brennt = it's urgent/hectic)",
+    "cat": "work",
+    "nouns": [],
+    "g": [
+      {
+        "w": "Bei mir",
+        "c": "Dat",
+        "n": "bei → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "608",
+    "de": "Wir unterhalten uns übers Handy.",
+    "en": "We chat over the phone.",
+    "cat": "conversation",
+    "nouns": [
+      "das Handy"
+    ],
+    "g": [
+      {
+        "w": "übers Handy",
+        "c": "Akk",
+        "n": "über (Medium) → Akk (übers = über das)"
+      }
+    ]
+  },
+  {
+    "id": "609",
+    "de": "Ich habe den Kontakt zu den anderen Studenten verloren. [Vgt]",
+    "en": "I lost contact with the other students. (past)",
+    "cat": "conversation",
+    "nouns": [
+      "der Kontakt",
+      "der Student"
+    ],
+    "g": [
+      {
+        "w": "den Kontakt",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      },
+      {
+        "w": "zu den anderen Studenten",
+        "c": "Dat",
+        "n": "zu → immer Dat (Plural +n)"
+      }
+    ]
+  },
+  {
+    "id": "610",
+    "de": "Ich wohne neben einem großen Bahnhof.",
+    "en": "I live next to a big train station.",
+    "cat": "daily",
+    "nouns": [
+      "der Bahnhof"
+    ],
+    "g": [
+      {
+        "w": "neben einem großen Bahnhof",
+        "c": "Dat",
+        "n": "neben + wo? → Dat"
+      }
+    ]
+  },
+  {
+    "id": "611",
+    "de": "Ich wohne in einem Altbau.",
+    "en": "I live in an old building (pre-war/older construction).",
+    "cat": "daily",
+    "nouns": [
+      "der Altbau"
+    ],
+    "g": [
+      {
+        "w": "in einem Altbau",
+        "c": "Dat",
+        "n": "in + wo? → Dat"
+      }
+    ]
+  },
+  {
+    "id": "612",
+    "de": "Was treibst du denn so?",
+    "en": "What are you up to these days? (denn softens the question)",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "613",
+    "de": "Wie geht es deinen Kindern?",
+    "en": "How are your children? (informal)",
+    "cat": "conversation",
+    "nouns": [
+      "das Kind"
+    ],
+    "g": [
+      {
+        "w": "deinen Kindern",
+        "c": "Dat",
+        "n": "gehen → Dat (Plural +n)"
+      }
+    ]
+  },
+  {
+    "id": "614",
+    "de": "Wie geht es Ihren Kindern?",
+    "en": "How are your children? (formal)",
+    "cat": "conversation",
+    "nouns": [
+      "das Kind"
+    ],
+    "g": [
+      {
+        "w": "Ihren Kindern",
+        "c": "Dat",
+        "n": "gehen → Dat (Plural +n)"
+      }
+    ]
+  },
+  {
+    "id": "615",
+    "de": "Sind Sie sehr beschäftigt?",
+    "en": "Are you very busy? (formal)",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "616",
+    "de": "Ich bin Frühaufsteherin / Frühaufsteher.",
+    "en": "I'm an early riser. (fem. / masc.)",
+    "cat": "daily",
+    "nouns": [
+      "die Frühaufsteherin",
+      "der Frühaufsteher"
+    ]
+  },
+  {
+    "id": "617",
+    "de": "Ich stehe lieber früh auf, weil ich gerne Zeit für mich habe, einen Kaffee trinke und dann Sport mache.",
+    "en": "I prefer to get up early because I like having time for myself, drinking a coffee and then doing sport.",
+    "cat": "daily",
+    "nouns": [
+      "die Zeit",
+      "der Kaffee",
+      "der Sport"
+    ],
+    "g": [
+      {
+        "w": "einen Kaffee",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ]
+  },
+  {
+    "id": "618",
+    "de": "Der frühe Vogel fängt den Wurm.",
+    "en": "The early bird catches the worm. (proverb)",
+    "cat": "daily",
+    "nouns": [
+      "der Vogel",
+      "der Wurm"
+    ],
+    "g": [
+      {
+        "w": "den Wurm",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ]
+  },
+  {
+    "id": "619",
+    "de": "Wir waren Kollegen und haben uns gerade im Supermarkt getroffen. [Vgt]",
+    "en": "We used to be colleagues and just met in the supermarket. (past)",
+    "cat": "conversation",
+    "nouns": [
+      "der Kollege",
+      "der Supermarkt"
+    ],
+    "g": [
+      {
+        "w": "im Supermarkt",
+        "c": "Dat",
+        "n": "in + wo? → Dat (im = in dem)"
+      }
+    ]
+  },
+  {
+    "id": "620",
+    "de": "Wir waren Kollegen und sind uns gerade im Supermarkt über den Weg gelaufen. [Vgt]",
+    "en": "We used to be colleagues and just ran into each other in the supermarket. (past) (idiom: über den Weg laufen = to bump into)",
+    "cat": "conversation",
+    "nouns": [
+      "der Kollege",
+      "der Supermarkt",
+      "der Weg"
+    ],
+    "g": [
+      {
+        "w": "im Supermarkt",
+        "c": "Dat",
+        "n": "in + wo? → Dat (im = in dem)"
+      },
+      {
+        "w": "über den Weg",
+        "c": "Akk",
+        "n": "über + Bewegung → Akk"
+      }
+    ]
+  },
+  {
+    "id": "621",
+    "de": "Was machst du hier?",
+    "en": "What are you doing here?",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "622",
+    "de": "Hast du noch dieselbe Nummer?",
+    "en": "Do you still have the same number?",
+    "cat": "conversation",
+    "nouns": [
+      "die Nummer"
+    ],
+    "g": [
+      {
+        "w": "dieselbe Nummer",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem.)"
+      }
+    ]
+  },
+  {
+    "id": "623",
+    "de": "Dann fangen wir jetzt an!",
+    "en": "Then let's get started now!",
+    "cat": "work",
+    "nouns": []
+  },
+  {
+    "id": "624",
+    "de": "Tatsächlich? Das wusste ich nicht! [Vgt]",
+    "en": "Really? I didn't know that! (past)",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "625",
+    "de": "Um 5 Uhr stehe ich auf.",
+    "en": "At 5 o'clock I get up.",
+    "cat": "daily",
+    "nouns": []
+  },
+  {
+    "id": "626",
+    "de": "Um 6 Uhr habe ich Sport gemacht. [Vgt]",
+    "en": "At 6 o'clock I did sport. (past)",
+    "cat": "daily",
+    "nouns": [
+      "der Sport"
+    ]
+  },
+  {
+    "id": "627",
+    "de": "Um 7 Uhr habe ich gefrühstückt. [Vgt]",
+    "en": "At 7 o'clock I had breakfast. (past)",
+    "cat": "daily",
+    "nouns": []
+  },
+  {
+    "id": "628",
+    "de": "Um 8 Uhr bin ich spazieren gegangen. [Vgt]",
+    "en": "At 8 o'clock I went for a walk. (past)",
+    "cat": "daily",
+    "nouns": []
+  },
+  {
+    "id": "629",
+    "de": "Das ist richtig gut.",
+    "en": "That's really good. (richtig = intensifier)",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "630",
+    "de": "Das ist total einfach.",
+    "en": "That's totally easy. (total = intensifier)",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "631",
+    "de": "Das ist wirklich wichtig.",
+    "en": "That's really important. (wirklich = intensifier)",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "632",
+    "de": "Der Film war extrem spannend. [Vgt]",
+    "en": "The film was extremely exciting. (past) (extrem = intensifier)",
+    "cat": "conversation",
+    "nouns": [
+      "der Film"
+    ]
+  },
+  {
+    "id": "633",
+    "de": "Das ist mega cool.",
+    "en": "That's mega cool. (mega = informal intensifier)",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "634",
+    "de": "Das Wetter ist heute super schön.",
+    "en": "The weather is super nice today. (super = informal intensifier)",
+    "cat": "daily",
+    "nouns": [
+      "das Wetter"
+    ]
   }
 ]
