@@ -6029,5 +6029,116 @@
     "en": "I'll come by later today.",
     "cat": "daily",
     "nouns": []
+  },
+  {
+    "id": "588",
+    "de": "Ich brauche das dringend bis morgen.",
+    "en": "[R] I need this urgently by tomorrow.",
+    "cat": "aussprache",
+    "nouns": []
+  },
+  {
+    "id": "589",
+    "de": "Der Kurs beginnt morgen um acht Uhr.",
+    "en": "[R] The course starts tomorrow at eight.",
+    "cat": "aussprache",
+    "nouns": []
+  },
+  {
+    "id": "590",
+    "de": "Natürlich helfe ich dir gern!",
+    "en": "[Ü/CH] Of course I'll gladly help you!",
+    "cat": "aussprache",
+    "nouns": []
+  },
+  {
+    "id": "591",
+    "de": "Dein Lieblingssnack steht schon auf dem Tisch.",
+    "en": "[SN] Your favourite snack is already on the table.",
+    "cat": "aussprache",
+    "nouns": [
+      "der Lieblingssnack",
+      "der Tisch"
+    ],
+    "g": [
+      {
+        "w": "auf dem Tisch",
+        "c": "Dat",
+        "n": "auf + wo? → Dat (dem = auf dem)"
+      }
+    ]
+  },
+  {
+    "id": "592",
+    "de": "Das ist wichtig und muss sofort fertig werden.",
+    "en": "[-IG] That's important and has to be finished right away.",
+    "cat": "aussprache",
+    "nouns": []
+  },
+  {
+    "id": "593",
+    "de": "Der Student spricht schon sehr gut Spanisch.",
+    "en": "[ST/SP] The student already speaks Spanish very well.",
+    "cat": "aussprache",
+    "nouns": [
+      "der Student"
+    ]
+  },
+  {
+    "id": "594",
+    "de": "Draußen regnet es gerade ziemlich stark.",
+    "en": "[R] It's raining quite hard outside right now.",
+    "cat": "aussprache",
+    "nouns": []
+  },
+  {
+    "id": "595",
+    "de": "Im Januar ist das Jahr noch jung.",
+    "en": "[J] In January the year is still young.",
+    "cat": "aussprache",
+    "nouns": [
+      "der Januar",
+      "das Jahr"
+    ],
+    "g": [
+      {
+        "w": "Im Januar",
+        "c": "Dat",
+        "n": "in + Monat → Dat (im = in dem)"
+      }
+    ]
+  },
+  {
+    "id": "596",
+    "de": "Heute habe ich richtig großen Hunger.",
+    "en": "[H] Today I'm really hungry.",
+    "cat": "aussprache",
+    "nouns": [
+      "der Hunger"
+    ],
+    "g": [
+      {
+        "w": "großen Hunger",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ]
+  },
+  {
+    "id": "597",
+    "de": "Ich kaufe ein Pfund Pfirsiche.",
+    "en": "[PF] I'm buying a pound of peaches.",
+    "cat": "aussprache",
+    "nouns": [
+      "das Pfund",
+      "der Pfirsich"
+    ],
+    "g": [
+      {
+        "w": "ein Pfund Pfirsiche",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (neut.)"
+      }
+    ]
   }
 ]
