@@ -5,6 +5,7 @@ import Chunks from "./screens/Chunks";
 import Woerter from "./screens/Woerter";
 import Tabellen from "./screens/Tabellen";
 import Deklination from "./screens/Deklination";
+import VerbenSatzbau from "./screens/VerbenSatzbau";
 import Archiv from "./screens/Archiv";
 import GenusRegeln from "./screens/GenusRegeln";
 import { useSpeech } from "./hooks/useSpeech";
@@ -32,6 +33,8 @@ export default function App() {
       {mainTab === "tabellen" && <Tabellen />}
 
       {mainTab === "deklination" && <Deklination />}
+
+      {mainTab === "verben" && <VerbenSatzbau />}
 
       {mainTab === "woerter" && (
         <Woerter

@@ -8,6 +8,7 @@ const REFERENCE_TABS = [
   { id: "tabellen", label: "Tabellen", activeBorder: "#7F77DD", activeBg: "#f3f0ff", activeColor: "#3c3489" },
   { id: "genus", label: "Genus-Regeln", activeBorder: "#639922", activeBg: "#EAF3DE", activeColor: "#173404" },
   { id: "deklination", label: "Deklination", activeBorder: "#2A9D8F", activeBg: "#E0F5F3", activeColor: "#0D3B36" },
+  { id: "verben", label: "Verben & Satzbau", activeBorder: "#378ADD", activeBg: "#E6F1FB", activeColor: "#042C53" },
 ];
 
 function TabRow({ tabs, mainTab, setMainTab }) {

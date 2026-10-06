@@ -6587,5 +6587,39 @@
     "nouns": [
       "das Wetter"
     ]
+  },
+  {
+    "id": "635",
+    "de": "Obwohl ich weit weg wohne, fahre ich gern ins Büro.",
+    "en": "Although I live far away, I like going to the office. (obwohl → verb at the end; then verb, comma, verb)",
+    "cat": "work",
+    "nouns": [
+      "das Büro"
+    ],
+    "g": [
+      {
+        "w": "ins Büro",
+        "c": "Akk",
+        "n": "in + wohin? → Akk (ins = in das)"
+      }
+    ]
+  },
+  {
+    "id": "636",
+    "de": "Der Zug war voll. Trotzdem konnte ich arbeiten. [Vgt]",
+    "en": "The train was full. I could still work. (past) (trotzdem + verb in position 2)",
+    "cat": "travel",
+    "nouns": [
+      "der Zug"
+    ]
+  },
+  {
+    "id": "637",
+    "de": "Trotz der Verspätung war ich pünktlich. [Vgt]",
+    "en": "Despite the delay, I was on time. (past) (trotz + Genitiv)",
+    "cat": "travel",
+    "nouns": [
+      "die Verspätung"
+    ]
   }
 ]
