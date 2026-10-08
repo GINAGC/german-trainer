@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import categories from "../data/categories.json";
 import ChunkCard from "../components/ChunkCard";
 import { speechText } from "../lib/speechText";
@@ -187,6 +187,197 @@ function TranslateDrill({ pool, byId, count, progress, rate, speaking, speak, st
   );
 }
 
+const TALK_PLANS = { short: [120, 90, 60], classic: [240, 180, 120] };
+const fmtTime = (s) => `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`;
+const SELF = [["😬", "Viele Pausen"], ["🙂", "Ging so"], ["🚀", "Flüssig"]];
+
+function beep(ctx) {
+  try {
+    if (!ctx) return;
+    const o = ctx.createOscillator();
+    const g = ctx.createGain();
+    o.connect(g);
+    g.connect(ctx.destination);
+    o.frequency.value = 880;
+    g.gain.value = 0.2;
+    o.start();
+    o.stop(ctx.currentTime + 0.5);
+  } catch {
+    /* the visual cue still shows */
+  }
+}
+
+function WordBank({ bank }) {
+  return (
+    <div style={{ border: "1px solid #eee", borderRadius: 10, padding: "8px 12px", marginBottom: 12, textAlign: "left" }}>
+      {bank.map((c) => (
+        <p key={c.id} style={{ fontSize: 12.5, margin: "5px 0", lineHeight: 1.4 }}>
+          <b>{speechText(c.de)}</b><br />
+          <span style={{ fontSize: 11, color: "#999", fontStyle: "italic" }}>{promptText(c.en || "")}</span>
+        </p>
+      ))}
+    </div>
+  );
+}
+
+// 4/3/2 fluency: same topic, three rounds, each shorter. Chunks of the topic
+// fade out as a word bank (visible, then peek-only, then gone).
+function TalkDrill({ pool, topic, ready, onActive }) {
+  const [plan, setPlan] = useState("short");
+  const [sess, setSess] = useState(null);
+  const audioRef = useRef(null);
+  const durations = TALK_PLANS[plan];
+
+  const active = !!sess;
+  useEffect(() => {
+    onActive(active);
+    return () => onActive(false);
+  }, [active, onActive]);
+
+  const running = sess?.phase === "running";
+  const endAt = sess?.endAt;
+  useEffect(() => {
+    if (!running) return;
+    const t = setInterval(() => {
+      const left = Math.ceil((endAt - Date.now()) / 1000);
+      if (left <= 0) {
+        beep(audioRef.current);
+        setSess((s) => (s && s.phase === "running" ? { ...s, phase: "check", left: 0 } : s));
+      } else {
+        setSess((s) => (s && s.phase === "running" ? { ...s, left } : s));
+      }
+    }, 250);
+    return () => clearInterval(t);
+  }, [running, endAt]);
+
+  function start() {
+    setSess({ bank: shuffle(pool.filter((c) => !c.de.includes(" / "))).slice(0, 8), round: 0, phase: "ready", left: durations[0], ratings: [], peek: false });
+  }
+
+  function go() {
+    if (!audioRef.current) {
+      const AC = window.AudioContext || window.webkitAudioContext;
+      if (AC) audioRef.current = new AC();
+    }
+    audioRef.current?.resume?.();
+    setSess((s) => ({ ...s, phase: "running", endAt: Date.now() + durations[s.round] * 1000, left: durations[s.round] }));
+  }
+
+  function selfRate(v) {
+    setSess((s) => {
+      const ratings = [...s.ratings, v];
+      if (s.round >= 2) return { ...s, ratings, phase: "done" };
+      return { ...s, ratings, round: s.round + 1, phase: "ready", left: durations[s.round + 1], peek: false };
+    });
+  }
+
+  if (!sess) {
+    return (
+      <div>
+        <p style={{ fontSize: 12.5, color: "#666", lineHeight: 1.6, margin: "0 0 12px" }}>
+          Du sprichst <b>dreimal über dasselbe Thema</b>, jedes Mal in kürzerer Zeit. Das zwingt dich, schneller und
+          flüssiger zu werden. Die Sätze des Themas helfen dir als Wortbank, aber sie verschwinden von Runde zu Runde.
+        </p>
+        <p style={label}>Zeiten</p>
+        <div style={{ marginBottom: 12 }}>
+          <Chips options={[["short", "Kurz · 2 · 1,5 · 1 min"], ["classic", "Klassisch · 4 · 3 · 2 min"]]} value={plan} onChange={setPlan} />
+        </div>
+        <p style={{ fontSize: 11, color: "#aaa", lineHeight: 1.5, margin: "0 0 14px" }}>
+          Tipp: nimm Runde 1 und Runde 3 mit der Sprachmemo-App auf und vergleiche, wie viel du gesagt hast.
+        </p>
+        <button disabled={!ready} onClick={start} style={{ ...primaryBtn("#D4537E"), opacity: ready ? 1 : 0.4 }}>
+          {ready ? `Thema „${topic}“ starten` : "Wähle oben ein Thema (Kategorie)"}
+        </button>
+      </div>
+    );
+  }
+
+  const total = durations[sess.round];
+  const roundLabel = `Runde ${sess.round + 1} / 3 · ${topic}`;
+
+  if (sess.phase === "done") {
+    const better = sess.ratings[2] > sess.ratings[0];
+    return (
+      <div style={{ textAlign: "center" }}>
+        <p style={{ fontSize: 17, fontWeight: 600, margin: "0 0 12px" }}>Fertig 🎉</p>
+        <div style={{ fontSize: 14, lineHeight: 2, margin: "0 0 10px" }}>
+          {sess.ratings.map((v, i) => (
+            <div key={i}>Runde {i + 1} ({fmtTime(durations[i])}): {SELF[v][0]} {SELF[v][1]}</div>
+          ))}
+        </div>
+        <p style={{ fontSize: 12.5, color: "#666", lineHeight: 1.6, margin: "0 0 16px" }}>
+          {better
+            ? "Runde 3 war flüssiger als Runde 1. Genau das soll passieren."
+            : "Wiederhole dasselbe Thema an einem anderen Tag: die Verbesserung kommt durch Wiederholung."}
+        </p>
+        <div style={{ display: "flex", gap: 8 }}>
+          <button onClick={start} style={{ ...primaryBtn("#D4537E"), flex: 1 }}>Nochmal</button>
+          <button onClick={() => setSess(null)} style={{ ...primaryBtn("#999"), flex: 1 }}>Beenden</button>
+        </div>
+      </div>
+    );
+  }
+
+  if (sess.phase === "ready") {
+    return (
+      <div style={{ textAlign: "center" }}>
+        <p style={{ fontSize: 12, color: "#888", margin: "0 0 4px" }}>{roundLabel}</p>
+        <p style={{ fontSize: 36, fontWeight: 700, margin: "0 0 12px" }}>{fmtTime(total)}</p>
+        {sess.round === 0 && <WordBank bank={sess.bank} />}
+        {sess.round === 1 && (
+          <>
+            <button onClick={() => setSess({ ...sess, peek: !sess.peek })} style={{ ...pill(sess.peek), marginBottom: 10 }}>
+              {sess.peek ? "Wortbank verstecken" : "Wortbank kurz ansehen"}
+            </button>
+            {sess.peek && <WordBank bank={sess.bank} />}
+          </>
+        )}
+        {sess.round === 2 && <p style={{ fontSize: 13, color: "#7a4f00", margin: "0 0 12px" }}>Jetzt ohne Hilfe: nur du und das Thema.</p>}
+        <p style={{ fontSize: 12, color: "#888", margin: "0 0 12px" }}>Wenn du bereit bist, startet der Countdown. Am Ende hörst du einen Ton.</p>
+        <div style={{ display: "flex", gap: 8 }}>
+          <button onClick={() => setSess(null)} style={{ ...primaryBtn("#bbb"), flex: 1 }}>Abbrechen</button>
+          <button onClick={go} style={{ ...primaryBtn("#D4537E"), flex: 2 }}>Los!</button>
+        </div>
+      </div>
+    );
+  }
+
+  if (sess.phase === "running") {
+    return (
+      <div style={{ textAlign: "center" }}>
+        <p style={{ fontSize: 12, color: "#888", margin: "0 0 4px" }}>{roundLabel}</p>
+        <p style={{ fontSize: 64, fontWeight: 700, margin: "6px 0 10px", fontVariantNumeric: "tabular-nums" }}>{fmtTime(sess.left)}</p>
+        <div style={{ background: "#eee", borderRadius: 3, height: 6, margin: "0 0 16px" }}>
+          <div style={{ background: "#D4537E", width: `${Math.max(0, (sess.left / total) * 100)}%`, height: "100%", borderRadius: 3, transition: "width 0.25s linear" }} />
+        </div>
+        <p style={{ fontSize: 13, color: "#666", lineHeight: 1.6, margin: "0 0 16px" }}>
+          Sprich laut über <b>{topic}</b>. Nicht korrigieren, nicht stoppen: einfach weitersprechen.
+        </p>
+        <button
+          onClick={() => setSess((s) => ({ ...s, phase: "check" }))}
+          style={{ ...primaryBtn("#bbb"), padding: "9px" }}
+        >
+          Früher beenden
+        </button>
+      </div>
+    );
+  }
+
+  return (
+    <div style={{ textAlign: "center" }}>
+      <p style={{ fontSize: 12, color: "#888", margin: "0 0 4px" }}>{roundLabel}</p>
+      <p style={{ fontSize: 17, fontWeight: 600, margin: "0 0 14px" }}>Zeit! Wie lief die Runde?</p>
+      <div style={{ display: "flex", gap: 6 }}>
+        {SELF.map(([emoji, text], v) => (
+          <button key={v} onClick={() => selfRate(v)} style={{ ...primaryBtn(v === 0 ? "#d97706" : v === 1 ? "#6b7280" : "#16a34a"), flex: 1, padding: "12px 4px", fontSize: 13 }}>
+            {emoji}<br />{text}
+          </button>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 export default function Sprechen({ chunks, toggleMastered, speaking, speak, echoAll, stopAll }) {
   const [mode, setMode] = useState("echo");
   const [pool, setPool] = useState("active");
@@ -218,6 +409,11 @@ export default function Sprechen({ chunks, toggleMastered, speaking, speak, echo
   );
   const drillPool = useMemo(() => poolList.filter((c) => c.en && !c.de.includes(" / ")), [poolList]);
 
+  function randomTopic() {
+    const ids = categories.filter((c) => c.id !== "all" && (catCounts[c.id] || 0) >= 5).map((c) => c.id);
+    if (ids.length) setCat(ids[Math.floor(Math.random() * ids.length)]);
+  }
+
   function startEcho() {
     if (speaking === "echo") { stopAll(); return; }
     const ordered = order === "newest"
@@ -236,8 +432,15 @@ export default function Sprechen({ chunks, toggleMastered, speaking, speak, echo
         </p>
 
         <div style={{ display: "flex", gap: 6, marginBottom: 14 }}>
-          <button onClick={() => setMode("echo")} style={{ ...pill(mode === "echo", "#D4537E", "#FBEAF0"), flex: 1, padding: "8px" }}>🔁 Echo</button>
-          <button onClick={() => { if (speaking === "echo") stopAll(); setMode("translate"); }} style={{ ...pill(mode === "translate", "#D4537E", "#FBEAF0"), flex: 1, padding: "8px" }}>💬 Übersetzen</button>
+          {[["echo", "🔁 Echo"], ["translate", "💬 Übersetzen"], ["talk", "⏱ 4/3/2"]].map(([m, l]) => (
+            <button
+              key={m}
+              onClick={() => { if (speaking === "echo") stopAll(); setMode(m); }}
+              style={{ ...pill(mode === m, "#D4537E", "#FBEAF0"), flex: 1, padding: "8px 4px" }}
+            >
+              {l}
+            </button>
+          ))}
         </div>
 
         <p style={label}>Material</p>
@@ -252,16 +455,22 @@ export default function Sprechen({ chunks, toggleMastered, speaking, speak, echo
           value={cat} onChange={(e) => setCat(e.target.value)}
           style={{ width: "100%", border: "1px solid #ddd", borderRadius: 8, padding: "6px 8px", fontSize: 12, background: "#fff", color: "#444", marginBottom: 14 }}
         >
-          <option value="all">Alle Kategorien ({poolCounts[pool]})</option>
+          <option value="all">{mode === "talk" ? "Thema wählen …" : `Alle Kategorien (${poolCounts[pool]})`}</option>
           {categories.filter((c) => c.id !== "all" && catCounts[c.id]).map((c) => (
             <option key={c.id} value={c.id}>{c.label} ({catCounts[c.id]})</option>
           ))}
         </select>
 
-        <p style={label}>Anzahl pro Runde</p>
-        <div style={{ marginBottom: 14 }}>
-          <Chips options={[[10, "10"], [20, "20"], [0, "Alle"]]} value={count} onChange={setCount} />
-        </div>
+        {mode === "talk" ? (
+          <button onClick={randomTopic} style={{ ...pill(false), marginBottom: 14 }}>🎲 Zufälliges Thema</button>
+        ) : (
+          <>
+            <p style={label}>Anzahl pro Runde</p>
+            <div style={{ marginBottom: 14 }}>
+              <Chips options={[[10, "10"], [20, "20"], [0, "Alle"]]} value={count} onChange={setCount} />
+            </div>
+          </>
+        )}
         </>
       )}
 
@@ -287,11 +496,16 @@ export default function Sprechen({ chunks, toggleMastered, speaking, speak, echo
             {speaking === "echo" ? "⏹ Stop" : `▶ Echo starten (${count ? Math.min(count, poolList.length) : poolList.length} Chunks)`}
           </button>
         </div>
-      ) : (
+      ) : mode === "translate" ? (
         <TranslateDrill
           pool={drillPool} byId={byId} count={count} progress={progress} rate={rate}
           speaking={speaking} speak={speak} stopAll={stopAll} toggleMastered={toggleMastered}
           onActive={setDrillActive}
+        />
+      ) : (
+        <TalkDrill
+          pool={poolList} ready={cat !== "all" && poolList.length >= 3}
+          topic={CM[cat]?.label || ""} onActive={setDrillActive}
         />
       )}
     </div>

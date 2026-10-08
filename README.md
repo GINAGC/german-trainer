@@ -19,10 +19,12 @@ Two rows of tabs at the top. **Practice:**
 - **Archiv** — everything marked mastered/known lands here; one tap restores it.
 - **Sprechen** — turns knowledge into speaking, based on the automatisation
   research (declarative → procedural → automatic):
-  **Echo** (hear a chunk, then a pause to repeat it aloud) and
+  **Echo** (hear a chunk, then a pause to repeat it aloud),
   **Übersetzen** (see the translation, say the German aloud, reveal, rate
   yourself automatisch / gezögert / nicht gewusst; weak chunks come back
-  sooner, and 3× automatisch in a row offers to mark a chunk mastered).
+  sooner, and 3× automatisch in a row offers to mark a chunk mastered) and
+  **4/3/2** (talk about one topic three times in shrinking time, 2 · 1.5 · 1
+  min or 4 · 3 · 2 min, with the topic's chunks fading out as a word bank).
 
 **Reference:**
 
