@@ -8,19 +8,29 @@ Live at **[ginagc.github.io/german-trainer](https://ginagc.github.io/german-trai
 
 ## What it does
 
-Four screens, accessed via the tab bar at the top:
+Two rows of tabs at the top. **Practice:**
 
-- **Chunks** — full German sentences with English translations, organised
-  into categories (Alltag, Arbeit, Essen, Arzt, …), each with a play button,
-  filtering by category/search, and a "mastered" toggle. A floating
-  mini-player handles playback with repeat counts and pause/stop.
-- **Tabellen** — static reference tables: articles by case, personal
-  pronouns, adjective endings, Akkusativ vs. Dativ, irregular verbs, tenses,
-  modal verbs.
+- **Chunks** — full German sentences with translations, organised into
+  categories (Alltag, Arbeit, Essen, Arzt, …), with audio, search, a
+  "newest first" sort and a "mastered" toggle. A floating mini-player shows
+  the German with its translation.
 - **Wörter** — the vocabulary list (2,000+ words, German → Spanish), with
-  search, audio, and a "known" toggle to hide words you've learned.
-- **Archiv** — everything marked mastered/known lands here instead of
-  disappearing for good; one tap restores it to the active list.
+  search, audio, and a "known" toggle.
+- **Archiv** — everything marked mastered/known lands here; one tap restores it.
+- **Sprechen** — turns knowledge into speaking, based on the automatisation
+  research (declarative → procedural → automatic):
+  **Echo** (hear a chunk, then a pause to repeat it aloud) and
+  **Übersetzen** (see the translation, say the German aloud, reveal, rate
+  yourself automatisch / gezögert / nicht gewusst; weak chunks come back
+  sooner, and 3× automatisch in a row offers to mark a chunk mastered).
+
+**Reference:**
+
+- **Tabellen** — articles by case, personal pronouns, Akkusativ vs. Dativ.
+- **Genus-Regeln** — predicting a noun's article from its ending/meaning.
+- **Deklination** — der-/ein-Wörter, adjective endings, possessives.
+- **Verben & Satzbau** — confusing verbs, tenses, modal verbs, modal
+  particles, obwohl/trotzdem/trotz.
 
 Nouns and articles throughout are colour-coded by gender (der/die/das/plural),
 following the *Grammatikon* colour system — that palette is intentionally

@@ -3,6 +3,7 @@ const PRACTICE_TABS = [
   { id: "chunks", label: "Chunks", activeBorder: "#999", activeBg: "#f0f0f0", activeColor: "#111" },
   { id: "woerter", label: "Wörter", activeBorder: "#1D9E75", activeBg: "#e1f5ee", activeColor: "#04342C" },
   { id: "archiv", label: "Archiv", activeBorder: "#888780", activeBg: "#F1EFE8", activeColor: "#2C2C2A" },
+  { id: "sprechen", label: "Sprechen", activeBorder: "#D4537E", activeBg: "#FBEAF0", activeColor: "#4B1528" },
 ];
 const REFERENCE_TABS = [
   { id: "tabellen", label: "Tabellen", activeBorder: "#7F77DD", activeBg: "#f3f0ff", activeColor: "#3c3489" },

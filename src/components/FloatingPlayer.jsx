@@ -6,8 +6,10 @@ export default function FloatingPlayer({ speaking, currentChunk, repeatCount, pa
         ⏹
       </button>
       <div style={{ flex: 1, minWidth: 0 }}>
-        <p style={{ margin: 0, fontSize: 12, color: "#999", marginBottom: 6 }}>
-          {currentChunk.idx ? `${currentChunk.idx} / ${currentChunk.total}${repeatCount > 1 ? ` · ${currentChunk.rep || 1}×` : ""}` : "Spielt"}
+        <p style={{ margin: 0, fontSize: 12, color: currentChunk.phase === "repeat" ? "#fcd34d" : "#999", marginBottom: 6 }}>
+          {currentChunk.idx ? `${currentChunk.idx} / ${currentChunk.total}${repeatCount > 1 && !currentChunk.phase ? ` · ${currentChunk.rep || 1}×` : ""}` : "Spielt"}
+          {currentChunk.phase === "listen" && " · 👂 Hör zu"}
+          {currentChunk.phase === "repeat" && " · 🎤 Jetzt du!"}
         </p>
         <p style={{ margin: 0, fontSize: 17, fontWeight: 600, lineHeight: 1.4, wordBreak: "break-word" }}>
           {currentChunk.text}

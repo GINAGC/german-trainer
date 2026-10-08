@@ -7,6 +7,7 @@ import Tabellen from "./screens/Tabellen";
 import Deklination from "./screens/Deklination";
 import VerbenSatzbau from "./screens/VerbenSatzbau";
 import Archiv from "./screens/Archiv";
+import Sprechen from "./screens/Sprechen";
 import GenusRegeln from "./screens/GenusRegeln";
 import { useSpeech } from "./hooks/useSpeech";
 import { useMasteredChunks } from "./hooks/useMasteredChunks";
@@ -54,6 +55,13 @@ export default function App() {
 
       {mainTab === "genus" && (
         <GenusRegeln speaking={speech.speaking} playAll={speech.playAll} />
+      )}
+
+      {mainTab === "sprechen" && (
+        <Sprechen
+          chunks={chunks} toggleMastered={toggleMastered}
+          speaking={speech.speaking} speak={speech.speak} echoAll={speech.echoAll} stopAll={speech.stopAll}
+        />
       )}
 
       {mainTab === "archiv" && (

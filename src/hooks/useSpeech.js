@@ -108,6 +108,47 @@ export function useSpeech() {
     next();
   }
 
+  // Shadowing: speak an item, then stay silent for roughly as long as it took
+  // (times gapFactor) so the learner can repeat it aloud, then move on.
+  // list: [{ text, subtitle? }]
+  function echoAll(list, gapFactor = 1.5, id = "echo") {
+    const session = ++sessionRef.current;
+    window.speechSynthesis.pause();
+    window.speechSynthesis.cancel();
+    setPaused(false);
+    if (speaking === id) {
+      setSpeaking(null);
+      setCurrentChunk(null);
+      return;
+    }
+    setSpeaking(id);
+    let i = 0;
+    function next() {
+      if (sessionRef.current !== session) return;
+      if (i >= list.length) { setSpeaking(null); setCurrentChunk(null); setPaused(false); return; }
+      const item = list[i];
+      const base = { text: item.text, subtitle: item.subtitle, idx: i + 1, total: list.length };
+      setCurrentChunk({ ...base, phase: "listen" });
+      const utt = makeUtterance(item.text);
+      let startedAt = Date.now();
+      utt.onstart = () => { startedAt = Date.now(); };
+      utt.onend = () => {
+        if (sessionRef.current !== session) return;
+        const gap = Math.min(12000, Math.max(2000, (Date.now() - startedAt) * gapFactor + 800));
+        setCurrentChunk({ ...base, phase: "repeat" });
+        i++;
+        setTimeout(next, gap);
+      };
+      utt.onerror = () => {
+        if (sessionRef.current !== session) return;
+        i++;
+        setTimeout(next, 700);
+      };
+      window.speechSynthesis.speak(utt);
+    }
+    next();
+  }
+
   function stopAll() {
     sessionRef.current++;
     window.speechSynthesis.pause();
@@ -130,6 +171,6 @@ export function useSpeech() {
   return {
     speaking, paused, currentChunk,
     repeatCount, setRepeatCount,
-    speak, playAll, stopAll, pauseResume,
+    speak, playAll, echoAll, stopAll, pauseResume,
   };
 }

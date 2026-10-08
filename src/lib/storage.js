@@ -36,3 +36,21 @@ export function loadKnownWords() {
 export function saveKnownWords(set) {
   saveSet(KNOWN_WORDS_KEY, set);
 }
+
+const SPEAKING_KEY = "german_speaking_progress_v1";
+
+export function loadSpeakingProgress() {
+  try {
+    return JSON.parse(localStorage.getItem(SPEAKING_KEY)) || {};
+  } catch {
+    return {};
+  }
+}
+
+export function saveSpeakingProgress(obj) {
+  try {
+    localStorage.setItem(SPEAKING_KEY, JSON.stringify(obj));
+  } catch (e) {
+    console.error("storage save error (speaking):", e);
+  }
+}
