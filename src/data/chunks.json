@@ -6699,5 +6699,469 @@
         "n": "dir. Objekt → Akk (ihn = der Knoblauch)"
       }
     ]
+  },
+  {
+    "id": "642",
+    "de": "Kannst du bitte meine Aussprache korrigieren?",
+    "en": "Can you please correct my pronunciation?",
+    "cat": "learning",
+    "nouns": [
+      "die Aussprache"
+    ],
+    "g": [
+      {
+        "w": "meine Aussprache",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem.)"
+      }
+    ]
+  },
+  {
+    "id": "643",
+    "de": "Ich würde gerne verstehen, warum das so ist.",
+    "en": "I'd like to understand why that is.",
+    "cat": "learning",
+    "nouns": []
+  },
+  {
+    "id": "644",
+    "de": "Okay, dann fangen wir mit der ersten Übung an.",
+    "en": "Okay, then let's start with the first exercise. (anfangen mit)",
+    "cat": "learning",
+    "nouns": [
+      "die Übung"
+    ],
+    "g": [
+      {
+        "w": "mit der ersten Übung",
+        "c": "Dat",
+        "n": "mit → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "645",
+    "de": "Zusätzlich lerne ich jeden Tag zehn neue Wörter.",
+    "en": "Additionally, I learn ten new words every day.",
+    "cat": "learning",
+    "nouns": [
+      "das Wort"
+    ],
+    "g": [
+      {
+        "w": "zehn neue Wörter",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (Plural)"
+      }
+    ]
+  },
+  {
+    "id": "646",
+    "de": "Im Oktober habe ich meine Gewohnheiten angepasst. [Vgt]",
+    "en": "In October I adjusted my habits. (past)",
+    "cat": "daily",
+    "nouns": [
+      "der Oktober",
+      "die Gewohnheit"
+    ],
+    "g": [
+      {
+        "w": "Im Oktober",
+        "c": "Dat",
+        "n": "in + Monat → Dat (im = in dem)"
+      },
+      {
+        "w": "meine Gewohnheiten",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (Plural)"
+      }
+    ]
+  },
+  {
+    "id": "647",
+    "de": "Ich konzentriere mich auf Krafttraining und Deutsch.",
+    "en": "I'm concentrating on strength training and German.",
+    "cat": "daily",
+    "nouns": [
+      "das Krafttraining"
+    ],
+    "g": [
+      {
+        "w": "auf Krafttraining",
+        "c": "Akk",
+        "n": "sich konzentrieren auf → immer Akk"
+      }
+    ]
+  },
+  {
+    "id": "648",
+    "de": "Ich trainiere viermal pro Woche.",
+    "en": "I train four times a week.",
+    "cat": "daily",
+    "nouns": [
+      "die Woche"
+    ]
+  },
+  {
+    "id": "649",
+    "de": "Ich investiere mehr Zeit ins Deutschlernen.",
+    "en": "I'm investing more time in learning German.",
+    "cat": "learning",
+    "nouns": [
+      "die Zeit",
+      "das Deutschlernen"
+    ],
+    "g": [
+      {
+        "w": "mehr Zeit",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem.)"
+      },
+      {
+        "w": "ins Deutschlernen",
+        "c": "Akk",
+        "n": "investieren in + Akk (ins = in das)"
+      }
+    ]
+  },
+  {
+    "id": "650",
+    "de": "Ich bin schon eine ganze Weile im Unternehmen.",
+    "en": "I've been at the company for quite a while.",
+    "cat": "work",
+    "nouns": [
+      "die Weile",
+      "das Unternehmen"
+    ],
+    "g": [
+      {
+        "w": "eine ganze Weile",
+        "c": "Akk",
+        "n": "Zeitdauer → Akk (fem.)"
+      },
+      {
+        "w": "im Unternehmen",
+        "c": "Dat",
+        "n": "in + wo? → Dat (im = in dem)"
+      }
+    ]
+  },
+  {
+    "id": "651",
+    "de": "In den letzten Monaten habe ich mehr Aufgaben übernommen. [Vgt]",
+    "en": "In recent months I've taken on more tasks. (past)",
+    "cat": "work",
+    "nouns": [
+      "der Monat",
+      "die Aufgabe"
+    ],
+    "g": [
+      {
+        "w": "In den letzten Monaten",
+        "c": "Dat",
+        "n": "in + wann? → Dat (Plural +n)"
+      },
+      {
+        "w": "mehr Aufgaben",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (Plural)"
+      }
+    ]
+  },
+  {
+    "id": "652",
+    "de": "Darüber würde ich gerne mit Ihnen sprechen.",
+    "en": "I'd like to talk to you about that. (darüber = über das)",
+    "cat": "work",
+    "nouns": [],
+    "g": [
+      {
+        "w": "Darüber",
+        "c": "Akk",
+        "n": "sprechen über → immer Akk"
+      },
+      {
+        "w": "mit Ihnen",
+        "c": "Dat",
+        "n": "mit → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "653",
+    "de": "Das dauert noch eine Weile.",
+    "en": "That will take a while yet.",
+    "cat": "conversation",
+    "nouns": [
+      "die Weile"
+    ],
+    "g": [
+      {
+        "w": "eine Weile",
+        "c": "Akk",
+        "n": "Zeitdauer → Akk (fem.)"
+      }
+    ]
+  },
+  {
+    "id": "654",
+    "de": "Ich muss das sofort mit meinem Mann klären.",
+    "en": "I have to sort this out with my husband right away.",
+    "cat": "daily",
+    "nouns": [
+      "der Mann"
+    ],
+    "g": [
+      {
+        "w": "mit meinem Mann",
+        "c": "Dat",
+        "n": "mit → immer Dat (mask.)"
+      }
+    ]
+  },
+  {
+    "id": "655",
+    "de": "Das brennt mir unter den Nägeln.",
+    "en": "That's burning under my nails. (idiom: it's pressing, I need to deal with it now)",
+    "cat": "conversation",
+    "nouns": [
+      "der Nagel"
+    ],
+    "g": [
+      {
+        "w": "mir",
+        "c": "Dat",
+        "n": "indir. Objekt → Dat"
+      },
+      {
+        "w": "unter den Nägeln",
+        "c": "Dat",
+        "n": "unter + wo? → Dat (Plural +n)"
+      }
+    ]
+  },
+  {
+    "id": "656",
+    "de": "Mein Job ist ähnlich wie deiner.",
+    "en": "My job is similar to yours. (ähnlich = similar; deiner = dein Job)",
+    "cat": "work",
+    "nouns": [
+      "der Job"
+    ]
+  },
+  {
+    "id": "657",
+    "de": "Was würden Sie davon halten, wenn ich zwei Tage pro Woche im Homeoffice arbeite?",
+    "en": "What would you think of it if I worked two days a week from home?",
+    "cat": "work",
+    "nouns": [
+      "das Homeoffice"
+    ],
+    "g": [
+      {
+        "w": "im Homeoffice",
+        "c": "Dat",
+        "n": "in + wo? → Dat (im = in dem)"
+      }
+    ]
+  },
+  {
+    "id": "658",
+    "de": "Dein Vorschlag klingt für mich sinnvoll.",
+    "en": "Your suggestion sounds sensible to me.",
+    "cat": "work",
+    "nouns": [
+      "der Vorschlag"
+    ],
+    "g": [
+      {
+        "w": "für mich",
+        "c": "Akk",
+        "n": "für → immer Akk"
+      }
+    ]
+  },
+  {
+    "id": "659",
+    "de": "Montag um zehn funktioniert bei mir. / Das passt mir.",
+    "en": "Monday at ten works for me. / That suits me.",
+    "cat": "work",
+    "nouns": [
+      "der Montag"
+    ],
+    "g": [
+      {
+        "w": "bei mir",
+        "c": "Dat",
+        "n": "bei → immer Dat"
+      },
+      {
+        "w": "mir",
+        "c": "Dat",
+        "n": "passen → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "660",
+    "de": "Diese Änderung klingt notwendig.",
+    "en": "This change sounds necessary.",
+    "cat": "work",
+    "nouns": [
+      "die Änderung"
+    ]
+  },
+  {
+    "id": "661",
+    "de": "Ich spiele zuerst den Chef, dann tauschen wir die Rollen.",
+    "en": "I'll play the boss first, then we swap roles.",
+    "cat": "learning",
+    "nouns": [
+      "der Chef",
+      "die Rolle"
+    ],
+    "g": [
+      {
+        "w": "den Chef",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      },
+      {
+        "w": "die Rollen",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (Plural)"
+      }
+    ]
+  },
+  {
+    "id": "662",
+    "de": "Also, fangen wir an! / Los geht's!",
+    "en": "So, let's get started! / Here we go!",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "663",
+    "de": "Das hat tatsächlich funktioniert. [Vgt]",
+    "en": "That actually worked. (past)",
+    "cat": "conversation",
+    "nouns": []
+  },
+  {
+    "id": "664",
+    "de": "Vielen Dank für Ihre Offenheit.",
+    "en": "Thank you very much for your openness.",
+    "cat": "work",
+    "nouns": [
+      "die Offenheit"
+    ],
+    "g": [
+      {
+        "w": "für Ihre Offenheit",
+        "c": "Akk",
+        "n": "für → immer Akk"
+      }
+    ]
+  },
+  {
+    "id": "665",
+    "de": "Konkret geht es um meine Überstunden.",
+    "en": "Specifically, it's about my overtime. (es geht um + Akk)",
+    "cat": "work",
+    "nouns": [
+      "die Überstunde"
+    ],
+    "g": [
+      {
+        "w": "um meine Überstunden",
+        "c": "Akk",
+        "n": "um → immer Akk"
+      }
+    ]
+  },
+  {
+    "id": "666",
+    "de": "Hätten Sie ein paar Minuten Zeit?",
+    "en": "Would you have a few minutes?",
+    "cat": "work",
+    "nouns": [
+      "die Minute",
+      "die Zeit"
+    ]
+  },
+  {
+    "id": "667",
+    "de": "Ich würde gerne über ein wichtiges Thema sprechen.",
+    "en": "I'd like to talk about an important topic.",
+    "cat": "work",
+    "nouns": [
+      "das Thema"
+    ],
+    "g": [
+      {
+        "w": "über ein wichtiges Thema",
+        "c": "Akk",
+        "n": "sprechen über → immer Akk"
+      }
+    ]
+  },
+  {
+    "id": "668",
+    "de": "Ich wünsche mir eine Gehaltserhöhung oder eine Bezahlung für meine Überstunden.",
+    "en": "I'd like a salary increase or payment for my overtime. (sich etwas wünschen)",
+    "cat": "work",
+    "nouns": [
+      "die Gehaltserhöhung",
+      "die Bezahlung",
+      "die Überstunde"
+    ],
+    "g": [
+      {
+        "w": "mir",
+        "c": "Dat",
+        "n": "Reflexiv Dat (für mich selbst)"
+      },
+      {
+        "w": "eine Gehaltserhöhung",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem.)"
+      },
+      {
+        "w": "für meine Überstunden",
+        "c": "Akk",
+        "n": "für → immer Akk"
+      }
+    ]
+  },
+  {
+    "id": "669",
+    "de": "Seit sechs Monaten arbeite ich an einem neuen Projekt.",
+    "en": "For six months I've been working on a new project.",
+    "cat": "work",
+    "nouns": [
+      "der Monat",
+      "das Projekt"
+    ],
+    "g": [
+      {
+        "w": "Seit sechs Monaten",
+        "c": "Dat",
+        "n": "seit → immer Dat"
+      },
+      {
+        "w": "an einem neuen Projekt",
+        "c": "Dat",
+        "n": "arbeiten an → Dat"
+      }
+    ]
+  },
+  {
+    "id": "670",
+    "de": "Die beiden Sprachen sind sehr unterschiedlich.",
+    "en": "The two languages are very different.",
+    "cat": "learning",
+    "nouns": [
+      "die Sprache"
+    ]
   }
 ]
