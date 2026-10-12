@@ -30,7 +30,7 @@ export default function Archiv({ chunks, toggleMastered, knownWords, undoKnown, 
               key={c.id}
               chunk={c}
               speaking={speaking}
-              onSpeak={(id, de, en) => speak(id, speechText(de), en)}
+              onSpeak={(id, de, en, details) => speak(id, speechText(de), en, details)}
               onToggleMastered={toggleMastered}
             />
           ))}

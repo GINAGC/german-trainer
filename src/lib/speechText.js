@@ -20,6 +20,11 @@ export function speechText(text) {
     .trim();
 }
 
+// What the floating player shows besides the sentence: noun pills + case notes.
+export function chunkDetails(c) {
+  return { nouns: c.nouns || [], g: c.g || [] };
+}
+
 // Word-list entries carry plural info after a comma, e.g. "der Abend,-e" or
 // "die Adresse, -n" — strip from the first comma onward before speaking.
 export function wordSpeechText(g) {

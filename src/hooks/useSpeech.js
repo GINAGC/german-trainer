@@ -45,7 +45,7 @@ export function useSpeech() {
     return utt;
   }
 
-  function speak(id, text, subtitle) {
+  function speak(id, text, subtitle, details) {
     const session = ++sessionRef.current;
     window.speechSynthesis.pause();
     window.speechSynthesis.cancel();
@@ -59,7 +59,7 @@ export function useSpeech() {
     utt.onend = () => { if (sessionRef.current !== session) return; setSpeaking(null); setCurrentChunk(null); setPaused(false); };
     utt.onerror = () => { if (sessionRef.current !== session) return; setSpeaking(null); setCurrentChunk(null); setPaused(false); };
     setSpeaking(id);
-    setCurrentChunk({ text, subtitle, idx: null, total: null });
+    setCurrentChunk({ text, subtitle, details, idx: null, total: null });
     window.speechSynthesis.speak(utt);
   }
 
@@ -84,7 +84,7 @@ export function useSpeech() {
       if (sessionRef.current !== session) return;
       if (i >= list.length) { setSpeaking(null); setCurrentChunk(null); setPaused(false); return; }
       const item = list[i];
-      setCurrentChunk({ text: item.text, subtitle: item.subtitle, idx: i + 1, total: list.length, rep: rep + 1, repeatCount });
+      setCurrentChunk({ text: item.text, subtitle: item.subtitle, details: item.details, idx: i + 1, total: list.length, rep: rep + 1, repeatCount });
       const utt = makeUtterance(item.text);
       utt.onend = () => {
         if (sessionRef.current !== session) return;
@@ -127,7 +127,7 @@ export function useSpeech() {
       if (sessionRef.current !== session) return;
       if (i >= list.length) { setSpeaking(null); setCurrentChunk(null); setPaused(false); return; }
       const item = list[i];
-      const base = { text: item.text, subtitle: item.subtitle, idx: i + 1, total: list.length };
+      const base = { text: item.text, subtitle: item.subtitle, details: item.details, idx: i + 1, total: list.length };
       setCurrentChunk({ ...base, phase: "listen" });
       const utt = makeUtterance(item.text);
       let startedAt = Date.now();

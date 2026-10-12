@@ -24,7 +24,7 @@ Two rows of tabs at the top. **Practice:**
   yourself automatisch / gezögert / nicht gewusst; weak chunks come back
   sooner, and 3× automatisch in a row offers to mark a chunk mastered) and
   **4/3/2** (talk about one topic three times in shrinking time, 2 · 1.5 · 1
-  min or 4 · 3 · 2 min, with the topic's chunks fading out as a word bank).
+  min or 4 · 3 · 2 min, with 5–8 related chunks of one sub-topic kept on screen as a word bank).
 
 **Reference:**
 

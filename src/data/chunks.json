@@ -6621,5 +6621,83 @@
     "nouns": [
       "die Verspätung"
     ]
+  },
+  {
+    "id": "638",
+    "de": "Ich habe das nur für dich gemacht. [Vgt]",
+    "en": "[Ü/R] I did this only for you. (past)",
+    "cat": "aussprache",
+    "nouns": [],
+    "g": [
+      {
+        "w": "für dich",
+        "c": "Akk",
+        "n": "für → immer Akk"
+      }
+    ]
+  },
+  {
+    "id": "639",
+    "de": "Danke für deine Hilfe, das war wirklich wichtig für mich. [Vgt]",
+    "en": "[Ü/R] Thanks for your help, that was really important to me. (past)",
+    "cat": "aussprache",
+    "nouns": [
+      "die Hilfe"
+    ],
+    "g": [
+      {
+        "w": "für deine Hilfe",
+        "c": "Akk",
+        "n": "für → immer Akk"
+      },
+      {
+        "w": "für mich",
+        "c": "Akk",
+        "n": "für → immer Akk"
+      }
+    ]
+  },
+  {
+    "id": "640",
+    "de": "Für mich bitte einen Kaffee, für ihn einen Tee.",
+    "en": "[Ü/R] For me a coffee please, for him a tea.",
+    "cat": "aussprache",
+    "nouns": [
+      "der Kaffee",
+      "der Tee"
+    ],
+    "g": [
+      {
+        "w": "Für mich",
+        "c": "Akk",
+        "n": "für → immer Akk"
+      },
+      {
+        "w": "für ihn",
+        "c": "Akk",
+        "n": "für → immer Akk"
+      },
+      {
+        "w": "einen Kaffee / einen Tee",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ]
+  },
+  {
+    "id": "641",
+    "de": "Knoblauch riecht stark, aber ich mag ihn.",
+    "en": "[KN/CH] Garlic smells strong, but I like it.",
+    "cat": "aussprache",
+    "nouns": [
+      "der Knoblauch"
+    ],
+    "g": [
+      {
+        "w": "ihn",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (ihn = der Knoblauch)"
+      }
+    ]
   }
 ]
