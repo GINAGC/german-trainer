@@ -13,6 +13,11 @@ export function useSpeech() {
   // Needed because cancel() fires onerror on the current utterance, and
   // without this guard that handler would just advance to the next one.
   const sessionRef = useRef(0);
+  // Gaps between utterances (echo "your turn" silence, pauses between chunks)
+  // are plain timers, which speechSynthesis.pause() can't touch. We track the
+  // pending one here so pauseResume can freeze and resume it too.
+  const timerRef = useRef(null); // { id, fn, remaining, startedAt } | null
+  const pausedRef = useRef(false);
 
   // Voices load asynchronously — getVoices() is often empty on first call
   // (notably in Safari), so we also listen for "voiceschanged".
@@ -35,6 +40,27 @@ export function useSpeech() {
     return () => window.speechSynthesis.removeEventListener("voiceschanged", pick);
   }, []);
 
+  function clearTimer() {
+    if (timerRef.current) clearTimeout(timerRef.current.id);
+    timerRef.current = null;
+  }
+
+  function fireTimer() {
+    const fn = timerRef.current && timerRef.current.fn;
+    timerRef.current = null;
+    if (fn) fn();
+  }
+
+  // Pausable replacement for setTimeout between utterances.
+  function wait(fn, ms) {
+    clearTimer();
+    const t = { id: null, fn, remaining: ms, startedAt: Date.now() };
+    timerRef.current = t;
+    // Already paused (e.g. iOS ignored pause() and the utterance ended anyway):
+    // hold the full delay until resume.
+    if (!pausedRef.current) t.id = setTimeout(fireTimer, ms);
+  }
+
   function makeUtterance(text) {
     const utt = new SpeechSynthesisUtterance(text);
     utt.lang = "de-DE";
@@ -47,6 +73,8 @@ export function useSpeech() {
 
   function speak(id, text, subtitle, details) {
     const session = ++sessionRef.current;
+    clearTimer();
+    pausedRef.current = false;
     window.speechSynthesis.pause();
     window.speechSynthesis.cancel();
     setPaused(false);
@@ -69,6 +97,8 @@ export function useSpeech() {
   // player, when the caller has one (chunks: en, words: t, rules: none).
   function playAll(list, id = "all") {
     const session = ++sessionRef.current;
+    clearTimer();
+    pausedRef.current = false;
     window.speechSynthesis.pause();
     window.speechSynthesis.cancel();
     setPaused(false);
@@ -90,18 +120,18 @@ export function useSpeech() {
         if (sessionRef.current !== session) return;
         rep++;
         if (rep < repeatCount) {
-          setTimeout(next, 400);
+          wait(next, 400);
         } else {
           rep = 0;
           i++;
-          setTimeout(next, 700);
+          wait(next, 700);
         }
       };
       utt.onerror = () => {
         if (sessionRef.current !== session) return;
         rep = 0;
         i++;
-        setTimeout(next, 700);
+        wait(next, 700);
       };
       window.speechSynthesis.speak(utt);
     }
@@ -113,6 +143,8 @@ export function useSpeech() {
   // list: [{ text, subtitle? }]
   function echoAll(list, gapFactor = 1.5, id = "echo") {
     const session = ++sessionRef.current;
+    clearTimer();
+    pausedRef.current = false;
     window.speechSynthesis.pause();
     window.speechSynthesis.cancel();
     setPaused(false);
@@ -137,12 +169,12 @@ export function useSpeech() {
         const gap = Math.min(12000, Math.max(2000, (Date.now() - startedAt) * gapFactor + 800));
         setCurrentChunk({ ...base, phase: "repeat" });
         i++;
-        setTimeout(next, gap);
+        wait(next, gap);
       };
       utt.onerror = () => {
         if (sessionRef.current !== session) return;
         i++;
-        setTimeout(next, 700);
+        wait(next, 700);
       };
       window.speechSynthesis.speak(utt);
     }
@@ -151,6 +183,8 @@ export function useSpeech() {
 
   function stopAll() {
     sessionRef.current++;
+    clearTimer();
+    pausedRef.current = false;
     window.speechSynthesis.pause();
     window.speechSynthesis.cancel();
     setSpeaking(null);
@@ -159,11 +193,22 @@ export function useSpeech() {
   }
 
   function pauseResume() {
+    const t = timerRef.current;
     if (paused) {
+      pausedRef.current = false;
       window.speechSynthesis.resume();
+      if (t) {
+        t.startedAt = Date.now();
+        t.id = setTimeout(fireTimer, t.remaining);
+      }
       setPaused(false);
     } else {
+      pausedRef.current = true;
       window.speechSynthesis.pause();
+      if (t) {
+        clearTimeout(t.id);
+        t.remaining = Math.max(0, t.remaining - (Date.now() - t.startedAt));
+      }
       setPaused(true);
     }
   }
