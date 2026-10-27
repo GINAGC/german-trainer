@@ -7163,5 +7163,1440 @@
     "nouns": [
       "die Sprache"
     ]
+  },
+  {
+    "id": "671",
+    "de": "Ich möchte offen über eine Situation sprechen, die ich in den letzten Monaten beobachtet habe. [Vgt]",
+    "en": "I'd like to speak openly about a situation I've observed in recent months.",
+    "cat": "work",
+    "nouns": [
+      "die Situation",
+      "der Monat"
+    ],
+    "g": [
+      {
+        "w": "über eine Situation",
+        "c": "Akk",
+        "n": "sprechen über → immer Akk"
+      },
+      {
+        "w": "in den letzten Monaten",
+        "c": "Dat",
+        "n": "in (Zeitraum) → Dat; Plural +n"
+      }
+    ]
+  },
+  {
+    "id": "672",
+    "de": "Das gilt für die Aufgaben, die wir am nächsten Tag erhalten.",
+    "en": "That applies to the tasks we receive the next day. (Relativpronomen Plural: die)",
+    "cat": "work",
+    "nouns": [
+      "die Aufgabe",
+      "der Tag"
+    ],
+    "g": [
+      {
+        "w": "für die Aufgaben",
+        "c": "Akk",
+        "n": "für → immer Akk"
+      },
+      {
+        "w": "am nächsten Tag",
+        "c": "Dat",
+        "n": "an + Dat (Zeitpunkt: wann?)"
+      }
+    ]
+  },
+  {
+    "id": "673",
+    "de": "Ich möchte eine langfristige Lösung vorschlagen.",
+    "en": "I'd like to propose a long-term solution.",
+    "cat": "work",
+    "nouns": [
+      "die Lösung"
+    ],
+    "g": [
+      {
+        "w": "eine langfristige Lösung",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem.)"
+      }
+    ]
+  },
+  {
+    "id": "674",
+    "de": "Ich denke, eine langfristige Lösung könnte sein, die Deadlines etwas flexibler zu gestalten.",
+    "en": "I think a long-term solution could be to make the deadlines a bit more flexible.",
+    "cat": "work",
+    "nouns": [
+      "die Lösung",
+      "die Deadline"
+    ],
+    "g": [
+      {
+        "w": "die Deadlines",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (Plural)"
+      }
+    ]
+  },
+  {
+    "id": "675",
+    "de": "Darf ich den Kuchen probieren?",
+    "en": "May I try the cake? (probieren = taste food/drinks)",
+    "cat": "food",
+    "nouns": [
+      "der Kuchen"
+    ],
+    "g": [
+      {
+        "w": "den Kuchen",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ]
+  },
+  {
+    "id": "676",
+    "de": "Ich probiere die Jacke an.",
+    "en": "I'm trying on the jacket. (anprobieren = clothes; trennbar)",
+    "cat": "shopping",
+    "nouns": [
+      "die Jacke"
+    ],
+    "g": [
+      {
+        "w": "die Jacke",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem.)"
+      }
+    ]
+  },
+  {
+    "id": "677",
+    "de": "Ich versuche, etwas Neues zu machen.",
+    "en": "I'm trying to do something new. (versuchen = attempt, try to do)",
+    "cat": "daily"
+  },
+  {
+    "id": "678",
+    "de": "Ich bin zu dem Schluss gekommen, dass das nicht funktioniert. [Vgt]",
+    "en": "I came to the conclusion that this doesn't work. (zu dem Schluss kommen)",
+    "cat": "conversation",
+    "nouns": [
+      "der Schluss"
+    ],
+    "g": [
+      {
+        "w": "zu dem Schluss",
+        "c": "Dat",
+        "n": "zu → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "679",
+    "de": "Das ist gestern passiert. [Vgt]",
+    "en": "That happened yesterday. (passieren → mit sein, nicht haben)",
+    "cat": "conversation"
+  },
+  {
+    "id": "680",
+    "de": "Am wichtigsten ist für mich die Zeit.",
+    "en": "Most important to me is time. (Superlativ: am wichtigsten)",
+    "cat": "conversation",
+    "nouns": [
+      "die Zeit"
+    ],
+    "g": [
+      {
+        "w": "für mich",
+        "c": "Akk",
+        "n": "für → immer Akk"
+      }
+    ]
+  },
+  {
+    "id": "681",
+    "de": "Hast du einen Vorschlag?",
+    "en": "Do you have a suggestion?",
+    "cat": "conversation",
+    "nouns": [
+      "der Vorschlag"
+    ],
+    "g": [
+      {
+        "w": "einen Vorschlag",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ]
+  },
+  {
+    "id": "682",
+    "de": "Haben Sie einen Vorschlag?",
+    "en": "Do you have a suggestion? (formal)",
+    "cat": "conversation",
+    "nouns": [
+      "der Vorschlag"
+    ],
+    "g": [
+      {
+        "w": "einen Vorschlag",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ]
+  },
+  {
+    "id": "683",
+    "de": "Ich kann mich nicht daran erinnern.",
+    "en": "I can't remember it. (sich erinnern an → daran)",
+    "cat": "conversation",
+    "g": [
+      {
+        "w": "daran",
+        "c": "Akk",
+        "n": "erinnern an → Akk (da + r + an)"
+      }
+    ]
+  },
+  {
+    "id": "684",
+    "de": "Ich verstehe, was du meinst.",
+    "en": "I understand what you mean.",
+    "cat": "conversation"
+  },
+  {
+    "id": "685",
+    "de": "Ich mache jeden Tag Wiederholungen.",
+    "en": "I do repetitions every day.",
+    "cat": "learning",
+    "nouns": [
+      "die Wiederholung"
+    ],
+    "g": [
+      {
+        "w": "jeden Tag",
+        "c": "Akk",
+        "n": "Zeitangabe → Akk"
+      },
+      {
+        "w": "Wiederholungen",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (Plural)"
+      }
+    ]
+  },
+  {
+    "id": "686",
+    "de": "Kannst du erläutern, was passiert ist? [Vgt]",
+    "en": "Can you explain what happened?",
+    "cat": "conversation"
+  },
+  {
+    "id": "687",
+    "de": "Möchtest du die Hauptrolle übernehmen?",
+    "en": "Would you like to take the lead role?",
+    "cat": "conversation",
+    "nouns": [
+      "die Hauptrolle"
+    ],
+    "g": [
+      {
+        "w": "die Hauptrolle",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem.)"
+      }
+    ]
+  },
+  {
+    "id": "688",
+    "de": "Ich kann mit der Hauptrolle beginnen, und dann tauschen wir.",
+    "en": "I can start with the lead role, and then we switch.",
+    "cat": "conversation",
+    "nouns": [
+      "die Hauptrolle"
+    ],
+    "g": [
+      {
+        "w": "mit der Hauptrolle",
+        "c": "Dat",
+        "n": "mit → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "689",
+    "de": "Sind Sie bereit?",
+    "en": "Are you ready? (formal)",
+    "cat": "conversation"
+  },
+  {
+    "id": "690",
+    "de": "Ich bin mir nicht sicher, ob das eine gute Idee ist.",
+    "en": "I'm not sure whether that's a good idea.",
+    "cat": "conversation",
+    "nouns": [
+      "die Idee"
+    ],
+    "g": [
+      {
+        "w": "mir",
+        "c": "Dat",
+        "n": "sich sicher sein → Dat (ich bin MIR sicher)"
+      }
+    ]
+  },
+  {
+    "id": "691",
+    "de": "Ich verstehe deinen Punkt, aber ich würde das anders sehen.",
+    "en": "I understand your point, but I'd see it differently.",
+    "cat": "conversation",
+    "nouns": [
+      "der Punkt"
+    ],
+    "g": [
+      {
+        "w": "deinen Punkt",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ]
+  },
+  {
+    "id": "692",
+    "de": "Was genau macht dich daran unsicher?",
+    "en": "What exactly makes you unsure about it?",
+    "cat": "conversation",
+    "g": [
+      {
+        "w": "dich",
+        "c": "Akk",
+        "n": "jdn. unsicher machen → Akk"
+      }
+    ]
+  },
+  {
+    "id": "693",
+    "de": "Wir sind vor zwei Jahren von Mexiko nach Deutschland gezogen. [Vgt]",
+    "en": "We moved from Mexico to Germany two years ago.",
+    "cat": "daily",
+    "nouns": [
+      "das Jahr"
+    ],
+    "g": [
+      {
+        "w": "vor zwei Jahren",
+        "c": "Dat",
+        "n": "vor (zeitlich) → Dat; Plural +n"
+      },
+      {
+        "w": "von Mexiko",
+        "c": "Dat",
+        "n": "von → immer Dat"
+      },
+      {
+        "w": "nach Deutschland",
+        "c": "Dat",
+        "n": "nach + Land → Dat"
+      }
+    ]
+  },
+  {
+    "id": "694",
+    "de": "Ich bin wegen der Arbeit hierhergezogen. [Vgt]",
+    "en": "I moved here because of work. (wegen + Genitiv; umgangssprachlich + Dativ)",
+    "cat": "daily",
+    "nouns": [
+      "die Arbeit"
+    ]
+  },
+  {
+    "id": "695",
+    "de": "Genau, das bin ich!",
+    "en": "Exactly, that's me!",
+    "cat": "conversation"
+  },
+  {
+    "id": "696",
+    "de": "Schön, Sie kennenzulernen.",
+    "en": "Nice to meet you. (formal)",
+    "cat": "conversation"
+  },
+  {
+    "id": "697",
+    "de": "Und, wie ist der Umzug gelaufen? [Vgt]",
+    "en": "And, how did the move go?",
+    "cat": "daily",
+    "nouns": [
+      "der Umzug"
+    ]
+  },
+  {
+    "id": "698",
+    "de": "Haben Sie schon alles ausgepackt? [Vgt]",
+    "en": "Have you unpacked everything yet?",
+    "cat": "daily"
+  },
+  {
+    "id": "699",
+    "de": "Hast du schon einen guten Bäcker gefunden? [Vgt]",
+    "en": "Have you found a good baker yet?",
+    "cat": "daily",
+    "nouns": [
+      "der Bäcker"
+    ],
+    "g": [
+      {
+        "w": "einen guten Bäcker",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ]
+  },
+  {
+    "id": "700",
+    "de": "Ich muss mich erst noch orientieren.",
+    "en": "I still need to get my bearings first. (sich orientieren)",
+    "cat": "daily"
+  },
+  {
+    "id": "701",
+    "de": "Darf ich dich um einen kleinen Gefallen bitten?",
+    "en": "May I ask you a small favor?",
+    "cat": "daily",
+    "nouns": [
+      "der Gefallen"
+    ],
+    "g": [
+      {
+        "w": "dich",
+        "c": "Akk",
+        "n": "bitten + Akk"
+      },
+      {
+        "w": "um einen kleinen Gefallen",
+        "c": "Akk",
+        "n": "bitten um → Akk"
+      }
+    ]
+  },
+  {
+    "id": "702",
+    "de": "Könntest du nächste Woche ein Paket für mich annehmen?",
+    "en": "Could you accept a package for me next week?",
+    "cat": "daily",
+    "nouns": [
+      "die Woche",
+      "das Paket"
+    ],
+    "g": [
+      {
+        "w": "nächste Woche",
+        "c": "Akk",
+        "n": "Zeitangabe → Akk"
+      },
+      {
+        "w": "ein Paket",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (neutr.)"
+      },
+      {
+        "w": "für mich",
+        "c": "Akk",
+        "n": "für → immer Akk"
+      }
+    ]
+  },
+  {
+    "id": "703",
+    "de": "Klar, kein Problem!",
+    "en": "Sure, no problem!",
+    "cat": "conversation",
+    "nouns": [
+      "das Problem"
+    ]
+  },
+  {
+    "id": "704",
+    "de": "Ich muss erst meine Kisten auspacken, aber nächste Woche gern.",
+    "en": "I have to unpack my boxes first, but happy to next week.",
+    "cat": "daily",
+    "nouns": [
+      "die Kiste",
+      "die Woche"
+    ],
+    "g": [
+      {
+        "w": "meine Kisten",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (Plural)"
+      },
+      {
+        "w": "nächste Woche",
+        "c": "Akk",
+        "n": "Zeitangabe → Akk"
+      }
+    ]
+  },
+  {
+    "id": "705",
+    "de": "Hallo, ich habe gehört, Sie sind neu eingezogen! [Vgt]",
+    "en": "Hello, I heard you've just moved in!",
+    "cat": "daily"
+  },
+  {
+    "id": "706",
+    "de": "Ich wohne auch hier.",
+    "en": "I live here too.",
+    "cat": "daily"
+  },
+  {
+    "id": "707",
+    "de": "Ich bin seit vorgestern hier und wohne in Wohnung 2, eins über Ihnen.",
+    "en": "I've been here since the day before yesterday and live in apartment 2, one above you.",
+    "cat": "daily",
+    "nouns": [
+      "die Wohnung"
+    ],
+    "g": [
+      {
+        "w": "seit vorgestern",
+        "c": "Dat",
+        "n": "seit → immer Dat"
+      },
+      {
+        "w": "in Wohnung 2",
+        "c": "Dat",
+        "n": "in (wo?) → Dat"
+      },
+      {
+        "w": "über Ihnen",
+        "c": "Dat",
+        "n": "über (wo?) → Dat"
+      }
+    ]
+  },
+  {
+    "id": "708",
+    "de": "Ich wollte gerade die Wäsche in den Waschraum bringen. [Vgt]",
+    "en": "I was just about to take the laundry to the laundry room.",
+    "cat": "daily",
+    "nouns": [
+      "die Wäsche",
+      "der Waschraum"
+    ],
+    "g": [
+      {
+        "w": "die Wäsche",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem.)"
+      },
+      {
+        "w": "in den Waschraum",
+        "c": "Akk",
+        "n": "in (wohin?) → Akk"
+      }
+    ]
+  },
+  {
+    "id": "709",
+    "de": "Wir können zusammen runtergehen.",
+    "en": "We can go down together.",
+    "cat": "daily"
+  },
+  {
+    "id": "710",
+    "de": "Das hat mir echt die Nerven geraubt, aber ich hatte einige helfende Hände. [Vgt]",
+    "en": "That really drained my nerves, but I had some helping hands. (jdm. die Nerven rauben)",
+    "cat": "daily",
+    "nouns": [
+      "der Nerv",
+      "die Hand"
+    ],
+    "g": [
+      {
+        "w": "mir",
+        "c": "Dat",
+        "n": "rauben + Dat"
+      },
+      {
+        "w": "die Nerven",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (Plural)"
+      }
+    ]
+  },
+  {
+    "id": "711",
+    "de": "Ich erinnere mich noch, wie anstrengend der Start für mich war. [Vgt]",
+    "en": "I still remember how exhausting the start was for me.",
+    "cat": "daily",
+    "nouns": [
+      "der Start"
+    ],
+    "g": [
+      {
+        "w": "für mich",
+        "c": "Akk",
+        "n": "für → immer Akk"
+      }
+    ]
+  },
+  {
+    "id": "712",
+    "de": "Sie können übrigens gern Du zu mir sagen.",
+    "en": "By the way, you can say \"du\" to me.",
+    "cat": "daily",
+    "g": [
+      {
+        "w": "zu mir",
+        "c": "Dat",
+        "n": "zu → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "713",
+    "de": "Kommst du schon gut zurecht in der Umgebung?",
+    "en": "Are you getting along well in the area yet? (zurechtkommen)",
+    "cat": "daily",
+    "nouns": [
+      "die Umgebung"
+    ],
+    "g": [
+      {
+        "w": "in der Umgebung",
+        "c": "Dat",
+        "n": "in (wo?) → Dat"
+      }
+    ]
+  },
+  {
+    "id": "714",
+    "de": "Noch nicht ganz, ich muss mich noch im Haus zurechtfinden.",
+    "en": "Not quite yet, I still have to find my way around the building. (sich zurechtfinden)",
+    "cat": "daily",
+    "nouns": [
+      "das Haus"
+    ],
+    "g": [
+      {
+        "w": "im Haus",
+        "c": "Dat",
+        "n": "in (wo?) → Dat (in dem)"
+      }
+    ]
+  },
+  {
+    "id": "715",
+    "de": "Ich könnte dir zeigen, wie man die Waschmaschinen einstellt.",
+    "en": "I could show you how to set the washing machines.",
+    "cat": "daily",
+    "nouns": [
+      "die Waschmaschine"
+    ],
+    "g": [
+      {
+        "w": "dir",
+        "c": "Dat",
+        "n": "zeigen + Dat"
+      },
+      {
+        "w": "die Waschmaschinen",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (Plural)"
+      }
+    ]
+  },
+  {
+    "id": "716",
+    "de": "Das passt gerade voll gut.",
+    "en": "That fits really well right now.",
+    "cat": "conversation"
+  },
+  {
+    "id": "717",
+    "de": "Wie wäre es mit einer Tasse Kaffee dieses Wochenende?",
+    "en": "How about a cup of coffee this weekend?",
+    "cat": "daily",
+    "nouns": [
+      "die Tasse",
+      "der Kaffee",
+      "das Wochenende"
+    ],
+    "g": [
+      {
+        "w": "mit einer Tasse Kaffee",
+        "c": "Dat",
+        "n": "mit → immer Dat"
+      },
+      {
+        "w": "dieses Wochenende",
+        "c": "Akk",
+        "n": "Zeitangabe → Akk"
+      }
+    ]
+  },
+  {
+    "id": "718",
+    "de": "Hättest du Lust?",
+    "en": "Would you like to? (Lust haben)",
+    "cat": "conversation",
+    "nouns": [
+      "die Lust"
+    ]
+  },
+  {
+    "id": "719",
+    "de": "Danke für das Gespräch, ich muss dann auch mal so langsam, aber wir sehen uns.",
+    "en": "Thanks for the chat, I should be going soon, but we'll see each other.",
+    "cat": "conversation",
+    "nouns": [
+      "das Gespräch"
+    ],
+    "g": [
+      {
+        "w": "für das Gespräch",
+        "c": "Akk",
+        "n": "für → immer Akk"
+      }
+    ]
+  },
+  {
+    "id": "720",
+    "de": "Man sieht sich!",
+    "en": "See you around!",
+    "cat": "conversation"
+  },
+  {
+    "id": "721",
+    "de": "Vielen Dank für Ihre gute Arbeit in diesem Jahr.",
+    "en": "Thank you very much for your good work this year.",
+    "cat": "work",
+    "nouns": [
+      "die Arbeit",
+      "das Jahr"
+    ],
+    "g": [
+      {
+        "w": "für Ihre gute Arbeit",
+        "c": "Akk",
+        "n": "für → immer Akk"
+      },
+      {
+        "w": "in diesem Jahr",
+        "c": "Dat",
+        "n": "in (wo?) → Dat"
+      }
+    ]
+  },
+  {
+    "id": "722",
+    "de": "Es geht um meine zusätzlichen Aufgaben und um meine momentane Vergütung.",
+    "en": "It's about my additional tasks and my current compensation. (es geht um + Akk)",
+    "cat": "work",
+    "nouns": [
+      "die Aufgabe",
+      "die Vergütung"
+    ],
+    "g": [
+      {
+        "w": "um meine zusätzlichen Aufgaben",
+        "c": "Akk",
+        "n": "um → immer Akk"
+      },
+      {
+        "w": "um meine momentane Vergütung",
+        "c": "Akk",
+        "n": "um → immer Akk"
+      }
+    ]
+  },
+  {
+    "id": "723",
+    "de": "Könnten Sie das konkreter erläutern?",
+    "en": "Could you explain that more specifically?",
+    "cat": "work"
+  },
+  {
+    "id": "724",
+    "de": "Ich erledige zwei Projekte parallel.",
+    "en": "I'm handling two projects in parallel.",
+    "cat": "work",
+    "nouns": [
+      "das Projekt"
+    ],
+    "g": [
+      {
+        "w": "zwei Projekte",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (Plural)"
+      }
+    ]
+  },
+  {
+    "id": "725",
+    "de": "Das nimmt viel Zeit in Anspruch.",
+    "en": "That takes up a lot of time. (Zeit in Anspruch nehmen)",
+    "cat": "work",
+    "nouns": [
+      "die Zeit"
+    ],
+    "g": [
+      {
+        "w": "viel Zeit",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem.)"
+      }
+    ]
+  },
+  {
+    "id": "726",
+    "de": "Ich muss gerade Überstunden machen, um alles zu erledigen.",
+    "en": "I currently have to work overtime to get everything done.",
+    "cat": "work",
+    "nouns": [
+      "die Überstunde"
+    ],
+    "g": [
+      {
+        "w": "Überstunden",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (Plural)"
+      }
+    ]
+  },
+  {
+    "id": "727",
+    "de": "Ich kann das nachvollziehen, aber ich bin nicht sicher, ob ich das genauso einschätze.",
+    "en": "I can understand that, but I'm not sure I assess it the same way.",
+    "cat": "work"
+  },
+  {
+    "id": "728",
+    "de": "Ich würde mir wünschen, dass meine zusätzlichen Aufgaben auch in meiner Vergütung sichtbar werden.",
+    "en": "I'd wish for my additional tasks to also become visible in my compensation.",
+    "cat": "work",
+    "nouns": [
+      "die Aufgabe",
+      "die Vergütung"
+    ],
+    "g": [
+      {
+        "w": "mir",
+        "c": "Dat",
+        "n": "sich etwas wünschen → mir (Dat)"
+      },
+      {
+        "w": "in meiner Vergütung",
+        "c": "Dat",
+        "n": "in (wo?) → Dat"
+      }
+    ]
+  },
+  {
+    "id": "729",
+    "de": "Ich könnte Ihnen unter Absprache mit der Geschäftsleitung einen Bonus anbieten.",
+    "en": "In consultation with management, I could offer you a bonus.",
+    "cat": "work",
+    "nouns": [
+      "die Absprache",
+      "die Geschäftsleitung",
+      "der Bonus"
+    ],
+    "g": [
+      {
+        "w": "Ihnen",
+        "c": "Dat",
+        "n": "anbieten + Dat"
+      },
+      {
+        "w": "mit der Geschäftsleitung",
+        "c": "Dat",
+        "n": "mit → immer Dat"
+      },
+      {
+        "w": "einen Bonus",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ]
+  },
+  {
+    "id": "730",
+    "de": "Ich müsste das aber nochmal absprechen.",
+    "en": "But I'd have to clear that again.",
+    "cat": "work"
+  },
+  {
+    "id": "731",
+    "de": "Das weiß ich wirklich zu schätzen.",
+    "en": "I really appreciate that. (zu schätzen wissen)",
+    "cat": "work"
+  },
+  {
+    "id": "732",
+    "de": "Gerne, dafür sind diese Gespräche da.",
+    "en": "Gladly, that's what these conversations are for.",
+    "cat": "work",
+    "nouns": [
+      "das Gespräch"
+    ]
+  },
+  {
+    "id": "733",
+    "de": "Melden Sie sich jederzeit, wenn etwas sein sollte.",
+    "en": "Get in touch any time if anything comes up.",
+    "cat": "work"
+  },
+  {
+    "id": "734",
+    "de": "Haben Sie Zeit für ein kurzes Gespräch?",
+    "en": "Do you have time for a short conversation?",
+    "cat": "work",
+    "nouns": [
+      "die Zeit",
+      "das Gespräch"
+    ],
+    "g": [
+      {
+        "w": "für ein kurzes Gespräch",
+        "c": "Akk",
+        "n": "für → immer Akk"
+      }
+    ]
+  },
+  {
+    "id": "735",
+    "de": "Danke, dass Sie sich die Zeit nehmen.",
+    "en": "Thank you for taking the time.",
+    "cat": "work",
+    "nouns": [
+      "die Zeit"
+    ],
+    "g": [
+      {
+        "w": "sich",
+        "c": "Dat",
+        "n": "Reflexiv Dat (sich die Zeit nehmen)"
+      },
+      {
+        "w": "die Zeit",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem.)"
+      }
+    ]
+  },
+  {
+    "id": "736",
+    "de": "Es gibt momentan etwas, was mich belastet.",
+    "en": "There's something weighing on me at the moment.",
+    "cat": "work",
+    "g": [
+      {
+        "w": "mich",
+        "c": "Akk",
+        "n": "belasten + Akk"
+      }
+    ]
+  },
+  {
+    "id": "737",
+    "de": "Ich fühle mich leider im Moment sehr überlastet.",
+    "en": "Unfortunately I feel very overloaded at the moment.",
+    "cat": "work",
+    "nouns": [
+      "der Moment"
+    ],
+    "g": [
+      {
+        "w": "mich",
+        "c": "Akk",
+        "n": "Reflexiv Akk (sich fühlen)"
+      },
+      {
+        "w": "im Moment",
+        "c": "Dat",
+        "n": "in (wo?) → Dat (Zeitpunkt)"
+      }
+    ]
+  },
+  {
+    "id": "738",
+    "de": "Wo fühlen Sie sich überfordert?",
+    "en": "Where do you feel overwhelmed?",
+    "cat": "work",
+    "g": [
+      {
+        "w": "sich",
+        "c": "Akk",
+        "n": "Reflexiv Akk (sich fühlen)"
+      }
+    ]
+  },
+  {
+    "id": "739",
+    "de": "Sie können ganz offen sein.",
+    "en": "You can be completely open.",
+    "cat": "work"
+  },
+  {
+    "id": "740",
+    "de": "Es kommen immer wieder Erledigungen rein, die nicht in meinen Aufgabenbereich fallen.",
+    "en": "Tasks keep coming in that don't fall within my area of responsibility.",
+    "cat": "work",
+    "nouns": [
+      "die Erledigung",
+      "der Aufgabenbereich"
+    ],
+    "g": [
+      {
+        "w": "in meinen Aufgabenbereich",
+        "c": "Akk",
+        "n": "fallen in → Akk (wohin?)"
+      }
+    ]
+  },
+  {
+    "id": "741",
+    "de": "Ich finde, dass manche Deadlines zu knapp bekanntgegeben werden.",
+    "en": "I think some deadlines are announced too late.",
+    "cat": "work",
+    "nouns": [
+      "die Deadline"
+    ]
+  },
+  {
+    "id": "742",
+    "de": "Zum Beispiel wird die Abgabefrist häufig sehr kurzfristig gesetzt.",
+    "en": "For example, the submission deadline is often set at very short notice.",
+    "cat": "work",
+    "nouns": [
+      "das Beispiel",
+      "die Abgabefrist"
+    ],
+    "g": [
+      {
+        "w": "Zum Beispiel",
+        "c": "Dat",
+        "n": "zu → immer Dat (zu dem)"
+      }
+    ]
+  },
+  {
+    "id": "743",
+    "de": "Und wie wirkt sich das auf Sie aus?",
+    "en": "And how does that affect you?",
+    "cat": "work",
+    "g": [
+      {
+        "w": "auf Sie",
+        "c": "Akk",
+        "n": "sich auswirken auf → Akk"
+      }
+    ]
+  },
+  {
+    "id": "744",
+    "de": "Ich bin am Ende des Tages immer sehr erschöpft.",
+    "en": "At the end of the day I'm always very exhausted.",
+    "cat": "work",
+    "nouns": [
+      "das Ende",
+      "der Tag"
+    ],
+    "g": [
+      {
+        "w": "am Ende",
+        "c": "Dat",
+        "n": "an (Zeitpunkt) → Dat; des Tages = Genitiv"
+      }
+    ]
+  },
+  {
+    "id": "745",
+    "de": "Aus diesem Grund fühle ich mich sehr gestresst.",
+    "en": "For this reason I feel very stressed.",
+    "cat": "work",
+    "nouns": [
+      "der Grund"
+    ],
+    "g": [
+      {
+        "w": "Aus diesem Grund",
+        "c": "Dat",
+        "n": "aus → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "746",
+    "de": "Ich habe nicht genug Zeit, alles ordentlich zu machen.",
+    "en": "I don't have enough time to do everything properly.",
+    "cat": "work",
+    "nouns": [
+      "die Zeit"
+    ],
+    "g": [
+      {
+        "w": "nicht genug Zeit",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem.)"
+      }
+    ]
+  },
+  {
+    "id": "747",
+    "de": "Was denken Sie?",
+    "en": "What do you think? (formal)",
+    "cat": "conversation"
+  },
+  {
+    "id": "748",
+    "de": "Ich möchte auch sagen: Es liegt nicht daran, dass ich nicht kompetent bin.",
+    "en": "I'd also like to say: it's not because I'm not competent. (es liegt daran, dass)",
+    "cat": "work"
+  },
+  {
+    "id": "749",
+    "de": "Die Schwierigkeit liegt nicht auf der fachlichen Ebene.",
+    "en": "The difficulty doesn't lie on the professional/technical level.",
+    "cat": "work",
+    "nouns": [
+      "die Schwierigkeit",
+      "die Ebene"
+    ],
+    "g": [
+      {
+        "w": "auf der fachlichen Ebene",
+        "c": "Dat",
+        "n": "auf (wo?) → Dat"
+      }
+    ]
+  },
+  {
+    "id": "750",
+    "de": "Das tut mir leid zu hören.",
+    "en": "I'm sorry to hear that. (leidtun + Dat)",
+    "cat": "conversation",
+    "g": [
+      {
+        "w": "mir",
+        "c": "Dat",
+        "n": "leidtun + Dat"
+      }
+    ]
+  },
+  {
+    "id": "751",
+    "de": "Bitte entschuldigen Sie meine vorschnelle Reaktion.",
+    "en": "Please excuse my hasty reaction.",
+    "cat": "work",
+    "nouns": [
+      "die Reaktion"
+    ],
+    "g": [
+      {
+        "w": "meine vorschnelle Reaktion",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem.)"
+      }
+    ]
+  },
+  {
+    "id": "752",
+    "de": "Was schlagen Sie denn vor?",
+    "en": "What do you suggest, then? (vorschlagen, trennbar)",
+    "cat": "work"
+  },
+  {
+    "id": "753",
+    "de": "Könnten wir gemeinsam eine Lösung finden?",
+    "en": "Could we find a solution together?",
+    "cat": "work",
+    "nouns": [
+      "die Lösung"
+    ],
+    "g": [
+      {
+        "w": "eine Lösung",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem.)"
+      }
+    ]
+  },
+  {
+    "id": "754",
+    "de": "Es wäre aus meiner Sicht hilfreich, wenn Abgabetermine früher bekannt gegeben würden.",
+    "en": "From my point of view it would be helpful if submission dates were announced earlier.",
+    "cat": "work",
+    "nouns": [
+      "die Sicht",
+      "der Abgabetermin"
+    ],
+    "g": [
+      {
+        "w": "aus meiner Sicht",
+        "c": "Dat",
+        "n": "aus → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "755",
+    "de": "Ich weiß, dass das nicht immer und bei jedem Projekt möglich ist.",
+    "en": "I know that's not always possible, and not for every project.",
+    "cat": "work",
+    "nouns": [
+      "das Projekt"
+    ],
+    "g": [
+      {
+        "w": "bei jedem Projekt",
+        "c": "Dat",
+        "n": "bei → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "756",
+    "de": "Ja, wir könnten mit dem Team sprechen und die Deadlines überprüfen.",
+    "en": "Yes, we could talk to the team and review the deadlines.",
+    "cat": "work",
+    "nouns": [
+      "das Team",
+      "die Deadline"
+    ],
+    "g": [
+      {
+        "w": "mit dem Team",
+        "c": "Dat",
+        "n": "mit → immer Dat"
+      },
+      {
+        "w": "die Deadlines",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (Plural)"
+      }
+    ]
+  },
+  {
+    "id": "757",
+    "de": "Ich möchte eine wöchentliche Absprache einführen, in der Fristen bekanntgegeben werden, um mehr Austausch zu ermöglichen.",
+    "en": "I'd like to introduce a weekly check-in where deadlines are announced, to allow more exchange.",
+    "cat": "work",
+    "nouns": [
+      "die Absprache",
+      "die Frist",
+      "der Austausch"
+    ],
+    "g": [
+      {
+        "w": "eine wöchentliche Absprache",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem.)"
+      }
+    ]
+  },
+  {
+    "id": "758",
+    "de": "Ich schlage eine Absprache jeden Montagmorgen vor, bei der wir die Projekte für die Woche durchgehen.",
+    "en": "I suggest a check-in every Monday morning where we go through the projects for the week.",
+    "cat": "work",
+    "nouns": [
+      "die Absprache",
+      "der Montagmorgen",
+      "das Projekt",
+      "die Woche"
+    ],
+    "g": [
+      {
+        "w": "eine Absprache",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem.)"
+      },
+      {
+        "w": "jeden Montagmorgen",
+        "c": "Akk",
+        "n": "Zeitangabe → Akk"
+      },
+      {
+        "w": "für die Woche",
+        "c": "Akk",
+        "n": "für → immer Akk"
+      }
+    ]
+  },
+  {
+    "id": "759",
+    "de": "Ich weiß sehr zu schätzen, dass Sie mich da ernst genommen haben. [Vgt]",
+    "en": "I really appreciate that you took me seriously there.",
+    "cat": "work",
+    "g": [
+      {
+        "w": "mich",
+        "c": "Akk",
+        "n": "ernst nehmen + Akk"
+      }
+    ]
+  },
+  {
+    "id": "760",
+    "de": "Wir werden in den nächsten Wochen beobachten, wie es mit den neuen Abmachungen funktioniert.",
+    "en": "Over the next weeks we'll observe how it works with the new arrangements.",
+    "cat": "work",
+    "nouns": [
+      "die Woche",
+      "die Abmachung"
+    ],
+    "g": [
+      {
+        "w": "in den nächsten Wochen",
+        "c": "Dat",
+        "n": "in (Zeitraum) → Dat; Plural +n"
+      },
+      {
+        "w": "mit den neuen Abmachungen",
+        "c": "Dat",
+        "n": "mit → Dat; Plural +n"
+      }
+    ]
+  },
+  {
+    "id": "761",
+    "de": "Wir halten uns auf dem Laufenden.",
+    "en": "We'll keep each other posted. (sich auf dem Laufenden halten)",
+    "cat": "work",
+    "g": [
+      {
+        "w": "auf dem Laufenden",
+        "c": "Dat",
+        "n": "auf (wo?) → Dat"
+      }
+    ]
+  },
+  {
+    "id": "762",
+    "de": "Vielen Dank, dass Sie sich die Zeit genommen haben. [Vgt]",
+    "en": "Thank you very much for taking the time.",
+    "cat": "work",
+    "nouns": [
+      "die Zeit"
+    ],
+    "g": [
+      {
+        "w": "die Zeit",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem.)"
+      }
+    ]
+  },
+  {
+    "id": "763",
+    "de": "Wir könnten jemanden ins Boot holen.",
+    "en": "We could get someone on board. (Redewendung: jemanden ins Boot holen)",
+    "cat": "work",
+    "nouns": [
+      "das Boot"
+    ],
+    "g": [
+      {
+        "w": "jemanden",
+        "c": "Akk",
+        "n": "holen + Akk"
+      },
+      {
+        "w": "ins Boot",
+        "c": "Akk",
+        "n": "in (wohin?) → Akk"
+      }
+    ]
+  },
+  {
+    "id": "764",
+    "de": "In den letzten Monaten hatten wir viele neue Projekte und knappe Fristen. [Vgt]",
+    "en": "In recent months we had many new projects and tight deadlines.",
+    "cat": "work",
+    "nouns": [
+      "der Monat",
+      "das Projekt",
+      "die Frist"
+    ],
+    "g": [
+      {
+        "w": "In den letzten Monaten",
+        "c": "Dat",
+        "n": "in (Zeitraum) → Dat; Plural +n"
+      },
+      {
+        "w": "viele neue Projekte",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (Plural)"
+      }
+    ]
+  },
+  {
+    "id": "765",
+    "de": "Könnten Sie bitte ein konkretes Beispiel nennen?",
+    "en": "Could you please give a concrete example?",
+    "cat": "work",
+    "nouns": [
+      "das Beispiel"
+    ],
+    "g": [
+      {
+        "w": "ein konkretes Beispiel",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (neutr.)"
+      }
+    ]
+  },
+  {
+    "id": "766",
+    "de": "Um welches Projekt geht es?",
+    "en": "Which project is it about? (es geht um + Akk)",
+    "cat": "work",
+    "nouns": [
+      "das Projekt"
+    ],
+    "g": [
+      {
+        "w": "Um welches Projekt",
+        "c": "Akk",
+        "n": "um → immer Akk"
+      }
+    ]
+  },
+  {
+    "id": "767",
+    "de": "Wir können Sie hören.",
+    "en": "We can hear you. (e.g. on a call)",
+    "cat": "work",
+    "g": [
+      {
+        "w": "Sie",
+        "c": "Akk",
+        "n": "hören + Akk"
+      }
+    ]
+  },
+  {
+    "id": "768",
+    "de": "Dann werde ich die Termine versenden.",
+    "en": "Then I'll send out the appointments.",
+    "cat": "work",
+    "nouns": [
+      "der Termin"
+    ],
+    "g": [
+      {
+        "w": "die Termine",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (Plural)"
+      }
+    ]
   }
 ]

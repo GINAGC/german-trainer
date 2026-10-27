@@ -9166,5 +9166,141 @@
   {
     "g": "tagtäglich",
     "t": "día tras día (uso enfático/literario)"
+  },
+  {
+    "g": "probieren",
+    "t": "probar (comida, bebida)"
+  },
+  {
+    "g": "anprobieren",
+    "t": "probarse (ropa); verbo separable"
+  },
+  {
+    "g": "versuchen",
+    "t": "intentar"
+  },
+  {
+    "g": "erläutern",
+    "t": "explicar, aclarar"
+  },
+  {
+    "g": "auspacken",
+    "t": "desempacar"
+  },
+  {
+    "g": "nachvollziehen",
+    "t": "entender (poder seguir el razonamiento)"
+  },
+  {
+    "g": "sich zurechtfinden",
+    "t": "orientarse, ubicarse"
+  },
+  {
+    "g": "zurechtkommen",
+    "t": "arreglárselas, llevarse bien con"
+  },
+  {
+    "g": "einziehen",
+    "t": "mudarse (entrar a vivir)"
+  },
+  {
+    "g": "einschätzen",
+    "t": "evaluar, valorar"
+  },
+  {
+    "g": "beobachten",
+    "t": "observar"
+  },
+  {
+    "g": "die Vergütung, -en",
+    "t": "la remuneración"
+  },
+  {
+    "g": "der Bonus, -se",
+    "t": "el bono"
+  },
+  {
+    "g": "die Gehaltserhöhung, -en",
+    "t": "el aumento de sueldo"
+  },
+  {
+    "g": "die Geschäftsleitung",
+    "t": "la dirección, la gerencia"
+  },
+  {
+    "g": "die Deadline, -s",
+    "t": "la fecha límite"
+  },
+  {
+    "g": "die Erledigung, -en",
+    "t": "el pendiente, la gestión"
+  },
+  {
+    "g": "der Aufgabenbereich, -e",
+    "t": "el área de responsabilidades"
+  },
+  {
+    "g": "die Absprache, -n",
+    "t": "el acuerdo, la coordinación"
+  },
+  {
+    "g": "der Teamleiter, -",
+    "t": "el líder de equipo (die Teamleiterin)"
+  },
+  {
+    "g": "der Waschraum, ¨-e",
+    "t": "el cuarto de lavado"
+  },
+  {
+    "g": "die Wiederholung, -en",
+    "t": "la repetición"
+  },
+  {
+    "g": "der Gefallen, -",
+    "t": "el favor"
+  },
+  {
+    "g": "das Paket, -e",
+    "t": "el paquete"
+  },
+  {
+    "g": "die Ebene, -n",
+    "t": "el nivel, el plano"
+  },
+  {
+    "g": "langfristig",
+    "t": "a largo plazo"
+  },
+  {
+    "g": "kurzfristig",
+    "t": "a corto plazo, de último momento"
+  },
+  {
+    "g": "überlastet",
+    "t": "sobrecargado/a"
+  },
+  {
+    "g": "überfordert",
+    "t": "rebasado/a, abrumado/a"
+  },
+  {
+    "g": "vorschnell",
+    "t": "precipitado/a"
+  },
+  {
+    "g": "kompetent",
+    "t": "competente"
+  },
+  {
+    "g": "erschöpft",
+    "t": "agotado/a"
+  },
+  {
+    "g": "fachlich",
+    "t": "técnico, profesional (del área)"
+  },
+  {
+    "g": "am wichtigsten",
+    "t": "lo más importante"
   }
 ]
