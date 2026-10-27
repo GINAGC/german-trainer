@@ -4,11 +4,11 @@ import CategoryFilterBar from "../components/CategoryFilterBar";
 import RepeatCountControl from "../components/RepeatCountControl";
 import { speechText, chunkDetails } from "../lib/speechText";
 
-export default function Chunks({ chunks, toggleMastered, speaking, speak, playAll, stopAll, repeatCount, setRepeatCount }) {
+export default function Chunks({ chunks, toggleMastered, startNewest = false, speaking, speak, playAll, stopAll, repeatCount, setRepeatCount }) {
   const [cat, setCat] = useState("all");
   const [search, setSearch] = useState("");
   const [view, setView] = useState("active");
-  const [sortNewest, setSortNewest] = useState(false);
+  const [sortNewest, setSortNewest] = useState(startNewest);
 
   const total = chunks.length;
   const mCnt = chunks.filter((c) => c.mastered).length;

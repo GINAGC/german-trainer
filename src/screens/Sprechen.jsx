@@ -459,8 +459,8 @@ function TalkDrill({ pool, topic, ready, onActive }) {
   );
 }
 
-export default function Sprechen({ chunks, toggleMastered, speaking, speak, echoAll, stopAll }) {
-  const [mode, setMode] = useState("echo");
+export default function Sprechen({ chunks, toggleMastered, speaking, speak, echoAll, stopAll, initialMode = "echo" }) {
+  const [mode, setMode] = useState(initialMode);
   const [pool, setPool] = useState("active");
   const [cat, setCat] = useState("all");
   const [count, setCount] = useState(10);

@@ -6,10 +6,10 @@ export default function FloatingPlayer({ speaking, currentChunk, repeatCount, pa
   if (!speaking || !currentChunk) return null;
   const { nouns = [], g = [] } = currentChunk.details || {};
   return (
-    <div style={{ position: "fixed", bottom: 14, left: "50%", transform: "translateX(-50%)", background: "#1a1a1a", color: "#fff", borderRadius: 24, padding: "16px 16px", display: "flex", alignItems: "center", gap: 12, boxShadow: "0 4px 24px rgba(0,0,0,0.35)", width: "95vw", maxWidth: 540, maxHeight: "72vh", zIndex: 999 }}>
+    <div style={{ position: "fixed", bottom: "calc(76px + env(safe-area-inset-bottom))", left: "50%", transform: "translateX(-50%)", background: "#1a1a1a", color: "#fff", borderRadius: 24, padding: "16px 16px", display: "flex", alignItems: "center", gap: 12, boxShadow: "0 4px 24px rgba(0,0,0,0.35)", width: "95vw", maxWidth: 540, maxHeight: "62vh", zIndex: 999 }}>
       <button onClick={stopAll} style={{ ...roundBtn, color: "#fff", fontSize: 20 }}>⏹</button>
 
-      <div style={{ flex: 1, minWidth: 0, maxHeight: "calc(72vh - 32px)", overflowY: "auto" }}>
+      <div style={{ flex: 1, minWidth: 0, maxHeight: "calc(62vh - 32px)", overflowY: "auto" }}>
         <p style={{ margin: 0, fontSize: 12, color: currentChunk.phase === "repeat" ? "#fcd34d" : "#999", marginBottom: 6 }}>
           {currentChunk.idx ? `${currentChunk.idx} / ${currentChunk.total}${repeatCount > 1 && !currentChunk.phase ? ` · ${currentChunk.rep || 1}×` : ""}` : "Spielt"}
           {currentChunk.phase === "listen" && " · 👂 Hör zu"}

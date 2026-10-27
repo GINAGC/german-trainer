@@ -54,3 +54,38 @@ export function saveSpeakingProgress(obj) {
     console.error("storage save error (speaking):", e);
   }
 }
+
+const DAILY_KEY = "german_daily_chunks_v1";
+const USES_KEY = "german_chunk_uses_v1";
+
+export function loadDaily() {
+  try {
+    return JSON.parse(localStorage.getItem(DAILY_KEY)) || null;
+  } catch {
+    return null;
+  }
+}
+
+export function saveDaily(obj) {
+  try {
+    localStorage.setItem(DAILY_KEY, JSON.stringify(obj));
+  } catch (e) {
+    console.error("storage save error (daily):", e);
+  }
+}
+
+export function loadChunkUses() {
+  try {
+    return JSON.parse(localStorage.getItem(USES_KEY)) || {};
+  } catch {
+    return {};
+  }
+}
+
+export function saveChunkUses(obj) {
+  try {
+    localStorage.setItem(USES_KEY, JSON.stringify(obj));
+  } catch (e) {
+    console.error("storage save error (uses):", e);
+  }
+}
