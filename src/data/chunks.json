@@ -10757,11 +10757,6 @@
       "f": [
         "trennbar"
       ]
-    },
-    "dativ": {
-      "inf": "ausreichen",
-      "t": "ser suficiente",
-      "grp": "Nur Dativ"
     }
   },
   {
@@ -13587,6 +13582,709 @@
     "dativ": {
       "inf": "versprechen",
       "t": "prometer",
+      "grp": "Dativ + Akkusativ"
+    }
+  },
+  {
+    "id": "1031",
+    "de": "Mir genügt eine kurze Zusammenfassung.",
+    "en": "A short summary is enough for me.",
+    "cat": "verben",
+    "nouns": [
+      "die Zusammenfassung"
+    ],
+    "g": [
+      {
+        "w": "Mir",
+        "c": "Dat",
+        "n": "genügen + Dat"
+      }
+    ],
+    "dativ": {
+      "inf": "genügen",
+      "t": "ser suficiente, bastar",
+      "grp": "Nur Dativ"
+    }
+  },
+  {
+    "id": "1032",
+    "de": "Meine Kollegin assistiert dem Arzt bei der Untersuchung.",
+    "en": "My colleague assists the doctor during the examination.",
+    "cat": "verben",
+    "nouns": [
+      "die Kollegin",
+      "der Arzt",
+      "die Untersuchung"
+    ],
+    "g": [
+      {
+        "w": "dem Arzt",
+        "c": "Dat",
+        "n": "assistieren + Dat"
+      },
+      {
+        "w": "bei der Untersuchung",
+        "c": "Dat",
+        "n": "bei → immer Dat"
+      }
+    ],
+    "dativ": {
+      "inf": "assistieren",
+      "t": "asistir (ayudar a alguien en su trabajo)",
+      "grp": "Nur Dativ"
+    }
+  },
+  {
+    "id": "1033",
+    "de": "Ich möchte dem Sportverein beitreten.",
+    "en": "I'd like to join the sports club.",
+    "cat": "verben",
+    "nouns": [
+      "der Sportverein"
+    ],
+    "g": [
+      {
+        "w": "dem Sportverein",
+        "c": "Dat",
+        "n": "beitreten + Dat"
+      }
+    ],
+    "dativ": {
+      "inf": "beitreten",
+      "t": "unirse a, afiliarse a",
+      "grp": "Nur Dativ",
+      "n": "Perfekt mit sein."
+    }
+  },
+  {
+    "id": "1034",
+    "de": "Die Kinder laufen dem Eiswagen nach.",
+    "en": "The children run after the ice cream truck.",
+    "cat": "verben",
+    "nouns": [
+      "das Kind",
+      "der Eiswagen"
+    ],
+    "g": [
+      {
+        "w": "dem Eiswagen",
+        "c": "Dat",
+        "n": "nachlaufen + Dat"
+      }
+    ],
+    "dativ": {
+      "inf": "nachlaufen",
+      "t": "correr detrás de",
+      "grp": "Nur Dativ",
+      "n": "trennbar. Perfekt mit sein."
+    }
+  },
+  {
+    "id": "1035",
+    "de": "Seit dem Urlaub geht es mir wieder richtig gut.",
+    "en": "Since the vacation I've been feeling really good again.",
+    "cat": "verben",
+    "nouns": [
+      "der Urlaub"
+    ],
+    "g": [
+      {
+        "w": "mir",
+        "c": "Dat",
+        "n": "es geht + Dat (gut/schlecht)"
+      },
+      {
+        "w": "Seit dem Urlaub",
+        "c": "Dat",
+        "n": "seit → immer Dat"
+      }
+    ],
+    "dativ": {
+      "inf": "gehen (es geht mir gut)",
+      "t": "irle (bien / mal) a alguien",
+      "grp": "Nur Dativ",
+      "n": "¿Cómo estás? = Wie geht es dir? (el que se siente va en Dativ)"
+    }
+  },
+  {
+    "id": "1036",
+    "de": "Ein Spaziergang tut mir immer gut.",
+    "en": "A walk always does me good.",
+    "cat": "verben",
+    "nouns": [
+      "der Spaziergang"
+    ],
+    "g": [
+      {
+        "w": "mir",
+        "c": "Dat",
+        "n": "gut tun + Dat"
+      }
+    ],
+    "dativ": {
+      "inf": "guttun",
+      "t": "hacerle bien a alguien",
+      "grp": "Nur Dativ"
+    }
+  },
+  {
+    "id": "1037",
+    "de": "Der Chef hat mir mit einer Abmahnung gedroht. [Vgt]",
+    "en": "The boss threatened me with a formal warning.",
+    "cat": "verben",
+    "nouns": [
+      "der Chef",
+      "die Abmahnung"
+    ],
+    "g": [
+      {
+        "w": "mir",
+        "c": "Dat",
+        "n": "drohen + Dat"
+      },
+      {
+        "w": "mit einer Abmahnung",
+        "c": "Dat",
+        "n": "mit → immer Dat"
+      }
+    ],
+    "dativ": {
+      "inf": "drohen",
+      "t": "amenazar",
+      "grp": "Nur Dativ"
+    }
+  },
+  {
+    "id": "1038",
+    "de": "Sie vermutet, dass ihr Mann ihr fremdgeht.",
+    "en": "She suspects that her husband is cheating on her.",
+    "cat": "verben",
+    "nouns": [
+      "der Mann"
+    ],
+    "g": [
+      {
+        "w": "ihr",
+        "c": "Dat",
+        "n": "fremdgehen + Dat"
+      }
+    ],
+    "dativ": {
+      "inf": "fremdgehen",
+      "t": "ser infiel",
+      "grp": "Nur Dativ",
+      "n": "Perfekt mit sein."
+    }
+  },
+  {
+    "id": "1039",
+    "de": "Der Versuch ist ihm leider misslungen. [Vgt]",
+    "en": "Unfortunately the attempt failed for him.",
+    "cat": "verben",
+    "nouns": [
+      "der Versuch"
+    ],
+    "g": [
+      {
+        "w": "ihm",
+        "c": "Dat",
+        "n": "misslingen + Dat"
+      }
+    ],
+    "dativ": {
+      "inf": "misslingen",
+      "t": "salir mal, fracasar",
+      "grp": "Nur Dativ",
+      "n": "Perfekt mit sein."
+    }
+  },
+  {
+    "id": "1040",
+    "de": "Ich misstraue Verkäufern, die zu viel versprechen.",
+    "en": "I distrust salespeople who promise too much.",
+    "cat": "verben",
+    "nouns": [
+      "der Verkäufer"
+    ],
+    "g": [
+      {
+        "w": "Verkäufern",
+        "c": "Dat",
+        "n": "misstrauen + Dat; Plural +n"
+      }
+    ],
+    "dativ": {
+      "inf": "misstrauen",
+      "t": "desconfiar de",
+      "grp": "Nur Dativ"
+    }
+  },
+  {
+    "id": "1041",
+    "de": "Das Auto nähert sich langsam dem Haus.",
+    "en": "The car slowly approaches the house.",
+    "cat": "verben",
+    "nouns": [
+      "das Auto",
+      "das Haus"
+    ],
+    "g": [
+      {
+        "w": "dem Haus",
+        "c": "Dat",
+        "n": "sich nähern + Dat"
+      }
+    ],
+    "dativ": {
+      "inf": "sich nähern",
+      "t": "acercarse a",
+      "grp": "Nur Dativ",
+      "n": "Reflexivo (Akk) + Dativ: sich nähern + Dat."
+    }
+  },
+  {
+    "id": "1042",
+    "de": "Ich habe dem Angebot schon zugesagt. [Vgt]",
+    "en": "I've already accepted the offer.",
+    "cat": "verben",
+    "nouns": [
+      "das Angebot"
+    ],
+    "g": [
+      {
+        "w": "dem Angebot",
+        "c": "Dat",
+        "n": "zusagen + Dat"
+      }
+    ],
+    "dativ": {
+      "inf": "zusagen",
+      "t": "aceptar, confirmar (una invitación)",
+      "grp": "Nur Dativ"
+    }
+  },
+  {
+    "id": "1043",
+    "de": "Darf ich dir beim Kochen zusehen?",
+    "en": "May I watch you cook?",
+    "cat": "verben",
+    "g": [
+      {
+        "w": "dir",
+        "c": "Dat",
+        "n": "zusehen + Dat"
+      },
+      {
+        "w": "beim Kochen",
+        "c": "Dat",
+        "n": "bei → immer Dat (bei dem)"
+      }
+    ],
+    "dativ": {
+      "inf": "zusehen",
+      "t": "mirar (a alguien hacer algo)",
+      "grp": "Nur Dativ"
+    }
+  },
+  {
+    "id": "1044",
+    "de": "Wir schauen den Kindern beim Spielen zu.",
+    "en": "We're watching the children play.",
+    "cat": "verben",
+    "nouns": [
+      "das Kind"
+    ],
+    "g": [
+      {
+        "w": "den Kindern",
+        "c": "Dat",
+        "n": "zuschauen + Dat; Plural +n"
+      },
+      {
+        "w": "beim Spielen",
+        "c": "Dat",
+        "n": "bei → immer Dat (bei dem)"
+      }
+    ],
+    "dativ": {
+      "inf": "zuschauen",
+      "t": "mirar, observar",
+      "grp": "Nur Dativ"
+    }
+  },
+  {
+    "id": "1045",
+    "de": "Ich musste einem Radfahrer ausweichen. [Vgt]",
+    "en": "I had to swerve to avoid a cyclist.",
+    "cat": "verben",
+    "nouns": [
+      "der Radfahrer"
+    ],
+    "g": [
+      {
+        "w": "einem Radfahrer",
+        "c": "Dat",
+        "n": "ausweichen + Dat"
+      }
+    ],
+    "dativ": {
+      "inf": "ausweichen",
+      "t": "esquivar, hacerse a un lado",
+      "grp": "Nur Dativ",
+      "n": "Perfekt mit sein."
+    }
+  },
+  {
+    "id": "1046",
+    "de": "Der Kapitän befiehlt der Mannschaft, den Hafen zu verlassen.",
+    "en": "The captain orders the crew to leave the harbour.",
+    "cat": "verben",
+    "nouns": [
+      "der Kapitän",
+      "die Mannschaft",
+      "der Hafen"
+    ],
+    "g": [
+      {
+        "w": "der Mannschaft",
+        "c": "Dat",
+        "n": "befehlen + Dat"
+      },
+      {
+        "w": "den Hafen",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ],
+    "dativ": {
+      "inf": "befehlen",
+      "t": "ordenar",
+      "grp": "Nur Dativ"
+    }
+  },
+  {
+    "id": "1047",
+    "de": "Meine Freunde sind mir in der schweren Zeit beigestanden. [Vgt]",
+    "en": "My friends stood by me in the difficult time.",
+    "cat": "verben",
+    "nouns": [
+      "der Freund",
+      "die Zeit"
+    ],
+    "g": [
+      {
+        "w": "mir",
+        "c": "Dat",
+        "n": "beistehen + Dat"
+      },
+      {
+        "w": "in der schweren Zeit",
+        "c": "Dat",
+        "n": "in (wo?) → Dat (Zeitraum)"
+      }
+    ],
+    "dativ": {
+      "inf": "beistehen",
+      "t": "apoyar, estar al lado de",
+      "grp": "Nur Dativ",
+      "n": "trennbar."
+    }
+  },
+  {
+    "id": "1048",
+    "de": "Ich komme dir bei der Miete etwas entgegen.",
+    "en": "I'll meet you halfway on the rent.",
+    "cat": "verben",
+    "nouns": [
+      "die Miete"
+    ],
+    "g": [
+      {
+        "w": "dir",
+        "c": "Dat",
+        "n": "entgegenkommen + Dat"
+      },
+      {
+        "w": "bei der Miete",
+        "c": "Dat",
+        "n": "bei → immer Dat"
+      }
+    ],
+    "dativ": {
+      "inf": "entgegenkommen",
+      "t": "venir al encuentro; ceder, ser flexible",
+      "grp": "Nur Dativ",
+      "n": "trennbar. Perfekt mit sein."
+    }
+  },
+  {
+    "id": "1049",
+    "de": "Sie geht ihrem Besuch bis zum Bahnhof entgegen.",
+    "en": "She walks toward her visitor as far as the station.",
+    "cat": "verben",
+    "nouns": [
+      "der Besuch",
+      "der Bahnhof"
+    ],
+    "g": [
+      {
+        "w": "ihrem Besuch",
+        "c": "Dat",
+        "n": "entgegengehen + Dat"
+      },
+      {
+        "w": "zum Bahnhof",
+        "c": "Dat",
+        "n": "zu → immer Dat (zu dem)"
+      }
+    ],
+    "dativ": {
+      "inf": "entgegengehen",
+      "t": "ir al encuentro de",
+      "grp": "Nur Dativ",
+      "n": "trennbar. Perfekt mit sein."
+    }
+  },
+  {
+    "id": "1050",
+    "de": "Wir fahren unseren Gästen mit dem Auto entgegen.",
+    "en": "We drive out to meet our guests by car.",
+    "cat": "verben",
+    "nouns": [
+      "der Gast",
+      "das Auto"
+    ],
+    "g": [
+      {
+        "w": "unseren Gästen",
+        "c": "Dat",
+        "n": "entgegenfahren + Dat; Plural +n"
+      },
+      {
+        "w": "mit dem Auto",
+        "c": "Dat",
+        "n": "mit → immer Dat"
+      }
+    ],
+    "dativ": {
+      "inf": "entgegenfahren",
+      "t": "salir al encuentro (en vehículo)",
+      "grp": "Nur Dativ",
+      "n": "trennbar. Perfekt mit sein."
+    }
+  },
+  {
+    "id": "1051",
+    "de": "Sie winkt ihren Freunden vom Balkon aus zu.",
+    "en": "She waves to her friends from the balcony.",
+    "cat": "verben",
+    "nouns": [
+      "der Freund",
+      "der Balkon"
+    ],
+    "g": [
+      {
+        "w": "ihren Freunden",
+        "c": "Dat",
+        "n": "zuwinken + Dat; Plural +n"
+      },
+      {
+        "w": "vom Balkon",
+        "c": "Dat",
+        "n": "von → immer Dat"
+      }
+    ],
+    "dativ": {
+      "inf": "winken",
+      "t": "saludar con la mano",
+      "grp": "Nur Dativ"
+    }
+  },
+  {
+    "id": "1052",
+    "de": "Kannst du mir diese Frage bis morgen beantworten?",
+    "en": "Can you answer this question for me by tomorrow?",
+    "cat": "verben",
+    "nouns": [
+      "die Frage"
+    ],
+    "g": [
+      {
+        "w": "mir",
+        "c": "Dat",
+        "n": "Person → Dativ"
+      },
+      {
+        "w": "diese Frage",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem.)"
+      }
+    ],
+    "dativ": {
+      "inf": "beantworten",
+      "t": "contestar (a alguien)",
+      "grp": "Dativ + Akkusativ"
+    }
+  },
+  {
+    "id": "1053",
+    "de": "Mein Opa hat mir das Schachspielen beigebracht. [Vgt]",
+    "en": "My grandpa taught me to play chess.",
+    "cat": "verben",
+    "nouns": [
+      "der Opa",
+      "das Schachspielen"
+    ],
+    "g": [
+      {
+        "w": "mir",
+        "c": "Dat",
+        "n": "Person → Dativ"
+      },
+      {
+        "w": "das Schachspielen",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (neutr.)"
+      }
+    ],
+    "dativ": {
+      "inf": "beibringen",
+      "t": "enseñar (una habilidad)",
+      "grp": "Dativ + Akkusativ",
+      "n": "trennbar."
+    }
+  },
+  {
+    "id": "1054",
+    "de": "Sie hat ihrer besten Freundin ihr Geheimnis anvertraut. [Vgt]",
+    "en": "She confided her secret to her best friend.",
+    "cat": "verben",
+    "nouns": [
+      "die Freundin",
+      "das Geheimnis"
+    ],
+    "g": [
+      {
+        "w": "ihrer besten Freundin",
+        "c": "Dat",
+        "n": "Person → Dativ"
+      },
+      {
+        "w": "ihr Geheimnis",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (neutr.)"
+      }
+    ],
+    "dativ": {
+      "inf": "anvertrauen",
+      "t": "confiar (un secreto)",
+      "grp": "Dativ + Akkusativ",
+      "n": "trennbar."
+    }
+  },
+  {
+    "id": "1055",
+    "de": "Ich möchte mir das Naschen abgewöhnen.",
+    "en": "I'd like to get out of the habit of snacking.",
+    "cat": "verben",
+    "nouns": [
+      "das Naschen"
+    ],
+    "g": [
+      {
+        "w": "mir",
+        "c": "Dat",
+        "n": "Reflexiv Dat (sich etwas abgewöhnen)"
+      },
+      {
+        "w": "das Naschen",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (neutr.)"
+      }
+    ],
+    "dativ": {
+      "inf": "abgewöhnen",
+      "t": "quitarse un hábito",
+      "grp": "Dativ + Akkusativ",
+      "n": "trennbar."
+    }
+  },
+  {
+    "id": "1056",
+    "de": "Nach dem Stress gönne ich mir ein freies Wochenende.",
+    "en": "After the stress I'm treating myself to a free weekend.",
+    "cat": "verben",
+    "nouns": [
+      "der Stress",
+      "das Wochenende"
+    ],
+    "g": [
+      {
+        "w": "mir",
+        "c": "Dat",
+        "n": "Reflexiv Dat (sich etwas gönnen)"
+      },
+      {
+        "w": "ein freies Wochenende",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (neutr.)"
+      }
+    ],
+    "dativ": {
+      "inf": "gönnen",
+      "t": "permitirse, darse el gusto",
+      "grp": "Dativ + Akkusativ"
+    }
+  },
+  {
+    "id": "1057",
+    "de": "Soll ich dir einen Kaffee holen?",
+    "en": "Shall I get you a coffee?",
+    "cat": "verben",
+    "nouns": [
+      "der Kaffee"
+    ],
+    "g": [
+      {
+        "w": "dir",
+        "c": "Dat",
+        "n": "Person → Dativ"
+      },
+      {
+        "w": "einen Kaffee",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ],
+    "dativ": {
+      "inf": "holen",
+      "t": "ir a traer",
+      "grp": "Dativ + Akkusativ"
+    }
+  },
+  {
+    "id": "1058",
+    "de": "Sie hat ihm den Streit längst vergeben. [Vgt]",
+    "en": "She forgave him the quarrel long ago.",
+    "cat": "verben",
+    "nouns": [
+      "der Streit"
+    ],
+    "g": [
+      {
+        "w": "ihm",
+        "c": "Dat",
+        "n": "Person → Dativ"
+      },
+      {
+        "w": "den Streit",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ],
+    "dativ": {
+      "inf": "vergeben",
+      "t": "perdonar (más formal)",
       "grp": "Dativ + Akkusativ"
     }
   }
