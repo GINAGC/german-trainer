@@ -27,8 +27,13 @@ A bottom navigation bar with five areas:
   **Echo** (hear a chunk, then a pause to repeat it aloud),
   **Übersetzen** (see the translation, say the German aloud, reveal, rate
   yourself automatisch / gezögert / nicht gewusst; 3× automatisch in a row
-  offers to mark a chunk mastered) and **4/3/2** (talk about one topic three
-  times in shrinking time, with 5–8 related chunks kept on screen).
+  offers to mark a chunk mastered), **4/3/2** (talk about one topic three
+  times in shrinking time, with 5–8 related chunks kept on screen),
+  **Selbstgespräch** (10 minutes a day: three 2-minute exercises from a
+  weekly plan – commentator, daily recap, opinion, role-play, explanation –
+  with prompts, connectors, "rescue" phrases and a notebook for missing
+  words) and **Register-Drill** (the same message said formally, neutrally
+  and colloquially).
 - **Grammatik** — reference pages: **Tabellen** (articles by case,
   pronouns, Akk vs. Dat), **Genus-Regeln**, **Deklination**,
   **Verben & Satzbau** (tenses, modal verbs, modal particles, concessive

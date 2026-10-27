@@ -98,8 +98,8 @@ export default function Heute({ chunks, daily, aCnt, mCnt, total, pct, speaking,
 
       <div style={sectionTitle}><span>Jetzt üben</span></div>
       <div style={{ display: "flex", gap: 8 }}>
-        <Tile bg="#FBEAF0" color="#4B1528" icon="🔁" title="Echo" sub="Hören und nachsprechen" onClick={() => goto("sprechen", { mode: "echo" })} />
-        <Tile bg="#E6F1FB" color="#042C53" icon="💬" title="Übersetzen" sub="Übersetzen und bewerten" onClick={() => goto("sprechen", { mode: "translate" })} />
+        <Tile bg="#FBEAF0" color="#4B1528" icon="🎙" title="Selbstgespräch" sub="10 Min laut sprechen" onClick={() => goto("sprechen", { mode: "self" })} />
+        <Tile bg="#E6F1FB" color="#042C53" icon="🔁" title="Echo" sub="Hören und nachsprechen" onClick={() => goto("sprechen", { mode: "echo" })} />
       </div>
 
       <div style={sectionTitle}>

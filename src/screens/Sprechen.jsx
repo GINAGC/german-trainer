@@ -4,43 +4,16 @@ import ChunkCard from "../components/ChunkCard";
 import { speechText, chunkDetails } from "../lib/speechText";
 import { genderColorForNoun } from "../lib/colors";
 import { AUTO_TARGET, useSpeakingProgress } from "../hooks/useSpeakingProgress";
+import { pill, label, primaryBtn, shuffle, Chips, fmtTime, beep } from "../components/sprechenUi";
+import Selbstgespraech from "./Selbstgespraech";
+import RegisterDrill from "./RegisterDrill";
 
 const CM = Object.fromEntries(categories.map((c) => [c.id, c]));
-
-const pill = (on, accent = "#999", bg = "#f0f0f0") => ({
-  cursor: "pointer", borderRadius: 20, padding: "4px 11px", fontSize: 12,
-  border: `1px solid ${on ? accent : "#ddd"}`, background: on ? bg : "transparent",
-  fontWeight: on ? 500 : 400, color: on ? "#111" : "#666",
-});
-const label = { fontSize: 11, color: "#aaa", margin: "0 0 5px" };
-const primaryBtn = (bg) => ({
-  cursor: "pointer", border: "none", borderRadius: 12, padding: "12px 18px", fontSize: 15, fontWeight: 600,
-  background: bg, color: "#fff", width: "100%",
-});
-
-function shuffle(arr) {
-  const a = [...arr];
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
-  return a;
-}
 
 // English/Spanish prompt without the study notes: "[R] ..." tags and "(past)" asides.
 function promptText(en) {
   const t = en.replace(/^\[[^\]]*\]\s*/, "").replace(/\s*\([^)]*\)/g, "").replace(/\s{2,}/g, " ").trim();
   return t || en;
-}
-
-function Chips({ options, value, onChange }) {
-  return (
-    <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
-      {options.map(([v, l]) => (
-        <button key={String(v)} onClick={() => onChange(v)} style={pill(value === v)}>{l}</button>
-      ))}
-    </div>
-  );
 }
 
 function TranslateDrill({ pool, byId, count, progress, rate, speaking, speak, stopAll, toggleMastered, onActive }) {
@@ -189,24 +162,7 @@ function TranslateDrill({ pool, byId, count, progress, rate, speaking, speak, st
 }
 
 const TALK_PLANS = { short: [120, 90, 60], classic: [240, 180, 120] };
-const fmtTime = (s) => `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`;
 const SELF = [["😬", "Viele Pausen"], ["🙂", "Ging so"], ["🚀", "Flüssig"]];
-
-function beep(ctx) {
-  try {
-    if (!ctx) return;
-    const o = ctx.createOscillator();
-    const g = ctx.createGain();
-    o.connect(g);
-    g.connect(ctx.destination);
-    o.frequency.value = 880;
-    g.gain.value = 0.2;
-    o.start();
-    o.stop(ctx.currentTime + 0.5);
-  } catch {
-    /* the visual cue still shows */
-  }
-}
 
 const STOP = new Set(("ich du er sie es wir ihr der die das den dem des ein eine einen einem einer und oder aber nicht ist sind war bin " +
   "habe hat haben hatte mit für auf in im zu zum zur von vom bei nach wie was wann wo dass weil wenn mir mich dir dich uns sich mein meine " +
@@ -459,7 +415,7 @@ function TalkDrill({ pool, topic, ready, onActive }) {
   );
 }
 
-export default function Sprechen({ chunks, toggleMastered, speaking, speak, echoAll, stopAll, initialMode = "echo" }) {
+export default function Sprechen({ chunks, toggleMastered, speaking, speak, playAll, echoAll, stopAll, initialMode = "echo" }) {
   const [mode, setMode] = useState(initialMode);
   const [pool, setPool] = useState("active");
   const [cat, setCat] = useState("all");
@@ -512,18 +468,20 @@ export default function Sprechen({ chunks, toggleMastered, speaking, speak, echo
           Vom Wissen zum Können: erst hören und nachsprechen, dann aus dem Kopf.
         </p>
 
-        <div style={{ display: "flex", gap: 6, marginBottom: 14 }}>
-          {[["echo", "🔁 Echo"], ["translate", "💬 Übersetzen"], ["talk", "⏱ 4/3/2"]].map(([m, l]) => (
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(6, 1fr)", gap: 6, marginBottom: 14 }}>
+          {[["echo", "🔁 Echo", 2], ["translate", "💬 Übersetzen", 2], ["talk", "⏱ 4/3/2", 2], ["self", "🎙 Selbstgespräch", 3], ["register", "🎭 Register", 3]].map(([m, l, span]) => (
             <button
               key={m}
-              onClick={() => { if (speaking === "echo") stopAll(); setMode(m); }}
-              style={{ ...pill(mode === m, "#D4537E", "#FBEAF0"), flex: 1, padding: "8px 4px" }}
+              onClick={() => { if (speaking) stopAll(); setMode(m); }}
+              style={{ ...pill(mode === m, "#D4537E", "#FBEAF0"), gridColumn: `span ${span}`, padding: "8px 2px", whiteSpace: "nowrap" }}
             >
               {l}
             </button>
           ))}
         </div>
 
+        {["echo", "translate", "talk"].includes(mode) && (
+          <>
         <p style={label}>Material</p>
         <Chips
           options={[["active", `Aktiv (${poolCounts.active})`], ["mastered", `Gemeistert (${poolCounts.mastered})`], ["all", `Alle (${poolCounts.all})`]]}
@@ -550,6 +508,8 @@ export default function Sprechen({ chunks, toggleMastered, speaking, speak, echo
             <div style={{ marginBottom: 14 }}>
               <Chips options={[[10, "10"], [20, "20"], [0, "Alle"]]} value={count} onChange={setCount} />
             </div>
+          </>
+        )}
           </>
         )}
         </>
@@ -583,6 +543,10 @@ export default function Sprechen({ chunks, toggleMastered, speaking, speak, echo
           speaking={speaking} speak={speak} stopAll={stopAll} toggleMastered={toggleMastered}
           onActive={setDrillActive}
         />
+      ) : mode === "self" ? (
+        <Selbstgespraech onActive={setDrillActive} />
+      ) : mode === "register" ? (
+        <RegisterDrill speaking={speaking} speak={speak} playAll={playAll} stopAll={stopAll} onActive={setDrillActive} />
       ) : (
         <TalkDrill
           pool={poolList} ready={cat !== "all" && poolList.length >= 3}

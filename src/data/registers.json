@@ -1,0 +1,170 @@
+[
+  {
+    "id": "1",
+    "es": "No tengo tiempo hoy.",
+    "en": "I have no time today.",
+    "formal": "Es tut mir leid, ich habe heute keine Zeit.",
+    "neutral": "Ich hab heute leider keine Zeit.",
+    "casual": "Heute geht gar nichts, sorry!"
+  },
+  {
+    "id": "2",
+    "es": "Pedir ayuda.",
+    "en": "Asking for help.",
+    "formal": "Könnten Sie mir bitte kurz helfen?",
+    "neutral": "Kannst du mir kurz helfen?",
+    "casual": "Hilfst du mir mal 'ne Sekunde?"
+  },
+  {
+    "id": "3",
+    "es": "Es una buena idea.",
+    "en": "That's a good idea.",
+    "formal": "Das halte ich für eine sehr gute Idee.",
+    "neutral": "Das ist eine gute Idee.",
+    "casual": "Mega Idee!"
+  },
+  {
+    "id": "4",
+    "es": "No entiendo la tarea.",
+    "en": "I don't understand the task.",
+    "formal": "Ich habe die Aufgabe leider nicht verstanden.",
+    "neutral": "Ich verstehe die Aufgabe nicht.",
+    "casual": "Ich check die Aufgabe nicht."
+  },
+  {
+    "id": "5",
+    "es": "Nos vemos mañana.",
+    "en": "See you tomorrow.",
+    "formal": "Ich freue mich auf unser Treffen morgen.",
+    "neutral": "Wir sehen uns morgen.",
+    "casual": "Bis morgen, ne?"
+  },
+  {
+    "id": "6",
+    "es": "Estoy cansado/a.",
+    "en": "I'm tired.",
+    "formal": "Ich bin heute etwas erschöpft.",
+    "neutral": "Ich bin ziemlich müde.",
+    "casual": "Ich bin total platt."
+  },
+  {
+    "id": "7",
+    "es": "Estoy de acuerdo.",
+    "en": "I agree.",
+    "formal": "Damit bin ich einverstanden.",
+    "neutral": "Das passt für mich.",
+    "casual": "Geht klar!"
+  },
+  {
+    "id": "8",
+    "es": "¿Puede repetirlo?",
+    "en": "Could you repeat that?",
+    "formal": "Könnten Sie das bitte wiederholen?",
+    "neutral": "Kannst du das noch mal sagen?",
+    "casual": "Sorry, was?"
+  },
+  {
+    "id": "9",
+    "es": "Ofrecer un café.",
+    "en": "Offering a coffee.",
+    "formal": "Darf ich Ihnen einen Kaffee anbieten?",
+    "neutral": "Willst du einen Kaffee?",
+    "casual": "Magst 'n Kaffee?"
+  },
+  {
+    "id": "10",
+    "es": "Disculparse por llegar tarde.",
+    "en": "Apologising for being late.",
+    "formal": "Bitte entschuldigen Sie die Verspätung.",
+    "neutral": "Sorry, dass ich zu spät bin.",
+    "casual": "Sorry, bin spät dran!"
+  },
+  {
+    "id": "11",
+    "es": "¿A qué te dedicas?",
+    "en": "What do you do for a living?",
+    "formal": "In welchem Bereich sind Sie tätig?",
+    "neutral": "Was machst du beruflich?",
+    "casual": "Und, was machst du so?"
+  },
+  {
+    "id": "12",
+    "es": "Pedir la cuenta.",
+    "en": "Asking for the bill.",
+    "formal": "Könnten wir bitte zahlen?",
+    "neutral": "Wir würden gern zahlen.",
+    "casual": "Zahlen, bitte!"
+  },
+  {
+    "id": "13",
+    "es": "Cambiar la cita.",
+    "en": "Postponing the appointment.",
+    "formal": "Dürfte ich den Termin verschieben?",
+    "neutral": "Können wir den Termin verschieben?",
+    "casual": "Können wir das auf morgen schieben?"
+  },
+  {
+    "id": "14",
+    "es": "Es muy caro.",
+    "en": "That's very expensive.",
+    "formal": "Der Preis erscheint mir recht hoch.",
+    "neutral": "Das ist ziemlich teuer.",
+    "casual": "Das kostet 'ne Stange Geld!"
+  },
+  {
+    "id": "15",
+    "es": "Me da igual.",
+    "en": "I don't care.",
+    "formal": "Das ist für mich nicht von Belang.",
+    "neutral": "Das ist mir egal.",
+    "casual": "Ist mir wurscht."
+  },
+  {
+    "id": "16",
+    "es": "Dar las gracias.",
+    "en": "Saying thanks.",
+    "formal": "Ich danke Ihnen herzlich für Ihre Unterstützung.",
+    "neutral": "Danke für deine Hilfe.",
+    "casual": "Danke dir, du bist super!"
+  },
+  {
+    "id": "17",
+    "es": "¿Cómo estás?",
+    "en": "How are you?",
+    "formal": "Wie geht es Ihnen?",
+    "neutral": "Wie geht's dir?",
+    "casual": "Na, alles klar bei dir?"
+  },
+  {
+    "id": "18",
+    "es": "No tengo ni idea.",
+    "en": "I have no idea.",
+    "formal": "Dazu kann ich leider nichts sagen.",
+    "neutral": "Das weiß ich nicht.",
+    "casual": "Keine Ahnung!"
+  },
+  {
+    "id": "19",
+    "es": "Tengo mucho trabajo.",
+    "en": "I'm very busy.",
+    "formal": "Ich bin derzeit stark ausgelastet.",
+    "neutral": "Ich habe gerade viel zu tun.",
+    "casual": "Ich hab viel um die Ohren."
+  },
+  {
+    "id": "20",
+    "es": "Despedirse.",
+    "en": "Saying goodbye / leaving.",
+    "formal": "Ich muss mich leider verabschieden.",
+    "neutral": "Ich muss jetzt los.",
+    "casual": "Ich hau dann mal ab."
+  },
+  {
+    "id": "21",
+    "es": "Espera un momento.",
+    "en": "Wait a moment.",
+    "formal": "Einen Moment bitte, ich bin gleich bei Ihnen.",
+    "neutral": "Warte kurz, ich bin gleich da.",
+    "casual": "Sekunde, bin gleich da!"
+  }
+]

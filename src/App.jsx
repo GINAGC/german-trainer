@@ -66,7 +66,7 @@ export default function App() {
         <Sprechen
           key={sprechenMode} initialMode={sprechenMode}
           chunks={chunks} toggleMastered={toggleMastered}
-          speaking={speech.speaking} speak={speech.speak} echoAll={speech.echoAll} stopAll={speech.stopAll}
+          speaking={speech.speaking} speak={speech.speak} playAll={speech.playAll} echoAll={speech.echoAll} stopAll={speech.stopAll}
         />
       )}
 
