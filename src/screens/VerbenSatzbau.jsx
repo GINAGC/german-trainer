@@ -139,6 +139,9 @@ export default function VerbenSatzbau() {
           ["mal", "macht Aufforderungen weich", "Meld dich mal! · Sag mal …"],
           ["doch", "freundlicher Vorschlag", "Schreib mir doch!"],
           ["eigentlich", "beiläufige Frage", "Was macht eigentlich Anna?"],
+          ["halt / eben", "so ist es nun mal – nicht zu ändern", "Das ist halt so. · Dann eben morgen."],
+          ["schon", "beruhigt oder gibt mit Einschränkung recht", "Das klappt schon. · Das stimmt schon, aber …"],
+          ["wohl", "Vermutung", "Er ist wohl krank."],
         ].map(([word, fn, bsp]) => (
           <div key={word} style={{ border: "1px solid #e5e5e5", borderRadius: 8, padding: "7px 10px", display: "flex", alignItems: "baseline", gap: 8, flexWrap: "wrap" }}>
             <span style={{ fontSize: 13, fontWeight: 700, color: "#3c3489" }}>{word}</span>
@@ -146,6 +149,31 @@ export default function VerbenSatzbau() {
             <span style={{ fontSize: 12, color: "#444", fontStyle: "italic", marginLeft: "auto" }}>{bsp}</span>
           </div>
         ))}
+      </div>
+      <p style={{ fontSize: 11, color: "#888", margin: "14px 0 6px", fontWeight: 600 }}>Kombinationen — die Reihenfolge ist fest, lerne sie als Paket</p>
+      <div style={{ overflowX: "auto", marginBottom: 8 }}>
+        <table style={{ borderCollapse: "collapse", fontSize: 11, minWidth: 360, width: "100%" }}>
+          <tbody>
+            {[
+              ["doch mal", "Probier es doch mal aus!"],
+              ["ja wohl", "Das ist ja wohl ein Witz!"],
+              ["halt mal", "Dann frag halt mal deinen Chef."],
+              ["denn eigentlich", "Was machst du denn eigentlich beruflich?"],
+              ["ja schon", "Das ist ja schon ziemlich teuer."],
+            ].map(([combo, bsp]) => (
+              <tr key={combo}>
+                <td style={{ ...rowH, color: "#3c3489", whiteSpace: "nowrap" }}>{combo}</td>
+                <td style={{ ...td, fontStyle: "italic", color: "#555" }}>{bsp}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <div style={{ border: "1px solid #f3d6d6", background: "#fff8f8", borderRadius: 8, padding: "9px 12px", fontSize: 12, lineHeight: 1.8, color: "#555", margin: "8px 0" }}>
+        <b style={{ color: "#a33" }}>Typische Fehler</b><br />
+        ❌ <u>Doch</u> komm mit! → ✅ Komm <b>doch</b> mit! <span style={{ color: "#aaa" }}>(Partikeln stehen nie auf Position 1)</span><br />
+        ❌ Ich habe ja doch halt eben keine Zeit. → ✅ Ich habe <b>halt</b> keine Zeit. <span style={{ color: "#aaa" }}>(eine oder zwei genügen)</span><br />
+        ⚠️ Im formellen Schreiben (Bewerbung, Essay) kaum benutzen. <b>halt</b> ist locker – beim Chef ist <b>eben</b> sicherer.
       </div>
       <p style={{ fontSize: 12, background: "#fafafb", borderLeft: "3px solid #d8d8dd", padding: "9px 12px", margin: "8px 0 24px", borderRadius: "0 6px 6px 0", lineHeight: 1.55, color: "#555" }}>
         <b>Übung:</b> Sprich jeden Satz einmal ohne und einmal mit Partikel. Du hörst den Unterschied sofort.
@@ -228,6 +256,53 @@ export default function VerbenSatzbau() {
           </div>
         ))}
       </div>
+
+      <p style={{ ...sectionLabel, marginTop: 8 }}>15 typische B1-Fehler</p>
+      <p style={{ fontSize: 12, color: "#666", lineHeight: 1.55, margin: "0 0 10px" }}>
+        Diese Fehler hören Muttersprachler sofort – sie sind nicht schlimm, aber sie verraten B1. Trainiere pro Woche nur <b>einen</b> davon weg.
+      </p>
+      <div style={{ overflowX: "auto", marginBottom: 8 }}>
+        <table style={{ borderCollapse: "collapse", fontSize: 11, width: "100%", tableLayout: "fixed" }}>
+          <colgroup><col style={{ width: "9%" }} /><col style={{ width: "29%" }} /><col style={{ width: "29%" }} /><col style={{ width: "33%" }} /></colgroup>
+          <thead>
+            <tr>
+              <th style={{ ...th, background: "#f5f5f5", color: "#555" }}>#</th>
+              <th style={{ ...th, background: "#fdeaea", color: "#a33" }}>Falsch</th>
+              <th style={{ ...th, background: "#e8f5e9", color: "#1b5e20" }}>Richtig</th>
+              <th style={{ ...th, background: "#f5f5f5", color: "#555", textAlign: "left" }}>Regel</th>
+            </tr>
+          </thead>
+          <tbody>
+            {[
+              ["Gestern ich bin ins Kino gegangen.", "Gestern bin ich ins Kino gegangen.", "Verb auf Position 2, auch nach einer Zeitangabe.", "Ayer yo fui…"],
+              ["…, weil ich habe keine Zeit.", "…, weil ich keine Zeit habe.", "weil → Verb ans Ende des Nebensatzes.", ""],
+              ["Wenn ich klein war, …", "Als ich klein war, …", "als = einmalig in der Vergangenheit; wenn = wiederholt / Gegenwart / Zukunft.", "cuando"],
+              ["Ich bin 30 Jahre.", "Ich bin 30 Jahre alt.", "Fester Ausdruck: Jahre alt sein.", "tengo 30 años"],
+              ["Ich bin kalt.", "Mir ist kalt.", "Körpergefühl mit Dativ.", "tengo frío"],
+              ["Ich warte für dich.", "Ich warte auf dich.", "warten auf + Akk – feste Präposition.", "espero a ti"],
+              ["Ich wohne in Deutschland seit 2 Jahren.", "Ich wohne seit 2 Jahren in Deutschland.", "Zeit vor Ort: te-ka-mo-lo (temporal, kausal, modal, lokal).", ""],
+              ["Das Mädchen, die …", "Das Mädchen, das …", "Relativpronomen = Genus des Bezugsworts.", ""],
+              ["Ich gehe zu Hause.", "Ich gehe nach Hause. / Ich bin zu Hause.", "Wohin? → nach Hause. Wo? → zu Hause.", ""],
+              ["Ich mache eine Entscheidung.", "Ich treffe eine Entscheidung.", "Nomen-Verb-Verbindung – das Verb ist fest (siehe Tab Verben).", "tomar una decisión"],
+              ["Ich habe mit ihm gesprochen über das.", "Ich habe darüber mit ihm gesprochen.", "Sachen: da(r) + Präposition (darüber, dafür, damit …).", ""],
+              ["Ich kenne nicht ihn.", "Ich kenne ihn nicht.", "nicht steht (meist) am Ende.", ""],
+              ["Ich will, dass du kommst morgen.", "Ich will, dass du morgen kommst.", "dass-Satz: Verb am Ende.", ""],
+              ["Ich freue mich für das Wochenende.", "Ich freue mich auf das Wochenende.", "auf = Zukunft, über = Gegenwart / Vergangenheit.", ""],
+              ["Ich habe viel Spaß gemacht.", "Es hat mir viel Spaß gemacht.", "Die Sache macht Spaß, nicht die Person.", ""]
+            ].map(([bad, good, rule, es], i) => (
+              <tr key={i}>
+                <td style={{ ...tdC, color: "#888", padding: "7px 2px" }}>{i + 1}</td>
+                <td style={{ ...td, color: "#a33", textDecoration: "line-through", textDecorationColor: "#e8a0a0" }}>{bad}</td>
+                <td style={{ ...td, fontWeight: 600, color: "#1b5e20" }}>{good}</td>
+                <td style={td}>{rule}{es && <span style={{ display: "block", color: "#7a4f00", fontSize: 10 }}>Spanisch: {es}</span>}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <p style={tip}>
+        <b>Merke:</b> Wissen allein reicht nicht – du kennst die Regel wahrscheinlich schon. Im Gespräch passiert der Fehler trotzdem. Die Lösung ist nicht mehr Grammatik, sondern mehr <b>Automatisierung</b>: den richtigen Satz zehnmal laut sagen. Die korrigierten Sätze findest du als Chunks (Kategorie Gespräch).
+      </p>
     </div>
   );
 }

@@ -8,31 +8,32 @@ Live at **[ginagc.github.io/german-trainer](https://ginagc.github.io/german-trai
 
 ## What it does
 
-Two rows of tabs at the top. **Practice:**
+A bottom navigation bar with five areas:
 
-- **Chunks** — full German sentences with translations, organised into
-  categories (Alltag, Arbeit, Essen, Arzt, …), with audio, search, a
-  "newest first" sort and a "mastered" toggle. A floating mini-player shows
-  the German with its translation.
-- **Wörter** — the vocabulary list (2,000+ words, German → Spanish), with
-  search, audio, and a "known" toggle.
-- **Archiv** — everything marked mastered/known lands here; one tap restores it.
+- **Heute** — the start screen: progress, the **Chunk des Tages** (3 chunks a
+  day to use in real conversations; 5 uses = mastered), shortcuts into
+  Sprechen, and the newest chunks.
+- **Sammlung** — **Chunks** (full sentences with translations, categories, audio,
+  search, "newest first", mastered toggle), **Wörter** (2,000+ words,
+  German → Spanish, known toggle) and **Archiv** (everything mastered/known;
+  one tap restores it). A floating player shows the German with noun
+  gender colours, Akk/Dat notes and the translation.
+- **Verben** — **100 Verben** (everyday verbs in seven themes, each as a
+  chunk, with Spanish meaning, trennbar/reflexiv badges) and
+  **Nomen-Verb-Verbindungen** (C1 collocations with the simple verb they
+  replace, plus an exercise).
 - **Sprechen** — turns knowledge into speaking, based on the automatisation
   research (declarative → procedural → automatic):
   **Echo** (hear a chunk, then a pause to repeat it aloud),
   **Übersetzen** (see the translation, say the German aloud, reveal, rate
-  yourself automatisch / gezögert / nicht gewusst; weak chunks come back
-  sooner, and 3× automatisch in a row offers to mark a chunk mastered) and
-  **4/3/2** (talk about one topic three times in shrinking time, 2 · 1.5 · 1
-  min or 4 · 3 · 2 min, with 5–8 related chunks of one sub-topic kept on screen as a word bank).
-
-**Reference:**
-
-- **Tabellen** — articles by case, personal pronouns, Akkusativ vs. Dativ.
-- **Genus-Regeln** — predicting a noun's article from its ending/meaning.
-- **Deklination** — der-/ein-Wörter, adjective endings, possessives.
-- **Verben & Satzbau** — confusing verbs, tenses, modal verbs, modal
-  particles, obwohl/trotzdem/trotz.
+  yourself automatisch / gezögert / nicht gewusst; 3× automatisch in a row
+  offers to mark a chunk mastered) and **4/3/2** (talk about one topic three
+  times in shrinking time, with 5–8 related chunks kept on screen).
+- **Grammatik** — reference pages: **Tabellen** (articles by case,
+  pronouns, Akk vs. Dat), **Genus-Regeln**, **Deklination**,
+  **Verben & Satzbau** (tenses, modal verbs, modal particles, concessive
+  clauses, the 15 typical B1 errors) and **Alltagssprache** (registers,
+  spoken contractions, spoken sentence patterns, smalltalk).
 
 Nouns and articles throughout are colour-coded by gender (der/die/das/plural),
 following the *Grammatikon* colour system — that palette is intentionally

@@ -2,12 +2,14 @@ import Tabellen from "./Tabellen";
 import GenusRegeln from "./GenusRegeln";
 import Deklination from "./Deklination";
 import VerbenSatzbau from "./VerbenSatzbau";
+import Alltagssprache from "./Alltagssprache";
 
 const PAGES = [
   { id: "tabellen", label: "Tabellen", sub: "Artikel, Pronomen, Akkusativ vs. Dativ", color: "#f3f0ff", Comp: Tabellen },
   { id: "genus", label: "Genus-Regeln", sub: "Den Artikel an der Endung erkennen", color: "#EAF3DE", Comp: GenusRegeln },
   { id: "deklination", label: "Deklination", sub: "der-/ein-Wörter, Adjektive, Possessiva", color: "#E0F5F3", Comp: Deklination },
-  { id: "satzbau", label: "Verben & Satzbau", sub: "Zeiten, Modalverben, Modalpartikeln, Konzessivsätze", color: "#E6F1FB", Comp: VerbenSatzbau },
+  { id: "satzbau", label: "Verben & Satzbau", sub: "Zeiten, Modalverben, Modalpartikeln, Konzessiv, B1-Fehler", color: "#E6F1FB", Comp: VerbenSatzbau },
+  { id: "alltag", label: "Alltagssprache", sub: "Register, Verkürzungen, gesprochener Satzbau, Smalltalk", color: "#FBEAF0", Comp: Alltagssprache },
 ];
 
 export default function Grammatik({ page, setPage, speech }) {
