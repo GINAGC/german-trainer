@@ -8598,5 +8598,30 @@
         "n": "dir. Objekt → Akk (Plural)"
       }
     ]
+  },
+  {
+    "id": "769",
+    "de": "Ich möchte über meine Gehaltserhöhung sprechen.",
+    "en": "[H/Ö/R] I'd like to talk about my salary increase.",
+    "cat": "aussprache",
+    "nouns": [
+      "die Gehaltserhöhung"
+    ],
+    "g": [
+      {
+        "w": "über meine Gehaltserhöhung",
+        "c": "Akk",
+        "n": "sprechen über → immer Akk"
+      }
+    ]
+  },
+  {
+    "id": "770",
+    "de": "Unsere Projekte laufen gerade sehr gut.",
+    "en": "[PR/J] Our projects are going very well right now.",
+    "cat": "aussprache",
+    "nouns": [
+      "das Projekt"
+    ]
   }
 ]
