@@ -9302,5 +9302,341 @@
   {
     "g": "am wichtigsten",
     "t": "lo más importante"
+  },
+  {
+    "g": "klarkommen",
+    "t": "arreglárselas con, llevarse bien con"
+  },
+  {
+    "g": "hinkriegen",
+    "t": "lograr, conseguir (coloq.)"
+  },
+  {
+    "g": "erledigen",
+    "t": "resolver, encargarse de"
+  },
+  {
+    "g": "Bescheid sagen",
+    "t": "avisar, dar aviso"
+  },
+  {
+    "g": "absagen",
+    "t": "cancelar (un compromiso)"
+  },
+  {
+    "g": "verschieben",
+    "t": "posponer, reprogramar"
+  },
+  {
+    "g": "sich kümmern um",
+    "t": "encargarse de, ocuparse de"
+  },
+  {
+    "g": "vorhaben",
+    "t": "tener planeado"
+  },
+  {
+    "g": "besorgen",
+    "t": "conseguir, comprar"
+  },
+  {
+    "g": "vorbeikommen",
+    "t": "pasar a visitar"
+  },
+  {
+    "g": "sich auskennen",
+    "t": "conocer bien, dominar un tema"
+  },
+  {
+    "g": "kapieren",
+    "t": "entender, captar (coloq.)"
+  },
+  {
+    "g": "einfallen",
+    "t": "ocurrírsele a alguien"
+  },
+  {
+    "g": "auffallen",
+    "t": "notar, llamar la atención"
+  },
+  {
+    "g": "mitkriegen",
+    "t": "enterarse, darse cuenta (coloq.)"
+  },
+  {
+    "g": "sich merken",
+    "t": "acordarse de, retener"
+  },
+  {
+    "g": "ausgehen von",
+    "t": "suponer, partir de"
+  },
+  {
+    "g": "sich wundern",
+    "t": "sorprenderse, extrañarse"
+  },
+  {
+    "g": "durchblicken",
+    "t": "entender, tener claro (coloq.)"
+  },
+  {
+    "g": "überlegen",
+    "t": "pensarlo, reflexionar"
+  },
+  {
+    "g": "zweifeln an",
+    "t": "dudar de"
+  },
+  {
+    "g": "einsehen",
+    "t": "reconocer, admitir"
+  },
+  {
+    "g": "sich ärgern über",
+    "t": "enojarse por"
+  },
+  {
+    "g": "ausrasten",
+    "t": "perder los estribos"
+  },
+  {
+    "g": "nerven",
+    "t": "fastidiar, sacar de quicio"
+  },
+  {
+    "g": "sich freuen auf",
+    "t": "alegrarse por algo que viene"
+  },
+  {
+    "g": "sich aufregen",
+    "t": "alterarse, enojarse"
+  },
+  {
+    "g": "ausflippen",
+    "t": "explotar, perder la cabeza (coloq.)"
+  },
+  {
+    "g": "sich Sorgen machen",
+    "t": "preocuparse"
+  },
+  {
+    "g": "genießen",
+    "t": "disfrutar"
+  },
+  {
+    "g": "sich schämen",
+    "t": "avergonzarse"
+  },
+  {
+    "g": "auf die Nerven gehen",
+    "t": "sacar de quicio"
+  },
+  {
+    "g": "es satthaben",
+    "t": "estar harto de"
+  },
+  {
+    "g": "sich wohlfühlen",
+    "t": "sentirse a gusto"
+  },
+  {
+    "g": "abschalten",
+    "t": "desconectar, relajarse"
+  },
+  {
+    "g": "durchhalten",
+    "t": "aguantar, no rendirse"
+  },
+  {
+    "g": "sich unterhalten",
+    "t": "conversar"
+  },
+  {
+    "g": "erwähnen",
+    "t": "mencionar"
+  },
+  {
+    "g": "sich beschweren",
+    "t": "quejarse"
+  },
+  {
+    "g": "zugeben",
+    "t": "admitir"
+  },
+  {
+    "g": "behaupten",
+    "t": "afirmar (sin pruebas)"
+  },
+  {
+    "g": "sich verabreden",
+    "t": "quedar, citarse"
+  },
+  {
+    "g": "vorschlagen",
+    "t": "proponer"
+  },
+  {
+    "g": "zustimmen",
+    "t": "estar de acuerdo"
+  },
+  {
+    "g": "widersprechen",
+    "t": "contradecir"
+  },
+  {
+    "g": "überreden",
+    "t": "convencer"
+  },
+  {
+    "g": "sich entschuldigen",
+    "t": "disculparse"
+  },
+  {
+    "g": "sich bedanken",
+    "t": "dar las gracias"
+  },
+  {
+    "g": "übernehmen",
+    "t": "asumir, hacerse cargo"
+  },
+  {
+    "g": "einarbeiten",
+    "t": "capacitarse, adaptarse al puesto"
+  },
+  {
+    "g": "abschließen",
+    "t": "concluir, finalizar"
+  },
+  {
+    "g": "sich bewerben",
+    "t": "postularse"
+  },
+  {
+    "g": "kündigen",
+    "t": "renunciar; despedir"
+  },
+  {
+    "g": "umsetzen",
+    "t": "implementar, llevar a cabo"
+  },
+  {
+    "g": "abstimmen",
+    "t": "coordinar"
+  },
+  {
+    "g": "zusagen",
+    "t": "aceptar, confirmar asistencia"
+  },
+  {
+    "g": "klappen",
+    "t": "funcionar, salir bien"
+  },
+  {
+    "g": "weiterleiten",
+    "t": "reenviar"
+  },
+  {
+    "g": "sich durchsetzen",
+    "t": "imponerse, salirse con la suya"
+  },
+  {
+    "g": "vertreten",
+    "t": "sustituir, reemplazar"
+  },
+  {
+    "g": "unterstützen",
+    "t": "apoyar"
+  },
+  {
+    "g": "einreichen",
+    "t": "presentar, entregar (un documento)"
+  },
+  {
+    "g": "festlegen",
+    "t": "fijar, establecer"
+  },
+  {
+    "g": "umziehen",
+    "t": "mudarse (de casa)"
+  },
+  {
+    "g": "sich verlaufen",
+    "t": "perderse (a pie)"
+  },
+  {
+    "g": "abhauen",
+    "t": "largarse (coloq.)"
+  },
+  {
+    "g": "sich verändern",
+    "t": "cambiar"
+  },
+  {
+    "g": "sich gewöhnen an",
+    "t": "acostumbrarse a"
+  },
+  {
+    "g": "zunehmen",
+    "t": "aumentar (también: subir de peso)"
+  },
+  {
+    "g": "sich entwickeln",
+    "t": "desarrollarse, evolucionar"
+  },
+  {
+    "g": "ankommen",
+    "t": "llegar"
+  },
+  {
+    "g": "aufhören",
+    "t": "dejar de, terminar"
+  },
+  {
+    "g": "gelten",
+    "t": "ser válido, valer"
+  },
+  {
+    "g": "sich lohnen",
+    "t": "valer la pena"
+  },
+  {
+    "g": "ausreichen",
+    "t": "ser suficiente"
+  },
+  {
+    "g": "drankommen",
+    "t": "tocarle el turno"
+  },
+  {
+    "g": "danebenliegen",
+    "t": "equivocarse"
+  },
+  {
+    "g": "es eilig haben",
+    "t": "tener prisa"
+  },
+  {
+    "g": "vorkommen",
+    "t": "parecer; suceder"
+  },
+  {
+    "g": "zählen",
+    "t": "contar, importar"
+  },
+  {
+    "g": "sich handeln um",
+    "t": "tratarse de"
+  },
+  {
+    "g": "schiefgehen",
+    "t": "salir mal"
+  },
+  {
+    "g": "dranbleiben",
+    "t": "seguir con ello, no soltar"
+  },
+  {
+    "g": "darauf ankommen",
+    "t": "depender de"
   }
 ]

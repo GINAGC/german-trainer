@@ -89,5 +89,33 @@
     "dot": "#5B8C5A",
     "bg": "#E7F0E3",
     "tc": "#254024"
+  },
+  {
+    "id": "smalltalk",
+    "label": "Smalltalk",
+    "dot": "#D4537E",
+    "bg": "#FBEAF0",
+    "tc": "#4B1528"
+  },
+  {
+    "id": "verben",
+    "label": "Verben",
+    "dot": "#378ADD",
+    "bg": "#E6F1FB",
+    "tc": "#042C53"
+  },
+  {
+    "id": "nvv",
+    "label": "NVV",
+    "dot": "#2A9D8F",
+    "bg": "#E0F5F3",
+    "tc": "#0D3B36"
+  },
+  {
+    "id": "umgang",
+    "label": "Umgangssprache",
+    "dot": "#639922",
+    "bg": "#EAF3DE",
+    "tc": "#173404"
   }
 ]

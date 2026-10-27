@@ -4,7 +4,7 @@ const ACCENT = "#D4537E";
 export const SECTIONS = [
   { id: "heute", label: "Heute", icon: "🏠" },
   { id: "sammlung", label: "Sammlung", icon: "📚" },
-  { id: "verben", label: "Verben", icon: "🔤", ready: false },
+  { id: "verben", label: "Verben", icon: "🔤" },
   { id: "sprechen", label: "Sprechen", icon: "🗣" },
   { id: "grammatik", label: "Grammatik", icon: "📖" },
 ];

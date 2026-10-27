@@ -3,6 +3,7 @@ import BottomNav from "./components/BottomNav";
 import FloatingPlayer from "./components/FloatingPlayer";
 import Heute from "./screens/Heute";
 import Sammlung from "./screens/Sammlung";
+import Verben from "./screens/Verben";
 import Sprechen from "./screens/Sprechen";
 import Grammatik from "./screens/Grammatik";
 import { useSpeech } from "./hooks/useSpeech";
@@ -58,6 +59,8 @@ export default function App() {
           knownWords={knownWords} markKnown={markKnown} undoKnown={undoKnown} speech={speech}
         />
       )}
+
+      {section === "verben" && <Verben chunks={chunks} toggleMastered={toggleMastered} speech={speech} />}
 
       {section === "sprechen" && (
         <Sprechen

@@ -13,13 +13,14 @@ function CategoryPill({ ci }) {
   );
 }
 
-export default function ChunkCard({ chunk: c, speaking, onSpeak, onToggleMastered }) {
+export default function ChunkCard({ chunk: c, speaking, onSpeak, onToggleMastered, header }) {
   const ci = CM[c.cat] || CM.conversation;
   const past = isPast(c.de);
   const de = cleanDe(c.de);
 
   return (
     <div style={{ background: "#fff", border: "1px solid #e5e5e5", borderRadius: 12, padding: 12, opacity: c.mastered ? 0.5 : 1, transition: "opacity 0.2s" }}>
+      {header}
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: 8 }}>
         <div style={{ display: "flex", alignItems: "center", gap: 4, flexWrap: "wrap" }}>
           <CategoryPill ci={ci} />

@@ -7293,7 +7293,12 @@
         "c": "Dat",
         "n": "zu → immer Dat"
       }
-    ]
+    ],
+    "nvv": {
+      "phrase": "zu dem Schluss kommen",
+      "simple": "folgern",
+      "grp": "Denken & Bewerten"
+    }
   },
   {
     "id": "679",
@@ -8622,6 +8627,4234 @@
     "cat": "aussprache",
     "nouns": [
       "das Projekt"
+    ]
+  },
+  {
+    "id": "771",
+    "de": "Mit dem neuen Handy komme ich noch nicht klar.",
+    "en": "I can't get the hang of the new phone yet. (klarkommen mit)",
+    "cat": "verben",
+    "nouns": [
+      "das Handy"
+    ],
+    "g": [
+      {
+        "w": "mit dem neuen Handy",
+        "c": "Dat",
+        "n": "mit → immer Dat"
+      }
+    ],
+    "verb": {
+      "inf": "klarkommen (mit)",
+      "t": "arreglárselas con, llevarse bien con",
+      "grp": "Alltag & Organisation",
+      "f": [
+        "trennbar"
+      ]
+    }
+  },
+  {
+    "id": "772",
+    "de": "Glaubst du, du kriegst die Präsentation bis morgen hin?",
+    "en": "Do you think you can pull the presentation off by tomorrow?",
+    "cat": "verben",
+    "nouns": [
+      "die Präsentation"
+    ],
+    "g": [
+      {
+        "w": "die Präsentation",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem.)"
+      }
+    ],
+    "verb": {
+      "inf": "hinkriegen",
+      "t": "lograr, conseguir (coloq.)",
+      "grp": "Alltag & Organisation",
+      "f": [
+        "trennbar"
+      ]
+    }
+  },
+  {
+    "id": "773",
+    "de": "Ich muss noch ein paar Einkäufe erledigen.",
+    "en": "I still have to run a few errands.",
+    "cat": "verben",
+    "nouns": [
+      "der Einkauf"
+    ],
+    "g": [
+      {
+        "w": "ein paar Einkäufe",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (Plural)"
+      }
+    ],
+    "verb": {
+      "inf": "erledigen",
+      "t": "resolver, encargarse de",
+      "grp": "Alltag & Organisation",
+      "f": []
+    }
+  },
+  {
+    "id": "774",
+    "de": "Sagst du mir Bescheid, wenn du losfährst?",
+    "en": "Will you let me know when you set off?",
+    "cat": "verben",
+    "g": [
+      {
+        "w": "mir",
+        "c": "Dat",
+        "n": "sagen + Dat"
+      }
+    ],
+    "verb": {
+      "inf": "Bescheid sagen",
+      "t": "avisar, dar aviso",
+      "grp": "Alltag & Organisation",
+      "f": []
+    }
+  },
+  {
+    "id": "775",
+    "de": "Ich melde mich, sobald ich Neuigkeiten habe.",
+    "en": "I'll get in touch as soon as I have news.",
+    "cat": "verben",
+    "nouns": [
+      "die Neuigkeit"
+    ],
+    "g": [
+      {
+        "w": "Neuigkeiten",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (Plural)"
+      }
+    ],
+    "verb": {
+      "inf": "sich melden",
+      "t": "ponerse en contacto, avisar",
+      "grp": "Alltag & Organisation",
+      "f": [
+        "reflexiv"
+      ]
+    }
+  },
+  {
+    "id": "776",
+    "de": "Haben wir für Samstag schon etwas ausgemacht? [Vgt]",
+    "en": "Have we already arranged something for Saturday? (ausmachen = agree on / switch off)",
+    "cat": "verben",
+    "nouns": [
+      "der Samstag"
+    ],
+    "g": [
+      {
+        "w": "für Samstag",
+        "c": "Akk",
+        "n": "für → immer Akk"
+      }
+    ],
+    "verb": {
+      "inf": "ausmachen",
+      "t": "acordar, quedar en; apagar",
+      "grp": "Alltag & Organisation",
+      "f": [
+        "trennbar"
+      ]
+    }
+  },
+  {
+    "id": "777",
+    "de": "Leider musste ich den Termin kurzfristig absagen. [Vgt]",
+    "en": "Unfortunately I had to cancel the appointment at short notice.",
+    "cat": "verben",
+    "nouns": [
+      "der Termin"
+    ],
+    "g": [
+      {
+        "w": "den Termin",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ],
+    "verb": {
+      "inf": "absagen",
+      "t": "cancelar (un compromiso)",
+      "grp": "Alltag & Organisation",
+      "f": [
+        "trennbar"
+      ]
+    }
+  },
+  {
+    "id": "778",
+    "de": "Die Feier haben wir auf den Herbst verschoben. [Vgt]",
+    "en": "We postponed the party until autumn.",
+    "cat": "verben",
+    "nouns": [
+      "die Feier",
+      "der Herbst"
+    ],
+    "g": [
+      {
+        "w": "die Feier",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem.)"
+      },
+      {
+        "w": "auf den Herbst",
+        "c": "Akk",
+        "n": "verschieben auf → Akk"
+      }
+    ],
+    "verb": {
+      "inf": "verschieben",
+      "t": "posponer, reprogramar",
+      "grp": "Alltag & Organisation",
+      "f": []
+    }
+  },
+  {
+    "id": "779",
+    "de": "Ich kümmere mich um die Anmeldung.",
+    "en": "I'll take care of the registration.",
+    "cat": "verben",
+    "nouns": [
+      "die Anmeldung"
+    ],
+    "g": [
+      {
+        "w": "um die Anmeldung",
+        "c": "Akk",
+        "n": "sich kümmern um → Akk"
+      }
+    ],
+    "verb": {
+      "inf": "sich kümmern um",
+      "t": "encargarse de, ocuparse de",
+      "grp": "Alltag & Organisation",
+      "f": [
+        "reflexiv"
+      ]
+    }
+  },
+  {
+    "id": "780",
+    "de": "Hast du für den Urlaub schon etwas vor?",
+    "en": "Do you already have plans for the vacation?",
+    "cat": "verben",
+    "nouns": [
+      "der Urlaub"
+    ],
+    "g": [
+      {
+        "w": "für den Urlaub",
+        "c": "Akk",
+        "n": "für → immer Akk"
+      }
+    ],
+    "verb": {
+      "inf": "vorhaben",
+      "t": "tener planeado",
+      "grp": "Alltag & Organisation",
+      "f": [
+        "trennbar"
+      ]
+    }
+  },
+  {
+    "id": "781",
+    "de": "Auf dem Heimweg besorge ich noch Milch.",
+    "en": "On the way home I'll pick up some milk.",
+    "cat": "verben",
+    "nouns": [
+      "der Heimweg",
+      "die Milch"
+    ],
+    "g": [
+      {
+        "w": "Auf dem Heimweg",
+        "c": "Dat",
+        "n": "auf (wo?) → Dat"
+      },
+      {
+        "w": "Milch",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem.)"
+      }
+    ],
+    "verb": {
+      "inf": "besorgen",
+      "t": "conseguir, comprar",
+      "grp": "Alltag & Organisation",
+      "f": []
+    }
+  },
+  {
+    "id": "782",
+    "de": "Kannst du mich vom Bahnhof abholen?",
+    "en": "Can you pick me up from the station?",
+    "cat": "verben",
+    "nouns": [
+      "der Bahnhof"
+    ],
+    "g": [
+      {
+        "w": "mich",
+        "c": "Akk",
+        "n": "abholen + Akk"
+      },
+      {
+        "w": "vom Bahnhof",
+        "c": "Dat",
+        "n": "von → immer Dat"
+      }
+    ],
+    "verb": {
+      "inf": "abholen",
+      "t": "recoger (a alguien / algo)",
+      "grp": "Alltag & Organisation",
+      "f": [
+        "trennbar"
+      ]
+    }
+  },
+  {
+    "id": "783",
+    "de": "Komm doch am Wochenende bei uns vorbei!",
+    "en": "Why don't you drop by at our place on the weekend!",
+    "cat": "verben",
+    "nouns": [
+      "das Wochenende"
+    ],
+    "g": [
+      {
+        "w": "am Wochenende",
+        "c": "Dat",
+        "n": "an (Zeitpunkt) → Dat"
+      },
+      {
+        "w": "bei uns",
+        "c": "Dat",
+        "n": "bei → immer Dat"
+      }
+    ],
+    "verb": {
+      "inf": "vorbeikommen",
+      "t": "pasar a visitar",
+      "grp": "Alltag & Organisation",
+      "f": [
+        "trennbar"
+      ]
+    }
+  },
+  {
+    "id": "784",
+    "de": "Bevor die Gäste kommen, muss ich die Wohnung aufräumen.",
+    "en": "Before the guests arrive, I have to tidy the apartment.",
+    "cat": "verben",
+    "nouns": [
+      "der Gast",
+      "die Wohnung"
+    ],
+    "g": [
+      {
+        "w": "die Wohnung",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem.)"
+      }
+    ],
+    "verb": {
+      "inf": "aufräumen",
+      "t": "ordenar, recoger",
+      "grp": "Alltag & Organisation",
+      "f": [
+        "trennbar"
+      ]
+    }
+  },
+  {
+    "id": "785",
+    "de": "Der Kurs fällt heute leider aus.",
+    "en": "Unfortunately the course is cancelled today.",
+    "cat": "verben",
+    "nouns": [
+      "der Kurs"
+    ],
+    "verb": {
+      "inf": "ausfallen",
+      "t": "cancelarse, no tener lugar",
+      "grp": "Alltag & Organisation",
+      "f": [
+        "trennbar"
+      ]
+    }
+  },
+  {
+    "id": "786",
+    "de": "Mit Computern kenne ich mich gut aus.",
+    "en": "I know my way around computers.",
+    "cat": "verben",
+    "nouns": [
+      "der Computer"
+    ],
+    "g": [
+      {
+        "w": "mit Computern",
+        "c": "Dat",
+        "n": "mit → immer Dat; Plural +n"
+      }
+    ],
+    "verb": {
+      "inf": "sich auskennen (mit)",
+      "t": "conocer bien, dominar un tema",
+      "grp": "Denken & Verstehen",
+      "f": [
+        "trennbar",
+        "reflexiv"
+      ]
+    }
+  },
+  {
+    "id": "787",
+    "de": "Jetzt habe ich es endlich kapiert! [Vgt]",
+    "en": "Now I've finally got it!",
+    "cat": "verben",
+    "g": [
+      {
+        "w": "es",
+        "c": "Akk",
+        "n": "kapieren + Akk"
+      }
+    ],
+    "verb": {
+      "inf": "kapieren",
+      "t": "entender, captar (coloq.)",
+      "grp": "Denken & Verstehen",
+      "f": []
+    }
+  },
+  {
+    "id": "788",
+    "de": "Mir fällt gerade kein guter Vorschlag ein.",
+    "en": "I can't think of a good suggestion right now.",
+    "cat": "verben",
+    "nouns": [
+      "der Vorschlag"
+    ],
+    "g": [
+      {
+        "w": "Mir",
+        "c": "Dat",
+        "n": "einfallen + Dat"
+      }
+    ],
+    "verb": {
+      "inf": "einfallen",
+      "t": "ocurrírsele a alguien",
+      "grp": "Denken & Verstehen",
+      "f": [
+        "trennbar"
+      ]
+    }
+  },
+  {
+    "id": "789",
+    "de": "Das kann ich mir gar nicht vorstellen.",
+    "en": "I can't imagine that at all.",
+    "cat": "verben",
+    "g": [
+      {
+        "w": "mir",
+        "c": "Dat",
+        "n": "sich etwas vorstellen → mir (Dat)"
+      }
+    ],
+    "verb": {
+      "inf": "sich vorstellen",
+      "t": "imaginarse",
+      "grp": "Denken & Verstehen",
+      "f": [
+        "trennbar",
+        "reflexiv"
+      ]
+    }
+  },
+  {
+    "id": "790",
+    "de": "Ist dir der Fehler nicht aufgefallen? [Vgt]",
+    "en": "Didn't you notice the mistake?",
+    "cat": "verben",
+    "nouns": [
+      "der Fehler"
+    ],
+    "g": [
+      {
+        "w": "dir",
+        "c": "Dat",
+        "n": "auffallen + Dat"
+      }
+    ],
+    "verb": {
+      "inf": "auffallen",
+      "t": "notar, llamar la atención",
+      "grp": "Denken & Verstehen",
+      "f": [
+        "trennbar"
+      ]
+    }
+  },
+  {
+    "id": "791",
+    "de": "Hast du das Gespräch am Nebentisch mitgekriegt? [Vgt]",
+    "en": "Did you catch the conversation at the next table?",
+    "cat": "verben",
+    "nouns": [
+      "das Gespräch",
+      "der Nebentisch"
+    ],
+    "g": [
+      {
+        "w": "das Gespräch",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (neutr.)"
+      },
+      {
+        "w": "am Nebentisch",
+        "c": "Dat",
+        "n": "an (wo?) → Dat"
+      }
+    ],
+    "verb": {
+      "inf": "mitkriegen",
+      "t": "enterarse, darse cuenta (coloq.)",
+      "grp": "Denken & Verstehen",
+      "f": [
+        "trennbar"
+      ]
+    }
+  },
+  {
+    "id": "792",
+    "de": "Diesen Namen muss ich mir unbedingt merken.",
+    "en": "I really have to remember this name.",
+    "cat": "verben",
+    "nouns": [
+      "der Name"
+    ],
+    "g": [
+      {
+        "w": "mir",
+        "c": "Dat",
+        "n": "sich etwas merken → mir (Dat)"
+      },
+      {
+        "w": "Diesen Namen",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ],
+    "verb": {
+      "inf": "sich merken",
+      "t": "acordarse de, retener",
+      "grp": "Denken & Verstehen",
+      "f": [
+        "reflexiv"
+      ]
+    }
+  },
+  {
+    "id": "793",
+    "de": "Ich gehe davon aus, dass der Zug pünktlich ist.",
+    "en": "I assume the train is on time. (ausgehen von)",
+    "cat": "verben",
+    "nouns": [
+      "der Zug"
+    ],
+    "g": [
+      {
+        "w": "davon",
+        "c": "Dat",
+        "n": "ausgehen von → Dat (da + von)"
+      }
+    ],
+    "verb": {
+      "inf": "ausgehen von",
+      "t": "suponer, partir de",
+      "grp": "Denken & Verstehen",
+      "f": [
+        "trennbar"
+      ]
+    }
+  },
+  {
+    "id": "794",
+    "de": "Ich wundere mich, warum sie nicht antwortet.",
+    "en": "I wonder why she isn't answering. (sich wundern = be surprised)",
+    "cat": "verben",
+    "g": [
+      {
+        "w": "mich",
+        "c": "Akk",
+        "n": "Reflexiv Akk"
+      }
+    ],
+    "verb": {
+      "inf": "sich wundern",
+      "t": "sorprenderse, extrañarse",
+      "grp": "Denken & Verstehen",
+      "f": [
+        "reflexiv"
+      ]
+    }
+  },
+  {
+    "id": "795",
+    "de": "Bei den vielen Formularen blicke ich nicht mehr durch.",
+    "en": "With all these forms I can't make sense of it anymore.",
+    "cat": "verben",
+    "nouns": [
+      "das Formular"
+    ],
+    "g": [
+      {
+        "w": "Bei den vielen Formularen",
+        "c": "Dat",
+        "n": "bei → immer Dat; Plural +n"
+      }
+    ],
+    "verb": {
+      "inf": "durchblicken",
+      "t": "entender, tener claro (coloq.)",
+      "grp": "Denken & Verstehen",
+      "f": [
+        "trennbar"
+      ]
+    }
+  },
+  {
+    "id": "796",
+    "de": "Ich kann deine Entscheidung gut nachvollziehen.",
+    "en": "I can understand your decision well.",
+    "cat": "verben",
+    "nouns": [
+      "die Entscheidung"
+    ],
+    "g": [
+      {
+        "w": "deine Entscheidung",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem.)"
+      }
+    ],
+    "verb": {
+      "inf": "nachvollziehen",
+      "t": "entender las razones de algo",
+      "grp": "Denken & Verstehen",
+      "f": [
+        "trennbar"
+      ]
+    }
+  },
+  {
+    "id": "797",
+    "de": "Ich muss kurz überlegen, ob ich mitkomme.",
+    "en": "I need a moment to think about whether I'll come along.",
+    "cat": "verben",
+    "verb": {
+      "inf": "überlegen",
+      "t": "pensarlo, reflexionar",
+      "grp": "Denken & Verstehen",
+      "f": []
+    }
+  },
+  {
+    "id": "798",
+    "de": "Hast du dich schon für ein Hotel entschieden? [Vgt]",
+    "en": "Have you already decided on a hotel?",
+    "cat": "verben",
+    "nouns": [
+      "das Hotel"
+    ],
+    "g": [
+      {
+        "w": "dich",
+        "c": "Akk",
+        "n": "Reflexiv Akk"
+      },
+      {
+        "w": "für ein Hotel",
+        "c": "Akk",
+        "n": "sich entscheiden für → Akk"
+      }
+    ],
+    "verb": {
+      "inf": "sich entscheiden",
+      "t": "decidirse",
+      "grp": "Denken & Verstehen",
+      "f": [
+        "reflexiv"
+      ]
+    }
+  },
+  {
+    "id": "799",
+    "de": "Ich zweifle an seiner Ehrlichkeit.",
+    "en": "I doubt his honesty.",
+    "cat": "verben",
+    "nouns": [
+      "die Ehrlichkeit"
+    ],
+    "g": [
+      {
+        "w": "an seiner Ehrlichkeit",
+        "c": "Dat",
+        "n": "zweifeln an → Dat"
+      }
+    ],
+    "verb": {
+      "inf": "zweifeln an",
+      "t": "dudar de",
+      "grp": "Denken & Verstehen",
+      "f": []
+    }
+  },
+  {
+    "id": "800",
+    "de": "Du musst endlich einsehen, dass es so nicht geht.",
+    "en": "You finally have to accept that it doesn't work this way.",
+    "cat": "verben",
+    "verb": {
+      "inf": "einsehen",
+      "t": "reconocer, admitir",
+      "grp": "Denken & Verstehen",
+      "f": [
+        "trennbar"
+      ]
+    }
+  },
+  {
+    "id": "801",
+    "de": "Ich ärgere mich über den Lärm.",
+    "en": "The noise annoys me. (sich ärgern über)",
+    "cat": "verben",
+    "nouns": [
+      "der Lärm"
+    ],
+    "g": [
+      {
+        "w": "über den Lärm",
+        "c": "Akk",
+        "n": "sich ärgern über → Akk"
+      }
+    ],
+    "verb": {
+      "inf": "sich ärgern über",
+      "t": "enojarse por",
+      "grp": "Gefühle & Reaktionen",
+      "f": [
+        "reflexiv"
+      ]
+    }
+  },
+  {
+    "id": "802",
+    "de": "Mein Chef ist gestern völlig ausgerastet. [Vgt]",
+    "en": "My boss completely lost it yesterday.",
+    "cat": "verben",
+    "nouns": [
+      "der Chef"
+    ],
+    "verb": {
+      "inf": "ausrasten",
+      "t": "perder los estribos",
+      "grp": "Gefühle & Reaktionen",
+      "f": [
+        "trennbar"
+      ]
+    }
+  },
+  {
+    "id": "803",
+    "de": "Dieses ständige Piepen nervt mich.",
+    "en": "This constant beeping gets on my nerves.",
+    "cat": "verben",
+    "nouns": [
+      "das Piepen"
+    ],
+    "g": [
+      {
+        "w": "mich",
+        "c": "Akk",
+        "n": "nerven + Akk"
+      }
+    ],
+    "verb": {
+      "inf": "nerven",
+      "t": "fastidiar, sacar de quicio",
+      "grp": "Gefühle & Reaktionen",
+      "f": []
+    }
+  },
+  {
+    "id": "804",
+    "de": "Wir freuen uns schon auf die Ferien.",
+    "en": "We're already looking forward to the holidays. (auf = future, über = present)",
+    "cat": "verben",
+    "nouns": [
+      "die Ferien"
+    ],
+    "g": [
+      {
+        "w": "auf die Ferien",
+        "c": "Akk",
+        "n": "sich freuen auf → Akk (Zukunft)"
+      }
+    ],
+    "verb": {
+      "inf": "sich freuen auf",
+      "t": "alegrarse por algo que viene",
+      "grp": "Gefühle & Reaktionen",
+      "f": [
+        "reflexiv"
+      ]
+    }
+  },
+  {
+    "id": "805",
+    "de": "Ich vermisse meine Freunde in Mexiko.",
+    "en": "I miss my friends in Mexico.",
+    "cat": "verben",
+    "nouns": [
+      "der Freund"
+    ],
+    "g": [
+      {
+        "w": "meine Freunde",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (Plural)"
+      }
+    ],
+    "verb": {
+      "inf": "vermissen",
+      "t": "extrañar",
+      "grp": "Gefühle & Reaktionen",
+      "f": []
+    }
+  },
+  {
+    "id": "806",
+    "de": "Reg dich nicht wegen so einer Kleinigkeit auf!",
+    "en": "Don't get worked up over such a little thing!",
+    "cat": "verben",
+    "nouns": [
+      "die Kleinigkeit"
+    ],
+    "verb": {
+      "inf": "sich aufregen",
+      "t": "alterarse, enojarse",
+      "grp": "Gefühle & Reaktionen",
+      "f": [
+        "trennbar",
+        "reflexiv"
+      ]
+    }
+  },
+  {
+    "id": "807",
+    "de": "Die Kinder sind vor Freude ausgeflippt. [Vgt]",
+    "en": "The kids went wild with joy.",
+    "cat": "verben",
+    "nouns": [
+      "das Kind",
+      "die Freude"
+    ],
+    "g": [
+      {
+        "w": "vor Freude",
+        "c": "Dat",
+        "n": "vor + Gefühl → Dat"
+      }
+    ],
+    "verb": {
+      "inf": "ausflippen",
+      "t": "explotar, perder la cabeza (coloq.)",
+      "grp": "Gefühle & Reaktionen",
+      "f": [
+        "trennbar"
+      ]
+    }
+  },
+  {
+    "id": "808",
+    "de": "Warum machst du dir ständig Sorgen um mich?",
+    "en": "Why do you constantly worry about me?",
+    "cat": "verben",
+    "nouns": [
+      "die Sorge"
+    ],
+    "g": [
+      {
+        "w": "dir",
+        "c": "Dat",
+        "n": "Reflexiv Dat"
+      },
+      {
+        "w": "um mich",
+        "c": "Akk",
+        "n": "sich Sorgen machen um → Akk"
+      }
+    ],
+    "verb": {
+      "inf": "sich Sorgen machen",
+      "t": "preocuparse",
+      "grp": "Gefühle & Reaktionen",
+      "f": [
+        "reflexiv"
+      ]
+    }
+  },
+  {
+    "id": "809",
+    "de": "Ich genieße den Abend auf dem Balkon.",
+    "en": "I'm enjoying the evening on the balcony.",
+    "cat": "verben",
+    "nouns": [
+      "der Abend",
+      "der Balkon"
+    ],
+    "g": [
+      {
+        "w": "den Abend",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      },
+      {
+        "w": "auf dem Balkon",
+        "c": "Dat",
+        "n": "auf (wo?) → Dat"
+      }
+    ],
+    "verb": {
+      "inf": "genießen",
+      "t": "disfrutar",
+      "grp": "Gefühle & Reaktionen",
+      "f": []
+    }
+  },
+  {
+    "id": "810",
+    "de": "Du musst dich nicht für deine Fehler schämen.",
+    "en": "You don't have to be ashamed of your mistakes.",
+    "cat": "verben",
+    "nouns": [
+      "der Fehler"
+    ],
+    "g": [
+      {
+        "w": "dich",
+        "c": "Akk",
+        "n": "Reflexiv Akk"
+      },
+      {
+        "w": "für deine Fehler",
+        "c": "Akk",
+        "n": "für → immer Akk"
+      }
+    ],
+    "verb": {
+      "inf": "sich schämen",
+      "t": "avergonzarse",
+      "grp": "Gefühle & Reaktionen",
+      "f": [
+        "reflexiv"
+      ]
+    }
+  },
+  {
+    "id": "811",
+    "de": "Das ewige Warten geht mir auf die Nerven.",
+    "en": "The endless waiting gets on my nerves.",
+    "cat": "verben",
+    "nouns": [
+      "der Nerv"
+    ],
+    "g": [
+      {
+        "w": "mir",
+        "c": "Dat",
+        "n": "gehen + Dat"
+      },
+      {
+        "w": "auf die Nerven",
+        "c": "Akk",
+        "n": "auf (wohin?) → Akk"
+      }
+    ],
+    "verb": {
+      "inf": "auf die Nerven gehen",
+      "t": "sacar de quicio",
+      "grp": "Gefühle & Reaktionen",
+      "f": []
+    }
+  },
+  {
+    "id": "812",
+    "de": "Ich habe die ständigen Ausreden satt.",
+    "en": "I'm fed up with the constant excuses.",
+    "cat": "verben",
+    "nouns": [
+      "die Ausrede"
+    ],
+    "g": [
+      {
+        "w": "die ständigen Ausreden",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (Plural)"
+      }
+    ],
+    "verb": {
+      "inf": "es satthaben",
+      "t": "estar harto de",
+      "grp": "Gefühle & Reaktionen",
+      "f": [
+        "trennbar"
+      ]
+    }
+  },
+  {
+    "id": "813",
+    "de": "In dieser Stadt fühle ich mich richtig wohl.",
+    "en": "I feel really at home in this city.",
+    "cat": "verben",
+    "nouns": [
+      "die Stadt"
+    ],
+    "g": [
+      {
+        "w": "In dieser Stadt",
+        "c": "Dat",
+        "n": "in (wo?) → Dat"
+      }
+    ],
+    "verb": {
+      "inf": "sich wohlfühlen",
+      "t": "sentirse a gusto",
+      "grp": "Gefühle & Reaktionen",
+      "f": [
+        "trennbar",
+        "reflexiv"
+      ]
+    }
+  },
+  {
+    "id": "814",
+    "de": "Nach der Arbeit gehe ich spazieren, um abzuschalten.",
+    "en": "After work I go for a walk to switch off.",
+    "cat": "verben",
+    "nouns": [
+      "die Arbeit"
+    ],
+    "g": [
+      {
+        "w": "Nach der Arbeit",
+        "c": "Dat",
+        "n": "nach → immer Dat"
+      }
+    ],
+    "verb": {
+      "inf": "abschalten",
+      "t": "desconectar, relajarse",
+      "grp": "Gefühle & Reaktionen",
+      "f": [
+        "trennbar"
+      ]
+    }
+  },
+  {
+    "id": "815",
+    "de": "Halt noch ein bisschen durch, bald ist Wochenende!",
+    "en": "Hang in there a bit longer, the weekend is almost here!",
+    "cat": "verben",
+    "nouns": [
+      "das Wochenende"
+    ],
+    "verb": {
+      "inf": "durchhalten",
+      "t": "aguantar, no rendirse",
+      "grp": "Gefühle & Reaktionen",
+      "f": [
+        "trennbar"
+      ]
+    }
+  },
+  {
+    "id": "816",
+    "de": "Wir haben im Café ewig gequatscht. [Vgt]",
+    "en": "We chatted in the café forever.",
+    "cat": "verben",
+    "nouns": [
+      "das Café"
+    ],
+    "g": [
+      {
+        "w": "im Café",
+        "c": "Dat",
+        "n": "in (wo?) → Dat"
+      }
+    ],
+    "verb": {
+      "inf": "quatschen",
+      "t": "platicar, charlar (coloq.)",
+      "grp": "Kommunikation",
+      "f": []
+    }
+  },
+  {
+    "id": "817",
+    "de": "Ich möchte das Thema beim nächsten Treffen ansprechen.",
+    "en": "I'd like to bring up the topic at the next meeting.",
+    "cat": "verben",
+    "nouns": [
+      "das Thema",
+      "das Treffen"
+    ],
+    "g": [
+      {
+        "w": "das Thema",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (neutr.)"
+      },
+      {
+        "w": "beim nächsten Treffen",
+        "c": "Dat",
+        "n": "bei → immer Dat (bei dem)"
+      }
+    ],
+    "verb": {
+      "inf": "ansprechen",
+      "t": "abordar un tema; dirigirse a alguien",
+      "grp": "Kommunikation",
+      "f": [
+        "trennbar"
+      ]
+    }
+  },
+  {
+    "id": "818",
+    "de": "Ich habe mich gestern lange mit der Nachbarin unterhalten. [Vgt]",
+    "en": "Yesterday I talked with the neighbour for a long time.",
+    "cat": "verben",
+    "nouns": [
+      "die Nachbarin"
+    ],
+    "g": [
+      {
+        "w": "mit der Nachbarin",
+        "c": "Dat",
+        "n": "mit → immer Dat"
+      }
+    ],
+    "verb": {
+      "inf": "sich unterhalten",
+      "t": "conversar",
+      "grp": "Kommunikation",
+      "f": [
+        "reflexiv"
+      ]
+    }
+  },
+  {
+    "id": "819",
+    "de": "Hat sie erwähnt, dass sie umzieht? [Vgt]",
+    "en": "Did she mention that she's moving?",
+    "cat": "verben",
+    "verb": {
+      "inf": "erwähnen",
+      "t": "mencionar",
+      "grp": "Kommunikation",
+      "f": []
+    }
+  },
+  {
+    "id": "820",
+    "de": "Ich möchte mich über das Essen beschweren.",
+    "en": "I'd like to complain about the food.",
+    "cat": "verben",
+    "nouns": [
+      "das Essen"
+    ],
+    "g": [
+      {
+        "w": "über das Essen",
+        "c": "Akk",
+        "n": "sich beschweren über → Akk"
+      }
+    ],
+    "verb": {
+      "inf": "sich beschweren",
+      "t": "quejarse",
+      "grp": "Kommunikation",
+      "f": [
+        "reflexiv"
+      ]
+    }
+  },
+  {
+    "id": "821",
+    "de": "Ich gebe zu, dass ich nicht aufgepasst habe. [Vgt]",
+    "en": "I admit that I wasn't paying attention.",
+    "cat": "verben",
+    "verb": {
+      "inf": "zugeben",
+      "t": "admitir",
+      "grp": "Kommunikation",
+      "f": [
+        "trennbar"
+      ]
+    }
+  },
+  {
+    "id": "822",
+    "de": "Er behauptet, dass er nichts davon wusste. [Vgt]",
+    "en": "He claims that he knew nothing about it.",
+    "cat": "verben",
+    "verb": {
+      "inf": "behaupten",
+      "t": "afirmar (sin pruebas)",
+      "grp": "Kommunikation",
+      "f": []
+    }
+  },
+  {
+    "id": "823",
+    "de": "Wir haben uns für Freitag im Kino verabredet. [Vgt]",
+    "en": "We arranged to meet at the cinema on Friday.",
+    "cat": "verben",
+    "nouns": [
+      "das Kino"
+    ],
+    "g": [
+      {
+        "w": "für Freitag",
+        "c": "Akk",
+        "n": "für → immer Akk"
+      },
+      {
+        "w": "im Kino",
+        "c": "Dat",
+        "n": "in (wo?) → Dat"
+      }
+    ],
+    "verb": {
+      "inf": "sich verabreden",
+      "t": "quedar, citarse",
+      "grp": "Kommunikation",
+      "f": [
+        "reflexiv"
+      ]
+    }
+  },
+  {
+    "id": "824",
+    "de": "Ich schlage vor, dass wir eine Pause machen.",
+    "en": "I suggest that we take a break.",
+    "cat": "verben",
+    "nouns": [
+      "die Pause"
+    ],
+    "g": [
+      {
+        "w": "eine Pause",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem.)"
+      }
+    ],
+    "verb": {
+      "inf": "vorschlagen",
+      "t": "proponer",
+      "grp": "Kommunikation",
+      "f": [
+        "trennbar"
+      ]
+    }
+  },
+  {
+    "id": "825",
+    "de": "Dem Vorschlag stimme ich voll und ganz zu.",
+    "en": "I agree with the suggestion completely.",
+    "cat": "verben",
+    "nouns": [
+      "der Vorschlag"
+    ],
+    "g": [
+      {
+        "w": "Dem Vorschlag",
+        "c": "Dat",
+        "n": "zustimmen + Dat"
+      }
+    ],
+    "verb": {
+      "inf": "zustimmen",
+      "t": "estar de acuerdo",
+      "grp": "Kommunikation",
+      "f": [
+        "trennbar"
+      ]
+    }
+  },
+  {
+    "id": "826",
+    "de": "Da muss ich dir leider widersprechen.",
+    "en": "I'm afraid I have to disagree with you there.",
+    "cat": "verben",
+    "g": [
+      {
+        "w": "dir",
+        "c": "Dat",
+        "n": "widersprechen + Dat"
+      }
+    ],
+    "verb": {
+      "inf": "widersprechen",
+      "t": "contradecir",
+      "grp": "Kommunikation",
+      "f": []
+    }
+  },
+  {
+    "id": "827",
+    "de": "Meine Freundin hat mich zu einem Konzert überredet. [Vgt]",
+    "en": "My friend talked me into going to a concert.",
+    "cat": "verben",
+    "nouns": [
+      "die Freundin",
+      "das Konzert"
+    ],
+    "g": [
+      {
+        "w": "mich",
+        "c": "Akk",
+        "n": "überreden + Akk"
+      },
+      {
+        "w": "zu einem Konzert",
+        "c": "Dat",
+        "n": "zu → immer Dat"
+      }
+    ],
+    "verb": {
+      "inf": "überreden",
+      "t": "convencer",
+      "grp": "Kommunikation",
+      "f": []
+    }
+  },
+  {
+    "id": "828",
+    "de": "Ich möchte mich für die Verspätung entschuldigen.",
+    "en": "I'd like to apologise for being late.",
+    "cat": "verben",
+    "nouns": [
+      "die Verspätung"
+    ],
+    "g": [
+      {
+        "w": "für die Verspätung",
+        "c": "Akk",
+        "n": "für → immer Akk"
+      }
+    ],
+    "verb": {
+      "inf": "sich entschuldigen",
+      "t": "disculparse",
+      "grp": "Kommunikation",
+      "f": [
+        "reflexiv"
+      ]
+    }
+  },
+  {
+    "id": "829",
+    "de": "Ich frage morgen im Büro noch einmal nach.",
+    "en": "I'll ask again at the office tomorrow.",
+    "cat": "verben",
+    "nouns": [
+      "das Büro"
+    ],
+    "g": [
+      {
+        "w": "im Büro",
+        "c": "Dat",
+        "n": "in (wo?) → Dat"
+      }
+    ],
+    "verb": {
+      "inf": "nachfragen",
+      "t": "volver a preguntar, consultar",
+      "grp": "Kommunikation",
+      "f": [
+        "trennbar"
+      ]
+    }
+  },
+  {
+    "id": "830",
+    "de": "Ich möchte mich ganz herzlich bei dir bedanken.",
+    "en": "I'd like to thank you very warmly.",
+    "cat": "verben",
+    "g": [
+      {
+        "w": "bei dir",
+        "c": "Dat",
+        "n": "bei → immer Dat"
+      }
+    ],
+    "verb": {
+      "inf": "sich bedanken",
+      "t": "dar las gracias",
+      "grp": "Kommunikation",
+      "f": [
+        "reflexiv"
+      ]
+    }
+  },
+  {
+    "id": "831",
+    "de": "Wer übernimmt die Leitung des Teams?",
+    "en": "Who's taking over the leadership of the team?",
+    "cat": "verben",
+    "nouns": [
+      "die Leitung",
+      "das Team"
+    ],
+    "g": [
+      {
+        "w": "die Leitung",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem.)"
+      }
+    ],
+    "verb": {
+      "inf": "übernehmen",
+      "t": "asumir, hacerse cargo",
+      "grp": "Arbeit & Beruf",
+      "f": []
+    }
+  },
+  {
+    "id": "832",
+    "de": "Die neue Kollegin arbeitet sich schnell ein.",
+    "en": "The new colleague is getting up to speed quickly.",
+    "cat": "verben",
+    "nouns": [
+      "die Kollegin"
+    ],
+    "verb": {
+      "inf": "einarbeiten",
+      "t": "capacitarse, adaptarse al puesto",
+      "grp": "Arbeit & Beruf",
+      "f": [
+        "trennbar",
+        "reflexiv"
+      ]
+    }
+  },
+  {
+    "id": "833",
+    "de": "Wir haben das Projekt pünktlich abgeschlossen. [Vgt]",
+    "en": "We finished the project on time.",
+    "cat": "verben",
+    "nouns": [
+      "das Projekt"
+    ],
+    "g": [
+      {
+        "w": "das Projekt",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (neutr.)"
+      }
+    ],
+    "verb": {
+      "inf": "abschließen",
+      "t": "concluir, finalizar",
+      "grp": "Arbeit & Beruf",
+      "f": [
+        "trennbar"
+      ]
+    }
+  },
+  {
+    "id": "834",
+    "de": "Ich bewerbe mich um eine Stelle als Designerin.",
+    "en": "I'm applying for a position as a designer.",
+    "cat": "verben",
+    "nouns": [
+      "die Stelle",
+      "die Designerin"
+    ],
+    "g": [
+      {
+        "w": "um eine Stelle",
+        "c": "Akk",
+        "n": "sich bewerben um → Akk"
+      }
+    ],
+    "verb": {
+      "inf": "sich bewerben",
+      "t": "postularse",
+      "grp": "Arbeit & Beruf",
+      "f": [
+        "reflexiv"
+      ]
+    }
+  },
+  {
+    "id": "835",
+    "de": "Mein Kollege hat zum Monatsende gekündigt. [Vgt]",
+    "en": "My colleague handed in his notice for the end of the month.",
+    "cat": "verben",
+    "nouns": [
+      "der Kollege",
+      "das Monatsende"
+    ],
+    "g": [
+      {
+        "w": "zum Monatsende",
+        "c": "Dat",
+        "n": "zu → immer Dat"
+      }
+    ],
+    "verb": {
+      "inf": "kündigen",
+      "t": "renunciar; despedir",
+      "grp": "Arbeit & Beruf",
+      "f": []
+    }
+  },
+  {
+    "id": "836",
+    "de": "Wie wollen wir diesen Plan umsetzen?",
+    "en": "How do we want to implement this plan?",
+    "cat": "verben",
+    "nouns": [
+      "der Plan"
+    ],
+    "g": [
+      {
+        "w": "diesen Plan",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ],
+    "verb": {
+      "inf": "umsetzen",
+      "t": "implementar, llevar a cabo",
+      "grp": "Arbeit & Beruf",
+      "f": [
+        "trennbar"
+      ]
+    }
+  },
+  {
+    "id": "837",
+    "de": "Wir stimmen die Termine mit dem Kunden ab.",
+    "en": "We coordinate the dates with the customer.",
+    "cat": "verben",
+    "nouns": [
+      "der Termin",
+      "der Kunde"
+    ],
+    "g": [
+      {
+        "w": "die Termine",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (Plural)"
+      },
+      {
+        "w": "mit dem Kunden",
+        "c": "Dat",
+        "n": "mit → immer Dat"
+      }
+    ],
+    "verb": {
+      "inf": "abstimmen",
+      "t": "coordinar",
+      "grp": "Arbeit & Beruf",
+      "f": [
+        "trennbar"
+      ]
+    }
+  },
+  {
+    "id": "838",
+    "de": "Er hat für das Treffen schon zugesagt. [Vgt]",
+    "en": "He has already confirmed for the meeting.",
+    "cat": "verben",
+    "nouns": [
+      "das Treffen"
+    ],
+    "g": [
+      {
+        "w": "für das Treffen",
+        "c": "Akk",
+        "n": "für → immer Akk"
+      }
+    ],
+    "verb": {
+      "inf": "zusagen",
+      "t": "aceptar, confirmar asistencia",
+      "grp": "Arbeit & Beruf",
+      "f": [
+        "trennbar"
+      ]
+    }
+  },
+  {
+    "id": "839",
+    "de": "Hoffentlich klappt es mit dem Visum!",
+    "en": "Hopefully it works out with the visa!",
+    "cat": "verben",
+    "nouns": [
+      "das Visum"
+    ],
+    "g": [
+      {
+        "w": "mit dem Visum",
+        "c": "Dat",
+        "n": "mit → immer Dat"
+      }
+    ],
+    "verb": {
+      "inf": "klappen",
+      "t": "funcionar, salir bien",
+      "grp": "Arbeit & Beruf",
+      "f": []
+    }
+  },
+  {
+    "id": "840",
+    "de": "Kannst du mir die E-Mail bitte weiterleiten?",
+    "en": "Can you please forward me the email?",
+    "cat": "verben",
+    "nouns": [
+      "die E-Mail"
+    ],
+    "g": [
+      {
+        "w": "mir",
+        "c": "Dat",
+        "n": "weiterleiten + Dat"
+      },
+      {
+        "w": "die E-Mail",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem.)"
+      }
+    ],
+    "verb": {
+      "inf": "weiterleiten",
+      "t": "reenviar",
+      "grp": "Arbeit & Beruf",
+      "f": [
+        "trennbar"
+      ]
+    }
+  },
+  {
+    "id": "841",
+    "de": "Am Ende hat sich meine Idee durchgesetzt. [Vgt]",
+    "en": "In the end my idea prevailed.",
+    "cat": "verben",
+    "nouns": [
+      "die Idee"
+    ],
+    "verb": {
+      "inf": "sich durchsetzen",
+      "t": "imponerse, salirse con la suya",
+      "grp": "Arbeit & Beruf",
+      "f": [
+        "trennbar",
+        "reflexiv"
+      ]
+    }
+  },
+  {
+    "id": "842",
+    "de": "Meine Kollegin vertritt mich nächste Woche.",
+    "en": "My colleague is covering for me next week.",
+    "cat": "verben",
+    "nouns": [
+      "die Kollegin"
+    ],
+    "g": [
+      {
+        "w": "mich",
+        "c": "Akk",
+        "n": "vertreten + Akk"
+      },
+      {
+        "w": "nächste Woche",
+        "c": "Akk",
+        "n": "Zeitangabe → Akk"
+      }
+    ],
+    "verb": {
+      "inf": "vertreten",
+      "t": "sustituir, reemplazar",
+      "grp": "Arbeit & Beruf",
+      "f": []
+    }
+  },
+  {
+    "id": "843",
+    "de": "Das Team unterstützt mich bei der Planung.",
+    "en": "The team supports me with the planning.",
+    "cat": "verben",
+    "nouns": [
+      "das Team",
+      "die Planung"
+    ],
+    "g": [
+      {
+        "w": "mich",
+        "c": "Akk",
+        "n": "unterstützen + Akk"
+      },
+      {
+        "w": "bei der Planung",
+        "c": "Dat",
+        "n": "bei → immer Dat"
+      }
+    ],
+    "verb": {
+      "inf": "unterstützen",
+      "t": "apoyar",
+      "grp": "Arbeit & Beruf",
+      "f": []
+    }
+  },
+  {
+    "id": "844",
+    "de": "Ich muss die Unterlagen bis Freitag einreichen.",
+    "en": "I have to submit the documents by Friday.",
+    "cat": "verben",
+    "nouns": [
+      "die Unterlage"
+    ],
+    "g": [
+      {
+        "w": "die Unterlagen",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (Plural)"
+      }
+    ],
+    "verb": {
+      "inf": "einreichen",
+      "t": "presentar, entregar (un documento)",
+      "grp": "Arbeit & Beruf",
+      "f": [
+        "trennbar"
+      ]
+    }
+  },
+  {
+    "id": "845",
+    "de": "Lasst uns gleich einen neuen Termin festlegen.",
+    "en": "Let's set a new date right away.",
+    "cat": "verben",
+    "nouns": [
+      "der Termin"
+    ],
+    "g": [
+      {
+        "w": "einen neuen Termin",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ],
+    "verb": {
+      "inf": "festlegen",
+      "t": "fijar, establecer",
+      "grp": "Arbeit & Beruf",
+      "f": [
+        "trennbar"
+      ]
+    }
+  },
+  {
+    "id": "846",
+    "de": "Meine Schwester zieht im Sommer nach Berlin um.",
+    "en": "My sister is moving to Berlin in the summer.",
+    "cat": "verben",
+    "nouns": [
+      "die Schwester",
+      "der Sommer"
+    ],
+    "g": [
+      {
+        "w": "im Sommer",
+        "c": "Dat",
+        "n": "in (Jahreszeit) → Dat"
+      },
+      {
+        "w": "nach Berlin",
+        "c": "Dat",
+        "n": "nach → immer Dat"
+      }
+    ],
+    "verb": {
+      "inf": "umziehen",
+      "t": "mudarse (de casa)",
+      "grp": "Bewegung & Veränderung",
+      "f": [
+        "trennbar"
+      ]
+    }
+  },
+  {
+    "id": "847",
+    "de": "Im Wald haben wir uns fast verlaufen. [Vgt]",
+    "en": "We almost got lost in the forest.",
+    "cat": "verben",
+    "nouns": [
+      "der Wald"
+    ],
+    "g": [
+      {
+        "w": "Im Wald",
+        "c": "Dat",
+        "n": "in (wo?) → Dat"
+      }
+    ],
+    "verb": {
+      "inf": "sich verlaufen",
+      "t": "perderse (a pie)",
+      "grp": "Bewegung & Veränderung",
+      "f": [
+        "reflexiv"
+      ]
+    }
+  },
+  {
+    "id": "848",
+    "de": "Ich haue jetzt ab, mein Bus kommt gleich.",
+    "en": "I'm off now, my bus is coming soon.",
+    "cat": "verben",
+    "nouns": [
+      "der Bus"
+    ],
+    "verb": {
+      "inf": "abhauen",
+      "t": "largarse (coloq.)",
+      "grp": "Bewegung & Veränderung",
+      "f": [
+        "trennbar"
+      ]
+    }
+  },
+  {
+    "id": "849",
+    "de": "Wenn alle da sind, fahren wir los.",
+    "en": "As soon as everyone is here, we'll set off.",
+    "cat": "verben",
+    "verb": {
+      "inf": "losfahren",
+      "t": "salir, ponerse en marcha",
+      "grp": "Bewegung & Veränderung",
+      "f": [
+        "trennbar"
+      ]
+    }
+  },
+  {
+    "id": "850",
+    "de": "Seit dem Umzug hat sich mein Alltag stark verändert. [Vgt]",
+    "en": "My everyday life has changed a lot since the move.",
+    "cat": "verben",
+    "nouns": [
+      "der Umzug",
+      "der Alltag"
+    ],
+    "g": [
+      {
+        "w": "Seit dem Umzug",
+        "c": "Dat",
+        "n": "seit → immer Dat"
+      }
+    ],
+    "verb": {
+      "inf": "sich verändern",
+      "t": "cambiar",
+      "grp": "Bewegung & Veränderung",
+      "f": [
+        "reflexiv"
+      ]
+    }
+  },
+  {
+    "id": "851",
+    "de": "Ich gewöhne mich langsam an das Klima.",
+    "en": "I'm slowly getting used to the climate.",
+    "cat": "verben",
+    "nouns": [
+      "das Klima"
+    ],
+    "g": [
+      {
+        "w": "an das Klima",
+        "c": "Akk",
+        "n": "sich gewöhnen an → Akk"
+      }
+    ],
+    "verb": {
+      "inf": "sich gewöhnen an",
+      "t": "acostumbrarse a",
+      "grp": "Bewegung & Veränderung",
+      "f": [
+        "reflexiv"
+      ]
+    }
+  },
+  {
+    "id": "852",
+    "de": "Der Verkehr nimmt in der Stadt immer mehr zu.",
+    "en": "Traffic in the city keeps increasing.",
+    "cat": "verben",
+    "nouns": [
+      "der Verkehr",
+      "die Stadt"
+    ],
+    "g": [
+      {
+        "w": "in der Stadt",
+        "c": "Dat",
+        "n": "in (wo?) → Dat"
+      }
+    ],
+    "verb": {
+      "inf": "zunehmen",
+      "t": "aumentar (también: subir de peso)",
+      "grp": "Bewegung & Veränderung",
+      "f": [
+        "trennbar"
+      ]
+    }
+  },
+  {
+    "id": "853",
+    "de": "Dein Deutsch entwickelt sich richtig gut.",
+    "en": "Your German is developing really well.",
+    "cat": "verben",
+    "verb": {
+      "inf": "sich entwickeln",
+      "t": "desarrollarse, evolucionar",
+      "grp": "Bewegung & Veränderung",
+      "f": [
+        "reflexiv"
+      ]
+    }
+  },
+  {
+    "id": "854",
+    "de": "Wir sind gut in München angekommen. [Vgt]",
+    "en": "We arrived safely in Munich.",
+    "cat": "verben",
+    "g": [
+      {
+        "w": "in München",
+        "c": "Dat",
+        "n": "in (wo?) → Dat"
+      }
+    ],
+    "verb": {
+      "inf": "ankommen",
+      "t": "llegar",
+      "grp": "Bewegung & Veränderung",
+      "f": [
+        "trennbar"
+      ]
+    }
+  },
+  {
+    "id": "855",
+    "de": "Hör bitte auf, ständig aufs Handy zu schauen!",
+    "en": "Please stop constantly looking at your phone!",
+    "cat": "verben",
+    "nouns": [
+      "das Handy"
+    ],
+    "g": [
+      {
+        "w": "aufs Handy",
+        "c": "Akk",
+        "n": "schauen auf → Akk (auf das)"
+      }
+    ],
+    "verb": {
+      "inf": "aufhören",
+      "t": "dejar de, terminar",
+      "grp": "Bewegung & Veränderung",
+      "f": [
+        "trennbar"
+      ]
+    }
+  },
+  {
+    "id": "856",
+    "de": "Passt es dir, wenn wir uns um acht treffen?",
+    "en": "Does it suit you if we meet at eight?",
+    "cat": "verben",
+    "g": [
+      {
+        "w": "dir",
+        "c": "Dat",
+        "n": "passen + Dat"
+      }
+    ],
+    "verb": {
+      "inf": "passen",
+      "t": "quedar bien, convenir",
+      "grp": "Kleine Wörter, große Wirkung",
+      "f": []
+    }
+  },
+  {
+    "id": "857",
+    "de": "Das Angebot gilt nur bis Ende des Monats.",
+    "en": "The offer is only valid until the end of the month.",
+    "cat": "verben",
+    "nouns": [
+      "das Angebot",
+      "das Ende",
+      "der Monat"
+    ],
+    "verb": {
+      "inf": "gelten",
+      "t": "ser válido, valer",
+      "grp": "Kleine Wörter, große Wirkung",
+      "f": []
+    }
+  },
+  {
+    "id": "858",
+    "de": "Der Ausflug hat sich wirklich gelohnt. [Vgt]",
+    "en": "The trip was really worth it.",
+    "cat": "verben",
+    "nouns": [
+      "der Ausflug"
+    ],
+    "verb": {
+      "inf": "sich lohnen",
+      "t": "valer la pena",
+      "grp": "Kleine Wörter, große Wirkung",
+      "f": [
+        "reflexiv"
+      ]
+    }
+  },
+  {
+    "id": "859",
+    "de": "Reicht dir eine Stunde für die Aufgabe aus?",
+    "en": "Is one hour enough for you for the task?",
+    "cat": "verben",
+    "nouns": [
+      "die Stunde",
+      "die Aufgabe"
+    ],
+    "g": [
+      {
+        "w": "dir",
+        "c": "Dat",
+        "n": "ausreichen + Dat"
+      },
+      {
+        "w": "für die Aufgabe",
+        "c": "Akk",
+        "n": "für → immer Akk"
+      }
+    ],
+    "verb": {
+      "inf": "ausreichen",
+      "t": "ser suficiente",
+      "grp": "Kleine Wörter, große Wirkung",
+      "f": [
+        "trennbar"
+      ]
+    }
+  },
+  {
+    "id": "860",
+    "de": "Warte kurz, du kommst gleich dran.",
+    "en": "Wait a moment, you're up next.",
+    "cat": "verben",
+    "verb": {
+      "inf": "drankommen",
+      "t": "tocarle el turno",
+      "grp": "Kleine Wörter, große Wirkung",
+      "f": [
+        "trennbar"
+      ]
+    }
+  },
+  {
+    "id": "861",
+    "de": "Mit meiner Vermutung lag ich völlig daneben. [Vgt]",
+    "en": "I was completely wrong with my guess.",
+    "cat": "verben",
+    "nouns": [
+      "die Vermutung"
+    ],
+    "g": [
+      {
+        "w": "Mit meiner Vermutung",
+        "c": "Dat",
+        "n": "mit → immer Dat"
+      }
+    ],
+    "verb": {
+      "inf": "danebenliegen",
+      "t": "equivocarse",
+      "grp": "Kleine Wörter, große Wirkung",
+      "f": [
+        "trennbar"
+      ]
+    }
+  },
+  {
+    "id": "862",
+    "de": "Entschuldigung, ich habe es heute etwas eilig.",
+    "en": "Sorry, I'm in a bit of a hurry today.",
+    "cat": "verben",
+    "verb": {
+      "inf": "es eilig haben",
+      "t": "tener prisa",
+      "grp": "Kleine Wörter, große Wirkung",
+      "f": []
+    }
+  },
+  {
+    "id": "863",
+    "de": "Dieser Satz kommt mir irgendwie falsch vor.",
+    "en": "This sentence somehow seems wrong to me.",
+    "cat": "verben",
+    "nouns": [
+      "der Satz"
+    ],
+    "g": [
+      {
+        "w": "mir",
+        "c": "Dat",
+        "n": "vorkommen + Dat"
+      }
+    ],
+    "verb": {
+      "inf": "vorkommen",
+      "t": "parecer; suceder",
+      "grp": "Kleine Wörter, große Wirkung",
+      "f": [
+        "trennbar"
+      ]
+    }
+  },
+  {
+    "id": "864",
+    "de": "Wie ist die Wahl ausgegangen? [Vgt]",
+    "en": "How did the election turn out?",
+    "cat": "verben",
+    "nouns": [
+      "die Wahl"
+    ],
+    "verb": {
+      "inf": "ausgehen",
+      "t": "terminar (resultado); salir",
+      "grp": "Kleine Wörter, große Wirkung",
+      "f": [
+        "trennbar"
+      ]
+    }
+  },
+  {
+    "id": "865",
+    "de": "Die Rechnung stimmt nicht, da fehlt ein Posten.",
+    "en": "The bill isn't right, an item is missing.",
+    "cat": "verben",
+    "nouns": [
+      "die Rechnung",
+      "der Posten"
+    ],
+    "verb": {
+      "inf": "stimmen",
+      "t": "ser correcto, cuadrar",
+      "grp": "Kleine Wörter, große Wirkung",
+      "f": []
+    }
+  },
+  {
+    "id": "866",
+    "de": "Bei diesem Spiel zählt jeder Punkt.",
+    "en": "In this game every point counts.",
+    "cat": "verben",
+    "nouns": [
+      "das Spiel",
+      "der Punkt"
+    ],
+    "g": [
+      {
+        "w": "Bei diesem Spiel",
+        "c": "Dat",
+        "n": "bei → immer Dat"
+      }
+    ],
+    "verb": {
+      "inf": "zählen",
+      "t": "contar, importar",
+      "grp": "Kleine Wörter, große Wirkung",
+      "f": []
+    }
+  },
+  {
+    "id": "867",
+    "de": "Bei dem Anruf handelt es sich um einen Irrtum.",
+    "en": "The call turns out to be a mistake. (es handelt sich um)",
+    "cat": "verben",
+    "nouns": [
+      "der Anruf",
+      "der Irrtum"
+    ],
+    "g": [
+      {
+        "w": "Bei dem Anruf",
+        "c": "Dat",
+        "n": "bei → immer Dat"
+      },
+      {
+        "w": "um einen Irrtum",
+        "c": "Akk",
+        "n": "sich handeln um → Akk"
+      }
+    ],
+    "verb": {
+      "inf": "sich handeln um",
+      "t": "tratarse de",
+      "grp": "Kleine Wörter, große Wirkung",
+      "f": [
+        "reflexiv"
+      ]
+    }
+  },
+  {
+    "id": "868",
+    "de": "Wenn etwas schiefgeht, rufe ich dich sofort an.",
+    "en": "If something goes wrong, I'll call you right away.",
+    "cat": "verben",
+    "g": [
+      {
+        "w": "dich",
+        "c": "Akk",
+        "n": "anrufen + Akk"
+      }
+    ],
+    "verb": {
+      "inf": "schiefgehen",
+      "t": "salir mal",
+      "grp": "Kleine Wörter, große Wirkung",
+      "f": [
+        "trennbar"
+      ]
+    }
+  },
+  {
+    "id": "869",
+    "de": "Bleib dran, du bist auf dem richtigen Weg!",
+    "en": "Keep at it, you're on the right track!",
+    "cat": "verben",
+    "nouns": [
+      "der Weg"
+    ],
+    "g": [
+      {
+        "w": "auf dem richtigen Weg",
+        "c": "Dat",
+        "n": "auf (wo?) → Dat"
+      }
+    ],
+    "verb": {
+      "inf": "dranbleiben",
+      "t": "seguir con ello, no soltar",
+      "grp": "Kleine Wörter, große Wirkung",
+      "f": [
+        "trennbar"
+      ]
+    }
+  },
+  {
+    "id": "870",
+    "de": "Es kommt darauf an, wie das Wetter wird.",
+    "en": "It depends on what the weather will be like.",
+    "cat": "verben",
+    "nouns": [
+      "das Wetter"
+    ],
+    "g": [
+      {
+        "w": "darauf",
+        "c": "Akk",
+        "n": "ankommen auf → Akk (da + r + auf)"
+      }
+    ],
+    "verb": {
+      "inf": "darauf ankommen",
+      "t": "depender de",
+      "grp": "Kleine Wörter, große Wirkung",
+      "f": [
+        "trennbar"
+      ]
+    }
+  },
+  {
+    "id": "871",
+    "de": "Bis Freitag müssen wir eine Entscheidung treffen.",
+    "en": "By Friday we have to make a decision.",
+    "cat": "nvv",
+    "nouns": [
+      "die Entscheidung"
+    ],
+    "g": [
+      {
+        "w": "eine Entscheidung",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem.)"
+      }
+    ],
+    "nvv": {
+      "phrase": "eine Entscheidung treffen",
+      "simple": "entscheiden",
+      "grp": "Entscheiden & Handeln"
+    }
+  },
+  {
+    "id": "872",
+    "de": "Die Firma hat rechtzeitig Maßnahmen ergriffen. [Vgt]",
+    "en": "The company took measures in time.",
+    "cat": "nvv",
+    "nouns": [
+      "die Maßnahme",
+      "die Firma"
+    ],
+    "g": [
+      {
+        "w": "Maßnahmen",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (Plural)"
+      }
+    ],
+    "nvv": {
+      "phrase": "Maßnahmen ergreifen",
+      "simple": "handeln",
+      "grp": "Entscheiden & Handeln"
+    }
+  },
+  {
+    "id": "873",
+    "de": "Jeder im Team kann einen kleinen Beitrag leisten.",
+    "en": "Everyone on the team can make a small contribution.",
+    "cat": "nvv",
+    "nouns": [
+      "der Beitrag",
+      "das Team"
+    ],
+    "g": [
+      {
+        "w": "einen kleinen Beitrag",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ],
+    "nvv": {
+      "phrase": "einen Beitrag leisten",
+      "simple": "beitragen",
+      "grp": "Entscheiden & Handeln"
+    }
+  },
+  {
+    "id": "874",
+    "de": "Für den günstigen Preis nehme ich die lange Fahrt in Kauf.",
+    "en": "For the low price I'll accept the long trip.",
+    "cat": "nvv",
+    "nouns": [
+      "der Preis",
+      "die Fahrt"
+    ],
+    "g": [
+      {
+        "w": "für den günstigen Preis",
+        "c": "Akk",
+        "n": "für → immer Akk"
+      },
+      {
+        "w": "die lange Fahrt",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem.)"
+      }
+    ],
+    "nvv": {
+      "phrase": "in Kauf nehmen",
+      "simple": "einen Nachteil akzeptieren",
+      "grp": "Entscheiden & Handeln"
+    }
+  },
+  {
+    "id": "875",
+    "de": "Ich übernehme die Verantwortung für diesen Fehler.",
+    "en": "I take responsibility for this mistake.",
+    "cat": "nvv",
+    "nouns": [
+      "die Verantwortung",
+      "der Fehler"
+    ],
+    "g": [
+      {
+        "w": "die Verantwortung",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem.)"
+      },
+      {
+        "w": "für diesen Fehler",
+        "c": "Akk",
+        "n": "für → immer Akk"
+      }
+    ],
+    "nvv": {
+      "phrase": "Verantwortung übernehmen",
+      "simple": "verantwortlich sein",
+      "grp": "Entscheiden & Handeln"
+    }
+  },
+  {
+    "id": "876",
+    "de": "Gemeinsam finden wir bestimmt eine Lösung.",
+    "en": "Together we'll surely find a solution.",
+    "cat": "nvv",
+    "nouns": [
+      "die Lösung"
+    ],
+    "g": [
+      {
+        "w": "eine Lösung",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem.)"
+      }
+    ],
+    "nvv": {
+      "phrase": "eine Lösung finden",
+      "simple": "lösen",
+      "grp": "Entscheiden & Handeln"
+    }
+  },
+  {
+    "id": "877",
+    "de": "Darf ich Ihnen kurz eine Frage stellen?",
+    "en": "May I quickly ask you a question?",
+    "cat": "nvv",
+    "nouns": [
+      "die Frage"
+    ],
+    "g": [
+      {
+        "w": "Ihnen",
+        "c": "Dat",
+        "n": "stellen + Dat (Person)"
+      },
+      {
+        "w": "eine Frage",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem.)"
+      }
+    ],
+    "nvv": {
+      "phrase": "eine Frage stellen",
+      "simple": "fragen",
+      "grp": "Sprechen & Diskutieren"
+    }
+  },
+  {
+    "id": "878",
+    "de": "Sie übt oft Kritik an den Regeln.",
+    "en": "She often criticises the rules.",
+    "cat": "nvv",
+    "nouns": [
+      "die Kritik",
+      "die Regel"
+    ],
+    "g": [
+      {
+        "w": "an den Regeln",
+        "c": "Dat",
+        "n": "Kritik üben an → Dat; Plural +n"
+      }
+    ],
+    "nvv": {
+      "phrase": "Kritik üben (an)",
+      "simple": "kritisieren",
+      "grp": "Sprechen & Diskutieren"
+    }
+  },
+  {
+    "id": "879",
+    "de": "Darf ich einen Vorschlag machen?",
+    "en": "May I make a suggestion?",
+    "cat": "nvv",
+    "nouns": [
+      "der Vorschlag"
+    ],
+    "g": [
+      {
+        "w": "einen Vorschlag",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ],
+    "nvv": {
+      "phrase": "einen Vorschlag machen",
+      "simple": "vorschlagen",
+      "grp": "Sprechen & Diskutieren"
+    }
+  },
+  {
+    "id": "880",
+    "de": "Ich werde das Problem im Meeting zur Sprache bringen.",
+    "en": "I'll bring the problem up in the meeting.",
+    "cat": "nvv",
+    "nouns": [
+      "das Problem",
+      "das Meeting"
+    ],
+    "g": [
+      {
+        "w": "das Problem",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (neutr.)"
+      },
+      {
+        "w": "im Meeting",
+        "c": "Dat",
+        "n": "in (wo?) → Dat"
+      },
+      {
+        "w": "zur Sprache",
+        "c": "Dat",
+        "n": "zu → immer Dat (zu der)"
+      }
+    ],
+    "nvv": {
+      "phrase": "zur Sprache bringen",
+      "simple": "ansprechen",
+      "grp": "Sprechen & Diskutieren"
+    }
+  },
+  {
+    "id": "881",
+    "de": "Niemand hat seine Erfahrung in Frage gestellt. [Vgt]",
+    "en": "Nobody questioned his experience.",
+    "cat": "nvv",
+    "nouns": [
+      "die Erfahrung"
+    ],
+    "g": [
+      {
+        "w": "seine Erfahrung",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem.)"
+      }
+    ],
+    "nvv": {
+      "phrase": "in Frage stellen",
+      "simple": "bezweifeln",
+      "grp": "Sprechen & Diskutieren"
+    }
+  },
+  {
+    "id": "882",
+    "de": "Er vertritt seinen Standpunkt sehr klar.",
+    "en": "He represents his position very clearly.",
+    "cat": "nvv",
+    "nouns": [
+      "der Standpunkt"
+    ],
+    "g": [
+      {
+        "w": "seinen Standpunkt",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ],
+    "nvv": {
+      "phrase": "einen Standpunkt vertreten",
+      "simple": "eine Meinung haben",
+      "grp": "Sprechen & Diskutieren"
+    }
+  },
+  {
+    "id": "883",
+    "de": "Möchten Sie dazu kurz Stellung nehmen?",
+    "en": "Would you like to comment on this briefly?",
+    "cat": "nvv",
+    "nouns": [
+      "die Stellung"
+    ],
+    "g": [
+      {
+        "w": "dazu",
+        "c": "Dat",
+        "n": "Stellung nehmen zu → Dat (da + zu)"
+      }
+    ],
+    "nvv": {
+      "phrase": "Stellung nehmen (zu)",
+      "simple": "sich äußern",
+      "grp": "Sprechen & Diskutieren"
+    }
+  },
+  {
+    "id": "884",
+    "de": "Mit dem Brief bringt sie ihren Dank zum Ausdruck.",
+    "en": "With the letter she expresses her thanks.",
+    "cat": "nvv",
+    "nouns": [
+      "der Brief",
+      "der Dank"
+    ],
+    "g": [
+      {
+        "w": "Mit dem Brief",
+        "c": "Dat",
+        "n": "mit → immer Dat"
+      },
+      {
+        "w": "ihren Dank",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ],
+    "nvv": {
+      "phrase": "zum Ausdruck bringen",
+      "simple": "ausdrücken",
+      "grp": "Sprechen & Diskutieren"
+    }
+  },
+  {
+    "id": "885",
+    "de": "Wir sollten auch eine zweite Option in Betracht ziehen.",
+    "en": "We should also take a second option into consideration.",
+    "cat": "nvv",
+    "nouns": [
+      "die Option"
+    ],
+    "g": [
+      {
+        "w": "eine zweite Option",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem.)"
+      }
+    ],
+    "nvv": {
+      "phrase": "in Betracht ziehen",
+      "simple": "berücksichtigen",
+      "grp": "Denken & Bewerten"
+    }
+  },
+  {
+    "id": "886",
+    "de": "Der Preis spielt für mich keine große Rolle.",
+    "en": "The price doesn't play a big role for me.",
+    "cat": "nvv",
+    "nouns": [
+      "der Preis",
+      "die Rolle"
+    ],
+    "g": [
+      {
+        "w": "für mich",
+        "c": "Akk",
+        "n": "für → immer Akk"
+      },
+      {
+        "w": "keine große Rolle",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem.)"
+      }
+    ],
+    "nvv": {
+      "phrase": "eine Rolle spielen",
+      "simple": "wichtig sein",
+      "grp": "Denken & Bewerten"
+    }
+  },
+  {
+    "id": "887",
+    "de": "Diese Regel hat für uns große Bedeutung.",
+    "en": "This rule is of great importance to us.",
+    "cat": "nvv",
+    "nouns": [
+      "die Regel",
+      "die Bedeutung"
+    ],
+    "g": [
+      {
+        "w": "für uns",
+        "c": "Akk",
+        "n": "für → immer Akk"
+      }
+    ],
+    "nvv": {
+      "phrase": "Bedeutung haben",
+      "simple": "wichtig sein",
+      "grp": "Denken & Bewerten"
+    }
+  },
+  {
+    "id": "888",
+    "de": "Ich mache mir Gedanken über meine berufliche Zukunft.",
+    "en": "I'm thinking about my professional future.",
+    "cat": "nvv",
+    "nouns": [
+      "der Gedanke",
+      "die Zukunft"
+    ],
+    "g": [
+      {
+        "w": "mir",
+        "c": "Dat",
+        "n": "Reflexiv Dat"
+      },
+      {
+        "w": "über meine berufliche Zukunft",
+        "c": "Akk",
+        "n": "sich Gedanken machen über → Akk"
+      }
+    ],
+    "nvv": {
+      "phrase": "sich Gedanken machen (über)",
+      "simple": "nachdenken",
+      "grp": "Denken & Bewerten"
+    }
+  },
+  {
+    "id": "889",
+    "de": "Bitte nimm Rücksicht auf die Leute im Haus.",
+    "en": "Please be considerate of the people in the building.",
+    "cat": "nvv",
+    "nouns": [
+      "die Rücksicht",
+      "das Haus"
+    ],
+    "g": [
+      {
+        "w": "auf die Leute",
+        "c": "Akk",
+        "n": "Rücksicht nehmen auf → Akk"
+      },
+      {
+        "w": "im Haus",
+        "c": "Dat",
+        "n": "in (wo?) → Dat"
+      }
+    ],
+    "nvv": {
+      "phrase": "Rücksicht nehmen (auf)",
+      "simple": "berücksichtigen",
+      "grp": "Denken & Bewerten"
+    }
+  },
+  {
+    "id": "890",
+    "de": "Beim Gespräch habe ich einen guten Eindruck gewonnen. [Vgt]",
+    "en": "In the conversation I got a good impression.",
+    "cat": "nvv",
+    "nouns": [
+      "das Gespräch",
+      "der Eindruck"
+    ],
+    "g": [
+      {
+        "w": "Beim Gespräch",
+        "c": "Dat",
+        "n": "bei → immer Dat (bei dem)"
+      },
+      {
+        "w": "einen guten Eindruck",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ],
+    "nvv": {
+      "phrase": "einen Eindruck gewinnen",
+      "simple": "wahrnehmen",
+      "grp": "Denken & Bewerten"
+    }
+  },
+  {
+    "id": "891",
+    "de": "Das neue Gesetz tritt nächsten Monat in Kraft.",
+    "en": "The new law comes into force next month.",
+    "cat": "nvv",
+    "nouns": [
+      "das Gesetz",
+      "der Monat",
+      "die Kraft"
+    ],
+    "g": [
+      {
+        "w": "nächsten Monat",
+        "c": "Akk",
+        "n": "Zeitangabe → Akk"
+      }
+    ],
+    "nvv": {
+      "phrase": "in Kraft treten",
+      "simple": "gültig werden",
+      "grp": "Prozesse & Veränderung"
+    }
+  },
+  {
+    "id": "892",
+    "de": "Ich stehe Ihnen gern für Rückfragen zur Verfügung.",
+    "en": "I'm happy to be available for follow-up questions.",
+    "cat": "nvv",
+    "nouns": [
+      "die Rückfrage",
+      "die Verfügung"
+    ],
+    "g": [
+      {
+        "w": "Ihnen",
+        "c": "Dat",
+        "n": "stehen + Dat"
+      },
+      {
+        "w": "für Rückfragen",
+        "c": "Akk",
+        "n": "für → immer Akk"
+      }
+    ],
+    "nvv": {
+      "phrase": "zur Verfügung stehen",
+      "simple": "verfügbar sein",
+      "grp": "Prozesse & Veränderung"
+    }
+  },
+  {
+    "id": "893",
+    "de": "Die Firma stellt uns einen Dienstwagen zur Verfügung.",
+    "en": "The company provides us with a company car.",
+    "cat": "nvv",
+    "nouns": [
+      "die Firma",
+      "der Dienstwagen"
+    ],
+    "g": [
+      {
+        "w": "uns",
+        "c": "Dat",
+        "n": "stellen + Dat"
+      },
+      {
+        "w": "einen Dienstwagen",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ],
+    "nvv": {
+      "phrase": "zur Verfügung stellen",
+      "simple": "geben, anbieten",
+      "grp": "Prozesse & Veränderung"
+    }
+  },
+  {
+    "id": "894",
+    "de": "Das Projekt kommt nur langsam in Gang.",
+    "en": "The project is only slowly getting going.",
+    "cat": "nvv",
+    "nouns": [
+      "das Projekt",
+      "der Gang"
+    ],
+    "nvv": {
+      "phrase": "in Gang kommen",
+      "simple": "starten",
+      "grp": "Prozesse & Veränderung"
+    }
+  },
+  {
+    "id": "895",
+    "de": "Du machst beim Sprechen große Fortschritte!",
+    "en": "You're making great progress in speaking!",
+    "cat": "nvv",
+    "nouns": [
+      "der Fortschritt"
+    ],
+    "g": [
+      {
+        "w": "große Fortschritte",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (Plural)"
+      }
+    ],
+    "nvv": {
+      "phrase": "Fortschritte machen",
+      "simple": "besser werden",
+      "grp": "Prozesse & Veränderung"
+    }
+  },
+  {
+    "id": "896",
+    "de": "Die Medien nehmen großen Einfluss auf die Meinung der Leute.",
+    "en": "The media have great influence on people's opinion.",
+    "cat": "nvv",
+    "nouns": [
+      "das Medium",
+      "der Einfluss",
+      "die Meinung"
+    ],
+    "g": [
+      {
+        "w": "großen Einfluss",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      },
+      {
+        "w": "auf die Meinung",
+        "c": "Akk",
+        "n": "Einfluss nehmen auf → Akk"
+      }
+    ],
+    "nvv": {
+      "phrase": "Einfluss nehmen (auf)",
+      "simple": "beeinflussen",
+      "grp": "Prozesse & Veränderung"
+    }
+  },
+  {
+    "id": "897",
+    "de": "Ich will diese Arbeit unbedingt zu Ende bringen.",
+    "en": "I definitely want to bring this work to an end.",
+    "cat": "nvv",
+    "nouns": [
+      "die Arbeit",
+      "das Ende"
+    ],
+    "g": [
+      {
+        "w": "diese Arbeit",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem.)"
+      }
+    ],
+    "nvv": {
+      "phrase": "zu Ende bringen",
+      "simple": "beenden",
+      "grp": "Prozesse & Veränderung"
+    }
+  },
+  {
+    "id": "898",
+    "de": "Diese Methode findet im Alltag oft Anwendung.",
+    "en": "This method is often used in everyday life.",
+    "cat": "nvv",
+    "nouns": [
+      "die Methode",
+      "der Alltag",
+      "die Anwendung"
+    ],
+    "g": [
+      {
+        "w": "im Alltag",
+        "c": "Dat",
+        "n": "in (wo?) → Dat"
+      }
+    ],
+    "nvv": {
+      "phrase": "Anwendung finden",
+      "simple": "angewendet werden",
+      "grp": "Prozesse & Veränderung"
+    }
+  },
+  {
+    "id": "899",
+    "de": "Ich nehme morgen Kontakt mit dem Vermieter auf.",
+    "en": "Tomorrow I'll get in touch with the landlord.",
+    "cat": "nvv",
+    "nouns": [
+      "der Kontakt",
+      "der Vermieter"
+    ],
+    "g": [
+      {
+        "w": "Kontakt",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      },
+      {
+        "w": "mit dem Vermieter",
+        "c": "Dat",
+        "n": "mit → immer Dat"
+      }
+    ],
+    "nvv": {
+      "phrase": "Kontakt aufnehmen (mit)",
+      "simple": "kontaktieren",
+      "grp": "Beziehungen & Kontakt"
+    }
+  },
+  {
+    "id": "900",
+    "de": "Wir stehen seit Jahren in Verbindung.",
+    "en": "We've been in touch for years.",
+    "cat": "nvv",
+    "nouns": [
+      "die Verbindung",
+      "das Jahr"
+    ],
+    "g": [
+      {
+        "w": "seit Jahren",
+        "c": "Dat",
+        "n": "seit → immer Dat; Plural +n"
+      },
+      {
+        "w": "in Verbindung",
+        "c": "Dat",
+        "n": "in (wo?) → Dat"
+      }
+    ],
+    "nvv": {
+      "phrase": "in Verbindung stehen",
+      "simple": "Kontakt haben",
+      "grp": "Beziehungen & Kontakt"
+    }
+  },
+  {
+    "id": "901",
+    "de": "Die Nachbarn haben sofort Hilfe geleistet. [Vgt]",
+    "en": "The neighbours gave help immediately.",
+    "cat": "nvv",
+    "nouns": [
+      "der Nachbar",
+      "die Hilfe"
+    ],
+    "g": [
+      {
+        "w": "Hilfe",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem.)"
+      }
+    ],
+    "nvv": {
+      "phrase": "Hilfe leisten",
+      "simple": "helfen",
+      "grp": "Beziehungen & Kontakt"
+    }
+  },
+  {
+    "id": "902",
+    "de": "Ich habe viel Unterstützung von meiner Familie bekommen. [Vgt]",
+    "en": "I received a lot of support from my family.",
+    "cat": "nvv",
+    "nouns": [
+      "die Unterstützung",
+      "die Familie"
+    ],
+    "g": [
+      {
+        "w": "viel Unterstützung",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem.)"
+      },
+      {
+        "w": "von meiner Familie",
+        "c": "Dat",
+        "n": "von → immer Dat"
+      }
+    ],
+    "nvv": {
+      "phrase": "Unterstützung bekommen",
+      "simple": "unterstützt werden",
+      "grp": "Beziehungen & Kontakt"
+    }
+  },
+  {
+    "id": "903",
+    "de": "Wir sollten bald einen Termin für das Gespräch vereinbaren.",
+    "en": "We should arrange a date for the conversation soon.",
+    "cat": "nvv",
+    "nouns": [
+      "der Termin",
+      "das Gespräch"
+    ],
+    "g": [
+      {
+        "w": "einen Termin",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      },
+      {
+        "w": "für das Gespräch",
+        "c": "Akk",
+        "n": "für → immer Akk"
+      }
+    ],
+    "nvv": {
+      "phrase": "einen Termin vereinbaren",
+      "simple": "einen Termin ausmachen",
+      "grp": "Beziehungen & Kontakt"
+    }
+  },
+  {
+    "id": "904",
+    "de": "Geben Sie mir bitte bis morgen Bescheid.",
+    "en": "Please let me know by tomorrow.",
+    "cat": "nvv",
+    "nouns": [
+      "der Bescheid"
+    ],
+    "g": [
+      {
+        "w": "mir",
+        "c": "Dat",
+        "n": "geben + Dat"
+      }
+    ],
+    "nvv": {
+      "phrase": "Bescheid geben",
+      "simple": "informieren",
+      "grp": "Beziehungen & Kontakt"
+    }
+  },
+  {
+    "id": "905",
+    "de": "Na, wie war dein Wochenende?",
+    "en": "So, how was your weekend?",
+    "cat": "smalltalk",
+    "nouns": [
+      "das Wochenende"
+    ]
+  },
+  {
+    "id": "906",
+    "de": "Viel los heute?",
+    "en": "Busy today?",
+    "cat": "smalltalk"
+  },
+  {
+    "id": "907",
+    "de": "Du bist neu im Team, oder?",
+    "en": "You're new on the team, right?",
+    "cat": "smalltalk",
+    "nouns": [
+      "das Team"
+    ],
+    "g": [
+      {
+        "w": "im Team",
+        "c": "Dat",
+        "n": "in (wo?) → Dat"
+      }
+    ]
+  },
+  {
+    "id": "908",
+    "de": "Was für ein Wetter heute, oder?",
+    "en": "What weather today, huh?",
+    "cat": "smalltalk",
+    "nouns": [
+      "das Wetter"
+    ]
+  },
+  {
+    "id": "909",
+    "de": "Wohnen Sie schon lange hier?",
+    "en": "Have you been living here for long?",
+    "cat": "smalltalk"
+  },
+  {
+    "id": "910",
+    "de": "Ist hier immer so viel los?",
+    "en": "Is it always this busy here?",
+    "cat": "smalltalk"
+  },
+  {
+    "id": "911",
+    "de": "Ich habe Sie hier schon öfter gesehen – ich wohne im dritten Stock. [Vgt]",
+    "en": "I've seen you here before – I live on the third floor.",
+    "cat": "smalltalk",
+    "nouns": [
+      "der Stock"
+    ],
+    "g": [
+      {
+        "w": "im dritten Stock",
+        "c": "Dat",
+        "n": "in (wo?) → Dat"
+      }
+    ]
+  },
+  {
+    "id": "912",
+    "de": "Woher kennst du denn die Gastgeberin?",
+    "en": "So how do you know the host?",
+    "cat": "smalltalk",
+    "nouns": [
+      "die Gastgeberin"
+    ],
+    "g": [
+      {
+        "w": "die Gastgeberin",
+        "c": "Akk",
+        "n": "kennen + Akk"
+      }
+    ]
+  },
+  {
+    "id": "913",
+    "de": "Bist du zum ersten Mal hier?",
+    "en": "Is this your first time here?",
+    "cat": "smalltalk",
+    "g": [
+      {
+        "w": "zum ersten Mal",
+        "c": "Dat",
+        "n": "zu → immer Dat (zu dem)"
+      }
+    ]
+  },
+  {
+    "id": "914",
+    "de": "Wie bist du auf die Veranstaltung aufmerksam geworden? [Vgt]",
+    "en": "How did you hear about the event?",
+    "cat": "smalltalk",
+    "nouns": [
+      "die Veranstaltung"
+    ],
+    "g": [
+      {
+        "w": "auf die Veranstaltung",
+        "c": "Akk",
+        "n": "aufmerksam werden auf → Akk"
+      }
+    ]
+  },
+  {
+    "id": "915",
+    "de": "Und, was machst du so beruflich?",
+    "en": "And what do you do for a living?",
+    "cat": "smalltalk"
+  },
+  {
+    "id": "916",
+    "de": "Ach, echt? Erzähl mal!",
+    "en": "Oh really? Tell me!",
+    "cat": "smalltalk"
+  },
+  {
+    "id": "917",
+    "de": "Und wie war das so?",
+    "en": "And what was that like?",
+    "cat": "smalltalk"
+  },
+  {
+    "id": "918",
+    "de": "Klingt spannend! Wie bist du dazu gekommen? [Vgt]",
+    "en": "Sounds exciting! How did you get into it?",
+    "cat": "smalltalk"
+  },
+  {
+    "id": "919",
+    "de": "Und, hat es sich gelohnt? [Vgt]",
+    "en": "And was it worth it?",
+    "cat": "smalltalk"
+  },
+  {
+    "id": "920",
+    "de": "Wie meinst du das?",
+    "en": "What do you mean by that?",
+    "cat": "smalltalk"
+  },
+  {
+    "id": "921",
+    "de": "Krass, das hätte ich nicht gedacht!",
+    "en": "Wow, I wouldn't have thought that!",
+    "cat": "smalltalk"
+  },
+  {
+    "id": "922",
+    "de": "Richtig schön, danke! Und bei dir?",
+    "en": "Really nice, thanks! And you?",
+    "cat": "smalltalk"
+  },
+  {
+    "id": "923",
+    "de": "Ich war am Wochenende wandern. [Vgt]",
+    "en": "I went hiking on the weekend.",
+    "cat": "smalltalk",
+    "nouns": [
+      "das Wochenende"
+    ],
+    "g": [
+      {
+        "w": "am Wochenende",
+        "c": "Dat",
+        "n": "an (Zeitpunkt) → Dat"
+      }
+    ]
+  },
+  {
+    "id": "924",
+    "de": "Und du, hast du etwas Schönes gemacht? [Vgt]",
+    "en": "And you, did you do anything nice?",
+    "cat": "smalltalk"
+  },
+  {
+    "id": "925",
+    "de": "Ich hole mir noch schnell etwas zu trinken. Bis später!",
+    "en": "I'll quickly grab something to drink. See you later!",
+    "cat": "smalltalk",
+    "g": [
+      {
+        "w": "mir",
+        "c": "Dat",
+        "n": "sich etwas holen → mir (Dat)"
+      }
+    ]
+  },
+  {
+    "id": "926",
+    "de": "Lass uns das beim Mittagessen weiterbesprechen.",
+    "en": "Let's continue talking about this over lunch.",
+    "cat": "smalltalk",
+    "nouns": [
+      "das Mittagessen"
+    ],
+    "g": [
+      {
+        "w": "beim Mittagessen",
+        "c": "Dat",
+        "n": "bei → immer Dat (bei dem)"
+      }
+    ]
+  },
+  {
+    "id": "927",
+    "de": "Schönen Tag noch!",
+    "en": "Have a nice day!",
+    "cat": "smalltalk"
+  },
+  {
+    "id": "928",
+    "de": "War nett, Sie kennenzulernen. Bis bald! [Vgt]",
+    "en": "It was nice to meet you. See you soon!",
+    "cat": "smalltalk"
+  },
+  {
+    "id": "929",
+    "de": "Übrigens, hast du schon von dem neuen Café gehört? [Vgt]",
+    "en": "By the way, have you heard about the new café?",
+    "cat": "smalltalk",
+    "nouns": [
+      "das Café"
+    ],
+    "g": [
+      {
+        "w": "von dem neuen Café",
+        "c": "Dat",
+        "n": "von → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "930",
+    "de": "Apropos Urlaub: Wohin fährst du dieses Jahr?",
+    "en": "Speaking of vacation: where are you going this year?",
+    "cat": "smalltalk",
+    "nouns": [
+      "der Urlaub",
+      "das Jahr"
+    ],
+    "g": [
+      {
+        "w": "dieses Jahr",
+        "c": "Akk",
+        "n": "Zeitangabe → Akk"
+      }
+    ]
+  },
+  {
+    "id": "931",
+    "de": "Was ich dich noch fragen wollte: Kennst du hier ein gutes Restaurant? [Vgt]",
+    "en": "What I still wanted to ask you: do you know a good restaurant here?",
+    "cat": "smalltalk",
+    "nouns": [
+      "das Restaurant"
+    ],
+    "g": [
+      {
+        "w": "ein gutes Restaurant",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (neutr.)"
+      }
+    ]
+  },
+  {
+    "id": "932",
+    "de": "Sag mal, kennst du eigentlich den neuen Kollegen?",
+    "en": "Tell me, do you actually know the new colleague?",
+    "cat": "smalltalk",
+    "nouns": [
+      "der Kollege"
+    ],
+    "g": [
+      {
+        "w": "den neuen Kollegen",
+        "c": "Akk",
+        "n": "kennen + Akk (n-Deklination)"
+      }
+    ]
+  },
+  {
+    "id": "933",
+    "de": "Ach, bevor ich es vergesse: Nächsten Dienstag fällt das Meeting aus.",
+    "en": "Oh, before I forget: next Tuesday the meeting is cancelled.",
+    "cat": "smalltalk",
+    "nouns": [
+      "der Dienstag",
+      "das Meeting"
+    ],
+    "g": [
+      {
+        "w": "Nächsten Dienstag",
+        "c": "Akk",
+        "n": "Zeitangabe → Akk"
+      }
+    ]
+  },
+  {
+    "id": "934",
+    "de": "Mach doch bitte mal das Fenster auf.",
+    "en": "Could you open the window, please? (doch + mal softens the request)",
+    "cat": "umgang",
+    "nouns": [
+      "das Fenster"
+    ],
+    "g": [
+      {
+        "w": "das Fenster",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (neutr.)"
+      }
+    ]
+  },
+  {
+    "id": "935",
+    "de": "Kannst du mir mal kurz helfen?",
+    "en": "Can you help me for a second? (mal = softer)",
+    "cat": "umgang",
+    "g": [
+      {
+        "w": "mir",
+        "c": "Dat",
+        "n": "helfen → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "936",
+    "de": "Sag mal, hast du heute Abend schon etwas vor?",
+    "en": "Tell me, do you already have plans tonight? (sag mal)",
+    "cat": "umgang",
+    "nouns": [
+      "der Abend"
+    ]
+  },
+  {
+    "id": "937",
+    "de": "Ruf mich doch einfach später an.",
+    "en": "Just give me a call later. (doch einfach)",
+    "cat": "umgang",
+    "g": [
+      {
+        "w": "mich",
+        "c": "Akk",
+        "n": "anrufen + Akk"
+      }
+    ]
+  },
+  {
+    "id": "938",
+    "de": "Schick mir die Fotos doch bitte mal rüber.",
+    "en": "Send me the photos over, please. (doch bitte mal)",
+    "cat": "umgang",
+    "nouns": [
+      "das Foto"
+    ],
+    "g": [
+      {
+        "w": "mir",
+        "c": "Dat",
+        "n": "schicken + Dat"
+      },
+      {
+        "w": "die Fotos",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (Plural)"
+      }
+    ]
+  },
+  {
+    "id": "939",
+    "de": "So ist das halt, wenn man ein Kind hat.",
+    "en": "That's just how it is when you have a child. (halt = it can't be changed)",
+    "cat": "umgang",
+    "nouns": [
+      "das Kind"
+    ],
+    "g": [
+      {
+        "w": "ein Kind",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (neutr.)"
+      }
+    ]
+  },
+  {
+    "id": "940",
+    "de": "Dann nehme ich eben den nächsten Bus.",
+    "en": "Then I'll just take the next bus. (eben = then so be it)",
+    "cat": "umgang",
+    "nouns": [
+      "der Bus"
+    ],
+    "g": [
+      {
+        "w": "den nächsten Bus",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ]
+  },
+  {
+    "id": "941",
+    "de": "Ich hatte halt keine Lust mehr. [Vgt]",
+    "en": "I just didn't feel like it anymore. (halt = umgangssprachlich)",
+    "cat": "umgang",
+    "nouns": [
+      "die Lust"
+    ],
+    "g": [
+      {
+        "w": "keine Lust",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem.)"
+      }
+    ]
+  },
+  {
+    "id": "942",
+    "de": "Wenn der Zug ausfällt, nehmen wir eben ein Taxi.",
+    "en": "If the train is cancelled, we'll simply take a taxi. (eben)",
+    "cat": "umgang",
+    "nouns": [
+      "der Zug",
+      "das Taxi"
+    ],
+    "g": [
+      {
+        "w": "ein Taxi",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (neutr.)"
+      }
+    ]
+  },
+  {
+    "id": "943",
+    "de": "Du weißt ja, wie das ist.",
+    "en": "You know how it is. (ja = you know this already)",
+    "cat": "umgang"
+  },
+  {
+    "id": "944",
+    "de": "Das habe ich dir doch schon gestern erklärt. [Vgt]",
+    "en": "But I already explained that to you yesterday. (doch = reminder)",
+    "cat": "umgang",
+    "g": [
+      {
+        "w": "dir",
+        "c": "Dat",
+        "n": "erklären + Dat"
+      }
+    ]
+  },
+  {
+    "id": "945",
+    "de": "Das ist ja gerade das Problem.",
+    "en": "That's exactly the problem. (ja = known fact)",
+    "cat": "umgang",
+    "nouns": [
+      "das Problem"
+    ]
+  },
+  {
+    "id": "946",
+    "de": "Ich habe es dir doch gesagt! [Vgt]",
+    "en": "I told you! (doch)",
+    "cat": "umgang",
+    "g": [
+      {
+        "w": "dir",
+        "c": "Dat",
+        "n": "sagen + Dat"
+      }
+    ]
+  },
+  {
+    "id": "947",
+    "de": "Was machst du denn am Sonntag?",
+    "en": "So what are you doing on Sunday? (denn makes a question friendlier)",
+    "cat": "umgang",
+    "nouns": [
+      "der Sonntag"
+    ],
+    "g": [
+      {
+        "w": "am Sonntag",
+        "c": "Dat",
+        "n": "an (Zeitpunkt) → Dat"
+      }
+    ]
+  },
+  {
+    "id": "948",
+    "de": "Woher kommst du eigentlich?",
+    "en": "Where do you actually come from? (eigentlich = switching topic, polite)",
+    "cat": "umgang"
+  },
+  {
+    "id": "949",
+    "de": "Wie lange arbeitest du denn schon hier?",
+    "en": "So how long have you been working here? (denn)",
+    "cat": "umgang"
+  },
+  {
+    "id": "950",
+    "de": "Was ist denn los?",
+    "en": "What's going on? (denn)",
+    "cat": "umgang"
+  },
+  {
+    "id": "951",
+    "de": "Wie spät ist es eigentlich?",
+    "en": "What time is it, actually? (eigentlich)",
+    "cat": "umgang"
+  },
+  {
+    "id": "952",
+    "de": "Das wird schon klappen.",
+    "en": "It'll work out. (schon = reassuring)",
+    "cat": "umgang"
+  },
+  {
+    "id": "953",
+    "de": "Er ist wohl krank.",
+    "en": "He's probably ill. (wohl = assumption)",
+    "cat": "umgang"
+  },
+  {
+    "id": "954",
+    "de": "Das stimmt schon, aber ich sehe es anders.",
+    "en": "That's true, but I see it differently. (schon = concession)",
+    "cat": "umgang"
+  },
+  {
+    "id": "955",
+    "de": "Probier es doch mal aus!",
+    "en": "Why don't you just try it out! (doch mal)",
+    "cat": "umgang"
+  },
+  {
+    "id": "956",
+    "de": "Das ist ja wohl ein Witz!",
+    "en": "That must be a joke! (ja wohl = indignation)",
+    "cat": "umgang",
+    "nouns": [
+      "der Witz"
+    ]
+  },
+  {
+    "id": "957",
+    "de": "Dann frag halt mal deinen Chef.",
+    "en": "Then just ask your boss. (halt mal)",
+    "cat": "umgang",
+    "nouns": [
+      "der Chef"
+    ],
+    "g": [
+      {
+        "w": "deinen Chef",
+        "c": "Akk",
+        "n": "fragen + Akk"
+      }
+    ]
+  },
+  {
+    "id": "958",
+    "de": "Was machst du denn eigentlich beruflich?",
+    "en": "So what do you actually do for a living? (denn eigentlich)",
+    "cat": "umgang"
+  },
+  {
+    "id": "959",
+    "de": "Das ist ja schon ziemlich teuer.",
+    "en": "That's already quite expensive. (ja schon)",
+    "cat": "umgang"
+  },
+  {
+    "id": "960",
+    "de": "Hast du mal 'ne Minute?",
+    "en": "Do you have a minute? (colloquial: 'ne = eine)",
+    "cat": "umgang",
+    "nouns": [
+      "die Minute"
+    ],
+    "g": [
+      {
+        "w": "'ne Minute",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem.)"
+      }
+    ]
+  },
+  {
+    "id": "961",
+    "de": "Gibt's hier noch Kaffee?",
+    "en": "Is there still coffee here? (gibt's = gibt es)",
+    "cat": "umgang",
+    "nouns": [
+      "der Kaffee"
+    ],
+    "g": [
+      {
+        "w": "Kaffee",
+        "c": "Akk",
+        "n": "es gibt + Akk"
+      }
+    ]
+  },
+  {
+    "id": "962",
+    "de": "Ich hab 'ne Frage.",
+    "en": "I have a question. (hab = habe, 'ne = eine)",
+    "cat": "umgang",
+    "nouns": [
+      "die Frage"
+    ],
+    "g": [
+      {
+        "w": "'ne Frage",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem.)"
+      }
+    ]
+  },
+  {
+    "id": "963",
+    "de": "Keine Ahnung.",
+    "en": "No idea. (= Ich weiß es nicht)",
+    "cat": "umgang"
+  },
+  {
+    "id": "964",
+    "de": "Ich check das nicht.",
+    "en": "I don't get it. (check = colloquial for verstehen)",
+    "cat": "umgang"
+  },
+  {
+    "id": "965",
+    "de": "Ich steh total auf dem Schlauch.",
+    "en": "I'm totally drawing a blank. (auf dem Schlauch stehen)",
+    "cat": "umgang",
+    "nouns": [
+      "der Schlauch"
+    ],
+    "g": [
+      {
+        "w": "auf dem Schlauch",
+        "c": "Dat",
+        "n": "auf (wo?) → Dat"
+      }
+    ]
+  },
+  {
+    "id": "966",
+    "de": "Das ist mir wurscht.",
+    "en": "I couldn't care less. (colloquial for egal)",
+    "cat": "umgang",
+    "g": [
+      {
+        "w": "mir",
+        "c": "Dat",
+        "n": "sein + Dat (egal/wurscht)"
+      }
+    ]
+  },
+  {
+    "id": "967",
+    "de": "Das kostet 'ne Stange Geld.",
+    "en": "That costs a fortune. (eine Stange Geld)",
+    "cat": "umgang",
+    "nouns": [
+      "die Stange",
+      "das Geld"
+    ],
+    "g": [
+      {
+        "w": "'ne Stange Geld",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem.)"
+      }
+    ]
+  },
+  {
+    "id": "968",
+    "de": "Ich hab null Bock.",
+    "en": "I'm not in the mood at all. (very casual)",
+    "cat": "umgang",
+    "nouns": [
+      "der Bock"
+    ],
+    "g": [
+      {
+        "w": "null Bock",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ]
+  },
+  {
+    "id": "969",
+    "de": "Das haut so nicht hin.",
+    "en": "That doesn't work out like this. (hinhauen)",
+    "cat": "umgang"
+  },
+  {
+    "id": "970",
+    "de": "Ich hab gerade viel um die Ohren.",
+    "en": "I've got a lot on my plate at the moment. (viel um die Ohren haben)",
+    "cat": "umgang",
+    "nouns": [
+      "das Ohr"
+    ],
+    "g": [
+      {
+        "w": "um die Ohren",
+        "c": "Akk",
+        "n": "um → immer Akk"
+      }
+    ]
+  },
+  {
+    "id": "971",
+    "de": "Geht klar, bis morgen!",
+    "en": "Sounds good, see you tomorrow! (Geht klar!)",
+    "cat": "umgang"
+  },
+  {
+    "id": "972",
+    "de": "Der Film gestern, der war echt gut. [Vgt]",
+    "en": "The movie yesterday, it was really good. (topic first)",
+    "cat": "umgang",
+    "nouns": [
+      "der Film"
+    ]
+  },
+  {
+    "id": "973",
+    "de": "Mach ich gleich.",
+    "en": "Will do in a moment. (dropped pronoun)",
+    "cat": "umgang"
+  },
+  {
+    "id": "974",
+    "de": "Du kommst morgen, oder?",
+    "en": "You're coming tomorrow, right? (… oder? = tag question)",
+    "cat": "umgang"
+  },
+  {
+    "id": "975",
+    "de": "Ich komme später, weil – ich hab noch einen Termin.",
+    "en": "I'll come later because – I still have an appointment. (weil + main clause, spoken)",
+    "cat": "umgang",
+    "nouns": [
+      "der Termin"
+    ],
+    "g": [
+      {
+        "w": "einen Termin",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ]
+  },
+  {
+    "id": "976",
+    "de": "Gestern bin ich ins Kino gegangen. [Vgt]",
+    "en": "Yesterday I went to the cinema. (Verb auf Position 2)",
+    "cat": "conversation",
+    "nouns": [
+      "das Kino"
+    ],
+    "g": [
+      {
+        "w": "ins Kino",
+        "c": "Akk",
+        "n": "gehen in (wohin?) → Akk"
+      }
+    ]
+  },
+  {
+    "id": "977",
+    "de": "Ich kann nicht kommen, weil ich keine Zeit habe.",
+    "en": "I can't come because I don't have time. (Nebensatz: Verb am Ende)",
+    "cat": "conversation",
+    "nouns": [
+      "die Zeit"
+    ],
+    "g": [
+      {
+        "w": "keine Zeit",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem.)"
+      }
+    ]
+  },
+  {
+    "id": "978",
+    "de": "Als ich klein war, habe ich viel gelesen. [Vgt]",
+    "en": "When I was little, I read a lot. (als = einmalig in der Vergangenheit)",
+    "cat": "conversation"
+  },
+  {
+    "id": "979",
+    "de": "Ich bin dreißig Jahre alt.",
+    "en": "I'm thirty years old. (fester Ausdruck: Jahre alt)",
+    "cat": "conversation",
+    "nouns": [
+      "das Jahr"
+    ]
+  },
+  {
+    "id": "980",
+    "de": "Mir ist kalt.",
+    "en": "I'm cold. (Körpergefühl mit Dativ)",
+    "cat": "conversation",
+    "g": [
+      {
+        "w": "Mir",
+        "c": "Dat",
+        "n": "Körpergefühl → Dat"
+      }
+    ]
+  },
+  {
+    "id": "981",
+    "de": "Ich warte auf dich.",
+    "en": "I'm waiting for you. (warten auf + Akk)",
+    "cat": "conversation",
+    "g": [
+      {
+        "w": "auf dich",
+        "c": "Akk",
+        "n": "warten auf → Akk"
+      }
+    ]
+  },
+  {
+    "id": "982",
+    "de": "Ich wohne seit zwei Jahren in Deutschland.",
+    "en": "I've been living in Germany for two years. (Reihenfolge: Zeit vor Ort)",
+    "cat": "conversation",
+    "nouns": [
+      "das Jahr"
+    ],
+    "g": [
+      {
+        "w": "seit zwei Jahren",
+        "c": "Dat",
+        "n": "seit → immer Dat; Plural +n"
+      },
+      {
+        "w": "in Deutschland",
+        "c": "Dat",
+        "n": "in (wo?) → Dat"
+      }
+    ]
+  },
+  {
+    "id": "983",
+    "de": "Das Mädchen, das dort steht, ist meine Nichte.",
+    "en": "The girl standing there is my niece. (Relativpronomen = Genus)",
+    "cat": "conversation",
+    "nouns": [
+      "das Mädchen",
+      "die Nichte"
+    ]
+  },
+  {
+    "id": "984",
+    "de": "Ich gehe nach Hause und bleibe den ganzen Abend zu Hause.",
+    "en": "I'm going home and staying home all evening. (nach Hause = wohin, zu Hause = wo)",
+    "cat": "conversation",
+    "nouns": [
+      "der Abend"
+    ],
+    "g": [
+      {
+        "w": "den ganzen Abend",
+        "c": "Akk",
+        "n": "Zeitdauer → Akk"
+      }
+    ]
+  },
+  {
+    "id": "985",
+    "de": "Ich habe darüber mit ihm gesprochen. [Vgt]",
+    "en": "I talked with him about it. (da(r) + Präposition)",
+    "cat": "conversation",
+    "g": [
+      {
+        "w": "mit ihm",
+        "c": "Dat",
+        "n": "mit → immer Dat"
+      }
+    ]
+  },
+  {
+    "id": "986",
+    "de": "Ich kenne ihn nicht.",
+    "en": "I don't know him. (nicht steht am Satzende)",
+    "cat": "conversation",
+    "g": [
+      {
+        "w": "ihn",
+        "c": "Akk",
+        "n": "kennen + Akk"
+      }
+    ]
+  },
+  {
+    "id": "987",
+    "de": "Ich will, dass du morgen kommst.",
+    "en": "I want you to come tomorrow. (dass-Satz: Verb am Ende)",
+    "cat": "conversation"
+  },
+  {
+    "id": "988",
+    "de": "Ich freue mich auf das Wochenende.",
+    "en": "I'm looking forward to the weekend. (auf = Zukunft, über = Gegenwart)",
+    "cat": "conversation",
+    "nouns": [
+      "das Wochenende"
+    ],
+    "g": [
+      {
+        "w": "auf das Wochenende",
+        "c": "Akk",
+        "n": "sich freuen auf → Akk"
+      }
+    ]
+  },
+  {
+    "id": "989",
+    "de": "Es hat mir viel Spaß gemacht. [Vgt]",
+    "en": "I had a lot of fun. (die Sache macht Spaß, nicht die Person)",
+    "cat": "conversation",
+    "nouns": [
+      "der Spaß"
+    ],
+    "g": [
+      {
+        "w": "mir",
+        "c": "Dat",
+        "n": "Spaß machen + Dat"
+      },
+      {
+        "w": "viel Spaß",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ]
+  },
+  {
+    "id": "990",
+    "de": "Das kommt darauf an.",
+    "en": "That depends. (ankommen auf)",
+    "cat": "conversation"
+  },
+  {
+    "id": "991",
+    "de": "Das hat damit zu tun, dass wir zu wenig Personal haben.",
+    "en": "That has to do with the fact that we have too little staff. (damit zu tun haben)",
+    "cat": "conversation",
+    "nouns": [
+      "das Personal"
+    ]
+  },
+  {
+    "id": "992",
+    "de": "Ich habe den Eindruck, dass sie sich nicht wohlfühlt.",
+    "en": "I have the impression that she doesn't feel comfortable.",
+    "cat": "conversation",
+    "nouns": [
+      "der Eindruck"
+    ],
+    "g": [
+      {
+        "w": "den Eindruck",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ]
+  },
+  {
+    "id": "993",
+    "de": "Was ich sagen will: Wir brauchen mehr Zeit.",
+    "en": "What I want to say: we need more time.",
+    "cat": "conversation",
+    "nouns": [
+      "die Zeit"
+    ],
+    "g": [
+      {
+        "w": "mehr Zeit",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem.)"
+      }
+    ]
+  },
+  {
+    "id": "994",
+    "de": "Ich komme auf jeden Fall zur Feier.",
+    "en": "I'll definitely come to the party. (auf jeden Fall)",
+    "cat": "conversation",
+    "nouns": [
+      "die Feier"
+    ],
+    "g": [
+      {
+        "w": "zur Feier",
+        "c": "Dat",
+        "n": "zu → immer Dat (zu der)"
+      }
+    ]
+  },
+  {
+    "id": "995",
+    "de": "Wie sagt man das noch mal auf Deutsch?",
+    "en": "How do you say that again in German?",
+    "cat": "conversation"
+  },
+  {
+    "id": "996",
+    "de": "Das ist so ein Ding, mit dem man Dosen öffnet.",
+    "en": "It's one of those things you open cans with. (Umschreibung)",
+    "cat": "conversation",
+    "nouns": [
+      "das Ding",
+      "die Dose"
+    ],
+    "g": [
+      {
+        "w": "mit dem",
+        "c": "Dat",
+        "n": "mit → immer Dat"
+      },
+      {
+        "w": "Dosen",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (Plural)"
+      }
+    ]
+  },
+  {
+    "id": "997",
+    "de": "Das ist das Gegenteil von früh.",
+    "en": "That's the opposite of early. (Umschreibung)",
+    "cat": "conversation",
+    "nouns": [
+      "das Gegenteil"
+    ]
+  },
+  {
+    "id": "998",
+    "de": "Das ist ähnlich wie ein Löffel, nur größer.",
+    "en": "It's similar to a spoon, only bigger. (Umschreibung)",
+    "cat": "conversation",
+    "nouns": [
+      "der Löffel"
+    ]
+  },
+  {
+    "id": "999",
+    "de": "Ich meine so eine Art Schirm für die Sonne.",
+    "en": "I mean a kind of umbrella for the sun. (Umschreibung)",
+    "cat": "conversation",
+    "nouns": [
+      "die Art",
+      "der Schirm",
+      "die Sonne"
+    ],
+    "g": [
+      {
+        "w": "so eine Art Schirm",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem.)"
+      }
+    ]
+  },
+  {
+    "id": "1000",
+    "de": "Mir fällt das Wort gerade nicht ein, aber ich beschreibe es.",
+    "en": "The word escapes me right now, but I'll describe it.",
+    "cat": "conversation",
+    "nouns": [
+      "das Wort"
+    ],
+    "g": [
+      {
+        "w": "Mir",
+        "c": "Dat",
+        "n": "einfallen + Dat"
+      }
+    ]
+  },
+  {
+    "id": "1001",
+    "de": "Einerseits ist die Arbeit spannend, andererseits ist sie sehr anstrengend.",
+    "en": "On the one hand the work is exciting, on the other hand it's very tiring.",
+    "cat": "conversation",
+    "nouns": [
+      "die Arbeit"
+    ]
+  },
+  {
+    "id": "1002",
+    "de": "Ich sehe das eher kritisch, weil die Kosten zu hoch sind.",
+    "en": "I see that rather critically because the costs are too high.",
+    "cat": "conversation",
+    "nouns": [
+      "die Kosten"
     ]
   }
 ]
