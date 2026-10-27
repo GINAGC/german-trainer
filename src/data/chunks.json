@@ -13110,22 +13110,15 @@
   },
   {
     "id": "1011",
-    "de": "Ich glaube dir kein Wort.",
-    "en": "I don't believe a word you say.",
+    "de": "Warum sollte ich dir glauben?",
+    "en": "Why should I believe you?",
     "cat": "verben",
-    "nouns": [
-      "das Wort"
-    ],
+    "nouns": [],
     "g": [
       {
         "w": "dir",
         "c": "Dat",
         "n": "jdm. glauben + Dat"
-      },
-      {
-        "w": "kein Wort",
-        "c": "Akk",
-        "n": "dir. Objekt → Akk (neutr.)"
       }
     ],
     "dativ": {
@@ -13367,7 +13360,7 @@
     "dativ": {
       "inf": "verzeihen",
       "t": "perdonar",
-      "grp": "Nur Dativ"
+      "grp": "Dativ + Akkusativ"
     }
   },
   {
@@ -13949,11 +13942,6 @@
         "w": "der Mannschaft",
         "c": "Dat",
         "n": "befehlen + Dat"
-      },
-      {
-        "w": "den Hafen",
-        "c": "Akk",
-        "n": "dir. Objekt → Akk (mask.)"
       }
     ],
     "dativ": {

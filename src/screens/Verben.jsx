@@ -141,7 +141,7 @@ export default function Verben({ chunks, toggleMastered, speech }) {
           {tab === "verben"
             ? "Lerne jedes Verb mit seinem Satz als Chunk. Trennbare Verben: das Präfix geht ans Satzende – „Ich hole dich ab.“"
             : tab === "dativ"
-            ? "Diese Verben verlangen die Person im Dativ („wem?“) – auch wenn es im Spanischen „a alguien“ heißt: jemandem helfen, nicht jemanden helfen. Bei geben, zeigen, schenken … steht die Person im Dativ und die Sache im Akkusativ."
+            ? "Diese Verben verlangen die Person im Dativ („wem?“) – auch wenn es im Spanischen „a alguien“ heißt: jemandem helfen, nicht jemanden helfen. „Nur Dativ“ = es gibt kein Akkusativ-Objekt dazu (Präpositionen können trotzdem folgen: danken für, antworten auf, gratulieren zu). Bei geben, zeigen, schenken, verzeihen … steht die Person im Dativ und die Sache im Akkusativ."
             : "Nomen-Verb-Verbindungen sind fest – das Verb lässt sich nicht ableiten: man trifft eine Entscheidung, man stellt eine Frage. Immer als Chunk lernen."}
         </p>
         {shown.length === 0 ? (
