@@ -1133,7 +1133,13 @@
         "c": "Dat",
         "n": "indir. Objekt → Dat (mir = to me)"
       }
-    ]
+    ],
+    "dativ": {
+      "inf": "leidtun",
+      "t": "lamentar, dar pena",
+      "grp": "Nur Dativ",
+      "n": "Lo siento = Es tut mir leid."
+    }
   },
   {
     "id": "94",
@@ -1897,7 +1903,12 @@
         "c": "Dat",
         "n": "indir. Objekt → Dat"
       }
-    ]
+    ],
+    "dativ": {
+      "inf": "erklären",
+      "t": "explicar",
+      "grp": "Dativ + Akkusativ"
+    }
   },
   {
     "id": "171",
@@ -2446,7 +2457,12 @@
         "c": "Dat",
         "n": "passen → immer Dat"
       }
-    ]
+    ],
+    "dativ": {
+      "inf": "passen",
+      "t": "convenir, quedar bien",
+      "grp": "Nur Dativ"
+    }
   },
   {
     "id": "223",
@@ -4639,7 +4655,13 @@
         "c": "Dat",
         "n": "indir. Objekt → Dat (mir = to me)"
       }
-    ]
+    ],
+    "dativ": {
+      "inf": "helfen",
+      "t": "ayudar",
+      "grp": "Nur Dativ",
+      "n": "Ayudar a alguien = jemandem helfen (Dativ, nicht Akkusativ)."
+    }
   },
   {
     "id": "459",
@@ -5500,7 +5522,12 @@
     "de": "Ich vertraue dir.",
     "en": "I trust you.",
     "cat": "work",
-    "nouns": []
+    "nouns": [],
+    "dativ": {
+      "inf": "vertrauen",
+      "t": "confiar en",
+      "grp": "Nur Dativ"
+    }
   },
   {
     "id": "537",
@@ -5681,7 +5708,12 @@
         "c": "Akk",
         "n": "dir. Objekt → Akk (fem.)"
       }
-    ]
+    ],
+    "dativ": {
+      "inf": "schicken",
+      "t": "enviar",
+      "grp": "Dativ + Akkusativ"
+    }
   },
   {
     "id": "555",
@@ -5980,7 +6012,12 @@
         "c": "Dat",
         "n": "schmecken → immer Dat (mir = to me)"
       }
-    ]
+    ],
+    "dativ": {
+      "inf": "schmecken",
+      "t": "saber (a algo); gustar (comida)",
+      "grp": "Nur Dativ"
+    }
   },
   {
     "id": "584",
@@ -7814,7 +7851,12 @@
         "c": "Akk",
         "n": "dir. Objekt → Akk (Plural)"
       }
-    ]
+    ],
+    "dativ": {
+      "inf": "zeigen",
+      "t": "mostrar, enseñar",
+      "grp": "Dativ + Akkusativ"
+    }
   },
   {
     "id": "716",
@@ -8028,7 +8070,12 @@
         "c": "Akk",
         "n": "dir. Objekt → Akk (mask.)"
       }
-    ]
+    ],
+    "dativ": {
+      "inf": "anbieten",
+      "t": "ofrecer",
+      "grp": "Dativ + Akkusativ"
+    }
   },
   {
     "id": "730",
@@ -9060,6 +9107,11 @@
       "f": [
         "trennbar"
       ]
+    },
+    "dativ": {
+      "inf": "einfallen",
+      "t": "ocurrírsele a alguien",
+      "grp": "Nur Dativ"
     }
   },
   {
@@ -9106,6 +9158,11 @@
       "f": [
         "trennbar"
       ]
+    },
+    "dativ": {
+      "inf": "auffallen",
+      "t": "notar, llamar la atención",
+      "grp": "Nur Dativ"
     }
   },
   {
@@ -9905,6 +9962,11 @@
       "f": [
         "trennbar"
       ]
+    },
+    "dativ": {
+      "inf": "zustimmen",
+      "t": "estar de acuerdo con",
+      "grp": "Nur Dativ"
     }
   },
   {
@@ -9924,6 +9986,11 @@
       "t": "contradecir",
       "grp": "Kommunikation",
       "f": []
+    },
+    "dativ": {
+      "inf": "widersprechen",
+      "t": "contradecir",
+      "grp": "Nur Dativ"
     }
   },
   {
@@ -10263,6 +10330,11 @@
       "f": [
         "trennbar"
       ]
+    },
+    "dativ": {
+      "inf": "weiterleiten",
+      "t": "reenviar",
+      "grp": "Dativ + Akkusativ"
     }
   },
   {
@@ -10685,6 +10757,11 @@
       "f": [
         "trennbar"
       ]
+    },
+    "dativ": {
+      "inf": "ausreichen",
+      "t": "ser suficiente",
+      "grp": "Nur Dativ"
     }
   },
   {
@@ -10759,6 +10836,11 @@
       "f": [
         "trennbar"
       ]
+    },
+    "dativ": {
+      "inf": "vorkommen",
+      "t": "parecerle a alguien",
+      "grp": "Nur Dativ"
     }
   },
   {
@@ -12856,5 +12938,656 @@
     "nouns": [
       "die Kosten"
     ]
+  },
+  {
+    "id": "1003",
+    "de": "Ich danke dir für deine Geduld.",
+    "en": "I thank you for your patience.",
+    "cat": "verben",
+    "nouns": [
+      "die Geduld"
+    ],
+    "g": [
+      {
+        "w": "dir",
+        "c": "Dat",
+        "n": "danken + Dat"
+      },
+      {
+        "w": "für deine Geduld",
+        "c": "Akk",
+        "n": "für → immer Akk"
+      }
+    ],
+    "dativ": {
+      "inf": "danken",
+      "t": "agradecer",
+      "grp": "Nur Dativ"
+    }
+  },
+  {
+    "id": "1004",
+    "de": "Die neue Wohnung gefällt mir sehr.",
+    "en": "I like the new apartment a lot. (lit.: the apartment pleases me)",
+    "cat": "verben",
+    "nouns": [
+      "die Wohnung"
+    ],
+    "g": [
+      {
+        "w": "mir",
+        "c": "Dat",
+        "n": "gefallen + Dat"
+      }
+    ],
+    "dativ": {
+      "inf": "gefallen",
+      "t": "gustar, agradar",
+      "grp": "Nur Dativ",
+      "n": "Me gusta la casa = Die Wohnung gefällt mir (el sujeto es lo que gusta)."
+    }
+  },
+  {
+    "id": "1005",
+    "de": "Gehört die Tasche dir?",
+    "en": "Does the bag belong to you?",
+    "cat": "verben",
+    "nouns": [
+      "die Tasche"
+    ],
+    "g": [
+      {
+        "w": "dir",
+        "c": "Dat",
+        "n": "gehören + Dat"
+      }
+    ],
+    "dativ": {
+      "inf": "gehören",
+      "t": "pertenecer",
+      "grp": "Nur Dativ"
+    }
+  },
+  {
+    "id": "1006",
+    "de": "Ich gratuliere dir zum Geburtstag!",
+    "en": "Happy birthday! (I congratulate you on your birthday)",
+    "cat": "verben",
+    "nouns": [
+      "der Geburtstag"
+    ],
+    "g": [
+      {
+        "w": "dir",
+        "c": "Dat",
+        "n": "gratulieren + Dat"
+      },
+      {
+        "w": "zum Geburtstag",
+        "c": "Dat",
+        "n": "zu → immer Dat"
+      }
+    ],
+    "dativ": {
+      "inf": "gratulieren",
+      "t": "felicitar",
+      "grp": "Nur Dativ"
+    }
+  },
+  {
+    "id": "1007",
+    "de": "Der Hund ist seinem Besitzer überall hin gefolgt. [Vgt]",
+    "en": "The dog followed its owner everywhere.",
+    "cat": "verben",
+    "nouns": [
+      "der Hund",
+      "der Besitzer"
+    ],
+    "g": [
+      {
+        "w": "seinem Besitzer",
+        "c": "Dat",
+        "n": "folgen + Dat"
+      }
+    ],
+    "dativ": {
+      "inf": "folgen",
+      "t": "seguir",
+      "grp": "Nur Dativ",
+      "n": "Perfekt mit sein."
+    }
+  },
+  {
+    "id": "1008",
+    "de": "Er hat mir noch nicht geantwortet. [Vgt]",
+    "en": "He hasn't answered me yet.",
+    "cat": "verben",
+    "g": [
+      {
+        "w": "mir",
+        "c": "Dat",
+        "n": "antworten + Dat"
+      }
+    ],
+    "dativ": {
+      "inf": "antworten",
+      "t": "responder",
+      "grp": "Nur Dativ"
+    }
+  },
+  {
+    "id": "1009",
+    "de": "Hörst du mir überhaupt zu?",
+    "en": "Are you even listening to me?",
+    "cat": "verben",
+    "g": [
+      {
+        "w": "mir",
+        "c": "Dat",
+        "n": "zuhören + Dat"
+      }
+    ],
+    "dativ": {
+      "inf": "zuhören",
+      "t": "escuchar (prestar atención)",
+      "grp": "Nur Dativ",
+      "n": "zuhören + Dat = escuchar a alguien; hören + Akk = oír algo."
+    }
+  },
+  {
+    "id": "1010",
+    "de": "Du fehlst mir sehr.",
+    "en": "I miss you a lot. (lit.: you are missing to me)",
+    "cat": "verben",
+    "g": [
+      {
+        "w": "mir",
+        "c": "Dat",
+        "n": "fehlen + Dat"
+      }
+    ],
+    "dativ": {
+      "inf": "fehlen",
+      "t": "faltar; extrañar",
+      "grp": "Nur Dativ",
+      "n": "Te extraño = Du fehlst mir. Quien extraña va en Dativo."
+    }
+  },
+  {
+    "id": "1011",
+    "de": "Ich glaube dir kein Wort.",
+    "en": "I don't believe a word you say.",
+    "cat": "verben",
+    "nouns": [
+      "das Wort"
+    ],
+    "g": [
+      {
+        "w": "dir",
+        "c": "Dat",
+        "n": "jdm. glauben + Dat"
+      },
+      {
+        "w": "kein Wort",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (neutr.)"
+      }
+    ],
+    "dativ": {
+      "inf": "glauben",
+      "t": "creerle a alguien",
+      "grp": "Nur Dativ",
+      "n": "Personas: Dativ. Cosas: Akkusativ (Ich glaube das nicht)."
+    }
+  },
+  {
+    "id": "1012",
+    "de": "Ich rate dir, den Vertrag genau zu lesen.",
+    "en": "I advise you to read the contract carefully.",
+    "cat": "verben",
+    "nouns": [
+      "der Vertrag"
+    ],
+    "g": [
+      {
+        "w": "dir",
+        "c": "Dat",
+        "n": "raten + Dat"
+      }
+    ],
+    "dativ": {
+      "inf": "raten",
+      "t": "aconsejar",
+      "grp": "Nur Dativ"
+    }
+  },
+  {
+    "id": "1013",
+    "de": "Zu viel Zucker schadet der Gesundheit.",
+    "en": "Too much sugar is bad for your health.",
+    "cat": "verben",
+    "nouns": [
+      "der Zucker",
+      "die Gesundheit"
+    ],
+    "g": [
+      {
+        "w": "der Gesundheit",
+        "c": "Dat",
+        "n": "schaden + Dat"
+      }
+    ],
+    "dativ": {
+      "inf": "schaden",
+      "t": "dañar, perjudicar",
+      "grp": "Nur Dativ"
+    }
+  },
+  {
+    "id": "1014",
+    "de": "Das nützt mir leider nichts.",
+    "en": "Unfortunately that's no use to me.",
+    "cat": "verben",
+    "g": [
+      {
+        "w": "mir",
+        "c": "Dat",
+        "n": "nützen + Dat"
+      }
+    ],
+    "dativ": {
+      "inf": "nützen",
+      "t": "servir, ser útil",
+      "grp": "Nur Dativ"
+    }
+  },
+  {
+    "id": "1015",
+    "de": "Mir tut der Rücken weh.",
+    "en": "My back hurts.",
+    "cat": "verben",
+    "nouns": [
+      "der Rücken"
+    ],
+    "g": [
+      {
+        "w": "Mir",
+        "c": "Dat",
+        "n": "wehtun + Dat"
+      }
+    ],
+    "dativ": {
+      "inf": "wehtun",
+      "t": "doler",
+      "grp": "Nur Dativ",
+      "n": "Me duele la espalda = Mir tut der Rücken weh."
+    }
+  },
+  {
+    "id": "1016",
+    "de": "Gestern bin ich meinem alten Lehrer begegnet. [Vgt]",
+    "en": "Yesterday I ran into my old teacher.",
+    "cat": "verben",
+    "nouns": [
+      "der Lehrer"
+    ],
+    "g": [
+      {
+        "w": "meinem alten Lehrer",
+        "c": "Dat",
+        "n": "begegnen + Dat"
+      }
+    ],
+    "dativ": {
+      "inf": "begegnen",
+      "t": "encontrarse con (por casualidad)",
+      "grp": "Nur Dativ",
+      "n": "Perfekt mit sein."
+    }
+  },
+  {
+    "id": "1017",
+    "de": "Deine Ausdauer imponiert mir.",
+    "en": "Your perseverance impresses me.",
+    "cat": "verben",
+    "nouns": [
+      "die Ausdauer"
+    ],
+    "g": [
+      {
+        "w": "mir",
+        "c": "Dat",
+        "n": "imponieren + Dat"
+      }
+    ],
+    "dativ": {
+      "inf": "imponieren",
+      "t": "impresionar",
+      "grp": "Nur Dativ"
+    }
+  },
+  {
+    "id": "1018",
+    "de": "Du ähnelst deiner Mutter sehr.",
+    "en": "You look very much like your mother.",
+    "cat": "verben",
+    "nouns": [
+      "die Mutter"
+    ],
+    "g": [
+      {
+        "w": "deiner Mutter",
+        "c": "Dat",
+        "n": "ähneln + Dat"
+      }
+    ],
+    "dativ": {
+      "inf": "ähneln",
+      "t": "parecerse a",
+      "grp": "Nur Dativ"
+    }
+  },
+  {
+    "id": "1019",
+    "de": "Die Torte ist mir gut gelungen. [Vgt]",
+    "en": "The cake turned out well for me.",
+    "cat": "verben",
+    "nouns": [
+      "die Torte"
+    ],
+    "g": [
+      {
+        "w": "mir",
+        "c": "Dat",
+        "n": "gelingen + Dat"
+      }
+    ],
+    "dativ": {
+      "inf": "gelingen",
+      "t": "salir bien, lograrse",
+      "grp": "Nur Dativ",
+      "n": "Perfekt mit sein."
+    }
+  },
+  {
+    "id": "1020",
+    "de": "Mir ist etwas Peinliches passiert. [Vgt]",
+    "en": "Something embarrassing happened to me.",
+    "cat": "verben",
+    "g": [
+      {
+        "w": "Mir",
+        "c": "Dat",
+        "n": "passieren + Dat"
+      }
+    ],
+    "dativ": {
+      "inf": "passieren",
+      "t": "pasarle algo a alguien",
+      "grp": "Nur Dativ",
+      "n": "Perfekt mit sein."
+    }
+  },
+  {
+    "id": "1021",
+    "de": "Die blaue Jacke steht dir richtig gut.",
+    "en": "The blue jacket really suits you.",
+    "cat": "verben",
+    "nouns": [
+      "die Jacke"
+    ],
+    "g": [
+      {
+        "w": "dir",
+        "c": "Dat",
+        "n": "stehen + Dat (Kleidung)"
+      }
+    ],
+    "dativ": {
+      "inf": "stehen",
+      "t": "quedar bien (ropa)",
+      "grp": "Nur Dativ"
+    }
+  },
+  {
+    "id": "1022",
+    "de": "Kannst du mir diesen Fehler verzeihen?",
+    "en": "Can you forgive me for this mistake?",
+    "cat": "verben",
+    "nouns": [
+      "der Fehler"
+    ],
+    "g": [
+      {
+        "w": "mir",
+        "c": "Dat",
+        "n": "verzeihen + Dat"
+      },
+      {
+        "w": "diesen Fehler",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ],
+    "dativ": {
+      "inf": "verzeihen",
+      "t": "perdonar",
+      "grp": "Nur Dativ"
+    }
+  },
+  {
+    "id": "1023",
+    "de": "Gibst du mir bitte den Schlüssel?",
+    "en": "Will you give me the key, please?",
+    "cat": "verben",
+    "nouns": [
+      "der Schlüssel"
+    ],
+    "g": [
+      {
+        "w": "mir",
+        "c": "Dat",
+        "n": "Person → Dativ"
+      },
+      {
+        "w": "den Schlüssel",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ],
+    "dativ": {
+      "inf": "geben",
+      "t": "dar",
+      "grp": "Dativ + Akkusativ",
+      "n": "Persona = Dativ, cosa = Akkusativ."
+    }
+  },
+  {
+    "id": "1024",
+    "de": "Wir schenken ihr ein Buch zum Abschied.",
+    "en": "We're giving her a book as a farewell gift.",
+    "cat": "verben",
+    "nouns": [
+      "das Buch",
+      "der Abschied"
+    ],
+    "g": [
+      {
+        "w": "ihr",
+        "c": "Dat",
+        "n": "Person → Dativ"
+      },
+      {
+        "w": "ein Buch",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (neutr.)"
+      },
+      {
+        "w": "zum Abschied",
+        "c": "Dat",
+        "n": "zu → immer Dat"
+      }
+    ],
+    "dativ": {
+      "inf": "schenken",
+      "t": "regalar",
+      "grp": "Dativ + Akkusativ"
+    }
+  },
+  {
+    "id": "1025",
+    "de": "Bringst du mir bitte ein Glas Wasser?",
+    "en": "Will you bring me a glass of water, please?",
+    "cat": "verben",
+    "nouns": [
+      "das Glas",
+      "das Wasser"
+    ],
+    "g": [
+      {
+        "w": "mir",
+        "c": "Dat",
+        "n": "Person → Dativ"
+      },
+      {
+        "w": "ein Glas Wasser",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (neutr.)"
+      }
+    ],
+    "dativ": {
+      "inf": "bringen",
+      "t": "traer, llevar",
+      "grp": "Dativ + Akkusativ"
+    }
+  },
+  {
+    "id": "1026",
+    "de": "Er erzählt uns jeden Abend eine Geschichte.",
+    "en": "He tells us a story every evening.",
+    "cat": "verben",
+    "nouns": [
+      "der Abend",
+      "die Geschichte"
+    ],
+    "g": [
+      {
+        "w": "uns",
+        "c": "Dat",
+        "n": "Person → Dativ"
+      },
+      {
+        "w": "jeden Abend",
+        "c": "Akk",
+        "n": "Zeitangabe → Akk"
+      },
+      {
+        "w": "eine Geschichte",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem.)"
+      }
+    ],
+    "dativ": {
+      "inf": "erzählen",
+      "t": "contar",
+      "grp": "Dativ + Akkusativ"
+    }
+  },
+  {
+    "id": "1027",
+    "de": "Ich empfehle Ihnen das Tagesmenü.",
+    "en": "I recommend the set menu of the day to you.",
+    "cat": "verben",
+    "nouns": [
+      "das Tagesmenü"
+    ],
+    "g": [
+      {
+        "w": "Ihnen",
+        "c": "Dat",
+        "n": "Person → Dativ"
+      },
+      {
+        "w": "das Tagesmenü",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (neutr.)"
+      }
+    ],
+    "dativ": {
+      "inf": "empfehlen",
+      "t": "recomendar",
+      "grp": "Dativ + Akkusativ"
+    }
+  },
+  {
+    "id": "1028",
+    "de": "Kannst du mir deinen Stift leihen?",
+    "en": "Can you lend me your pen?",
+    "cat": "verben",
+    "nouns": [
+      "der Stift"
+    ],
+    "g": [
+      {
+        "w": "mir",
+        "c": "Dat",
+        "n": "Person → Dativ"
+      },
+      {
+        "w": "deinen Stift",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ],
+    "dativ": {
+      "inf": "leihen",
+      "t": "prestar",
+      "grp": "Dativ + Akkusativ"
+    }
+  },
+  {
+    "id": "1029",
+    "de": "Mein Arzt hat mir das Rauchen verboten. [Vgt]",
+    "en": "My doctor has forbidden me to smoke.",
+    "cat": "verben",
+    "nouns": [
+      "der Arzt",
+      "das Rauchen"
+    ],
+    "g": [
+      {
+        "w": "mir",
+        "c": "Dat",
+        "n": "Person → Dativ"
+      },
+      {
+        "w": "das Rauchen",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (neutr.)"
+      }
+    ],
+    "dativ": {
+      "inf": "verbieten",
+      "t": "prohibir",
+      "grp": "Dativ + Akkusativ"
+    }
+  },
+  {
+    "id": "1030",
+    "de": "Ich verspreche dir, pünktlich zu sein.",
+    "en": "I promise you I'll be on time.",
+    "cat": "verben",
+    "g": [
+      {
+        "w": "dir",
+        "c": "Dat",
+        "n": "versprechen + Dat"
+      }
+    ],
+    "dativ": {
+      "inf": "versprechen",
+      "t": "prometer",
+      "grp": "Dativ + Akkusativ"
+    }
   }
 ]

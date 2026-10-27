@@ -2,8 +2,11 @@ import { useMemo, useState } from "react";
 import ChunkCard from "../components/ChunkCard";
 import SegmentedControl from "../components/SegmentedControl";
 import { speechText, chunkDetails } from "../lib/speechText";
+import { CASE } from "../lib/colors";
 
 const NVV_ORDER = ["Entscheiden & Handeln", "Sprechen & Diskutieren", "Denken & Bewerten", "Prozesse & Veränderung", "Beziehungen & Kontakt"];
+
+const DAT_ORDER = ["Nur Dativ", "Dativ + Akkusativ"];
 
 const BLUE = { border: "#378ADD", bg: "#E6F1FB", color: "#042C53" };
 
@@ -48,6 +51,20 @@ function NvvHeader({ n }) {
   );
 }
 
+function DativHeader({ d }) {
+  return (
+    <div style={{ marginBottom: 8, paddingBottom: 8, borderBottom: "1px solid #f0f0f0" }}>
+      <div style={{ display: "flex", alignItems: "center", gap: 6, flexWrap: "wrap" }}>
+        <b style={{ fontSize: 16, color: CASE.Dat.text }}>{d.inf}</b>
+        <span style={{ fontSize: 10, fontWeight: 700, padding: "1px 6px", borderRadius: 4, background: CASE.Dat.bg, color: CASE.Dat.text }}>Dat</span>
+        {d.grp === "Dativ + Akkusativ" && <span style={{ fontSize: 10, fontWeight: 700, padding: "1px 6px", borderRadius: 4, background: CASE.Akk.bg, color: CASE.Akk.text }}>+ Akk</span>}
+      </div>
+      <div style={{ fontSize: 12, color: "#666", marginTop: 2 }}>{d.t}</div>
+      {d.n && <div style={{ fontSize: 11, color: "#7a4f00", marginTop: 3 }}>{d.n}</div>}
+    </div>
+  );
+}
+
 function Exercise() {
   return (
     <div style={{ marginTop: 22, border: "1px solid #e5e5e5", borderRadius: 12, padding: 14 }}>
@@ -70,10 +87,11 @@ export default function Verben({ chunks, toggleMastered, speech }) {
 
   const all = useMemo(() => {
     if (tab === "verben") return chunks.filter((c) => c.verb);
+    if (tab === "dativ") return chunks.filter((c) => c.dativ).sort((a, b) => DAT_ORDER.indexOf(a.dativ.grp) - DAT_ORDER.indexOf(b.dativ.grp) || a.dativ.inf.localeCompare(b.dativ.inf, "de"));
     // NVV: a chunk added earlier may carry the tag, so order by theme first.
     return chunks.filter((c) => c.nvv).sort((a, b) => NVV_ORDER.indexOf(a.nvv.grp) - NVV_ORDER.indexOf(b.nvv.grp) || Number(a.id) - Number(b.id));
   }, [chunks, tab]);
-  const field = tab === "verben" ? "verb" : "nvv";
+  const field = tab === "verben" ? "verb" : tab === "dativ" ? "dativ" : "nvv";
 
   const groups = useMemo(() => {
     const m = new Map();
@@ -100,7 +118,7 @@ export default function Verben({ chunks, toggleMastered, speech }) {
       <div style={{ padding: "16px 16px 0", borderBottom: "1px solid #e5e5e5" }}>
         <h1 style={{ fontSize: 20, fontWeight: 600, margin: "0 0 10px" }}>Verben</h1>
         <SegmentedControl
-          options={[["verben", `100 Verben`], ["nvv", `Nomen-Verb-Verb.`]]}
+          options={[["verben", "100 Verben"], ["dativ", "Dativ"], ["nvv", "Nomen-Verb-V."]]}
           value={tab} onChange={switchTab}
         />
         <div style={{ display: "flex", gap: 8, margin: "10px 0 8px" }}>
@@ -122,6 +140,8 @@ export default function Verben({ chunks, toggleMastered, speech }) {
         <p style={{ fontSize: 12, color: "#888", margin: "0 0 10px", lineHeight: 1.5 }}>
           {tab === "verben"
             ? "Lerne jedes Verb mit seinem Satz als Chunk. Trennbare Verben: das Präfix geht ans Satzende – „Ich hole dich ab.“"
+            : tab === "dativ"
+            ? "Diese Verben verlangen die Person im Dativ („wem?“) – auch wenn es im Spanischen „a alguien“ heißt: jemandem helfen, nicht jemanden helfen. Bei geben, zeigen, schenken … steht die Person im Dativ und die Sache im Akkusativ."
             : "Nomen-Verb-Verbindungen sind fest – das Verb lässt sich nicht ableiten: man trifft eine Entscheidung, man stellt eine Frage. Immer als Chunk lernen."}
         </p>
         {shown.length === 0 ? (
@@ -131,7 +151,7 @@ export default function Verben({ chunks, toggleMastered, speech }) {
             {shown.map((c) => (
               <ChunkCard
                 key={c.id} chunk={c} speaking={speaking} onSpeak={onSpeak} onToggleMastered={toggleMastered}
-                header={tab === "verben" ? <VerbHeader v={c.verb} /> : <NvvHeader n={c.nvv} />}
+                header={tab === "verben" ? <VerbHeader v={c.verb} /> : tab === "dativ" ? <DativHeader d={c.dativ} /> : <NvvHeader n={c.nvv} />}
               />
             ))}
           </div>
