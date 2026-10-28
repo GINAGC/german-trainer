@@ -1,12 +1,10 @@
 import { useMemo } from "react";
-import ChunkCard from "../components/ChunkCard";
 import { MIX, SET_SIZES, USE_TARGET } from "../hooks/useDailyPractice";
 import { CASE, genderColorForNoun } from "../lib/colors";
 import { cleanDe, speechText, chunkDetails } from "../lib/speechText";
 import { pill } from "../components/sprechenUi";
 
 const sectionTitle = { fontSize: 11, fontWeight: 600, color: "#888", letterSpacing: 1, textTransform: "uppercase", margin: "22px 0 8px", display: "flex", justifyContent: "space-between", alignItems: "baseline" };
-const linkBtn = { background: "none", border: "none", cursor: "pointer", color: "#D4537E", fontSize: 12, fontWeight: 500, padding: 0, letterSpacing: 0, textTransform: "none" };
 const card = { border: "1px solid #e5e5e5", borderRadius: 12, padding: "12px 14px", background: "#fff" };
 
 function greeting() {
@@ -113,8 +111,6 @@ function TopicCard({ title, sub, teaser, done, onOpen, onDone, onNext, accent })
 }
 
 export default function Heute({ chunks, daily, aCnt, mCnt, total, pct, speaking, speak, toggleMastered, goto }) {
-  const latest = useMemo(() => [...chunks].filter((c) => !c.mastered).sort((a, b) => Number(b.id) - Number(a.id)).slice(0, 3), [chunks]);
-
   const { gram, verb } = daily;
   // Verb topics show a few example verbs from their group.
   const verbInfo = useMemo(() => {
@@ -194,16 +190,6 @@ export default function Heute({ chunks, daily, aCnt, mCnt, total, pct, speaking,
         onOpen={() => goto("verben", { tab: verb.tab, grp: verb.grp })}
         onDone={daily.toggleV} onNext={daily.nextVerb}
       />
-
-      <div style={sectionTitle}>
-        <span>Zuletzt hinzugefügt</span>
-        <button onClick={() => goto("sammlung", { tab: "chunks", newest: true })} style={linkBtn}>Alle ›</button>
-      </div>
-      <div style={{ display: "grid", gap: 8 }}>
-        {latest.map((c) => (
-          <ChunkCard key={c.id} chunk={c} speaking={speaking} onSpeak={(id, de, en, d) => speak(id, speechText(de), en, d)} onToggleMastered={toggleMastered} />
-        ))}
-      </div>
     </div>
   );
 }
