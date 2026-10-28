@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Tabellen from "./Tabellen";
 import GenusRegeln from "./GenusRegeln";
 import Deklination from "./Deklination";
@@ -12,7 +13,14 @@ const PAGES = [
   { id: "alltag", label: "Alltagssprache", sub: "Register, Verkürzungen, gesprochener Satzbau, Smalltalk", color: "#FBEAF0", Comp: Alltagssprache },
 ];
 
-export default function Grammatik({ page, setPage, speech }) {
+export default function Grammatik({ page, setPage, speech, topic, group }) {
+  // Arriving from the daily practice: scroll to the section that is today's topic.
+  useEffect(() => {
+    if (!page || !topic) return;
+    const t = setTimeout(() => document.querySelector(`[data-topic="${topic}"]`)?.scrollIntoView({ block: "start", behavior: "smooth" }), 80);
+    return () => clearTimeout(t);
+  }, [page, topic]);
+
   const current = PAGES.find((p) => p.id === page);
   if (current) {
     const { Comp } = current;
@@ -21,7 +29,7 @@ export default function Grammatik({ page, setPage, speech }) {
         <div style={{ padding: "12px 16px 0" }}>
           <button onClick={() => setPage(null)} style={{ background: "none", border: "none", cursor: "pointer", color: "#D4537E", fontSize: 13, fontWeight: 500, padding: 0 }}>‹ Grammatik</button>
         </div>
-        <Comp speaking={speech.speaking} playAll={speech.playAll} />
+        <Comp key={`${page}-${group || ""}`} speaking={speech.speaking} playAll={speech.playAll} initialGroup={group} />
       </>
     );
   }

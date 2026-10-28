@@ -22,7 +22,7 @@ export default function Deklination() {
       </p>
 
       {/* 1. Muster */}
-      <p style={sectionLabel}>Welches Wort folgt welchem Muster</p>
+      <p data-topic="muster" style={sectionLabel}>Welches Wort folgt welchem Muster</p>
       <div style={{ overflowX: "auto", marginBottom: 8 }}>
         <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 12 }}>
           <thead>
@@ -46,7 +46,7 @@ export default function Deklination() {
       <p style={tip}>Alle Wörter einer Spalte werden gleich dekliniert. <i>dieser</i> geht wie <i>der</i>, <i>keiner</i> wie <i>ein</i> — du musst nur zwei Muster lernen, nicht zwölf Wörter.</p>
 
       {/* 2. Endungen der der-Wörter */}
-      <p style={{ ...sectionLabel, marginTop: 28 }}>Endungen der der-Wörter</p>
+      <p data-topic="endungen" style={{ ...sectionLabel, marginTop: 28 }}>Endungen der der-Wörter</p>
       <div style={{ overflowX: "auto", marginBottom: 8 }}>
         <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 12 }}>
           <thead>
@@ -75,7 +75,7 @@ export default function Deklination() {
       </p>
 
       {/* 3. Adjektivendungen alle drei Muster */}
-      <p style={{ ...sectionLabel, marginTop: 28 }}>Adjektivendungen · alle drei Muster</p>
+      <p data-topic="adjektive" style={{ ...sectionLabel, marginTop: 28 }}>Adjektivendungen · alle drei Muster</p>
       <div style={{ overflowX: "auto", marginBottom: 8 }}>
         <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 12, minWidth: 460 }}>
           <thead>
@@ -119,7 +119,7 @@ export default function Deklination() {
       </p>
 
       {/* 4. Possessiv */}
-      <p style={{ ...sectionLabel, marginTop: 28 }}>Possessiv · Artikel und Pronomen</p>
+      <p data-topic="possessiv" style={{ ...sectionLabel, marginTop: 28 }}>Possessiv · Artikel und Pronomen</p>
       <div style={{ overflowX: "auto", marginBottom: 8 }}>
         <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 12 }}>
           <thead>

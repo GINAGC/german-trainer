@@ -29,7 +29,7 @@ function Table({ cols, rows, min = 300 }) {
 export default function Alltagssprache() {
   return (
     <div style={{ padding: "12px 16px 40px" }}>
-      <p style={{ ...sectionLabel, marginTop: 0 }}>Drei Register</p>
+      <p data-topic="register" style={{ ...sectionLabel, marginTop: 0 }}>Drei Register</p>
       <p style={lead}>Im Kurs lernst du Standardsprache. Auf der Straße, im Büro und unter Freunden hörst du etwas anderes. Entscheidend ist, <b>wann</b> du welche Form benutzt.</p>
       <Table
         cols={[["Register"], ["Wann?"], ["Beispiel: um Hilfe bitten"]]}
@@ -44,7 +44,7 @@ export default function Alltagssprache() {
         <span style={es}>Entender el registro coloquial es obligatorio; usarlo, no siempre.</span>
       </p>
 
-      <p style={sectionLabel}>Verkürzungen beim Sprechen</p>
+      <p data-topic="verkuerzung" style={sectionLabel}>Verkürzungen beim Sprechen</p>
       <p style={lead}>Muttersprachler „verschlucken“ Laute. Wer die Formen kennt, versteht plötzlich viel mehr – und klingt selbst flüssiger.</p>
       <Table
         cols={[["Standard"], ["Gesprochen"], ["Hinweis", { textAlign: "left" }]]}
@@ -61,7 +61,7 @@ export default function Alltagssprache() {
         ]}
       />
 
-      <p style={sectionLabel}>Standard und Alltag</p>
+      <p data-topic="alltagswoerter" style={sectionLabel}>Standard und Alltag</p>
       <Table
         cols={[["Standard"], ["Alltagssprache"], ["Español", { background: "#fdf4e7", color: "#7a4f00" }]]}
         rows={[
@@ -77,7 +77,7 @@ export default function Alltagssprache() {
         ]}
       />
 
-      <p style={sectionLabel}>Satzbau im gesprochenen Deutsch</p>
+      <p data-topic="satzbau" style={sectionLabel}>Satzbau im gesprochenen Deutsch</p>
       <p style={lead}>Beim Sprechen ist der Satzbau flexibler als in der Grammatik. Diese Muster hörst du jeden Tag:</p>
       <div style={{ display: "grid", gap: 6 }}>
         {[
@@ -101,7 +101,7 @@ export default function Alltagssprache() {
         <i>Leider habe ich heute keine Zeit.</i> → <i>Ich hab heute leider keine Zeit.</i> → <i>Heute passt's echt nicht, sorry.</i>
       </p>
 
-      <p style={sectionLabel}>Smalltalk wie ein Muttersprachler</p>
+      <p data-topic="smalltalk" style={sectionLabel}>Smalltalk wie ein Muttersprachler</p>
       <p style={lead}>Smalltalk ist schnell, hat kein Skript – und Pausen machen Angst. Mit einer festen Struktur wird er leicht:</p>
       <div style={{ display: "grid", gap: 6, marginBottom: 10 }}>
         {[

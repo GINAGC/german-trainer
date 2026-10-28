@@ -13,7 +13,7 @@ const genderTd = (g, extra) => ({ ...tdC, color: GENDER[g].text, ...extra });
 export default function Tabellen() {
   return (
     <div style={{ padding: "12px 16px 40px" }}>
-      <p style={{ fontSize: 11, fontWeight: 600, color: "#888", letterSpacing: 1, textTransform: "uppercase", margin: "0 0 8px" }}>Artikel nach Kasus</p>
+      <p data-topic="artikel" style={{ fontSize: 11, fontWeight: 600, color: "#888", letterSpacing: 1, textTransform: "uppercase", margin: "0 0 8px" }}>Artikel nach Kasus</p>
       <div style={{ overflowX: "auto", marginBottom: 8 }}>
         <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 12 }}>
           <thead>
@@ -35,7 +35,7 @@ export default function Tabellen() {
         Farben nach Grammatikon: <span style={{ color: GENDER.der.text, fontWeight: 600 }}>der</span> · <span style={{ color: GENDER.die.text, fontWeight: 600 }}>die</span> · <span style={{ color: GENDER.das.text, fontWeight: 600 }}>das</span> · <span style={{ color: GENDER.plural.text, fontWeight: 600 }}>Plural</span>. Hinterlegte Felder = geänderte Form.
       </p>
 
-      <p style={{ fontSize: 11, fontWeight: 600, color: "#888", letterSpacing: 1, textTransform: "uppercase", margin: "0 0 8px" }}>Personalpronomen</p>
+      <p data-topic="pronomen" style={{ fontSize: 11, fontWeight: 600, color: "#888", letterSpacing: 1, textTransform: "uppercase", margin: "0 0 8px" }}>Personalpronomen</p>
       <div style={{ overflowX: "auto", marginBottom: 8 }}>
         <table style={{ borderCollapse: "collapse", fontSize: 11, minWidth: 480 }}>
           <thead>
@@ -80,7 +80,7 @@ export default function Tabellen() {
       </div>
       <p style={{ fontSize: 11, color: "#aaa", margin: "0 0 24px" }}>Tipp: Sie/sie (formal/plural) teilen viele Formen.</p>
 
-      <p style={{ fontSize: 11, fontWeight: 600, color: "#888", letterSpacing: 1, textTransform: "uppercase", margin: "0 0 8px" }}>Akkusativ vs. Dativ</p>
+      <p data-topic="akkdat" style={{ fontSize: 11, fontWeight: 600, color: "#888", letterSpacing: 1, textTransform: "uppercase", margin: "0 0 8px" }}>Akkusativ vs. Dativ</p>
       <div style={{ overflowX: "auto", marginBottom: 16 }}>
         <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 11, minWidth: 480 }}>
           <thead>

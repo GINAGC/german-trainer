@@ -1,11 +1,11 @@
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import categories from "../data/categories.json";
 import ChunkCard from "../components/ChunkCard";
 import { speechText, chunkDetails } from "../lib/speechText";
-import { genderColorForNoun } from "../lib/colors";
 import { AUTO_TARGET, useSpeakingProgress } from "../hooks/useSpeakingProgress";
-import { pill, label, primaryBtn, shuffle, Chips, fmtTime, beep } from "../components/sprechenUi";
-import Selbstgespraech from "./Selbstgespraech";
+import { MIX, SET_SIZES } from "../hooks/useDailyPractice";
+import { pill, label, primaryBtn, shuffle, Chips } from "../components/sprechenUi";
+import SprechenFrei from "./SprechenFrei";
 import RegisterDrill from "./RegisterDrill";
 
 const CM = Object.fromEntries(categories.map((c) => [c.id, c]));
@@ -16,7 +16,7 @@ function promptText(en) {
   return t || en;
 }
 
-function TranslateDrill({ pool, byId, count, progress, rate, speaking, speak, stopAll, toggleMastered, onActive }) {
+function TranslateDrill({ pool, byId, count, progress, rate, speaking, speak, stopAll, toggleMastered, onActive, onFinish }) {
   const [sess, setSess] = useState(null);
   const [now, setNow] = useState(Date.now());
 
@@ -31,6 +31,11 @@ function TranslateDrill({ pool, byId, count, progress, rate, speaking, speak, st
     onActive(active);
     return () => onActive(false);
   }, [active, onActive]);
+
+  const finished = !!sess?.finished;
+  useEffect(() => {
+    if (finished) onFinish?.();
+  }, [finished]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const streakDone = pool.filter((c) => (progress[c.id]?.streak || 0) >= AUTO_TARGET).length;
 
@@ -162,397 +167,138 @@ function TranslateDrill({ pool, byId, count, progress, rate, speaking, speak, st
 }
 
 const TALK_PLANS = { short: [120, 90, 60], classic: [240, 180, 120] };
-const SELF = [["😬", "Viele Pausen"], ["🙂", "Ging so"], ["🚀", "Flüssig"]];
 
-const STOP = new Set(("ich du er sie es wir ihr der die das den dem des ein eine einen einem einer und oder aber nicht ist sind war bin " +
-  "habe hat haben hatte mit für auf in im zu zum zur von vom bei nach wie was wann wo dass weil wenn mir mich dir dich uns sich mein meine " +
-  "meinen meinem dein deine sehr noch auch schon nur mal gern gerne dann hier dort kann muss will möchte ganz viel viele mehr als aus " +
-  "über vor bitte jetzt heute morgen ihnen ihre ihren ihrem werden wird wurde kein keine keinen etwas alles gibt gab dieses diese diesen").split(" "));
-
-const stem = (w) => (w.length > 5 ? w.replace(/(en|er|e|n|s)$/, "") : w);
-const bareNoun = (n) => n.replace(/^(der|die|das) /, "");
-
-function features(c) {
-  const nouns = new Set((c.nouns || []).map((n) => stem(bareNoun(n).toLowerCase())));
-  const words = new Set(
-    c.de.toLowerCase().replace(/\[vgt\]/g, "").split(/[^a-zäöüß]+/)
-      .filter((w) => w.length > 3 && !STOP.has(w)).map(stem)
-  );
-  return { nouns, words, id: Number(c.id) };
-}
-
-function relatedness(a, b) {
-  let score = 0;
-  for (const n of a.nouns) if (b.nouns.has(n)) score += 3;
-  for (const w of a.words) if (b.words.has(w)) score += 2;
-  // chunks added together usually come from the same scene/conversation
-  if (Math.abs(a.id - b.id) <= 6) score += 2;
-  return score;
-}
-
-// Pick `size` chunks about one sub-topic: a seed chunk plus its closest relatives
-// (shared nouns/words, same batch of additions). Tries several seeds and keeps the tightest group.
-function pickRelatedBank(pool, size = 8) {
-  const usable = pool.filter((c) => !c.de.includes(" / "));
-  if (usable.length <= size) return { bank: shuffle(usable), sub: "" };
-  const feat = new Map(usable.map((c) => [c.id, features(c)]));
-  let best = null;
-  for (const seed of shuffle(usable).slice(0, 14)) {
-    const fs = feat.get(seed.id);
-    const scored = usable
-      .filter((c) => c.id !== seed.id)
-      .map((c) => ({ c, sc: relatedness(fs, feat.get(c.id)) + Math.random() * 0.5 }))
-      .sort((x, y) => y.sc - x.sc);
-    // keep only really related chunks (shared noun, or shared word + same batch); never fewer than 5 in total
-    let ranked = scored.filter((x) => x.sc >= 3).slice(0, size - 1);
-    if (ranked.length < 4) ranked = scored.slice(0, 4);
-    const total = ranked.reduce((t, x) => t + x.sc, 0);
-    if (!best || total > best.total) best = { total, bank: [seed, ...ranked.map((x) => x.c)] };
-  }
-  // name the sub-topic after the noun the group shares most
-  const counts = {};
-  for (const c of best.bank) for (const n of c.nouns || []) counts[bareNoun(n)] = (counts[bareNoun(n)] || 0) + 1;
-  const top = Object.entries(counts).sort((x, y) => y[1] - x[1])[0];
-  return { bank: best.bank, sub: top && top[1] >= 2 ? top[0] : "" };
-}
-
-function WordBank({ bank }) {
-  return (
-    <div style={{ border: "1px solid #eee", borderRadius: 10, padding: "6px 12px", marginBottom: 12, textAlign: "left" }}>
-      {bank.map((c) => (
-        <div key={c.id} style={{ margin: "8px 0", lineHeight: 1.4 }}>
-          <div style={{ fontSize: 13.5, fontWeight: 600 }}>{speechText(c.de)}</div>
-          {(c.nouns || []).length > 0 && (
-            <div style={{ display: "flex", flexWrap: "wrap", gap: 3, marginTop: 3 }}>
-              {c.nouns.map((n, i) => {
-                const col = genderColorForNoun(n) ?? { bg: "#f0f0f0", text: "#666" };
-                return <span key={i} style={{ background: col.bg, color: col.text, fontSize: 10.5, fontWeight: 600, padding: "0 7px", borderRadius: 9 }}>{n}</span>;
-              })}
-            </div>
-          )}
-          <div style={{ fontSize: 11, color: "#999", fontStyle: "italic", marginTop: 2 }}>{promptText(c.en || "")}</div>
-        </div>
-      ))}
-    </div>
-  );
-}
-
-// 4/3/2 fluency: same topic, three rounds, each shorter. Chunks of the topic
-// fade out as a word bank (visible, then peek-only, then gone).
-function TalkDrill({ pool, topic, ready, onActive }) {
-  const [plan, setPlan] = useState("short");
-  const [help, setHelp] = useState("always");
-  const [sess, setSess] = useState(null);
-  const audioRef = useRef(null);
-  const durations = TALK_PLANS[plan];
-
-  const active = !!sess;
-  useEffect(() => {
-    onActive(active);
-    return () => onActive(false);
-  }, [active, onActive]);
-
-  const running = sess?.phase === "running";
-  const endAt = sess?.endAt;
-  useEffect(() => {
-    if (!running) return;
-    const t = setInterval(() => {
-      const left = Math.ceil((endAt - Date.now()) / 1000);
-      if (left <= 0) {
-        beep(audioRef.current);
-        setSess((s) => (s && s.phase === "running" ? { ...s, phase: "check", left: 0 } : s));
-      } else {
-        setSess((s) => (s && s.phase === "running" ? { ...s, left } : s));
-      }
-    }, 250);
-    return () => clearInterval(t);
-  }, [running, endAt]);
-
+function EchoStep({ set, speaking, echoAll, stopAll, gap, setGap, onDone }) {
+  const running = speaking === "echo";
   function start() {
-    const { bank, sub } = pickRelatedBank(pool, 8);
-    setSess({ bank, sub, round: 0, phase: "ready", left: durations[0], ratings: [], peek: false });
+    if (running) { stopAll(); return; }
+    echoAll(shuffle(set).map((c) => ({ text: speechText(c.de), subtitle: c.en, details: chunkDetails(c) })), gap, "echo", onDone);
   }
-
-  function repick() {
-    const { bank, sub } = pickRelatedBank(pool, 8);
-    setSess((s) => ({ ...s, bank, sub }));
-  }
-
-  function go() {
-    if (!audioRef.current) {
-      const AC = window.AudioContext || window.webkitAudioContext;
-      if (AC) audioRef.current = new AC();
-    }
-    audioRef.current?.resume?.();
-    setSess((s) => ({ ...s, phase: "running", endAt: Date.now() + durations[s.round] * 1000, left: durations[s.round] }));
-  }
-
-  function selfRate(v) {
-    setSess((s) => {
-      const ratings = [...s.ratings, v];
-      if (s.round >= 2) return { ...s, ratings, phase: "done" };
-      return { ...s, ratings, round: s.round + 1, phase: "ready", left: durations[s.round + 1], peek: false };
-    });
-  }
-
-  if (!sess) {
-    return (
-      <div>
-        <p style={{ fontSize: 12.5, color: "#666", lineHeight: 1.6, margin: "0 0 12px" }}>
-          Du sprichst <b>dreimal über dasselbe Thema</b>, jedes Mal in kürzerer Zeit. Das zwingt dich, schneller und
-          flüssiger zu werden. Auf dem Bildschirm bleiben 5 bis 8 Sätze zu <b>einem Unterthema</b> stehen, damit du Ideen
-          und Wörter zur Hand hast.
-        </p>
-        <p style={label}>Zeiten</p>
-        <div style={{ marginBottom: 12 }}>
-          <Chips options={[["short", "Kurz · 2 · 1,5 · 1 min"], ["classic", "Klassisch · 4 · 3 · 2 min"]]} value={plan} onChange={setPlan} />
-        </div>
-        <p style={label}>Wortbank während du sprichst</p>
-        <div style={{ marginBottom: 12 }}>
-          <Chips options={[["always", "Immer sichtbar"], ["fade", "Wird weniger (R2 kurz, R3 aus)"]]} value={help} onChange={setHelp} />
-        </div>
-        <p style={{ fontSize: 11, color: "#aaa", lineHeight: 1.5, margin: "0 0 14px" }}>
-          Tipp: nimm Runde 1 und Runde 3 mit der Sprachmemo-App auf und vergleiche, wie viel du gesagt hast.
-        </p>
-        <button disabled={!ready} onClick={start} style={{ ...primaryBtn("#D4537E"), opacity: ready ? 1 : 0.4 }}>
-          {ready ? `Thema „${topic}“ starten` : "Wähle oben ein Thema (Kategorie)"}
-        </button>
-      </div>
-    );
-  }
-
-  const total = durations[sess.round];
-  const showSub = sess.sub && sess.sub.toLowerCase() !== topic.toLowerCase();
-  const roundLabel = `Runde ${sess.round + 1} / 3 · ${topic}${showSub ? ` · ${sess.sub}` : ""}`;
-
-  if (sess.phase === "done") {
-    const better = sess.ratings[2] > sess.ratings[0];
-    return (
-      <div style={{ textAlign: "center" }}>
-        <p style={{ fontSize: 17, fontWeight: 600, margin: "0 0 12px" }}>Fertig 🎉</p>
-        <div style={{ fontSize: 14, lineHeight: 2, margin: "0 0 10px" }}>
-          {sess.ratings.map((v, i) => (
-            <div key={i}>Runde {i + 1} ({fmtTime(durations[i])}): {SELF[v][0]} {SELF[v][1]}</div>
-          ))}
-        </div>
-        <p style={{ fontSize: 12.5, color: "#666", lineHeight: 1.6, margin: "0 0 16px" }}>
-          {better
-            ? "Runde 3 war flüssiger als Runde 1. Genau das soll passieren."
-            : "Wiederhole dasselbe Thema an einem anderen Tag: die Verbesserung kommt durch Wiederholung."}
-        </p>
-        <div style={{ display: "flex", gap: 8 }}>
-          <button onClick={start} style={{ ...primaryBtn("#D4537E"), flex: 1 }}>Nochmal</button>
-          <button onClick={() => setSess(null)} style={{ ...primaryBtn("#999"), flex: 1 }}>Beenden</button>
-        </div>
-      </div>
-    );
-  }
-
-  if (sess.phase === "ready") {
-    const always = help === "always";
-    return (
-      <div style={{ textAlign: "center" }}>
-        <p style={{ fontSize: 12, color: "#888", margin: "0 0 4px" }}>{roundLabel}</p>
-        <p style={{ fontSize: 36, fontWeight: 700, margin: "0 0 12px" }}>{fmtTime(total)}</p>
-        {(always || sess.round === 0) && <WordBank bank={sess.bank} />}
-        {sess.round === 0 && (
-          <button onClick={repick} style={{ ...pill(false), marginBottom: 12 }}>🔄 Andere Sätze zu diesem Thema</button>
-        )}
-        {!always && sess.round === 1 && (
-          <>
-            <button onClick={() => setSess({ ...sess, peek: !sess.peek })} style={{ ...pill(sess.peek), marginBottom: 10 }}>
-              {sess.peek ? "Wortbank verstecken" : "Wortbank kurz ansehen"}
-            </button>
-            {sess.peek && <WordBank bank={sess.bank} />}
-          </>
-        )}
-        {!always && sess.round === 2 && <p style={{ fontSize: 13, color: "#7a4f00", margin: "0 0 12px" }}>Jetzt ohne Hilfe: nur du und das Thema.</p>}
-        <p style={{ fontSize: 12, color: "#888", margin: "0 0 12px" }}>Wenn du bereit bist, startet der Countdown. Am Ende hörst du einen Ton.</p>
-        <div style={{ display: "flex", gap: 8 }}>
-          <button onClick={() => setSess(null)} style={{ ...primaryBtn("#bbb"), flex: 1 }}>Abbrechen</button>
-          <button onClick={go} style={{ ...primaryBtn("#D4537E"), flex: 2 }}>Los!</button>
-        </div>
-      </div>
-    );
-  }
-
-  if (sess.phase === "running") {
-    return (
-      <div style={{ textAlign: "center" }}>
-        <div style={{ position: "sticky", top: 0, background: "#fff", zIndex: 5, padding: "4px 0 8px", marginBottom: 6 }}>
-          <p style={{ fontSize: 12, color: "#888", margin: "0 0 2px" }}>{roundLabel}</p>
-          <p style={{ fontSize: 46, fontWeight: 700, margin: "0 0 6px", lineHeight: 1.1, fontVariantNumeric: "tabular-nums" }}>{fmtTime(sess.left)}</p>
-          <div style={{ background: "#eee", borderRadius: 3, height: 6 }}>
-            <div style={{ background: "#D4537E", width: `${Math.max(0, (sess.left / total) * 100)}%`, height: "100%", borderRadius: 3, transition: "width 0.25s linear" }} />
-          </div>
-        </div>
-        <p style={{ fontSize: 12.5, color: "#666", lineHeight: 1.5, margin: "0 0 10px" }}>
-          Sprich laut über <b>{sess.sub || topic}</b>. Nicht korrigieren, nicht stoppen: einfach weitersprechen.
-        </p>
-        <button
-          onClick={() => setSess((s) => ({ ...s, phase: "check" }))}
-          style={{ ...primaryBtn("#bbb"), padding: "8px", fontSize: 13, marginBottom: 12 }}
-        >
-          Früher beenden
-        </button>
-        {help === "always" && <WordBank bank={sess.bank} />}
-      </div>
-    );
-  }
-
   return (
-    <div style={{ textAlign: "center" }}>
-      <p style={{ fontSize: 12, color: "#888", margin: "0 0 4px" }}>{roundLabel}</p>
-      <p style={{ fontSize: 17, fontWeight: 600, margin: "0 0 14px" }}>Zeit! Wie lief die Runde?</p>
-      <div style={{ display: "flex", gap: 6 }}>
-        {SELF.map(([emoji, text], v) => (
-          <button key={v} onClick={() => selfRate(v)} style={{ ...primaryBtn(v === 0 ? "#d97706" : v === 1 ? "#6b7280" : "#16a34a"), flex: 1, padding: "12px 4px", fontSize: 13 }}>
-            {emoji}<br />{text}
-          </button>
-        ))}
+    <div>
+      <p style={{ fontSize: 12.5, color: "#666", lineHeight: 1.6, margin: "0 0 12px" }}>
+        Du hörst den Satz, dann kommt eine Pause: <b>sprich ihn laut nach</b>, so gleichmäßig wie möglich.
+        Der Player zeigt dir „Hör zu“ und „Jetzt du!“.
+      </p>
+      <p style={label}>Pause zum Nachsprechen</p>
+      <div style={{ marginBottom: 16 }}>
+        <Chips options={[[1, "kurz"], [1.5, "normal"], [2, "lang"]]} value={gap} onChange={setGap} />
       </div>
+      <button disabled={!set.length} onClick={start} style={{ ...primaryBtn(running ? "#555" : "#D4537E"), opacity: set.length ? 1 : 0.4 }}>
+        {running ? "⏹ Stop" : `▶ Echo starten (${set.length} Chunks)`}
+      </button>
     </div>
   );
 }
 
-export default function Sprechen({ chunks, toggleMastered, speaking, speak, playAll, echoAll, stopAll, initialMode = "echo" }) {
-  const [mode, setMode] = useState(initialMode);
-  const [pool, setPool] = useState("active");
-  const [cat, setCat] = useState("all");
-  const [count, setCount] = useState(10);
-  const [order, setOrder] = useState("random");
-  const [gap, setGap] = useState(1.5);
-  const [drillActive, setDrillActive] = useState(false);
-  const { progress, rate } = useSpeakingProgress();
-
-  const byId = useMemo(() => new Map(chunks.map((c) => [c.id, c])), [chunks]);
-  const usable = useMemo(() => chunks.filter((c) => c.cat !== "grammar" && !/→| vs\. /.test(c.de)), [chunks]);
-  const inPool = (c) => pool === "all" || (pool === "mastered") === !!c.mastered;
-
-  const poolCounts = {
-    active: usable.filter((c) => !c.mastered).length,
-    mastered: usable.filter((c) => c.mastered).length,
-    all: usable.length,
-  };
-  const catCounts = useMemo(() => {
-    const m = {};
-    for (const c of usable) if (inPool(c)) m[c.cat] = (m[c.cat] || 0) + 1;
-    return m;
-  }, [usable, pool]); // eslint-disable-line react-hooks/exhaustive-deps
-
-  const poolList = useMemo(
-    () => usable.filter((c) => inPool(c) && (cat === "all" || c.cat === cat)),
-    [usable, pool, cat] // eslint-disable-line react-hooks/exhaustive-deps
-  );
-  const drillPool = useMemo(() => poolList.filter((c) => c.en && !c.de.includes(" / ")), [poolList]);
-
-  function randomTopic() {
-    const ids = categories.filter((c) => c.id !== "all" && (catCounts[c.id] || 0) >= 5).map((c) => c.id);
-    if (ids.length) setCat(ids[Math.floor(Math.random() * ids.length)]);
-  }
-
-  function startEcho() {
-    if (speaking === "echo") { stopAll(); return; }
-    const ordered = order === "newest"
-      ? [...poolList].sort((a, b) => Number(b.id) - Number(a.id))
-      : shuffle(poolList);
-    const picked = count ? ordered.slice(0, count) : ordered;
-    echoAll(picked.map((c) => ({ text: speechText(c.de), subtitle: c.en, details: chunkDetails(c) })), gap);
-  }
-
+function StepRow({ icon, name, hint, done, onClick }) {
   return (
-    <div style={{ padding: "12px 16px 100px" }}>
-      {!drillActive && (
-        <>
-        <p style={{ fontSize: 11, color: "#aaa", margin: "0 0 12px" }}>
-          Vom Wissen zum Können: erst hören und nachsprechen, dann aus dem Kopf.
-        </p>
+    <button onClick={onClick} style={{ width: "100%", textAlign: "left", cursor: "pointer", background: done ? "#f6fdf8" : "#fff", border: `1px solid ${done ? "#bbf7d0" : "#e5e5e5"}`, borderRadius: 12, padding: "12px 14px", display: "flex", alignItems: "center", gap: 12, marginBottom: 8 }}>
+      <span style={{ fontSize: 22 }}>{icon}</span>
+      <span style={{ flex: 1 }}>
+        <b style={{ fontSize: 14 }}>{name}</b>
+        <span style={{ display: "block", fontSize: 11.5, color: "#888", marginTop: 1 }}>{hint}</span>
+      </span>
+      <span style={{ fontSize: 17, color: done ? "#22c55e" : "#ccc" }}>{done ? "✓" : "›"}</span>
+    </button>
+  );
+}
 
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(6, 1fr)", gap: 6, marginBottom: 14 }}>
-          {[["echo", "🔁 Echo", 2], ["translate", "💬 Übersetzen", 2], ["talk", "⏱ 4/3/2", 2], ["self", "🎙 Selbstgespräch", 3], ["register", "🎭 Register", 3]].map(([m, l, span]) => (
-            <button
-              key={m}
-              onClick={() => { if (speaking) stopAll(); setMode(m); }}
-              style={{ ...pill(mode === m, "#D4537E", "#FBEAF0"), gridColumn: `span ${span}`, padding: "8px 2px", whiteSpace: "nowrap" }}
-            >
-              {l}
-            </button>
-          ))}
-        </div>
+const STEPS = [
+  ["echo", "🔁", "1 · Echo", "Hören und laut nachsprechen"],
+  ["translate", "💬", "2 · Übersetzen", "Übersetzung sehen, Satz laut sagen, bewerten"],
+  ["speak", "🎙", "3 · Sprechen", "Frei sprechen und die Sätze benutzen"],
+];
 
-        {["echo", "translate", "talk"].includes(mode) && (
-          <>
-        <p style={label}>Material</p>
-        <Chips
-          options={[["active", `Aktiv (${poolCounts.active})`], ["mastered", `Gemeistert (${poolCounts.mastered})`], ["all", `Alle (${poolCounts.all})`]]}
-          value={pool} onChange={setPool}
-        />
-        <p style={{ fontSize: 10.5, color: "#bbb", margin: "5px 0 10px" }}>
-          „Gemeistert“ = Flüssigkeit üben mit Sätzen, die du schon kennst.
-        </p>
-        <select
-          value={cat} onChange={(e) => setCat(e.target.value)}
-          style={{ width: "100%", border: "1px solid #ddd", borderRadius: 8, padding: "6px 8px", fontSize: 12, background: "#fff", color: "#444", marginBottom: 14 }}
-        >
-          <option value="all">{mode === "talk" ? "Thema wählen …" : `Alle Kategorien (${poolCounts[pool]})`}</option>
-          {categories.filter((c) => c.id !== "all" && catCounts[c.id]).map((c) => (
-            <option key={c.id} value={c.id}>{c.label} ({catCounts[c.id]})</option>
-          ))}
-        </select>
+export default function Sprechen({ chunks, toggleMastered, speech, daily, initialStep = null }) {
+  const { speaking, speak, playAll, echoAll, stopAll } = speech;
+  const [step, setStep] = useState(initialStep);
+  const [drillActive, setDrillActive] = useState(false);
+  const [gap, setGap] = useState(1.5);
+  const { progress, rate } = useSpeakingProgress();
+  const byId = useMemo(() => new Map(chunks.map((c) => [c.id, c])), [chunks]);
+  const set = daily.set;
 
-        {mode === "talk" ? (
-          <button onClick={randomTopic} style={{ ...pill(false), marginBottom: 14 }}>🎲 Zufälliges Thema</button>
-        ) : (
-          <>
-            <p style={label}>Anzahl pro Runde</p>
-            <div style={{ marginBottom: 14 }}>
-              <Chips options={[[10, "10"], [20, "20"], [0, "Alle"]]} value={count} onChange={setCount} />
-            </div>
-          </>
-        )}
-          </>
-        )}
-        </>
-      )}
+  // "Gespräch" is too broad to ask about; use the noun the set is built around, else let the learner pick.
+  const promptTopic = daily.sub || (daily.topic === "conversation" ? "Gemischt" : daily.topicLabel);
+  const back = () => { if (speaking) stopAll(); setStep(null); };
+  const onEchoDone = () => daily.markStep("echo");
+  const onTranslateDone = () => daily.markStep("translate");
+  const onSpeakDone = () => daily.markStep("speak");
 
-      {mode === "echo" ? (
-        <div>
-          <p style={{ fontSize: 12.5, color: "#666", lineHeight: 1.6, margin: "0 0 12px" }}>
-            Du hörst den Satz, dann kommt eine Pause: <b>sprich ihn laut nach</b>, so gleichmäßig wie möglich.
-            Der Player zeigt dir „Hör zu“ und „Jetzt du!“.
-          </p>
-          <p style={label}>Pause zum Nachsprechen</p>
+  if (step) {
+    const current = step === "register" ? "🎭 Register-Drill" : STEPS.find(([k]) => k === step)?.[2].slice(4);
+    return (
+      <div style={{ padding: "12px 16px 100px" }}>
+        {!drillActive && (
           <div style={{ marginBottom: 12 }}>
-            <Chips options={[[1, "kurz"], [1.5, "normal"], [2, "lang"]]} value={gap} onChange={setGap} />
+            <button onClick={back} style={{ background: "none", border: "none", cursor: "pointer", color: "#D4537E", fontSize: 13, fontWeight: 500, padding: 0 }}>‹ Übersicht</button>
+            <h1 style={{ fontSize: 20, fontWeight: 600, margin: "6px 0 2px" }}>{current}</h1>
+            {step !== "register" && (
+              <p style={{ fontSize: 11.5, color: "#999", margin: 0 }}>{daily.topicLabel}{daily.sub ? ` · ${daily.sub}` : ""} · {set.length} Chunks</p>
+            )}
           </div>
-          <p style={label}>Reihenfolge</p>
-          <div style={{ marginBottom: 16 }}>
-            <Chips options={[["random", "Zufällig"], ["newest", "Neueste zuerst"]]} value={order} onChange={setOrder} />
-          </div>
-          <button
-            disabled={!poolList.length}
-            onClick={startEcho}
-            style={{ ...primaryBtn(speaking === "echo" ? "#555" : "#D4537E"), opacity: poolList.length ? 1 : 0.4 }}
+        )}
+
+        {step === "echo" && <EchoStep set={set} speaking={speaking} echoAll={echoAll} stopAll={stopAll} gap={gap} setGap={setGap} onDone={onEchoDone} />}
+        {step === "translate" && (
+          <TranslateDrill
+            pool={set} byId={byId} count={0} progress={progress} rate={rate}
+            speaking={speaking} speak={speak} stopAll={stopAll} toggleMastered={toggleMastered}
+            onActive={setDrillActive} onFinish={onTranslateDone}
+          />
+        )}
+        {step === "speak" && (
+          <SprechenFrei set={set} topicLabel={promptTopic} topicCat={daily.topic} onActive={setDrillActive} onDone={onSpeakDone} />
+        )}
+        {step === "register" && <RegisterDrill speaking={speaking} speak={speak} playAll={playAll} stopAll={stopAll} onActive={setDrillActive} />}
+      </div>
+    );
+  }
+
+  const doneCount = ["echo", "translate", "speak"].filter((k) => daily.steps[k]).length;
+  return (
+    <div style={{ padding: "16px 16px 100px" }}>
+      <h1 style={{ fontSize: 20, fontWeight: 600, margin: 0 }}>Sprechen</h1>
+      <p style={{ fontSize: 12, color: "#888", margin: "2px 0 14px", lineHeight: 1.5 }}>
+        Ein Set, drei Schritte: erst hören, dann übersetzen, dann frei sprechen – immer mit denselben Sätzen. {doneCount} / 3 erledigt.
+      </p>
+
+      <div style={{ border: "1px solid #e5e5e5", borderRadius: 12, padding: "12px 14px", marginBottom: 14 }}>
+        <div style={{ display: "flex", alignItems: "center", gap: 8, flexWrap: "wrap" }}>
+          <span style={{ fontSize: 12, color: "#888" }}>Thema</span>
+          <select
+            value={daily.topic} onChange={(e) => daily.setTopic(e.target.value)} aria-label="Thema ändern"
+            style={{ border: "1px solid #ddd", borderRadius: 8, padding: "4px 6px", fontSize: 13, background: "#fff", color: "#444", maxWidth: 160 }}
           >
-            {speaking === "echo" ? "⏹ Stop" : `▶ Echo starten (${count ? Math.min(count, poolList.length) : poolList.length} Chunks)`}
-          </button>
+            {daily.topics.map((t) => <option key={t.id} value={t.id}>{t.label}</option>)}
+            <option value={MIX}>Gemischt</option>
+          </select>
+          <button onClick={daily.newSet} style={{ ...pill(false), padding: "3px 10px" }}>↻ Neues Set</button>
         </div>
-      ) : mode === "translate" ? (
-        <TranslateDrill
-          pool={drillPool} byId={byId} count={count} progress={progress} rate={rate}
-          speaking={speaking} speak={speak} stopAll={stopAll} toggleMastered={toggleMastered}
-          onActive={setDrillActive}
-        />
-      ) : mode === "self" ? (
-        <Selbstgespraech onActive={setDrillActive} />
-      ) : mode === "register" ? (
-        <RegisterDrill speaking={speaking} speak={speak} playAll={playAll} stopAll={stopAll} onActive={setDrillActive} />
-      ) : (
-        <TalkDrill
-          pool={poolList} ready={cat !== "all" && poolList.length >= 3}
-          topic={CM[cat]?.label || ""} onActive={setDrillActive}
-        />
-      )}
+        <div style={{ display: "flex", alignItems: "center", gap: 6, marginTop: 8 }}>
+          <span style={{ fontSize: 12, color: "#888" }}>Größe</span>
+          {SET_SIZES.map((n) => (
+            <button key={n} onClick={() => daily.setSize(n)} style={{ ...pill(daily.size === n, "#D4537E", "#FBEAF0"), padding: "3px 11px" }}>{n}</button>
+          ))}
+        </div>
+        <p style={{ fontSize: 11.5, color: "#999", margin: "8px 0 0", lineHeight: 1.5 }}>
+          {set.length} Sätze{daily.sub ? ` rund um „${daily.sub}“` : ""}. Die 3 Chunks des Tages sind dabei.
+        </p>
+        <details style={{ marginTop: 6 }}>
+          <summary style={{ fontSize: 12, color: "#888", cursor: "pointer" }}>Sätze ansehen</summary>
+          <ol style={{ margin: "6px 0 0", paddingLeft: 20, fontSize: 12.5, lineHeight: 1.6, color: "#444" }}>
+            {set.map((c) => <li key={c.id}>{speechText(c.de)}</li>)}
+          </ol>
+        </details>
+      </div>
+
+      {STEPS.map(([k, icon, name, hint]) => (
+        <StepRow key={k} icon={icon} name={name} hint={hint} done={daily.steps[k]} onClick={() => setStep(k)} />
+      ))}
+
+      <p style={{ fontSize: 11, color: "#aaa", margin: "16px 0 6px" }}>Extra</p>
+      <StepRow icon="🎭" name="Register-Drill" hint="Dieselbe Aussage: formell, neutral, umgangssprachlich" done={false} onClick={() => setStep("register")} />
     </div>
   );
 }

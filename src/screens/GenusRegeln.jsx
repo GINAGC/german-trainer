@@ -22,8 +22,8 @@ function Word({ text, pattern, color, big }) {
   );
 }
 
-export default function GenusRegeln({ speaking, playAll }) {
-  const [open, setOpen] = useState(genusData.groups[0].genus);
+export default function GenusRegeln({ speaking, playAll, initialGroup }) {
+  const [open, setOpen] = useState(initialGroup || genusData.groups[0].genus);
   const group = genusData.groups.find((g) => g.genus === open);
 
   function speakRule(rule, key) {

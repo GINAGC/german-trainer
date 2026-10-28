@@ -10,9 +10,12 @@ Live at **[ginagc.github.io/german-trainer](https://ginagc.github.io/german-trai
 
 A bottom navigation bar with five areas:
 
-- **Heute** — the start screen: progress, the **Chunk des Tages** (3 chunks a
-  day to use in real conversations; 5 uses = mastered), shortcuts into
-  Sprechen, and the newest chunks.
+- **Heute** — "Meine tägliche Übung", four parts a day:
+  1. **3 Chunks des Tages** to memorise (5 uses = mastered),
+  2. **Sprechtraining** on a daily topic (rotates automatically, can be
+     changed),
+  3. a **Grammatik-Thema** and
+  4. a **Verben-Thema** that change every day and link to the exact section.
 - **Sammlung** — **Chunks** (full sentences with translations, categories, audio,
   search, "newest first", mastered toggle), **Wörter** (2,000+ words,
   German → Spanish, known toggle) and **Archiv** (everything mastered/known;
@@ -23,17 +26,16 @@ A bottom navigation bar with five areas:
   **Nomen-Verb-Verbindungen** (C1 collocations with the simple verb they
   replace, plus an exercise).
 - **Sprechen** — turns knowledge into speaking, based on the automatisation
-  research (declarative → procedural → automatic):
-  **Echo** (hear a chunk, then a pause to repeat it aloud),
-  **Übersetzen** (see the translation, say the German aloud, reveal, rate
-  yourself automatisch / gezögert / nicht gewusst; 3× automatisch in a row
-  offers to mark a chunk mastered), **4/3/2** (talk about one topic three
-  times in shrinking time, with 5–8 related chunks kept on screen),
-  **Selbstgespräch** (10 minutes a day: three 2-minute exercises from a
-  weekly plan – commentator, daily recap, opinion, role-play, explanation –
-  with prompts, connectors, "rescue" phrases and a notebook for missing
-  words) and **Register-Drill** (the same message said formally, neutrally
-  and colloquially).
+  research (declarative → procedural → automatic). One **set of 10–20
+  related chunks** per day (the 3 chunks of the day plus their closest
+  relatives), used in three steps: **Echo** (hear a chunk, then a pause to
+  repeat it aloud), **Übersetzen** (see the translation, say the German,
+  reveal, rate yourself; 3× automatisch in a row offers "mastered") and
+  **Sprechen** (free speaking with the set on screen: opinion, tell your
+  day, role-play, explain – 3 rounds of 2 · 1.5 · 1 min, tap each sentence
+  once you used it, rescue phrases and a notebook for missing words). The
+  extra **Register-Drill** says the same message formally, neutrally and
+  colloquially.
 - **Grammatik** — reference pages: **Tabellen** (articles by case,
   pronouns, Akk vs. Dat), **Genus-Regeln**, **Deklination**,
   **Verben & Satzbau** (tenses, modal verbs, modal particles, concessive

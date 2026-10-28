@@ -22,7 +22,7 @@ const EXERCISE = [
 
 function Chip({ on, onClick, children }) {
   return (
-    <button onClick={onClick} style={{ cursor: "pointer", whiteSpace: "nowrap", flexShrink: 0, border: `1px solid ${on ? BLUE.border : "#ddd"}`, background: on ? BLUE.bg : "transparent", color: on ? BLUE.color : "#555", borderRadius: 20, padding: "4px 10px", fontSize: 12, fontWeight: on ? 500 : 400 }}>
+    <button ref={(el) => { if (on && el) el.scrollIntoView?.({ inline: "center", block: "nearest" }); }} onClick={onClick} style={{ cursor: "pointer", whiteSpace: "nowrap", flexShrink: 0, border: `1px solid ${on ? BLUE.border : "#ddd"}`, background: on ? BLUE.bg : "transparent", color: on ? BLUE.color : "#555", borderRadius: 20, padding: "4px 10px", fontSize: 12, fontWeight: on ? 500 : 400 }}>
       {children}
     </button>
   );
@@ -80,9 +80,9 @@ function Exercise() {
   );
 }
 
-export default function Verben({ chunks, toggleMastered, speech }) {
-  const [tab, setTab] = useState("verben");
-  const [grp, setGrp] = useState("all");
+export default function Verben({ chunks, toggleMastered, speech, initialTab = "verben", initialGrp = "all" }) {
+  const [tab, setTab] = useState(initialTab);
+  const [grp, setGrp] = useState(initialGrp);
   const [search, setSearch] = useState("");
 
   const all = useMemo(() => {

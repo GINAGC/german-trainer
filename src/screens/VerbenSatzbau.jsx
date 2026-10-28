@@ -13,7 +13,7 @@ const genderTd = (g, extra) => ({ ...tdC, color: GENDER[g].text, ...extra });
 export default function VerbenSatzbau() {
   return (
     <div style={{ padding: "12px 16px 40px" }}>
-      <p style={{ fontSize: 11, fontWeight: 600, color: "#888", letterSpacing: 1, textTransform: "uppercase", margin: "0 0 8px" }}>Verben die verwirren — sein / haben / wollen / werden</p>
+      <p data-topic="verwirren" style={{ fontSize: 11, fontWeight: 600, color: "#888", letterSpacing: 1, textTransform: "uppercase", margin: "0 0 8px" }}>Verben die verwirren — sein / haben / wollen / werden</p>
       <div style={{ overflowX: "auto", marginBottom: 8 }}>
         <table style={{ borderCollapse: "collapse", fontSize: 11, minWidth: 480, width: "100%" }}>
           <thead>
@@ -48,7 +48,7 @@ export default function VerbenSatzbau() {
       </div>
       <p style={{ fontSize: 11, color: "#aaa", margin: "0 0 24px" }}>⚠️ würde (condicional) ≠ wurde (pasado). ¡Una letra, significado totalmente diferente!</p>
 
-      <p style={{ fontSize: 11, fontWeight: 600, color: "#888", letterSpacing: 1, textTransform: "uppercase", margin: "0 0 8px" }}>Zeiten — Tiempos verbales</p>
+      <p data-topic="zeiten" style={{ fontSize: 11, fontWeight: 600, color: "#888", letterSpacing: 1, textTransform: "uppercase", margin: "0 0 8px" }}>Zeiten — Tiempos verbales</p>
       <div style={{ overflowX: "auto", marginBottom: 16 }}>
         <table style={{ borderCollapse: "collapse", fontSize: 11, minWidth: 520, width: "100%" }}>
           <thead>
@@ -91,7 +91,7 @@ export default function VerbenSatzbau() {
       </div>
       <p style={{ fontSize: 11, color: "#aaa", margin: "0 0 8px" }}>⬡ Avanzado — referencia, no es prioritario para B1.</p>
 
-      <p style={{ fontSize: 11, fontWeight: 600, color: "#888", letterSpacing: 1, textTransform: "uppercase", margin: "0 0 8px" }}>Modalverben — Modal verbs — Verbos modales</p>
+      <p data-topic="modal" style={{ fontSize: 11, fontWeight: 600, color: "#888", letterSpacing: 1, textTransform: "uppercase", margin: "0 0 8px" }}>Modalverben — Modal verbs — Verbos modales</p>
       <p style={{ fontSize: 11, color: "#aaa", margin: "0 0 8px" }}>Muster: ich = er/sie (keine Endung!) · Plural kehrt zum Infinitiv zurück.</p>
       <div style={{ overflowX: "auto", marginBottom: 8 }}>
         <table style={{ borderCollapse: "collapse", fontSize: 11, minWidth: 520, width: "100%" }}>
@@ -128,7 +128,7 @@ export default function VerbenSatzbau() {
       </div>
       <p style={{ fontSize: 11, color: "#aaa", margin: "0 0 24px" }}>Lila = ich &amp; er/sie sind identisch — kein -t wie bei normalen Verben!</p>
 
-      <p style={{ fontSize: 11, fontWeight: 600, color: "#888", letterSpacing: 1, textTransform: "uppercase", margin: "0 0 8px" }}>Modalpartikeln</p>
+      <p data-topic="partikeln" style={{ fontSize: 11, fontWeight: 600, color: "#888", letterSpacing: 1, textTransform: "uppercase", margin: "0 0 8px" }}>Modalpartikeln</p>
       <p style={{ fontSize: 12, color: "#666", lineHeight: 1.55, margin: "0 0 10px" }}>
         Kleine Wörter ohne eigene Bedeutung, die den Ton eines Satzes verändern. Ohne sie klingt gesprochenes Deutsch hart und wie aus dem Lehrbuch.
       </p>
@@ -179,7 +179,7 @@ export default function VerbenSatzbau() {
         <b>Übung:</b> Sprich jeden Satz einmal ohne und einmal mit Partikel. Du hörst den Unterschied sofort.
       </p>
 
-      <p style={{ ...sectionLabel, marginTop: 8 }}>Konzessivsätze — obwohl / trotzdem / trotz</p>
+      <p data-topic="konzessiv" style={{ ...sectionLabel, marginTop: 8 }}>Konzessivsätze — obwohl / trotzdem / trotz</p>
       <p style={{ fontSize: 12, color: "#666", lineHeight: 1.55, margin: "0 0 10px" }}>
         Konzessivsätze drücken etwas Unerwartetes aus: <i>Es ist kalt, trotzdem ziehe ich keine Jacke an.</i><br />
         <span style={{ color: "#7a4f00" }}>Algo inesperado: «hace frío, aun así no me pongo chaqueta».</span>
@@ -257,7 +257,7 @@ export default function VerbenSatzbau() {
         ))}
       </div>
 
-      <p style={{ ...sectionLabel, marginTop: 8 }}>15 typische B1-Fehler</p>
+      <p data-topic="b1fehler" style={{ ...sectionLabel, marginTop: 8 }}>15 typische B1-Fehler</p>
       <p style={{ fontSize: 12, color: "#666", lineHeight: 1.55, margin: "0 0 10px" }}>
         Diese Fehler hören Muttersprachler sofort – sie sind nicht schlimm, aber sie verraten B1. Trainiere pro Woche nur <b>einen</b> davon weg.
       </p>
