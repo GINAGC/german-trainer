@@ -1,6 +1,7 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import ChunkCard from "../components/ChunkCard";
 import SegmentedControl from "../components/SegmentedControl";
+import RepeatCountControl from "../components/RepeatCountControl";
 import { speechText, chunkDetails } from "../lib/speechText";
 import { CASE } from "../lib/colors";
 
@@ -22,7 +23,7 @@ const EXERCISE = [
 
 function Chip({ on, onClick, children }) {
   return (
-    <button ref={(el) => { if (on && el) el.scrollIntoView?.({ inline: "center", block: "nearest" }); }} onClick={onClick} style={{ cursor: "pointer", whiteSpace: "nowrap", flexShrink: 0, border: `1px solid ${on ? BLUE.border : "#ddd"}`, background: on ? BLUE.bg : "transparent", color: on ? BLUE.color : "#555", borderRadius: 20, padding: "4px 10px", fontSize: 12, fontWeight: on ? 500 : 400 }}>
+    <button data-on={on ? "true" : undefined} onClick={onClick} style={{ cursor: "pointer", whiteSpace: "nowrap", flexShrink: 0, border: `1px solid ${on ? BLUE.border : "#ddd"}`, background: on ? BLUE.bg : "transparent", color: on ? BLUE.color : "#555", borderRadius: 20, padding: "4px 10px", fontSize: 12, fontWeight: on ? 500 : 400 }}>
       {children}
     </button>
   );
@@ -109,7 +110,14 @@ export default function Verben({ chunks, toggleMastered, speech, initialTab = "v
     });
   }, [all, grp, search, field]);
 
-  const { speaking, speak, playAll, stopAll } = speech;
+  const chipsRef = useRef(null);
+  useEffect(() => {
+    const row = chipsRef.current;
+    const el = row?.querySelector('[data-on="true"]');
+    if (row && el) row.scrollLeft = el.offsetLeft - (row.clientWidth - el.clientWidth) / 2;
+  }, [grp, tab]);
+
+  const { speaking, speak, playAll, stopAll, repeatCount, setRepeatCount } = speech;
   const switchTab = (t) => { if (speaking) stopAll(); setTab(t); setGrp("all"); setSearch(""); };
   const onSpeak = (id, de, en, d) => speak(id, speechText(de), en, d);
 
@@ -123,6 +131,7 @@ export default function Verben({ chunks, toggleMastered, speech, initialTab = "v
         />
         <div style={{ display: "flex", gap: 8, margin: "10px 0 8px" }}>
           <input value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Suchen..." style={{ flex: 1, minWidth: 0, border: "1px solid #ccc", borderRadius: 8, padding: "7px 10px", fontSize: 13, fontFamily: "inherit" }} />
+          <RepeatCountControl repeatCount={repeatCount} setRepeatCount={setRepeatCount} />
           <button
             onClick={() => { if (speaking) stopAll(); else playAll(shown.map((c) => ({ id: c.id, text: speechText(c.de), subtitle: c.en, details: chunkDetails(c) }))); }}
             style={{ cursor: "pointer", border: `1px solid ${speaking ? "#93c5fd" : "#ddd"}`, background: speaking ? "#dbeafe" : "transparent", borderRadius: 20, padding: "4px 12px", fontSize: 12, fontWeight: 500, color: speaking ? "#1e40af" : "#555", whiteSpace: "nowrap" }}
@@ -130,7 +139,7 @@ export default function Verben({ chunks, toggleMastered, speech, initialTab = "v
             {speaking ? "⏹ Stop" : "▶ Alle"}
           </button>
         </div>
-        <div style={{ display: "flex", gap: 5, overflowX: "auto", paddingBottom: 8, scrollbarWidth: "none" }}>
+        <div ref={chipsRef} style={{ display: "flex", gap: 5, overflowX: "auto", paddingBottom: 8, scrollbarWidth: "none", position: "relative" }}>
           <Chip on={grp === "all"} onClick={() => setGrp("all")}>Alle ({all.length})</Chip>
           {groups.map(([g, n]) => <Chip key={g} on={grp === g} onClick={() => setGrp(g)}>{g} ({n})</Chip>)}
         </div>
