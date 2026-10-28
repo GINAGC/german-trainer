@@ -7,6 +7,7 @@ import { GRAMMAR_TOPICS, VERB_TOPICS, dayNumber } from "../lib/practiceTopics";
 export const USE_TARGET = 5;
 export const SET_SIZES = [10, 15, 20];
 const KEY = "german_daily_practice_v1";
+const LOG_KEY = "german_daily_log_v1";
 const NEWEST_POOL = 40;
 const CAT_LABEL = Object.fromEntries(categories.map((c) => [c.id, c.label]));
 // Not coherent topics (grab-bags with their own place in the app); they still show up in "Gemischt".
@@ -76,6 +77,10 @@ function newDay(chunks, uses, size) {
   return { date: dateKey(), topic, size, ...fresh(chunks, uses, topic, size) };
 }
 
+function loadLog() {
+  try { return JSON.parse(localStorage.getItem(LOG_KEY)) || {}; } catch { return {}; }
+}
+
 function load() {
   try { return JSON.parse(localStorage.getItem(KEY)); } catch { return null; }
 }
@@ -95,6 +100,11 @@ export function useDailyPractice(chunks) {
     try { localStorage.setItem(KEY, JSON.stringify(day)); } catch { /* storage unavailable */ }
   }, [day]);
 
+  // Month tracker: which of the 4 daily parts were done on which day.
+  // Chunks and Sprechen count once reached (changing the topic resets them
+  // for the day, which must not cost the credit); grammar/verbs follow their ticks.
+  const [log, setLog] = useState(() => loadLog());
+
   // The app stayed open past midnight.
   useEffect(() => {
     function check() {
@@ -110,6 +120,21 @@ export function useDailyPractice(chunks) {
   const set = day.setIds.map((id) => byId.get(id)).filter(Boolean);
   const topicLabel = day.topic === MIX ? "Gemischt" : CAT_LABEL[day.topic] || day.topic;
   const sub = useMemo(() => subTopic(set), [set]);
+
+  const chunksDone = items.length > 0 && items.every((c) => day.used.includes(c.id));
+  const speakDone = !!(day.steps.echo && day.steps.translate && day.steps.speak);
+
+  useEffect(() => {
+    setLog((prev) => {
+      const before = prev[day.date] || {};
+      const entry = { c: !!(before.c || chunksDone), s: !!(before.s || speakDone), g: !!day.gDone, v: !!day.vDone };
+      if (before.c === entry.c && before.s === entry.s && before.g === entry.g && before.v === entry.v) return prev;
+      const next = { ...prev };
+      if (entry.c || entry.s || entry.g || entry.v) next[day.date] = entry; else delete next[day.date];
+      try { localStorage.setItem(LOG_KEY, JSON.stringify(next)); } catch { /* storage unavailable */ }
+      return next;
+    });
+  }, [day.date, day.gDone, day.vDone, chunksDone, speakDone]);
 
   const gram = GRAMMAR_TOPICS[(dayNumber() + day.gOff) % GRAMMAR_TOPICS.length];
   const verb = VERB_TOPICS[(dayNumber() + day.vOff) % VERB_TOPICS.length];
@@ -147,7 +172,7 @@ export function useDailyPractice(chunks) {
   return {
     topic: day.topic, topicLabel, sub, topics, size: day.size,
     items, set, used: new Set(day.used), uses, steps: day.steps,
-    gram, verb, gDone: day.gDone, vDone: day.vDone,
+    gram, verb, gDone: day.gDone, vDone: day.vDone, log,
     toggleUsed, setTopic, newSet, setSize, markStep, toggleG, toggleV, nextGram, nextVerb,
   };
 }

@@ -16,6 +16,9 @@ A bottom navigation bar with five areas:
      changed),
   3. a **Grammatik-Thema** and
   4. a **Verben-Thema** that change every day and link to the exact section.
+
+  A **monthly tracker** at the bottom shows which of the 4 parts you finished
+  on each day, with a streak of days with all four.
 - **Sammlung** — **Chunks** (full sentences with translations, categories, audio,
   search, "newest first", mastered toggle), **Wörter** (2,000+ words,
   German → Spanish, known toggle) and **Archiv** (everything mastered/known;

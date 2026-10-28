@@ -3,6 +3,7 @@ import { MIX, SET_SIZES, USE_TARGET } from "../hooks/useDailyPractice";
 import { CASE, genderColorForNoun } from "../lib/colors";
 import { cleanDe, speechText, chunkDetails } from "../lib/speechText";
 import { pill } from "../components/sprechenUi";
+import MonthTracker from "../components/MonthTracker";
 
 const sectionTitle = { fontSize: 11, fontWeight: 600, color: "#888", letterSpacing: 1, textTransform: "uppercase", margin: "22px 0 8px", display: "flex", justifyContent: "space-between", alignItems: "baseline" };
 const card = { border: "1px solid #e5e5e5", borderRadius: 12, padding: "12px 14px", background: "#fff" };
@@ -190,6 +191,9 @@ export default function Heute({ chunks, daily, aCnt, mCnt, total, pct, speaking,
         onOpen={() => goto("verben", { tab: verb.tab, grp: verb.grp })}
         onDone={daily.toggleV} onNext={daily.nextVerb}
       />
+
+      <div style={sectionTitle}><span>Mein Monat</span></div>
+      <MonthTracker log={daily.log} />
     </div>
   );
 }
