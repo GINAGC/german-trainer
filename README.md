@@ -15,7 +15,8 @@ A bottom navigation bar with five areas:
   2. **Sprechtraining** on a daily topic (rotates automatically, can be
      changed),
   3. a **Grammatik-Thema** and
-  4. a **Verben-Thema** that change every day and link to the exact section.
+  4. a **Verben-Thema** that change every day and link to the exact section,
+  5. the **Skript der Woche** (only while a script is imported).
 
   A **monthly tracker** at the bottom shows which of the 4 parts you finished
   on each day, with a streak of days with all four.
@@ -39,6 +40,12 @@ A bottom navigation bar with five areas:
   once you used it, rescue phrases and a notebook for missing words). The
   extra **Register-Drill** says the same message formally, neutrally and
   colloquially.
+- **Skript der Woche** (Sprechen → Extra) — a reader for the weekly role-play
+  script of a language course: sentences by conversation moment and variant,
+  tap-to-explain fixed expressions, Spanish translation, audio, ★ favourites,
+  a "without script" mode and the course checklist. Scripts are **never part of
+  this repo or website**: they are imported as a JSON file on the device and
+  stored only in that browser (`private-scripts/` is git-ignored).
 - **Grammatik** — reference pages: **Tabellen** (articles by case,
   pronouns, Akk vs. Dat), **Genus-Regeln**, **Deklination**,
   **Verben & Satzbau** (tenses, modal verbs, modal particles, concessive

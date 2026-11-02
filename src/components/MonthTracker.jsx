@@ -2,18 +2,22 @@ import { useState } from "react";
 
 const MONTHS = ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"];
 const WEEKDAYS = ["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So"];
-const PARTS = [["c", "Chunks"], ["s", "Sprechen"], ["g", "Grammatik"], ["v", "Verben"]];
+const PARTS = [["c", "Chunks"], ["s", "Sprechen"], ["g", "Grammatik"], ["v", "Verben"], ["k", "Skript"]];
 const SHADES = ["#f3f3f3", "#d9f2e0", "#a7e3b8", "#6fd08c", "#22c55e"];
 
 const key = (y, m, d) => `${y}-${String(m + 1).padStart(2, "0")}-${String(d).padStart(2, "0")}`;
 const count = (e) => (e ? PARTS.filter(([k]) => e[k]).length : 0);
+// How many parts that day had: 4, or 5 while a script was imported.
+const total = (e) => (e && e.t) || 4;
+const isFull = (e) => !!e && count(e) >= total(e);
+const level = (e) => (isFull(e) ? 4 : Math.min(3, Math.ceil((count(e) / total(e)) * 4)));
 
-// Consecutive days with all 4 parts done, counting back from today (or yesterday if today isn't finished yet).
+// Consecutive days with all parts done, counting back from today (or yesterday if today isn't finished yet).
 function streak(log) {
   const d = new Date();
-  if (count(log[key(d.getFullYear(), d.getMonth(), d.getDate())]) < 4) d.setDate(d.getDate() - 1);
+  if (!isFull(log[key(d.getFullYear(), d.getMonth(), d.getDate())])) d.setDate(d.getDate() - 1);
   let n = 0;
-  while (count(log[key(d.getFullYear(), d.getMonth(), d.getDate())]) === 4) {
+  while (isFull(log[key(d.getFullYear(), d.getMonth(), d.getDate())])) {
     n++;
     d.setDate(d.getDate() - 1);
   }
@@ -37,9 +41,9 @@ export default function MonthTracker({ log }) {
   let full = 0;
   let active = 0;
   for (let d = 1; d <= days; d++) {
-    const c = count(log[key(y, m, d)]);
-    if (c) active++;
-    if (c === 4) full++;
+    const e = log[key(y, m, d)];
+    if (count(e)) active++;
+    if (isFull(e)) full++;
   }
 
   const pickedEntry = picked ? log[picked] : null;
@@ -58,7 +62,8 @@ export default function MonthTracker({ log }) {
         {Array.from({ length: days }, (_, i) => {
           const d = i + 1;
           const k = key(y, m, d);
-          const c = count(log[k]);
+          const e = log[k];
+          const c = level(e);
           const future = k > todayKey;
           const isToday = k === todayKey;
           return (
@@ -79,18 +84,18 @@ export default function MonthTracker({ log }) {
       <div style={{ display: "flex", alignItems: "center", gap: 4, margin: "10px 0 0", fontSize: 10.5, color: "#aaa" }}>
         <span>weniger</span>
         {SHADES.map((c) => <span key={c} style={{ width: 12, height: 12, borderRadius: 3, background: c, display: "inline-block" }} />)}
-        <span>alle 4 ✓</span>
+        <span>alles ✓</span>
       </div>
 
       {picked && (
         <p style={{ fontSize: 12, color: "#555", margin: "10px 0 0", lineHeight: 1.7 }}>
           <b>{picked.slice(8)}.{picked.slice(5, 7)}.</b>{" "}
-          {PARTS.map(([k, name]) => <span key={k} style={{ marginRight: 8, color: pickedEntry?.[k] ? "#15803d" : "#bbb" }}>{pickedEntry?.[k] ? "✓" : "○"} {name}</span>)}
+          {PARTS.filter(([k]) => k !== "k" || total(pickedEntry) === 5).map(([k, name]) => <span key={k} style={{ marginRight: 8, color: pickedEntry?.[k] ? "#15803d" : "#bbb" }}>{pickedEntry?.[k] ? "✓" : "○"} {name}</span>)}
         </p>
       )}
 
       <div style={{ display: "flex", gap: 14, marginTop: 10, fontSize: 12.5, color: "#444", flexWrap: "wrap" }}>
-        <span>Alle 4: <b>{full}</b> {full === 1 ? "Tag" : "Tage"}</span>
+        <span>Alles geschafft: <b>{full}</b> {full === 1 ? "Tag" : "Tage"}</span>
         <span>Aktiv: <b>{active}</b></span>
         {offset === 0 && <span>Serie: <b>{streak(log)}</b> 🔥</span>}
       </div>

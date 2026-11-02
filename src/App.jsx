@@ -10,6 +10,7 @@ import { useSpeech } from "./hooks/useSpeech";
 import { useMasteredChunks } from "./hooks/useMasteredChunks";
 import { useKnownWords } from "./hooks/useKnownWords";
 import { useDailyPractice } from "./hooks/useDailyPractice";
+import { useScripts } from "./hooks/useScripts";
 
 export default function App() {
   const [section, setSection] = useState("heute");
@@ -24,7 +25,8 @@ export default function App() {
   const { chunks, toggleMastered } = useMasteredChunks();
   const { knownWords, markKnown, undoKnown } = useKnownWords();
   const speech = useSpeech();
-  const daily = useDailyPractice(chunks);
+  const scripts = useScripts();
+  const daily = useDailyPractice(chunks, !!scripts.current);
 
   const total = chunks.length;
   const mCnt = chunks.filter((c) => c.mastered).length;
@@ -63,7 +65,7 @@ export default function App() {
     <div style={{ fontFamily: "system-ui, sans-serif", fontSize: 14, color: "#1a1a1a", background: "#fff", minHeight: "100vh", maxWidth: 900, margin: "0 auto", paddingBottom: "calc(72px + env(safe-area-inset-bottom))" }}>
       {section === "heute" && (
         <Heute
-          chunks={chunks} daily={daily} aCnt={aCnt} mCnt={mCnt} total={total} pct={pct}
+          chunks={chunks} daily={daily} scripts={scripts} aCnt={aCnt} mCnt={mCnt} total={total} pct={pct}
           speaking={speech.speaking} speak={speech.speak} toggleMastered={toggleMastered} goto={goto}
         />
       )}
@@ -88,7 +90,7 @@ export default function App() {
       {section === "sprechen" && (
         <Sprechen
           key={sprechenStep || "overview"} initialStep={sprechenStep}
-          chunks={chunks} toggleMastered={toggleMastered} speech={speech} daily={daily}
+          chunks={chunks} toggleMastered={toggleMastered} speech={speech} daily={daily} scripts={scripts}
         />
       )}
 

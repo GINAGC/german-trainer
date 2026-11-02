@@ -105,13 +105,13 @@ function TopicCard({ title, sub, teaser, done, onOpen, onDone, onNext, accent })
         <button onClick={onDone} style={{ cursor: "pointer", border: `1px solid ${done ? "#86efac" : "#ddd"}`, background: done ? "#dcfce7" : "#fff", color: done ? "#15803d" : "#666", borderRadius: 10, padding: "8px 11px", fontSize: 12.5, fontWeight: 500 }}>
           {done ? "✓ Erledigt" : "Erledigt"}
         </button>
-        <button onClick={onNext} title="Anderes Thema" aria-label="Anderes Thema" style={{ cursor: "pointer", border: "1px solid #ddd", background: "#fff", color: "#888", borderRadius: 10, padding: "8px 10px", fontSize: 13 }}>↻</button>
+        {onNext && <button onClick={onNext} title="Anderes Thema" aria-label="Anderes Thema" style={{ cursor: "pointer", border: "1px solid #ddd", background: "#fff", color: "#888", borderRadius: 10, padding: "8px 10px", fontSize: 13 }}>↻</button>}
       </div>
     </div>
   );
 }
 
-export default function Heute({ chunks, daily, aCnt, mCnt, total, pct, speaking, speak, toggleMastered, goto }) {
+export default function Heute({ chunks, daily, scripts, aCnt, mCnt, total, pct, speaking, speak, toggleMastered, goto }) {
   const { gram, verb } = daily;
   // Verb topics show a few example verbs from their group.
   const verbInfo = useMemo(() => {
@@ -125,16 +125,19 @@ export default function Heute({ chunks, daily, aCnt, mCnt, total, pct, speaking,
   const chunksDone = daily.items.length > 0 && usedToday === daily.items.length;
   const stepsDone = ["echo", "translate", "speak"].filter((s) => daily.steps[s]).length;
   const speakDone = stepsDone === 3;
-  const doneCount = [chunksDone, speakDone, daily.gDone, daily.vDone].filter(Boolean).length;
+  const script = scripts.current;
+  const parts = [chunksDone, speakDone, daily.gDone, daily.vDone, ...(script ? [daily.kDone] : [])];
+  const doneCount = parts.filter(Boolean).length;
+  const partTotal = parts.length;
 
   return (
     <div style={{ padding: "20px 16px 24px" }}>
       <h1 style={{ fontSize: 20, fontWeight: 600, margin: 0 }}>{greeting()} 👋</h1>
       <p style={{ fontSize: 12, color: "#888", margin: "2px 0 8px" }}>
-        Meine tägliche Übung · <b style={{ color: doneCount === 4 ? "#16a34a" : "#555" }}>{doneCount} / 4</b> erledigt
+        Meine tägliche Übung · <b style={{ color: doneCount === partTotal ? "#16a34a" : "#555" }}>{doneCount} / {partTotal}</b> erledigt
       </p>
       <div style={{ background: "#e5e5e5", borderRadius: 3, height: 5 }}>
-        <div style={{ background: "#22c55e", width: `${(doneCount / 4) * 100}%`, height: "100%", borderRadius: 3, transition: "width 0.3s" }} />
+        <div style={{ background: "#22c55e", width: `${(doneCount / partTotal) * 100}%`, height: "100%", borderRadius: 3, transition: "width 0.3s" }} />
       </div>
       <p style={{ fontSize: 11, color: "#aaa", margin: "3px 0 0" }}>{aCnt} aktiv · {mCnt} gemeistert · {total} gesamt ({pct}%)</p>
 
@@ -191,6 +194,21 @@ export default function Heute({ chunks, daily, aCnt, mCnt, total, pct, speaking,
         onOpen={() => goto("verben", { tab: verb.tab, grp: verb.grp })}
         onDone={daily.toggleV} onNext={daily.nextVerb}
       />
+
+      <StepTitle n={5} done={!!script && daily.kDone}>Skript der Woche</StepTitle>
+      {script ? (
+        <TopicCard
+          title={script.title} sub={`${script.kind || "Skript"}${script.domain ? ` · ${script.domain}` : ""}`}
+          teaser={`Lerne heute 1–2 Sätze und benutze sie im Rollenspiel. ${scripts.favs.length ? `${scripts.favs.length} ★ gewählt.` : "Wähle deine Sätze mit ☆."}`}
+          accent="#8a1fc2" done={daily.kDone}
+          onOpen={() => goto("sprechen", { step: "skript" })} onDone={daily.toggleK}
+        />
+      ) : (
+        <div style={card}>
+          <div style={{ fontSize: 14, color: "#555", lineHeight: 1.5 }}>Noch kein Skript. Importiere das Skript deines Deutschkurses, dann erscheint es hier jeden Tag.</div>
+          <button onClick={() => goto("sprechen", { step: "skript" })} style={{ marginTop: 10, cursor: "pointer", border: "none", background: "#8a1fc2", color: "#fff", borderRadius: 10, padding: "9px 14px", fontSize: 13, fontWeight: 600 }}>Skript importieren ›</button>
+        </div>
+      )}
 
       <div style={sectionTitle}><span>Mein Monat</span></div>
       <MonthTracker log={daily.log} />

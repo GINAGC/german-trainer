@@ -7,6 +7,7 @@ import { MIX, SET_SIZES } from "../hooks/useDailyPractice";
 import { pill, label, primaryBtn, shuffle, Chips } from "../components/sprechenUi";
 import SprechenFrei from "./SprechenFrei";
 import RegisterDrill from "./RegisterDrill";
+import Skript from "./Skript";
 
 const CM = Object.fromEntries(categories.map((c) => [c.id, c]));
 
@@ -210,7 +211,7 @@ const STEPS = [
   ["speak", "🎙", "3 · Sprechen", "Frei sprechen und die Sätze benutzen"],
 ];
 
-export default function Sprechen({ chunks, toggleMastered, speech, daily, initialStep = null }) {
+export default function Sprechen({ chunks, toggleMastered, speech, daily, scripts, initialStep = null }) {
   const { speaking, speak, playAll, echoAll, stopAll } = speech;
   const [step, setStep] = useState(initialStep);
   const [drillActive, setDrillActive] = useState(false);
@@ -227,14 +228,14 @@ export default function Sprechen({ chunks, toggleMastered, speech, daily, initia
   const onSpeakDone = () => daily.markStep("speak");
 
   if (step) {
-    const current = step === "register" ? "🎭 Register-Drill" : STEPS.find(([k]) => k === step)?.[2].slice(4);
+    const current = step === "register" ? "🎭 Register-Drill" : step === "skript" ? "📜 Skript der Woche" : STEPS.find(([k]) => k === step)?.[2].slice(4);
     return (
       <div style={{ padding: "12px 16px 100px" }}>
         {!drillActive && (
           <div style={{ marginBottom: 12 }}>
             <button onClick={back} style={{ background: "none", border: "none", cursor: "pointer", color: "#D4537E", fontSize: 13, fontWeight: 500, padding: 0 }}>‹ Übersicht</button>
             <h1 style={{ fontSize: 20, fontWeight: 600, margin: "6px 0 2px" }}>{current}</h1>
-            {step !== "register" && (
+            {step !== "register" && step !== "skript" && (
               <p style={{ fontSize: 11.5, color: "#999", margin: 0 }}>{daily.topicLabel}{daily.sub ? ` · ${daily.sub}` : ""} · {set.length} Chunks</p>
             )}
           </div>
@@ -251,6 +252,7 @@ export default function Sprechen({ chunks, toggleMastered, speech, daily, initia
         {step === "speak" && (
           <SprechenFrei set={set} topicLabel={promptTopic} topicCat={daily.topic} onActive={setDrillActive} onDone={onSpeakDone} />
         )}
+        {step === "skript" && <Skript sc={scripts} speech={speech} daily={daily} />}
         {step === "register" && <RegisterDrill speaking={speaking} speak={speak} playAll={playAll} stopAll={stopAll} onActive={setDrillActive} />}
       </div>
     );
@@ -298,6 +300,7 @@ export default function Sprechen({ chunks, toggleMastered, speech, daily, initia
       ))}
 
       <p style={{ fontSize: 11, color: "#aaa", margin: "16px 0 6px" }}>Extra</p>
+      <StepRow icon="📜" name="Skript der Woche" hint={scripts.current ? scripts.current.title : "Skript deines Deutschkurses importieren und lesen"} done={false} onClick={() => setStep("skript")} />
       <StepRow icon="🎭" name="Register-Drill" hint="Dieselbe Aussage: formell, neutral, umgangssprachlich" done={false} onClick={() => setStep("register")} />
     </div>
   );

@@ -68,7 +68,7 @@ function buildSet(chunks, topic, ids3, size) {
 
 function fresh(chunks, uses, topic, size) {
   const ids3 = pickIds3(chunks, topic, uses);
-  return { ids3, setIds: buildSet(chunks, topic, ids3, size), used: [], steps: {}, gDone: false, vDone: false, gOff: 0, vOff: 0 };
+  return { ids3, setIds: buildSet(chunks, topic, ids3, size), used: [], steps: {}, gDone: false, vDone: false, kDone: false, gOff: 0, vOff: 0 };
 }
 
 function newDay(chunks, uses, size) {
@@ -87,7 +87,7 @@ function load() {
 
 // "Meine tägliche Übung": the day's topic, its 3 chunks to memorise, the set
 // for Echo / Übersetzen / Sprechen, and one grammar and one verb topic.
-export function useDailyPractice(chunks) {
+export function useDailyPractice(chunks, hasScript = false) {
   const [uses, setUses] = useState(() => loadChunkUses());
   const [day, setDay] = useState(() => {
     const saved = load();
@@ -127,14 +127,15 @@ export function useDailyPractice(chunks) {
   useEffect(() => {
     setLog((prev) => {
       const before = prev[day.date] || {};
-      const entry = { c: !!(before.c || chunksDone), s: !!(before.s || speakDone), g: !!day.gDone, v: !!day.vDone };
-      if (before.c === entry.c && before.s === entry.s && before.g === entry.g && before.v === entry.v) return prev;
+      // t = how many parts the day had (the script part only exists while a script is imported)
+      const entry = { c: !!(before.c || chunksDone), s: !!(before.s || speakDone), g: !!day.gDone, v: !!day.vDone, k: !!day.kDone && hasScript, t: hasScript ? 5 : 4 };
+      if (before.c === entry.c && before.s === entry.s && before.g === entry.g && before.v === entry.v && before.k === entry.k && before.t === entry.t) return prev;
       const next = { ...prev };
-      if (entry.c || entry.s || entry.g || entry.v) next[day.date] = entry; else delete next[day.date];
+      if (entry.c || entry.s || entry.g || entry.v || entry.k) next[day.date] = entry; else delete next[day.date];
       try { localStorage.setItem(LOG_KEY, JSON.stringify(next)); } catch { /* storage unavailable */ }
       return next;
     });
-  }, [day.date, day.gDone, day.vDone, chunksDone, speakDone]);
+  }, [day.date, day.gDone, day.vDone, day.kDone, hasScript, chunksDone, speakDone]);
 
   const gram = GRAMMAR_TOPICS[(dayNumber() + day.gOff) % GRAMMAR_TOPICS.length];
   const verb = VERB_TOPICS[(dayNumber() + day.vOff) % VERB_TOPICS.length];
@@ -151,11 +152,11 @@ export function useDailyPractice(chunks) {
   }, [day.used]);
 
   const setTopic = useCallback((topic) => {
-    setDay((d) => ({ ...d, topic, ...fresh(chunks, uses, topic, d.size), steps: {}, gDone: d.gDone, vDone: d.vDone, gOff: d.gOff, vOff: d.vOff }));
+    setDay((d) => ({ ...d, topic, ...fresh(chunks, uses, topic, d.size), steps: {}, gDone: d.gDone, vDone: d.vDone, kDone: d.kDone, gOff: d.gOff, vOff: d.vOff }));
   }, [chunks, uses]);
 
   const newSet = useCallback(() => {
-    setDay((d) => ({ ...d, ...fresh(chunks, uses, d.topic, d.size), steps: {}, gDone: d.gDone, vDone: d.vDone, gOff: d.gOff, vOff: d.vOff }));
+    setDay((d) => ({ ...d, ...fresh(chunks, uses, d.topic, d.size), steps: {}, gDone: d.gDone, vDone: d.vDone, kDone: d.kDone, gOff: d.gOff, vOff: d.vOff }));
   }, [chunks, uses]);
 
   // Same 3 chunks, bigger or smaller set around them.
@@ -166,13 +167,14 @@ export function useDailyPractice(chunks) {
   const markStep = useCallback((step) => setDay((d) => (d.steps[step] ? d : { ...d, steps: { ...d.steps, [step]: true } })), []);
   const toggleG = useCallback(() => setDay((d) => ({ ...d, gDone: !d.gDone })), []);
   const toggleV = useCallback(() => setDay((d) => ({ ...d, vDone: !d.vDone })), []);
+  const toggleK = useCallback(() => setDay((d) => ({ ...d, kDone: !d.kDone })), []);
   const nextGram = useCallback(() => setDay((d) => ({ ...d, gOff: d.gOff + 1, gDone: false })), []);
   const nextVerb = useCallback(() => setDay((d) => ({ ...d, vOff: d.vOff + 1, vDone: false })), []);
 
   return {
     topic: day.topic, topicLabel, sub, topics, size: day.size,
     items, set, used: new Set(day.used), uses, steps: day.steps,
-    gram, verb, gDone: day.gDone, vDone: day.vDone, log,
-    toggleUsed, setTopic, newSet, setSize, markStep, toggleG, toggleV, nextGram, nextVerb,
+    gram, verb, gDone: day.gDone, vDone: day.vDone, kDone: !!day.kDone, log,
+    toggleUsed, setTopic, newSet, setSize, markStep, toggleG, toggleV, toggleK, nextGram, nextVerb,
   };
 }
