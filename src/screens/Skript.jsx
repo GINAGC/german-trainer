@@ -161,6 +161,12 @@ export default function Skript({ sc, speech, daily }) {
     playAll(items, "skript-all");
   }
 
+  // The starred sentences, in the order shown under "Meine Sätze".
+  function listenFavs() {
+    if (speaking === "skript-favs") { stopAll(); return; }
+    playAll(favLines.map(({ line }) => ({ text: spoken(line.de), subtitle: line.es })), "skript-favs");
+  }
+
   return (
     <div>
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", gap: 8 }}>
@@ -188,14 +194,17 @@ export default function Skript({ sc, speech, daily }) {
           <button onClick={() => setShowEs(!showEs)} style={pill(showEs, "#7a4f00", "#fdf4e7")}>🇪🇸 Übersetzung</button>
           <button onClick={() => setHide(!hide)} style={pill(hide, "#444", "#eee")}>👁 Ohne Skript</button>
         </div>
-        <div style={{ display: "flex", gap: 8, alignItems: "center", marginTop: 8 }}>
-          <button onClick={listen} style={{ ...pill(speaking === "skript-all", "#93c5fd", "#dbeafe"), padding: "4px 12px" }}>{speaking === "skript-all" ? "⏹ Stop" : "▶ Anhören"}</button>
-          <span style={{ fontSize: 11, color: "#aaa" }}>
+        <div style={{ display: "flex", gap: 8, alignItems: "center", flexWrap: "wrap", marginTop: 8 }}>
+          <button onClick={listen} style={{ ...pill(speaking === "skript-all", "#93c5fd", "#dbeafe"), padding: "4px 12px", whiteSpace: "nowrap" }}>{speaking === "skript-all" ? "⏹ Stop" : "▶ Anhören"}</button>
+          {favLines.length > 0 && (
+            <button onClick={listenFavs} style={{ ...pill(speaking === "skript-favs", "#92400e", "#fef3c7"), padding: "4px 12px", whiteSpace: "nowrap" }}>{speaking === "skript-favs" ? "⏹ Stop" : "▶ ★ Meine"}</button>
+          )}
+          <span style={{ fontSize: 11, color: "#aaa", flexBasis: "100%", order: 5 }}>
             {variant === "all" ? "alle Varianten" : `Variante ${variant} · ${variantName(variant)}`}
           </span>
           <button
             onClick={daily.toggleK}
-            style={{ marginLeft: "auto", cursor: "pointer", border: `1px solid ${daily.kDone ? "#86efac" : "#ddd"}`, background: daily.kDone ? "#dcfce7" : "#fff", color: daily.kDone ? "#15803d" : "#666", borderRadius: 20, padding: "4px 11px", fontSize: 12, fontWeight: 500 }}
+            style={{ marginLeft: "auto", cursor: "pointer", border: `1px solid ${daily.kDone ? "#86efac" : "#ddd"}`, background: daily.kDone ? "#dcfce7" : "#fff", color: daily.kDone ? "#15803d" : "#666", borderRadius: 20, padding: "4px 11px", fontSize: 12, fontWeight: 500, whiteSpace: "nowrap" }}
           >
             {daily.kDone ? "✓ Heute erledigt" : "Heute erledigt"}
           </button>
@@ -260,7 +269,12 @@ export default function Skript({ sc, speech, daily }) {
       )}
 
       {/* Favourites = the sentences to learn this week */}
-      <p style={h2}>★ Meine Sätze ({favLines.length})</p>
+      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 8 }}>
+        <p style={h2}>★ Meine Sätze ({favLines.length})</p>
+        {favLines.length > 0 && (
+          <button onClick={listenFavs} style={{ ...pill(speaking === "skript-favs", "#92400e", "#fef3c7"), padding: "4px 12px", marginTop: 14 }}>{speaking === "skript-favs" ? "⏹ Stop" : "▶ Alle"}</button>
+        )}
+      </div>
       {favLines.length === 0 ? (
         <p style={{ fontSize: 12.5, color: "#aaa", margin: 0 }}>Tippe auf ☆ bei den Sätzen, die du diese Woche automatisieren willst – mindestens einen pro Gesprächsmoment.</p>
       ) : (
