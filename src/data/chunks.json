@@ -14275,5 +14275,43 @@
       "t": "perdonar (más formal)",
       "grp": "Dativ + Akkusativ"
     }
+  },
+  {
+    "id": "1059",
+    "de": "Ich habe eine einfache Lösung für das Problem.",
+    "en": "[Ö/S] I have a simple solution for the problem.",
+    "cat": "aussprache",
+    "nouns": [
+      "die Lösung",
+      "das Problem"
+    ],
+    "g": [
+      {
+        "w": "eine einfache Lösung",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (fem.)"
+      },
+      {
+        "w": "für das Problem",
+        "c": "Akk",
+        "n": "für → immer Akk"
+      }
+    ]
+  },
+  {
+    "id": "1060",
+    "de": "Ich habe den Fehler leider zu spät bemerkt. [Vgt]",
+    "en": "[EH/-ER] I unfortunately noticed the mistake too late. (past)",
+    "cat": "aussprache",
+    "nouns": [
+      "der Fehler"
+    ],
+    "g": [
+      {
+        "w": "den Fehler",
+        "c": "Akk",
+        "n": "dir. Objekt → Akk (mask.)"
+      }
+    ]
   }
 ]
