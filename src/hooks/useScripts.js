@@ -6,6 +6,8 @@ const SCRIPTS_KEY = "german_scripts_v1";
 const FAV_KEY = "german_script_fav_v1";
 const CHECK_KEY = "german_script_check_v1";
 const CURRENT_KEY = "german_script_current_v1";
+// One script per week; a month's worth stays available for the final review.
+export const MAX_SCRIPTS = 4;
 
 const read = (key, fallback) => {
   try { return JSON.parse(localStorage.getItem(key)) ?? fallback; } catch { return fallback; }
@@ -38,7 +40,7 @@ export function useScripts() {
   // Same id = same script: re-importing replaces it and keeps stars/checks.
   const add = useCallback((script) => {
     setScripts((prev) => {
-      const next = [script, ...prev.filter((s) => s.id !== script.id)];
+      const next = [script, ...prev.filter((s) => s.id !== script.id)].slice(0, MAX_SCRIPTS);
       write(SCRIPTS_KEY, next);
       return next;
     });
@@ -75,6 +77,7 @@ export function useScripts() {
   return {
     scripts, current, select, add, remove,
     favs: (current && favs[current.id]) || [],
+    allFavs: favs,
     checks: (current && checks[current.id]) || [],
     toggleFav, toggleCheck,
   };

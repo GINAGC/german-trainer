@@ -1,5 +1,5 @@
 import { useMemo, useRef, useState } from "react";
-import { validateScript } from "../hooks/useScripts";
+import { validateScript, MAX_SCRIPTS } from "../hooks/useScripts";
 import { pill, primaryBtn, label } from "../components/sprechenUi";
 
 const VARIANT_COLORS = {
@@ -106,9 +106,27 @@ function ImportPanel({ onImport }) {
         />
         <button disabled={!text.trim()} onClick={() => load(text)} style={{ ...pill(false), marginTop: 6, opacity: text.trim() ? 1 : 0.4 }}>Importieren</button>
       </details>
+      <p style={{ fontSize: 11.5, color: "#aaa", margin: "10px 0 0" }}>Die letzten {MAX_SCRIPTS} Skripte bleiben gespeichert; beim fünften wird das älteste ersetzt.</p>
       {msg && <p style={{ fontSize: 12.5, margin: "10px 0 0", color: msg.ok ? "#15803d" : "#b91c1c" }}>{msg.t}</p>}
     </div>
   );
+}
+
+// The starred lines of one script, in reading order (own lines per moment and variant, then the boss's).
+function favLinesOf(s, keys) {
+  const out = [];
+  if (!s || !keys.length) return out;
+  s.moments.forEach((m, mi) => {
+    Object.entries(m.lines).forEach(([v, lines]) => lines.forEach((l, li) => {
+      const key = `m${mi}:${v}:${li}`;
+      if (keys.includes(key)) out.push({ key, line: l, name: m.name, v });
+    }));
+  });
+  (s.partner?.moments || []).forEach((m, mi) => m.lines.forEach((l, li) => {
+    const key = `p${mi}:${li}`;
+    if (keys.includes(key)) out.push({ key, line: l, name: `Chef:in · ${m.name}`, v: null });
+  }));
+  return out;
 }
 
 export default function Skript({ sc, speech, daily }) {
@@ -120,21 +138,11 @@ export default function Skript({ sc, speech, daily }) {
   const { speaking, speak, playAll, stopAll } = speech;
 
   const favKeys = sc.favs;
-  const favLines = useMemo(() => {
-    if (!s) return [];
-    const out = [];
-    s.moments.forEach((m, mi) => {
-      Object.entries(m.lines).forEach(([v, lines]) => lines.forEach((l, li) => {
-        const key = `m${mi}:${v}:${li}`;
-        if (favKeys.includes(key)) out.push({ key, line: l, name: m.name, v });
-      }));
-    });
-    (s.partner?.moments || []).forEach((m, mi) => m.lines.forEach((l, li) => {
-      const key = `p${mi}:${li}`;
-      if (favKeys.includes(key)) out.push({ key, line: l, name: `Chef:in · ${m.name}`, v: null });
-    }));
-    return out;
-  }, [s, favKeys]);
+  const favLines = useMemo(() => favLinesOf(s, favKeys), [s, favKeys]);
+  const monthFavs = useMemo(
+    () => (scripts.length > 1 ? scripts.flatMap((x) => favLinesOf(x, sc.allFavs[x.id] || [])) : []),
+    [scripts, sc.allFavs],
+  );
 
   if (!s || adding) {
     return (
@@ -161,6 +169,13 @@ export default function Skript({ sc, speech, daily }) {
     playAll(items, "skript-all");
   }
 
+  // Review at the end of the month: the starred sentences of every kept script, oldest week first.
+  function listenMonth() {
+    if (speaking === "skript-month") { stopAll(); return; }
+    const items = [...scripts].reverse().flatMap((x) => favLinesOf(x, sc.allFavs[x.id] || [])).map(({ line }) => ({ text: spoken(line.de), subtitle: line.es }));
+    playAll(items, "skript-month");
+  }
+
   // The starred sentences, in the order shown under "Meine Sätze".
   function listenFavs() {
     if (speaking === "skript-favs") { stopAll(); return; }
@@ -177,9 +192,18 @@ export default function Skript({ sc, speech, daily }) {
         <button onClick={() => setAdding(true)} style={{ background: "none", border: "none", cursor: "pointer", color: "#D4537E", fontSize: 12, fontWeight: 500, whiteSpace: "nowrap" }}>＋ Skript</button>
       </div>
       {scripts.length > 1 && (
-        <select value={s.id} onChange={(e) => sc.select(e.target.value)} style={{ marginTop: 8, border: "1px solid #ddd", borderRadius: 8, padding: "5px 8px", fontSize: 13, background: "#fff" }}>
-          {scripts.map((x) => <option key={x.id} value={x.id}>{x.id} · {x.title}</option>)}
-        </select>
+        <div style={{ display: "flex", gap: 6, overflowX: "auto", marginTop: 8, paddingBottom: 2 }}>
+          {scripts.map((x) => (
+            <button key={x.id} onClick={() => sc.select(x.id)} style={{ ...pill(x.id === s.id, "#6b1a96", "#f3e5fd"), whiteSpace: "nowrap", flexShrink: 0 }}>
+              {x.id} · {x.title.length > 22 ? `${x.title.slice(0, 21)}…` : x.title}
+            </button>
+          ))}
+        </div>
+      )}
+      {monthFavs.length > 0 && (
+        <button onClick={listenMonth} style={{ ...pill(speaking === "skript-month", "#6b1a96", "#f3e5fd"), marginTop: 8, whiteSpace: "nowrap" }}>
+          {speaking === "skript-month" ? "⏹ Stop" : `▶ Rückblick: alle ★ aus ${scripts.length} Skripten (${monthFavs.length})`}
+        </button>
       )}
       {s.legend && <p style={{ fontSize: 11, color: "#aaa", margin: "8px 0 0" }}>{s.legend}</p>}
 
