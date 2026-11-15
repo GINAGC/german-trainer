@@ -46,7 +46,16 @@ export function useEinbuergerung() {
   const [weak, setWeak] = useState(() => read(WEAK_KEY, []));
   const [bring, setBring] = useState(() => read(BRING_KEY, []));
 
-  const load = useCallback((obj) => { setData(obj); write(DATA_KEY, obj); }, []);
+  // A new version of the file keeps edited answers and ticks; ⚑ marks are kept for questions that still exist
+  // (older files numbered them by position, those can no longer be matched and are dropped).
+  const load = useCallback((obj) => {
+    setData(obj); write(DATA_KEY, obj);
+    setWeak((prev) => {
+      const next = prev.filter((id) => !/^q\d/.test(id));
+      if (next.length !== prev.length) write(WEAK_KEY, next);
+      return next;
+    });
+  }, []);
   const remove = useCallback(() => {
     setData(null);
     setEdits({}); setWeak([]); setBring([]);

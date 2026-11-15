@@ -22,6 +22,7 @@ export const sp = (t) => t
   .replace(/\s+/g, " ")
   .trim();
 
+const qid = (q) => `q:${q.nr}|${q.q.de.slice(0, 40)}`;
 const isIntro = (t) => t.nr === "·";
 const teilOf = (nr) => (nr.startsWith("1") ? "1" : nr.startsWith("2") ? "2" : nr.startsWith("3") ? "3" : "");
 
@@ -59,6 +60,7 @@ function Play({ id, speech, text, es, size = 15 }) {
   );
 }
 
+const Lra = () => <span title="Aus dem Vorbereitungsblatt des Landratsamts" style={{ fontSize: 9.5, fontWeight: 700, color: "#1d4ed8", background: "#dbeafe", borderRadius: 4, padding: "1px 5px", marginLeft: 6, verticalAlign: "middle" }}>LRA</span>;
 const Added = () => <span style={{ fontSize: 9.5, fontWeight: 700, color: "#92400e", background: SOFT, borderRadius: 4, padding: "1px 5px", marginLeft: 6, verticalAlign: "middle" }}>ERGÄNZUNG</span>;
 
 // One look per kind of content, so every part of a topic sits in a clearly labelled box.
@@ -142,7 +144,7 @@ function QA({ q, id, es, speech, weak, onWeak }) {
           {speech.speaking === id ? "⏹" : "▶"}
         </button>
         <div style={{ flex: 1 }}>
-          <div style={{ fontSize: 14, fontWeight: 600, lineHeight: 1.45 }}>{q.q.de}{q.added && <Added />}</div>
+          <div style={{ fontSize: 14, fontWeight: 600, lineHeight: 1.45 }}>{q.q.de}{q.lra && <Lra />}{q.added && <Added />}</div>
           {es && <div style={esStyle}>{q.q.es}</div>}
           <div style={{ fontSize: 14, lineHeight: 1.5, marginTop: 4, color: "#1a1a1a" }}>{q.a.de}</div>
           {es && <div style={esStyle}>{q.a.es}</div>}
@@ -239,13 +241,13 @@ function Uebersicht({ ein, es, speech }) {
         <div key={teil}>
           <p style={{ fontSize: 12, fontWeight: 700, color: "#92400e", margin: "14px 0 4px" }}>Teil {teil}</p>
           {questions.map((q, i) => ({ q, i })).filter(({ q }) => teilOf(q.nr) === teil).map(({ q, i }) => {
-            const t = ein.data.topics.find((x) => x.nr === q.nr);
+            const theme = q.theme || (() => { const t = ein.data.topics.find((x) => x.nr === q.nr); return t && t.title; })();
             return (
               <div key={i} style={{ display: "flex", gap: 8, alignItems: "flex-start", borderTop: "1px solid #eee" }}>
                 <span style={{ minWidth: 34, textAlign: "center", fontSize: 11.5, fontWeight: 700, color: "#fff", background: ACCENT, borderRadius: 6, padding: "2px 5px", marginTop: 12, flexShrink: 0 }}>{q.nr}</span>
                 <div style={{ flex: 1, minWidth: 0 }}>
-                  {t && <div style={{ fontSize: 10.5, color: "#aaa", marginTop: 8 }}>{t.title.de.length > 60 ? `${t.title.de.slice(0, 58)}…` : t.title.de}</div>}
-                  <QA q={q} id={`ein-ueb-${i}`} es={es} speech={speech} weak={ein.weak.includes(`q${i}`)} onWeak={() => ein.toggleWeak(`q${i}`)} />
+                  {theme && <div style={{ fontSize: 11, fontWeight: 600, color: "#92400e", marginTop: 8 }}>{theme.de}{es && theme.es && <span style={{ fontWeight: 400, fontStyle: "italic", color: "#7a4f00" }}> · {theme.es}</span>}</div>}
+                  <QA q={q} id={`ein-ueb-${i}`} es={es} speech={speech} weak={ein.weak.includes(qid(q))} onWeak={() => ein.toggleWeak(qid(q))} />
                 </div>
               </div>
             );
@@ -272,7 +274,7 @@ function Ueben({ ein, es, speech, daily }) {
   const weakRef = useRef(ein.weak);
   weakRef.current = ein.weak;
   const pool = useMemo(() => {
-    const qs = ein.data.questions.map((q, i) => ({ id: `q${i}`, nr: q.nr, q: q.q, a: q.a }));
+    const qs = ein.data.questions.map((q) => ({ id: qid(q), nr: q.nr, q: q.q, a: q.a, lra: q.lra }));
     const ps = ein.data.person.map((p, i) => ({ id: `p${i}`, nr: "Person", q: p.q, a: { de: ein.answer(i), es: ein.isEdited(i) ? "" : p.a.es } }));
     let list = [...qs, ...ps];
     if (filter === "1" || filter === "2" || filter === "3") list = qs.filter((c) => teilOf(c.nr) === filter);
@@ -353,7 +355,7 @@ function Ueben({ ein, es, speech, daily }) {
         ) : (
           <div style={box}>
             <div style={{ display: "flex", justifyContent: "space-between", fontSize: 11.5, color: "#999", marginBottom: 8 }}>
-              <span>{card.nr === "Person" ? "Zur Person" : `Punkt ${card.nr}`}</span><span>{i + 1} / {deck.length}</span>
+              <span>{card.nr === "Person" ? "Zur Person" : `Punkt ${card.nr}`}{card.lra && <Lra />}</span><span>{i + 1} / {deck.length}</span>
             </div>
             <div style={{ display: "flex", gap: 6, alignItems: "flex-start" }}>
               <button onClick={() => speech.speak(`ein-card-${i}-${seed}`, sp(card.q.de), card.q.es)} aria-label="Frage vorlesen" style={{ background: "none", border: "none", cursor: "pointer", fontSize: 18, color: speech.speaking === `ein-card-${i}-${seed}` ? ACCENT : "#aaa", padding: 0 }}>
