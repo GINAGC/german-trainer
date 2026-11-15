@@ -517,7 +517,9 @@ const TABS = [["lernen", "Lernen"], ["uebersicht", "Übersicht"], ["ueben", "Üb
 export default function Einbuergerung({ ein, speech, daily }) {
   const [tab, setTab] = usePersisted("german_ein_tab_v1", "lernen");
   const [es, setEs] = usePersisted("german_ein_es_v1", true);
-  const [merk, setMerk] = usePersisted("german_ein_merk_v1", true);
+  // What "anhören" plays: everything, or only the own-words answers. (A new key, so an old "off" is not carried over.)
+  const [scope, setScope] = usePersisted("german_ein_scope_v1", "alles");
+  const merk = scope === "alles";
   const [withQ, setWithQ] = usePersisted("german_ein_withq_v1", true);
 
   if (!ein.data) {
@@ -555,9 +557,13 @@ export default function Einbuergerung({ ein, speech, daily }) {
 
       <div style={{ display: "flex", gap: 6, flexWrap: "wrap", alignItems: "center", margin: "10px 0 8px" }}>
         <button onClick={() => setEs(!es)} style={pill(es, "#7a4f00", "#fdf4e7")}>🇪🇸 Übersetzung</button>
-        <button onClick={() => setMerk(!merk)} style={pill(merk, ACCENT, SOFT)} title="Beim Anhören auch die Zitate aus dem Merkblatt vorlesen">Merkblatt mitlesen</button>
-        <button onClick={() => setWithQ(!withQ)} style={pill(withQ, ACCENT, SOFT)}>Fragen mitlesen</button>
         <RepeatCountControl repeatCount={speech.repeatCount} setRepeatCount={speech.setRepeatCount} />
+      </div>
+      <div style={{ display: "flex", gap: 6, flexWrap: "wrap", alignItems: "center", margin: "0 0 8px" }}>
+        <span style={{ fontSize: 12, color: "#777" }}>Anhören:</span>
+        <button onClick={() => setScope("alles")} style={pill(scope === "alles", ACCENT, SOFT)}>Merkblatt + eigene Worte</button>
+        <button onClick={() => setScope("own")} style={pill(scope === "own", ACCENT, SOFT)}>Nur eigene Worte</button>
+        <button onClick={() => setWithQ(!withQ)} style={pill(withQ, ACCENT, SOFT)}>+ Fragen</button>
       </div>
 
       <div style={{ display: "flex", gap: 5, overflowX: "auto", padding: "2px 0 10px", borderBottom: "1px solid #eee", marginBottom: 8 }}>
