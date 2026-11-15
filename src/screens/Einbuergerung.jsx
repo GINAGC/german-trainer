@@ -24,16 +24,27 @@ export const sp = (t) => t
 
 const teilOf = (nr) => (nr.startsWith("1") ? "1" : nr.startsWith("2") ? "2" : nr.startsWith("3") ? "3" : "");
 
+// What a block says when played: the label tells the listener which part is coming.
+function blockItems(b, merk) {
+  if (b.k === "merk") return merk ? [{ text: sp(b.de), say: `Merkblatt. ${sp(b.de)}`, subtitle: b.es }] : [];
+  if (b.k === "own") return [{ text: sp(b.de), say: `Mit eigenen Worten. ${sp(b.de)}`, subtitle: b.es }];
+  if (b.k === "note") return [{ text: sp(b.de), subtitle: b.es }];
+  if (b.k === "list") return [{ text: sp(b.title.de), subtitle: b.title.es }, ...b.items.map((it) => ({ text: sp(it.de), subtitle: it.es }))];
+  if (b.k === "group") return [{ text: sp(b.title.de), subtitle: b.title.es }, ...b.blocks.flatMap((x) => blockItems(x, merk))];
+  // Older import files had flat "head" / "bullet" blocks.
+  return b.de ? [{ text: sp(b.de), subtitle: b.es }] : [];
+}
+const isOldFormat = (topics) => topics.some((t) => t.blocks.some((b) => b.k === "head" || b.k === "bullet"));
+const qaItems = (list, labels = false) => list.flatMap((q) => [
+  { text: sp(q.q.de), say: labels ? `Frage. ${sp(q.q.de)}` : undefined, subtitle: q.q.es },
+  { text: sp(q.a.de), say: labels ? `Antwort. ${sp(q.a.de)}` : undefined, subtitle: q.a.es },
+]);
 function topicItems(t, { merk, withQ, qs }) {
   const items = [{ text: sp(t.nr === "·" ? t.title.de : `Punkt ${nrWords(t.nr)}. ${t.title.de}`), subtitle: t.title.es }];
-  t.blocks.forEach((b) => {
-    if (b.k === "merk" && !merk) return;
-    items.push({ text: sp(b.de), subtitle: b.es });
-  });
-  if (withQ) qs.filter((q) => q.nr === t.nr).forEach((q) => items.push({ text: sp(q.q.de), subtitle: q.q.es }, { text: sp(q.a.de), subtitle: q.a.es }));
+  t.blocks.forEach((b) => items.push(...blockItems(b, merk)));
+  if (withQ) items.push(...qaItems(qs.filter((q) => q.nr === t.nr), true));
   return items;
 }
-const qaItems = (list) => list.flatMap((q) => [{ text: sp(q.q.de), subtitle: q.q.es }, { text: sp(q.a.de), subtitle: q.a.es }]);
 
 function Play({ id, speech, text, es, size = 15 }) {
   const on = speech.speaking === id;
@@ -49,51 +60,82 @@ function Play({ id, speech, text, es, size = 15 }) {
 
 const Added = () => <span style={{ fontSize: 9.5, fontWeight: 700, color: "#92400e", background: SOFT, borderRadius: 4, padding: "1px 5px", marginLeft: 6, verticalAlign: "middle" }}>ERGÄNZUNG</span>;
 
-function Block({ b, id, es, speech }) {
-  const play = <Play id={id} speech={speech} text={sp(b.de)} es={b.es} />;
-  const trans = es && b.es ? <div style={esStyle}>{b.es}</div> : null;
-  if (b.k === "head") {
+// One look per kind of content, so every part of a topic sits in a clearly labelled box.
+const TONES = {
+  merk: { label: "MERKBLATT", bg: "#f5f5f5", bar: "#bdbdbd", fg: "#777" },
+  own: { label: "MIT EIGENEN WORTEN", bg: SOFT, bar: ACCENT, fg: "#92400e" },
+  note: { label: "HINWEIS", bg: "#eff6ff", bar: "#93c5fd", fg: "#1d4ed8" },
+  list: { label: "", bg: "#fff", bar: "#a3a3a3", fg: "#555" },
+  qa: { label: "", bg: "#f0fdf4", bar: "#86efac", fg: "#15803d" },
+};
+
+function PlayAll({ id, items, speech }) {
+  const on = speech.speaking === id;
+  return (
+    <button onClick={() => (on ? speech.stopAll() : speech.playAll(items, id))} aria-label="Abschnitt anhören" style={{ background: "none", border: "none", cursor: "pointer", fontSize: 15, color: on ? ACCENT : "#999", padding: "0 3px", flexShrink: 0 }}>
+      {on ? "⏹" : "▶"}
+    </button>
+  );
+}
+
+function Box({ tone, label, added, play, children, plain }) {
+  const c = TONES[tone];
+  return (
+    <div style={{ margin: "10px 0", padding: "8px 10px 10px", borderRadius: 10, background: c.bg, borderLeft: `3px solid ${c.bar}`, border: plain ? `1px solid #e5e5e5` : undefined, ...(plain ? { borderLeft: `3px solid ${c.bar}` } : {}) }}>
+      <div style={{ fontSize: 10.5, fontWeight: 700, letterSpacing: 0.5, color: c.fg, marginBottom: 4, display: "flex", justifyContent: "space-between", alignItems: "center", gap: 8 }}>
+        <span>{label || c.label}{added && <Added />}</span>
+        {play}
+      </div>
+      {children}
+    </div>
+  );
+}
+
+function BlockView({ b, id, es, merk, speech }) {
+  const trans = (txt) => (es && txt ? <div style={esStyle}>{txt}</div> : null);
+  if (b.k === "group") {
     return (
-      <div style={{ margin: "12px 0 2px" }}>
-        <div style={{ display: "flex", gap: 6, alignItems: "baseline" }}>
-          {play}<b style={{ fontSize: 13.5 }}>{b.de}</b>{b.added && <Added />}
+      <div style={{ margin: "14px 0", padding: "10px 10px 2px", borderRadius: 12, border: "1px solid #e5e5e5", background: "#fff" }}>
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: 8 }}>
+          <div>
+            <div style={{ fontSize: 14, fontWeight: 700, lineHeight: 1.4 }}>{b.title.de}</div>
+            {trans(b.title.es)}
+          </div>
+          <PlayAll id={id} items={blockItems(b, merk)} speech={speech} />
         </div>
-        {trans && <div style={{ marginLeft: 26 }}>{trans}</div>}
+        {b.blocks.map((x, i) => <BlockView key={i} b={x} id={`${id}-${i}`} es={es} merk={merk} speech={speech} />)}
       </div>
     );
   }
-  if (b.k === "note") {
+  if (b.k === "list") {
     return (
-      <div style={{ display: "flex", gap: 6, margin: "8px 0", alignItems: "flex-start" }}>
-        {play}
-        <div style={{ flex: 1, fontSize: 12.5, color: "#555", fontStyle: "italic", lineHeight: 1.5 }}>{b.de}{b.added && <Added />}{trans}</div>
-      </div>
+      <Box tone="list" plain label="LISTE" play={<PlayAll id={id} items={blockItems(b, true)} speech={speech} />}>
+        <div style={{ fontSize: 14, fontWeight: 600, lineHeight: 1.45 }}>{b.title.de}</div>
+        {trans(b.title.es)}
+        <div style={{ marginTop: 6 }}>
+          {b.items.map((it, i) => (
+            <div key={i} style={{ padding: "5px 0", borderTop: i ? "1px solid #f0f0f0" : "none", fontSize: 14, lineHeight: 1.5 }}>
+              • {it.de}{it.added && <Added />}
+              {trans(it.es)}
+            </div>
+          ))}
+        </div>
+      </Box>
     );
   }
-  if (b.k === "bullet") {
-    return (
-      <div style={{ display: "flex", gap: 6, margin: "4px 0 4px 6px", alignItems: "flex-start" }}>
-        {play}
-        <div style={{ flex: 1, fontSize: 14, lineHeight: 1.5 }}>• {b.de}{b.added && <Added />}{trans}</div>
-      </div>
-    );
-  }
+  const play = <Play id={id} speech={speech} text={sp(b.de)} es={b.es} />;
   const own = b.k === "own";
   return (
-    <div style={{ margin: "8px 0", padding: "8px 10px", borderRadius: 10, background: own ? SOFT : "#f5f5f5", borderLeft: `3px solid ${own ? ACCENT : "#cfcfcf"}` }}>
-      <div style={{ fontSize: 10, fontWeight: 700, letterSpacing: 0.5, color: own ? "#92400e" : "#999", marginBottom: 2, display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-        <span>{own ? "MIT EIGENEN WORTEN" : "MERKBLATT"}{b.added && <Added />}</span>
-        {play}
-      </div>
-      <div style={{ fontSize: own ? 14.5 : 13, lineHeight: 1.55, color: own ? "#1a1a1a" : "#444", fontWeight: own ? 500 : 400 }}>{b.de}</div>
-      {trans}
-    </div>
+    <Box tone={TONES[b.k] ? b.k : "note"} added={b.added} play={play}>
+      <div style={{ fontSize: own ? 14.5 : 13.5, lineHeight: 1.55, color: b.k === "merk" ? "#444" : "#1a1a1a", fontWeight: own ? 500 : 400, whiteSpace: "pre-line" }}>{b.de}</div>
+      {trans(b.es)}
+    </Box>
   );
 }
 
 function QA({ q, id, es, speech, weak, onWeak }) {
   return (
-    <div style={{ padding: "8px 0", borderTop: "1px solid #eee" }}>
+    <div style={{ padding: "8px 0", borderTop: "1px solid rgba(0,0,0,0.07)" }}>
       <div style={{ display: "flex", gap: 6, alignItems: "flex-start" }}>
         <button onClick={() => speech.playAll(qaItems([q]), id)} aria-label="Frage und Antwort anhören" style={{ background: "none", border: "none", cursor: "pointer", fontSize: 15, color: speech.speaking === id ? ACCENT : "#aaa", padding: "1px 3px", flexShrink: 0 }}>
           {speech.speaking === id ? "⏹" : "▶"}
@@ -120,6 +162,11 @@ function Lernen({ ein, es, merk, withQ, speech }) {
   const allOn = speech.speaking === "ein-lernen-all";
   return (
     <div>
+      {isOldFormat(topics) && (
+        <p style={{ fontSize: 12.5, color: "#92400e", background: SOFT, borderRadius: 8, padding: "8px 10px", lineHeight: 1.5, margin: "4px 0 10px" }}>
+          Es gibt eine neue Version der Lerndatei mit klareren Abschnitten. Importiere sie unter <b>Mehr → Material aktualisieren</b>, deine Antworten bleiben erhalten.
+        </p>
+      )}
       <div style={{ display: "flex", gap: 8, flexWrap: "wrap", alignItems: "center", margin: "4px 0 10px" }}>
         <button onClick={() => (allOn ? speech.stopAll() : all())} style={{ ...pill(allOn, ACCENT, SOFT), padding: "5px 13px" }}>{allOn ? "⏹ Stop" : "▶ Alles anhören"}</button>
         <button onClick={() => setOpen(open.size ? new Set() : new Set(topics.map((t) => t.nr)))} style={pill(false)}>{open.size ? "Alle zuklappen" : "Alle aufklappen"}</button>
@@ -149,12 +196,11 @@ function Lernen({ ein, es, merk, withQ, speech }) {
             </div>
             {isOpen && (
               <div style={{ padding: "0 12px 12px", borderTop: "1px solid #f0f0f0" }}>
-                {t.blocks.map((b, i) => <Block key={i} b={b} id={`ein-b-${t.nr}-${i}`} es={es} speech={speech} />)}
+                {t.blocks.map((b, i) => <BlockView key={i} b={b} id={`ein-b-${t.nr}-${i}`} es={es} merk={merk} speech={speech} />)}
                 {tq.length > 0 && (
-                  <>
-                    <p style={{ ...h2, margin: "16px 0 2px" }}>Fragen zu Punkt {t.nr}</p>
+                  <Box tone="qa" plain label={`FRAGEN ZU PUNKT ${t.nr}`} play={<PlayAll id={`ein-qs-${t.nr}`} items={qaItems(tq, true)} speech={speech} />}>
                     {tq.map((q, i) => <QA key={i} q={q} id={`ein-qa-${t.nr}-${i}`} es={es} speech={speech} />)}
-                  </>
+                  </Box>
                 )}
               </div>
             )}
@@ -447,6 +493,14 @@ function Mehr({ ein, es, speech }) {
         </div>
       </details>
 
+      <details style={sum}>
+        <summary style={sumHead}>🔄 Material aktualisieren</summary>
+        <div style={{ padding: "0 14px 12px" }}>
+          <p style={{ fontSize: 12.5, color: "#666", lineHeight: 1.5, margin: "0 0 10px" }}>Neue Version der Datei einlesen. Deine geänderten Antworten, ⚑-Markierungen und Häkchen bleiben erhalten.</p>
+          <JsonImport validate={validateEin} onImport={ein.load} accent={ACCENT} okText={() => "Material wurde aktualisiert."} />
+        </div>
+      </details>
+
       <button
         onClick={() => { if (window.confirm("Einbürgerungs-Material von diesem Gerät löschen? Die Datei auf deinem Mac bleibt erhalten und kann neu importiert werden.")) ein.remove(); }}
         style={{ marginTop: 14, background: "none", border: "none", cursor: "pointer", color: "#b91c1c", fontSize: 12.5 }}
@@ -463,7 +517,7 @@ const TABS = [["lernen", "Lernen"], ["uebersicht", "Übersicht"], ["ueben", "Üb
 export default function Einbuergerung({ ein, speech, daily }) {
   const [tab, setTab] = usePersisted("german_ein_tab_v1", "lernen");
   const [es, setEs] = usePersisted("german_ein_es_v1", true);
-  const [merk, setMerk] = usePersisted("german_ein_merk_v1", false);
+  const [merk, setMerk] = usePersisted("german_ein_merk_v1", true);
   const [withQ, setWithQ] = usePersisted("german_ein_withq_v1", true);
 
   if (!ein.data) {

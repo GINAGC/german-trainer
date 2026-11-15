@@ -115,7 +115,7 @@ export function useSpeech() {
       if (i >= list.length) { setSpeaking(null); setCurrentChunk(null); setPaused(false); return; }
       const item = list[i];
       setCurrentChunk({ text: item.text, subtitle: item.subtitle, details: item.details, idx: i + 1, total: list.length, rep: rep + 1, repeatCount });
-      const utt = makeUtterance(item.text);
+      const utt = makeUtterance(item.say ?? item.text);
       utt.onend = () => {
         if (sessionRef.current !== session) return;
         rep++;
