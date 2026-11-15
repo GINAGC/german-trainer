@@ -507,12 +507,24 @@ function Mehr({ ein, es, speech }) {
         </div>
       </details>
 
-      <button
-        onClick={() => { if (window.confirm("Einbürgerungs-Material von diesem Gerät löschen? Die Datei auf deinem Mac bleibt erhalten und kann neu importiert werden.")) ein.remove(); }}
-        style={{ marginTop: 14, background: "none", border: "none", cursor: "pointer", color: "#b91c1c", fontSize: 12.5 }}
-      >
-        Material von diesem Gerät löschen
-      </button>
+      <div style={{ ...box, marginTop: 14, borderColor: "#fecaca", background: "#fffafa" }}>
+        <div style={{ fontSize: 14, fontWeight: 600, marginBottom: 4 }}>🗑 Löschen & zurücksetzen</div>
+        <p style={{ fontSize: 12.5, color: "#666", lineHeight: 1.5, margin: "0 0 10px" }}>
+          Die Datei auf deinem Mac bleibt immer erhalten, du kannst sie jederzeit neu importieren.
+        </p>
+        <button
+          onClick={() => { if (window.confirm("Deine Änderungen zurücksetzen? Das betrifft geänderte Antworten, ⚑-Markierungen und Häkchen. Das Lernmaterial bleibt.")) ein.resetMine(); }}
+          style={{ width: "100%", cursor: "pointer", border: "1px solid #ddd", background: "#fff", color: "#444", borderRadius: 10, padding: "10px", fontSize: 13.5, fontWeight: 500, marginBottom: 8 }}
+        >
+          Meine Änderungen zurücksetzen
+        </button>
+        <button
+          onClick={() => { if (window.confirm("Das gesamte Einbürgerungs-Material und deine Änderungen von diesem Gerät löschen?")) ein.remove(); }}
+          style={{ width: "100%", cursor: "pointer", border: "1px solid #fca5a5", background: "#fef2f2", color: "#b91c1c", borderRadius: 10, padding: "10px", fontSize: 13.5, fontWeight: 600 }}
+        >
+          Alles Material von diesem Gerät löschen
+        </button>
+      </div>
     </div>
   );
 }

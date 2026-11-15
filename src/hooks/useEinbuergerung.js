@@ -62,6 +62,12 @@ export function useEinbuergerung() {
     try { [DATA_KEY, PERSON_KEY, WEAK_KEY, BRING_KEY].forEach((k) => localStorage.removeItem(k)); } catch { /* storage unavailable */ }
   }, []);
 
+  // Back to the imported file as it is: no edited answers, marks or ticks.
+  const resetMine = useCallback(() => {
+    setEdits({}); setWeak([]); setBring([]);
+    try { [PERSON_KEY, WEAK_KEY, BRING_KEY].forEach((k) => localStorage.removeItem(k)); } catch { /* storage unavailable */ }
+  }, []);
+
   const answer = (i) => (edits[i] != null ? edits[i] : data?.person?.[i]?.a?.de || "");
   const isEdited = (i) => edits[i] != null;
   const setAnswer = useCallback((i, text) => {
@@ -91,7 +97,7 @@ export function useEinbuergerung() {
   const date = data?.appointment?.date || null;
   const days = date ? daysUntil(date) : null;
   return {
-    data, load, remove,
+    data, load, remove, resetMine,
     edits, answer, isEdited, setAnswer,
     weak, toggleWeak, bring, toggleBring,
     date, days,
