@@ -6,11 +6,13 @@ import Sammlung from "./screens/Sammlung";
 import Verben from "./screens/Verben";
 import Sprechen from "./screens/Sprechen";
 import Grammatik from "./screens/Grammatik";
+import Einbuergerung from "./screens/Einbuergerung";
 import { useSpeech } from "./hooks/useSpeech";
 import { useMasteredChunks } from "./hooks/useMasteredChunks";
 import { useKnownWords } from "./hooks/useKnownWords";
 import { useDailyPractice } from "./hooks/useDailyPractice";
 import { useScripts } from "./hooks/useScripts";
+import { useEinbuergerung } from "./hooks/useEinbuergerung";
 
 export default function App() {
   const [section, setSection] = useState("heute");
@@ -26,7 +28,9 @@ export default function App() {
   const { knownWords, markKnown, undoKnown } = useKnownWords();
   const speech = useSpeech();
   const scripts = useScripts();
-  const daily = useDailyPractice(chunks, !!scripts.current);
+  const ein = useEinbuergerung();
+  // Part 5 of the day: the Einbürgerung preparation while it is on, else the weekly script.
+  const daily = useDailyPractice(chunks, ein.active || !!scripts.current);
 
   const total = chunks.length;
   const mCnt = chunks.filter((c) => c.mastered).length;
@@ -65,7 +69,7 @@ export default function App() {
     <div style={{ fontFamily: "system-ui, sans-serif", fontSize: 14, color: "#1a1a1a", background: "#fff", minHeight: "100vh", maxWidth: 900, margin: "0 auto", paddingBottom: "calc(72px + env(safe-area-inset-bottom))" }}>
       {section === "heute" && (
         <Heute
-          chunks={chunks} daily={daily} scripts={scripts} aCnt={aCnt} mCnt={mCnt} total={total} pct={pct}
+          chunks={chunks} daily={daily} scripts={scripts} ein={ein} aCnt={aCnt} mCnt={mCnt} total={total} pct={pct}
           speaking={speech.speaking} speak={speech.speak} toggleMastered={toggleMastered} goto={goto}
         />
       )}
@@ -98,12 +102,14 @@ export default function App() {
         <Grammatik page={grammatikPage} setPage={setGrammatikPage} speech={speech} topic={grammatikTopic} group={grammatikGroup} />
       )}
 
+      {section === "einbuergerung" && <Einbuergerung ein={ein} speech={speech} daily={daily} />}
+
       <FloatingPlayer
         speaking={speech.speaking} currentChunk={speech.currentChunk}
         repeatCount={speech.repeatCount} paused={speech.paused}
         stopAll={speech.stopAll} pauseResume={speech.pauseResume}
       />
-      <BottomNav section={section} onSelect={selectSection} />
+      <BottomNav section={section} onSelect={selectSection} showEin={ein.visible} />
     </div>
   );
 }

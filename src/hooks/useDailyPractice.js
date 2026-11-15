@@ -68,7 +68,7 @@ function buildSet(chunks, topic, ids3, size) {
 
 function fresh(chunks, uses, topic, size) {
   const ids3 = pickIds3(chunks, topic, uses);
-  return { ids3, setIds: buildSet(chunks, topic, ids3, size), used: [], steps: {}, gDone: false, vDone: false, kDone: false, gOff: 0, vOff: 0 };
+  return { ids3, setIds: buildSet(chunks, topic, ids3, size), used: [], steps: {}, gDone: false, vDone: false, kDone: false, kN: 0, gOff: 0, vOff: 0 };
 }
 
 function newDay(chunks, uses, size) {
@@ -152,11 +152,11 @@ export function useDailyPractice(chunks, hasScript = false) {
   }, [day.used]);
 
   const setTopic = useCallback((topic) => {
-    setDay((d) => ({ ...d, topic, ...fresh(chunks, uses, topic, d.size), steps: {}, gDone: d.gDone, vDone: d.vDone, kDone: d.kDone, gOff: d.gOff, vOff: d.vOff }));
+    setDay((d) => ({ ...d, topic, ...fresh(chunks, uses, topic, d.size), steps: {}, gDone: d.gDone, vDone: d.vDone, kDone: d.kDone, kN: d.kN || 0, gOff: d.gOff, vOff: d.vOff }));
   }, [chunks, uses]);
 
   const newSet = useCallback(() => {
-    setDay((d) => ({ ...d, ...fresh(chunks, uses, d.topic, d.size), steps: {}, gDone: d.gDone, vDone: d.vDone, kDone: d.kDone, gOff: d.gOff, vOff: d.vOff }));
+    setDay((d) => ({ ...d, ...fresh(chunks, uses, d.topic, d.size), steps: {}, gDone: d.gDone, vDone: d.vDone, kDone: d.kDone, kN: d.kN || 0, gOff: d.gOff, vOff: d.vOff }));
   }, [chunks, uses]);
 
   // Same 3 chunks, bigger or smaller set around them.
@@ -168,13 +168,17 @@ export function useDailyPractice(chunks, hasScript = false) {
   const toggleG = useCallback(() => setDay((d) => ({ ...d, gDone: !d.gDone })), []);
   const toggleV = useCallback(() => setDay((d) => ({ ...d, vDone: !d.vDone })), []);
   const toggleK = useCallback(() => setDay((d) => ({ ...d, kDone: !d.kDone })), []);
+  // Einbürgerung: two full passes a day complete the part.
+  const setPasses = (n) => ({ kN: n, kDone: n >= 2 });
+  const toggleKPass = useCallback((i) => setDay((d) => ({ ...d, ...setPasses((d.kN || 0) >= i ? i - 1 : i) })), []);
+  const addKPass = useCallback(() => setDay((d) => ({ ...d, ...setPasses(Math.min(2, (d.kN || 0) + 1)) })), []);
   const nextGram = useCallback(() => setDay((d) => ({ ...d, gOff: d.gOff + 1, gDone: false })), []);
   const nextVerb = useCallback(() => setDay((d) => ({ ...d, vOff: d.vOff + 1, vDone: false })), []);
 
   return {
     topic: day.topic, topicLabel, sub, topics, size: day.size,
     items, set, used: new Set(day.used), uses, steps: day.steps,
-    gram, verb, gDone: day.gDone, vDone: day.vDone, kDone: !!day.kDone, log,
-    toggleUsed, setTopic, newSet, setSize, markStep, toggleG, toggleV, toggleK, nextGram, nextVerb,
+    gram, verb, gDone: day.gDone, vDone: day.vDone, kDone: !!day.kDone, kN: day.kN || 0, log,
+    toggleUsed, setTopic, newSet, setSize, markStep, toggleG, toggleV, toggleK, toggleKPass, addKPass, nextGram, nextVerb,
   };
 }

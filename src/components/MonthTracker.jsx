@@ -2,7 +2,7 @@ import { useState } from "react";
 
 const MONTHS = ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"];
 const WEEKDAYS = ["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So"];
-const PARTS = [["c", "Chunks"], ["s", "Sprechen"], ["g", "Grammatik"], ["v", "Verben"], ["k", "Skript"]];
+const PARTS = [["c", "Chunks"], ["s", "Sprechen"], ["g", "Grammatik"], ["v", "Verben"], ["k", "Skript / Einbürgerung"]];
 const SHADES = ["#f3f3f3", "#d9f2e0", "#a7e3b8", "#6fd08c", "#22c55e"];
 
 const key = (y, m, d) => `${y}-${String(m + 1).padStart(2, "0")}-${String(d).padStart(2, "0")}`;

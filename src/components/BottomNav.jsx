@@ -7,10 +7,12 @@ export const SECTIONS = [
   { id: "verben", label: "Verben", icon: "🔤" },
   { id: "sprechen", label: "Sprechen", icon: "🗣" },
   { id: "grammatik", label: "Grammatik", icon: "📖" },
+  { id: "einbuergerung", label: "Gespräch", icon: "🏛️", temporary: true },
 ];
 
-export default function BottomNav({ section, onSelect }) {
-  const items = SECTIONS.filter((s) => s.ready !== false);
+// `temporary` entries (the Einbürgerungsgespräch preparation) only show while `showEin` is set.
+export default function BottomNav({ section, onSelect, showEin }) {
+  const items = SECTIONS.filter((s) => s.ready !== false && (!s.temporary || showEin));
   return (
     <nav style={{ position: "fixed", left: 0, right: 0, bottom: 0, zIndex: 1000, background: "#fff", borderTop: "1px solid #e5e5e5" }}>
       <div style={{ maxWidth: 900, margin: "0 auto", display: "flex", padding: "6px 4px", paddingBottom: "calc(8px + env(safe-area-inset-bottom))" }}>

@@ -140,7 +140,9 @@ export function useSpeech() {
 
   // Shadowing: speak an item, then stay silent for roughly as long as it took
   // (times gapFactor) so the learner can repeat it aloud, then move on.
-  // list: [{ text, subtitle? }]
+  // list: [{ text, subtitle?, say?, gapMs?, afterPhase? }] — say = spoken text if it differs
+  // from what the player shows, gapMs = fixed silence after the item, afterPhase = player cue
+  // during that silence (null for none).
   function echoAll(list, gapFactor = 1.5, id = "echo", onDone) {
     const session = ++sessionRef.current;
     clearTimer();
@@ -161,13 +163,13 @@ export function useSpeech() {
       const item = list[i];
       const base = { text: item.text, subtitle: item.subtitle, details: item.details, idx: i + 1, total: list.length };
       setCurrentChunk({ ...base, phase: "listen" });
-      const utt = makeUtterance(item.text);
+      const utt = makeUtterance(item.say ?? item.text);
       let startedAt = Date.now();
       utt.onstart = () => { startedAt = Date.now(); };
       utt.onend = () => {
         if (sessionRef.current !== session) return;
-        const gap = Math.min(12000, Math.max(2000, (Date.now() - startedAt) * gapFactor + 800));
-        setCurrentChunk({ ...base, phase: "repeat" });
+        const gap = item.gapMs ?? Math.min(12000, Math.max(2000, (Date.now() - startedAt) * gapFactor + 800));
+        setCurrentChunk({ ...base, phase: item.afterPhase === undefined ? "repeat" : item.afterPhase });
         i++;
         wait(next, gap);
       };

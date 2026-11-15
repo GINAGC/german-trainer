@@ -111,7 +111,7 @@ function TopicCard({ title, sub, teaser, done, onOpen, onDone, onNext, accent })
   );
 }
 
-export default function Heute({ chunks, daily, scripts, aCnt, mCnt, total, pct, speaking, speak, toggleMastered, goto }) {
+export default function Heute({ chunks, daily, scripts, ein, aCnt, mCnt, total, pct, speaking, speak, toggleMastered, goto }) {
   const { gram, verb } = daily;
   // Verb topics show a few example verbs from their group.
   const verbInfo = useMemo(() => {
@@ -126,7 +126,9 @@ export default function Heute({ chunks, daily, scripts, aCnt, mCnt, total, pct, 
   const stepsDone = ["echo", "translate", "speak"].filter((s) => daily.steps[s]).length;
   const speakDone = stepsDone === 3;
   const script = scripts.current;
-  const parts = [chunksDone, speakDone, daily.gDone, daily.vDone, ...(script ? [daily.kDone] : [])];
+  // Part 5 is the Einbürgerung preparation while it is on, else the weekly script.
+  const hasK = ein.active || !!script;
+  const parts = [chunksDone, speakDone, daily.gDone, daily.vDone, ...(hasK ? [daily.kDone] : [])];
   const doneCount = parts.filter(Boolean).length;
   const partTotal = parts.length;
 
@@ -140,6 +142,24 @@ export default function Heute({ chunks, daily, scripts, aCnt, mCnt, total, pct, 
         <div style={{ background: "#22c55e", width: `${(doneCount / partTotal) * 100}%`, height: "100%", borderRadius: 3, transition: "width 0.3s" }} />
       </div>
       <p style={{ fontSize: 11, color: "#aaa", margin: "3px 0 0" }}>{aCnt} aktiv · {mCnt} gemeistert · {total} gesamt ({pct}%)</p>
+
+      {ein.active && (
+        <div style={{ margin: "14px 0 0", border: "1px solid #fcd34d", background: "#fffbeb", borderRadius: 12, padding: "12px 14px" }}>
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", gap: 8 }}>
+            <span style={{ fontSize: 15, fontWeight: 600, color: "#b45309" }}>🏛️ Einbürgerungsgespräch</span>
+            <span style={{ fontSize: 12.5, fontWeight: 600, color: "#b45309" }}>{ein.days > 1 ? `noch ${ein.days} Tage` : ein.days === 1 ? "morgen" : "heute"}</span>
+          </div>
+          <div style={{ fontSize: 12.5, color: "#555", lineHeight: 1.5, marginTop: 4 }}>Zwei vollständige Durchgänge heute: Fragen hören, laut antworten, Musterantwort hören.</div>
+          <div style={{ display: "flex", gap: 8, marginTop: 10, alignItems: "center" }}>
+            <button onClick={() => goto("einbuergerung")} style={{ flex: 1, cursor: "pointer", border: "none", background: "#b45309", color: "#fff", borderRadius: 10, padding: "9px 12px", fontSize: 13, fontWeight: 600 }}>Öffnen ›</button>
+            {[1, 2].map((n) => (
+              <button key={n} onClick={() => daily.toggleKPass(n)} style={{ cursor: "pointer", border: `1px solid ${daily.kN >= n ? "#86efac" : "#ddd"}`, background: daily.kN >= n ? "#dcfce7" : "#fff", color: daily.kN >= n ? "#15803d" : "#666", borderRadius: 10, padding: "8px 10px", fontSize: 12.5, fontWeight: 500 }}>
+                {daily.kN >= n ? "✓" : "○"} {n}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
 
       <StepTitle n={1} done={chunksDone} right={<span style={{ letterSpacing: 0, textTransform: "none", fontWeight: 500, color: "#888" }}>{usedToday} / {daily.items.length} ✓</span>}>
         3 Chunks des Tages
@@ -195,8 +215,8 @@ export default function Heute({ chunks, daily, scripts, aCnt, mCnt, total, pct, 
         onDone={daily.toggleV} onNext={daily.nextVerb}
       />
 
-      <StepTitle n={5} done={!!script && daily.kDone}>Skript der Woche</StepTitle>
-      {script ? (
+      {!ein.active && <StepTitle n={5} done={!!script && daily.kDone}>Skript der Woche</StepTitle>}
+      {ein.active ? null : script ? (
         <TopicCard
           title={script.title} sub={`${script.kind || "Skript"}${script.domain ? ` · ${script.domain}` : ""}`}
           teaser={`Lerne heute 1–2 Sätze und benutze sie im Rollenspiel. ${scripts.favs.length ? `${scripts.favs.length} ★ gewählt.` : "Wähle deine Sätze mit ☆."}`}
