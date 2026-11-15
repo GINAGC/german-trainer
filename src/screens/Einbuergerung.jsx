@@ -22,6 +22,7 @@ export const sp = (t) => t
   .replace(/\s+/g, " ")
   .trim();
 
+const isIntro = (t) => t.nr === "·";
 const teilOf = (nr) => (nr.startsWith("1") ? "1" : nr.startsWith("2") ? "2" : nr.startsWith("3") ? "3" : "");
 
 // What a block says when played: the label tells the listener which part is coming.
@@ -91,7 +92,7 @@ function Box({ tone, label, added, play, children, plain }) {
   );
 }
 
-function BlockView({ b, id, es, merk, speech }) {
+function BlockView({ b, id, es, merk, speech, silent }) {
   const trans = (txt) => (es && txt ? <div style={esStyle}>{txt}</div> : null);
   if (b.k === "group") {
     return (
@@ -101,15 +102,15 @@ function BlockView({ b, id, es, merk, speech }) {
             <div style={{ fontSize: 14, fontWeight: 700, lineHeight: 1.4 }}>{b.title.de}</div>
             {trans(b.title.es)}
           </div>
-          <PlayAll id={id} items={blockItems(b, merk)} speech={speech} />
+          {!silent && <PlayAll id={id} items={blockItems(b, merk)} speech={speech} />}
         </div>
-        {b.blocks.map((x, i) => <BlockView key={i} b={x} id={`${id}-${i}`} es={es} merk={merk} speech={speech} />)}
+        {b.blocks.map((x, i) => <BlockView key={i} b={x} id={`${id}-${i}`} es={es} merk={merk} speech={speech} silent={silent} />)}
       </div>
     );
   }
   if (b.k === "list") {
     return (
-      <Box tone="list" plain label="LISTE" play={<PlayAll id={id} items={blockItems(b, true)} speech={speech} />}>
+      <Box tone="list" plain label="LISTE" play={silent ? null : <PlayAll id={id} items={blockItems(b, true)} speech={speech} />}>
         <div style={{ fontSize: 14, fontWeight: 600, lineHeight: 1.45 }}>{b.title.de}</div>
         {trans(b.title.es)}
         <div style={{ marginTop: 6 }}>
@@ -123,7 +124,7 @@ function BlockView({ b, id, es, merk, speech }) {
       </Box>
     );
   }
-  const play = <Play id={id} speech={speech} text={sp(b.de)} es={b.es} />;
+  const play = silent ? null : <Play id={id} speech={speech} text={sp(b.de)} es={b.es} />;
   const own = b.k === "own";
   return (
     <Box tone={TONES[b.k] ? b.k : "note"} added={b.added} play={play}>
@@ -158,7 +159,8 @@ function Lernen({ ein, es, merk, withQ, speech }) {
   const [open, setOpen] = useState(() => new Set());
   const toggle = (nr) => setOpen((s) => { const n = new Set(s); if (n.has(nr)) n.delete(nr); else n.add(nr); return n; });
   const opts = { merk, withQ, qs: questions };
-  const all = () => speech.playAll(topics.flatMap((t) => topicItems(t, opts)), "ein-lernen-all");
+  // The Einleitung is reference text only: no audio.
+  const all = () => speech.playAll(topics.filter((t) => !isIntro(t)).flatMap((t) => topicItems(t, opts)), "ein-lernen-all");
   const allOn = speech.speaking === "ein-lernen-all";
   return (
     <div>
@@ -187,16 +189,18 @@ function Lernen({ ein, es, merk, withQ, speech }) {
                 </span>
                 <span style={{ color: "#aaa", fontSize: 13 }}>{isOpen ? "▾" : "▸"}</span>
               </button>
+              {!isIntro(t) && (
               <button
                 onClick={() => (on ? speech.stopAll() : speech.playAll(topicItems(t, opts), id))}
                 aria-label="Thema anhören" style={{ ...pill(on, ACCENT, SOFT), padding: "4px 10px", flexShrink: 0 }}
               >
                 {on ? "⏹" : "▶"}
               </button>
+              )}
             </div>
             {isOpen && (
               <div style={{ padding: "0 12px 12px", borderTop: "1px solid #f0f0f0" }}>
-                {t.blocks.map((b, i) => <BlockView key={i} b={b} id={`ein-b-${t.nr}-${i}`} es={es} merk={merk} speech={speech} />)}
+                {t.blocks.map((b, i) => <BlockView key={i} b={b} id={`ein-b-${t.nr}-${i}`} es={es} merk={merk} speech={speech} silent={isIntro(t)} />)}
                 {tq.length > 0 && (
                   <Box tone="qa" plain label={`FRAGEN ZU PUNKT ${t.nr}`} play={<PlayAll id={`ein-qs-${t.nr}`} items={qaItems(tq, true)} speech={speech} />}>
                     {tq.map((q, i) => <QA key={i} q={q} id={`ein-qa-${t.nr}-${i}`} es={es} speech={speech} />)}
