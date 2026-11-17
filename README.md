@@ -48,7 +48,8 @@ A bottom navigation bar with five areas:
   stored only in that browser (`private-scripts/` is git-ignored). The last 4
   scripts are kept; a "Rückblick" button plays all ★ sentences of all of them.
 - **Gespräch** (temporary tab) — preparation for the naturalisation interview:
-  topics in the numbering of the official leaflet with the quotes and your own
+  a one-page **Lernblatt** (number, title, leaflet quote, "Das heißt"), topics in
+  the numbering of the official leaflet with the quotes and your own
   words, questions with model answers, a hear-and-answer drill and flash cards,
   personal answers you can edit, glossary, useful phrases, a bring-along
   checklist and a countdown on Heute (two passes a day count as the 5th daily

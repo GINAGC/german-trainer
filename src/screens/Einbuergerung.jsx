@@ -258,6 +258,66 @@ function Uebersicht({ ein, es, speech }) {
   );
 }
 
+// ---------------- tab: Lernblatt (number, title, Merkblatt, "Das heißt") ----------------
+const TEIL_COL = { "1": ACCENT, "2": "#0f766e", "3": "#6d28d9" };
+const TEIL_NAME = { "1": "Teil 1 · Bekenntnis", "2": "Teil 2 · Loyalitätserklärung", "3": "Teil 3 · Feierliches Bekenntnis" };
+// "**word**" marks the key words of the Merkblatt text.
+const rich = (t) => t.split(/\*\*(.+?)\*\*/g).map((part, i) => (i % 2 ? <b key={i} style={{ color: "#000" }}>{part}</b> : part));
+const plain = (t) => t.replace(/\*\*/g, "");
+function blattItems(r, merk) {
+  const items = [{ text: sp(`Punkt ${nrWords(r.nr)}. ${r.title.de}`), subtitle: r.title.es }];
+  if (merk) items.push({ text: sp(plain(r.merk)), say: `Merkblatt. ${sp(plain(r.merk))}` });
+  items.push({ text: sp(r.heisst.de), say: `Das heißt. ${sp(r.heisst.de)}`, subtitle: r.heisst.es });
+  return items;
+}
+
+function Lernblatt({ ein, es, merk, speech }) {
+  const { blatt, blattNote } = ein.data;
+  if (!Array.isArray(blatt) || !blatt.length) {
+    return (
+      <p style={{ fontSize: 13, color: "#666", lineHeight: 1.6, margin: "14px 0" }}>
+        Das Lernblatt ist in deiner gespeicherten Datei noch nicht enthalten. Importiere die neue Datei unter <b>Mehr → Material aktualisieren</b>; deine Änderungen und Markierungen bleiben erhalten.
+      </p>
+    );
+  }
+  const allOn = speech.speaking === "ein-blatt-all";
+  return (
+    <div>
+      <button onClick={() => (allOn ? speech.stopAll() : speech.playAll(blatt.flatMap((r) => blattItems(r, merk)), "ein-blatt-all"))} style={{ ...pill(allOn, ACCENT, SOFT), padding: "5px 13px", marginTop: 4 }}>{allOn ? "⏹ Stop" : "▶ Lernblatt anhören"}</button>
+      {blatt.map((r, i) => {
+        const c = TEIL_COL[r.teil] || ACCENT;
+        const first = i === 0 || blatt[i - 1].teil !== r.teil;
+        const id = `ein-blatt-${i}`;
+        return (
+          <div key={r.nr}>
+            {first && <p style={{ fontSize: 11, fontWeight: 700, letterSpacing: 0.5, color: c, textTransform: "uppercase", margin: "18px 0 6px" }}>{TEIL_NAME[r.teil]}</p>}
+            <div style={{ border: "1px solid #e5e5e5", borderLeft: `4px solid ${c}`, borderRadius: 12, padding: "8px 11px 10px", marginBottom: 8, background: "#fff" }}>
+              <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                <span style={{ minWidth: 34, textAlign: "center", fontSize: 12, fontWeight: 700, color: "#fff", background: c, borderRadius: 6, padding: "2px 6px" }}>{r.nr}</span>
+                <div style={{ flex: 1, minWidth: 0 }}>
+                  <div style={{ fontSize: 14.5, fontWeight: 700, lineHeight: 1.35 }}>{r.title.de}</div>
+                  {es && <div style={{ ...esStyle, marginTop: 0 }}>{r.title.es}</div>}
+                </div>
+                <PlayAll id={id} items={blattItems(r, merk)} speech={speech} />
+              </div>
+              <div style={{ marginTop: 8, padding: "6px 9px", borderRadius: 8, background: "#f5f5f5", borderLeft: "3px solid #bdbdbd" }}>
+                <div style={{ fontSize: 10, fontWeight: 700, letterSpacing: 0.5, color: "#777", marginBottom: 2 }}>MERKBLATT</div>
+                <div style={{ fontSize: 13, lineHeight: 1.5, color: "#444" }}>{rich(r.merk)}</div>
+              </div>
+              <div style={{ marginTop: 6, padding: "6px 9px", borderRadius: 8, background: SOFT, borderLeft: `3px solid ${ACCENT}` }}>
+                <div style={{ fontSize: 10, fontWeight: 700, letterSpacing: 0.5, color: "#92400e", marginBottom: 2 }}>DAS HEISST</div>
+                <div style={{ fontSize: 14, lineHeight: 1.5, fontWeight: 500, color: "#1a1a1a" }}>{r.heisst.de}</div>
+                {es && <div style={esStyle}>{r.heisst.es}</div>}
+              </div>
+            </div>
+          </div>
+        );
+      })}
+      {blattNote && <p style={{ fontSize: 12, color: "#666", lineHeight: 1.5, background: "#fffbeb", border: "1px solid #fde68a", borderRadius: 10, padding: "8px 10px", margin: "14px 0 0" }}>{blattNote}</p>}
+    </div>
+  );
+}
+
 // ---------------- tab: Üben ----------------
 const FILTERS = [["all", "Alle"], ["1", "Teil 1"], ["2", "Teil 2"], ["3", "Teil 3"], ["person", "Zur Person"], ["weak", "⚑ Schwierige"]];
 
@@ -530,7 +590,7 @@ function Mehr({ ein, es, speech }) {
 }
 
 // ---------------- screen ----------------
-const TABS = [["lernen", "Lernen"], ["uebersicht", "Übersicht"], ["ueben", "Üben"], ["person", "Zur Person"], ["mehr", "Mehr"]];
+const TABS = [["lernen", "Lernen"], ["blatt", "Lernblatt"], ["uebersicht", "Übersicht"], ["ueben", "Üben"], ["person", "Zur Person"], ["mehr", "Mehr"]];
 
 export default function Einbuergerung({ ein, speech, daily }) {
   const [tab, setTab] = usePersisted("german_ein_tab_v1", "lernen");
@@ -589,6 +649,7 @@ export default function Einbuergerung({ ein, speech, daily }) {
       </div>
 
       {tab === "lernen" && <Lernen ein={ein} es={es} merk={merk} withQ={withQ} speech={speech} />}
+      {tab === "blatt" && <Lernblatt ein={ein} es={es} merk={merk} speech={speech} />}
       {tab === "uebersicht" && <Uebersicht ein={ein} es={es} speech={speech} />}
       {tab === "ueben" && <Ueben ein={ein} es={es} speech={speech} daily={daily} />}
       {tab === "person" && <Person ein={ein} es={es} speech={speech} />}
