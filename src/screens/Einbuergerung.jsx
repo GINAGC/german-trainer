@@ -18,6 +18,7 @@ export const sp = (t) => t
   .replace(/(^|\s)(\d+\.\d+(?:\.\d+)*)(?=[:\s])/g, (_, s, n) => `${s}${nrWords(n)}`)
   .replace(/[„“‚‘"«»]/g, "")
   .replace(/z\.\s?B\./g, "zum Beispiel")
+  .replace(/CDU\/CSU/g, "CDU und CSU")
   .replace(/…/g, "")
   .replace(/\s+/g, " ")
   .trim();
@@ -318,6 +319,64 @@ function Lernblatt({ ein, es, merk, speech }) {
   );
 }
 
+// ---------------- tab: Zusammenfassung (the 5-part study summary) ----------------
+function zusItems(sec, it) {
+  if (sec.id === 4) return [{ text: sp(it.title), say: `Frage. ${sp(it.title)}` }, { text: sp(it.de), say: `Antwort. ${sp(it.de)}` }];
+  if (sec.id === 5) return [{ text: sp(it.de) }];
+  const head = it.nr ? `Punkt ${nrWords(it.nr)}. ${it.title}.` : `${it.title}.`;
+  return [{ text: sp(it.de), say: `${sp(head)} ${sp(it.de)}`, subtitle: it.es }];
+}
+
+function Zusammenfassung({ ein, es, speech }) {
+  const secs = ein.data.zusammenfassung;
+  if (!Array.isArray(secs) || !secs.length) {
+    return (
+      <p style={{ fontSize: 13, color: "#666", lineHeight: 1.6, margin: "14px 0" }}>
+        Die Zusammenfassung ist in deiner gespeicherten Datei noch nicht enthalten. Importiere die neue Datei unter <b>Mehr → Material aktualisieren</b>; deine Änderungen und Markierungen bleiben erhalten.
+      </p>
+    );
+  }
+  const secItems = (sec) => sec.items.flatMap((it) => zusItems(sec, it));
+  const allOn = speech.speaking === "ein-zus-all";
+  return (
+    <div>
+      <button onClick={() => (allOn ? speech.stopAll() : speech.playAll(secs.flatMap(secItems), "ein-zus-all"))} style={{ ...pill(allOn, ACCENT, SOFT), padding: "7px 16px", marginTop: 4, fontSize: 13.5 }}>{allOn ? "⏹ Stop" : "▶ Alles anhören"}</button>
+      {secs.map((sec) => {
+        const sid = `ein-zus-${sec.id}`;
+        return (
+          <div key={sec.id}>
+            <div style={{ margin: "18px 0 8px", padding: "7px 10px", borderRadius: 8, background: sec.color, color: "#fff", display: "flex", alignItems: "center", gap: 8 }}>
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <div style={{ fontSize: 14, fontWeight: 700, lineHeight: 1.3 }}>{sec.title}</div>
+                {sec.sub && <div style={{ fontSize: 12, opacity: 0.92, marginTop: 1 }}>{sec.sub}</div>}
+              </div>
+              <button onClick={() => (speech.speaking === sid ? speech.stopAll() : speech.playAll(secItems(sec), sid))} aria-label="Abschnitt anhören" style={{ background: "rgba(255,255,255,0.22)", border: "none", borderRadius: 6, cursor: "pointer", fontSize: 14, color: "#fff", padding: "3px 9px" }}>{speech.speaking === sid ? "⏹" : "▶"}</button>
+            </div>
+            {sec.items.map((it, i) => {
+              const id = `${sid}-${i}`;
+              return (
+                <div key={i} style={{ borderLeft: `4px solid ${sec.color}`, padding: "4px 0 4px 10px", margin: "0 0 10px", display: "flex", gap: 6, alignItems: "flex-start" }}>
+                  <div style={{ flex: 1, minWidth: 0 }}>
+                    {it.title && (
+                      <div style={{ fontSize: 14, fontWeight: 700, color: sec.color, lineHeight: 1.35 }}>
+                        {it.nr && <span style={{ fontSize: 11.5, color: "#fff", background: sec.color, borderRadius: 5, padding: "1px 6px", marginRight: 6 }}>{it.nr}</span>}
+                        {it.title}{it.star && <span style={{ color: "#d97706" }}> ★</span>}
+                      </div>
+                    )}
+                    <div style={{ fontSize: 15, lineHeight: 1.5, fontWeight: 500, color: "#1a1a1a", marginTop: it.title ? 2 : 0 }}>{it.de}</div>
+                    {es && it.es && <div style={esStyle}>{it.es}</div>}
+                  </div>
+                  <PlayAll id={id} items={zusItems(sec, it)} speech={speech} />
+                </div>
+              );
+            })}
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
 // ---------------- tab: Üben ----------------
 const FILTERS = [["all", "Alle"], ["1", "Teil 1"], ["2", "Teil 2"], ["3", "Teil 3"], ["person", "Zur Person"], ["weak", "⚑ Schwierige"]];
 
@@ -590,7 +649,7 @@ function Mehr({ ein, es, speech }) {
 }
 
 // ---------------- screen ----------------
-const TABS = [["lernen", "Lernen"], ["blatt", "Lernblatt"], ["uebersicht", "Übersicht"], ["ueben", "Üben"], ["person", "Zur Person"], ["mehr", "Mehr"]];
+const TABS = [["zus", "Zusammenfassung"], ["lernen", "Lernen"], ["blatt", "Lernblatt"], ["uebersicht", "Übersicht"], ["ueben", "Üben"], ["person", "Zur Person"], ["mehr", "Mehr"]];
 
 export default function Einbuergerung({ ein, speech, daily }) {
   const [tab, setTab] = usePersisted("german_ein_tab_v1", "lernen");
@@ -648,6 +707,7 @@ export default function Einbuergerung({ ein, speech, daily }) {
         {TABS.map(([v, l]) => <button key={v} onClick={() => { speech.stopAll(); setTab(v); }} style={{ ...pill(tab === v, ACCENT, SOFT), padding: "6px 10px", fontSize: 12.5, whiteSpace: "nowrap", flexShrink: 0 }}>{l}</button>)}
       </div>
 
+      {tab === "zus" && <Zusammenfassung ein={ein} es={es} speech={speech} />}
       {tab === "lernen" && <Lernen ein={ein} es={es} merk={merk} withQ={withQ} speech={speech} />}
       {tab === "blatt" && <Lernblatt ein={ein} es={es} merk={merk} speech={speech} />}
       {tab === "uebersicht" && <Uebersicht ein={ein} es={es} speech={speech} />}
