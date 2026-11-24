@@ -319,30 +319,37 @@ function Lernblatt({ ein, es, merk, speech }) {
   );
 }
 
-// ---------------- tab: Zusammenfassung (the 5-part study summary) ----------------
+// ---------------- tabs: Zusammenfassung / Meine Fassung (5-part study summaries) ----------------
+// A section id of 4 means "questions about me" (spoken as Frage / Antwort), 5 means useful phrases.
 function zusItems(sec, it) {
-  if (sec.id === 4) return [{ text: sp(it.title), say: `Frage. ${sp(it.title)}` }, { text: sp(it.de), say: `Antwort. ${sp(it.de)}` }];
-  if (sec.id === 5) return [{ text: sp(it.de) }];
-  const head = it.nr ? `Punkt ${nrWords(it.nr)}. ${it.title}.` : `${it.title}.`;
-  return [{ text: sp(it.de), say: `${sp(head)} ${sp(it.de)}`, subtitle: it.es }];
+  const bullets = (it.bullets || []).map((b) => ({ text: sp(plain(b)) }));
+  if (sec.id === 4) {
+    return it.title
+      ? [{ text: sp(it.title), say: `Frage. ${sp(it.title)}` }, { text: sp(plain(it.de)), say: `Antwort. ${sp(plain(it.de))}` }]
+      : [{ text: sp(plain(it.de)) }];
+  }
+  if (sec.id === 5) return [{ text: sp(plain(it.de)) }];
+  const head = it.nr ? `Punkt ${nrWords(it.nr)}. ${it.title}.` : it.title ? `${it.title}.` : "";
+  return [{ text: sp(plain(it.de)), say: `${head ? sp(head) + " " : ""}${sp(plain(it.de))}`, subtitle: it.es }, ...bullets];
 }
 
-function Zusammenfassung({ ein, es, speech }) {
-  const secs = ein.data.zusammenfassung;
+function Zusammenfassung({ ein, es, speech, field = "zusammenfassung", prefix = "ein-zus" }) {
+  const secs = ein.data[field];
   if (!Array.isArray(secs) || !secs.length) {
     return (
       <p style={{ fontSize: 13, color: "#666", lineHeight: 1.6, margin: "14px 0" }}>
-        Die Zusammenfassung ist in deiner gespeicherten Datei noch nicht enthalten. Importiere die neue Datei unter <b>Mehr → Material aktualisieren</b>; deine Änderungen und Markierungen bleiben erhalten.
+        Dieser Teil ist in deiner gespeicherten Datei noch nicht enthalten. Importiere die neue Datei unter <b>Mehr → Material aktualisieren</b>; deine Änderungen und Markierungen bleiben erhalten.
       </p>
     );
   }
   const secItems = (sec) => sec.items.flatMap((it) => zusItems(sec, it));
-  const allOn = speech.speaking === "ein-zus-all";
+  const allId = `${prefix}-all`;
+  const allOn = speech.speaking === allId;
   return (
     <div>
-      <button onClick={() => (allOn ? speech.stopAll() : speech.playAll(secs.flatMap(secItems), "ein-zus-all"))} style={{ ...pill(allOn, ACCENT, SOFT), padding: "7px 16px", marginTop: 4, fontSize: 13.5 }}>{allOn ? "⏹ Stop" : "▶ Alles anhören"}</button>
+      <button onClick={() => (allOn ? speech.stopAll() : speech.playAll(secs.flatMap(secItems), allId))} style={{ ...pill(allOn, ACCENT, SOFT), padding: "7px 16px", marginTop: 4, fontSize: 13.5 }}>{allOn ? "⏹ Stop" : "▶ Alles anhören"}</button>
       {secs.map((sec) => {
-        const sid = `ein-zus-${sec.id}`;
+        const sid = `${prefix}-${sec.id}`;
         return (
           <div key={sec.id}>
             <div style={{ margin: "18px 0 8px", padding: "7px 10px", borderRadius: 8, background: sec.color, color: "#fff", display: "flex", alignItems: "center", gap: 8 }}>
@@ -363,7 +370,12 @@ function Zusammenfassung({ ein, es, speech }) {
                         {it.title}{it.star && <span style={{ color: "#d97706" }}> ★</span>}
                       </div>
                     )}
-                    <div style={{ fontSize: 15, lineHeight: 1.5, fontWeight: 500, color: "#1a1a1a", marginTop: it.title ? 2 : 0 }}>{it.de}</div>
+                    <div style={{ fontSize: 15, lineHeight: 1.5, fontWeight: 500, color: "#1a1a1a", marginTop: it.title ? 2 : 0 }}>{rich(it.de)}</div>
+                    {it.bullets && it.bullets.length > 0 && (
+                      <ul style={{ margin: "4px 0 0", paddingLeft: 20, fontSize: 15, lineHeight: 1.5, fontWeight: 500, color: "#1a1a1a" }}>
+                        {it.bullets.map((b, j) => <li key={j} style={{ marginBottom: 2 }}>{rich(b)}</li>)}
+                      </ul>
+                    )}
                     {es && it.es && <div style={esStyle}>{it.es}</div>}
                   </div>
                   <PlayAll id={id} items={zusItems(sec, it)} speech={speech} />
@@ -649,7 +661,7 @@ function Mehr({ ein, es, speech }) {
 }
 
 // ---------------- screen ----------------
-const TABS = [["zus", "Zusammenfassung"], ["lernen", "Lernen"], ["blatt", "Lernblatt"], ["uebersicht", "Übersicht"], ["ueben", "Üben"], ["person", "Zur Person"], ["mehr", "Mehr"]];
+const TABS = [["meine", "Meine Fassung"], ["zus", "Zusammenfassung"], ["lernen", "Lernen"], ["blatt", "Lernblatt"], ["uebersicht", "Übersicht"], ["ueben", "Üben"], ["person", "Zur Person"], ["mehr", "Mehr"]];
 
 export default function Einbuergerung({ ein, speech, daily }) {
   const [tab, setTab] = usePersisted("german_ein_tab_v1", "lernen");
@@ -707,6 +719,7 @@ export default function Einbuergerung({ ein, speech, daily }) {
         {TABS.map(([v, l]) => <button key={v} onClick={() => { speech.stopAll(); setTab(v); }} style={{ ...pill(tab === v, ACCENT, SOFT), padding: "6px 10px", fontSize: 12.5, whiteSpace: "nowrap", flexShrink: 0 }}>{l}</button>)}
       </div>
 
+      {tab === "meine" && <Zusammenfassung ein={ein} es={es} speech={speech} field="meine" prefix="ein-meine" />}
       {tab === "zus" && <Zusammenfassung ein={ein} es={es} speech={speech} />}
       {tab === "lernen" && <Lernen ein={ein} es={es} merk={merk} withQ={withQ} speech={speech} />}
       {tab === "blatt" && <Lernblatt ein={ein} es={es} merk={merk} speech={speech} />}
